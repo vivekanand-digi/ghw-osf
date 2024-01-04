@@ -1,0 +1,46 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "header-with-notification-device-slot",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "ghw-product-details-container3"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Product2"
+      }
+    }
+  },
+  "defaultPage": false,
+  "address": "product2",
+  "title": "GHWProduct2",
+  "shortName": "product2",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "product2"
+    }
+  }
+}

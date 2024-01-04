@@ -1,0 +1,25 @@
+.ProductImageViewer__ThumbnailsVertical {
+  display: inline-flex;
+  background-color: var(--cc-background-color);
+  width: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+  .ProductImageViewer__ThumbnailsVertical .ProductImageViewer__Slider {
+    min-width: 60%;
+  }
+}
+
+.ProductImageViewer__ThumbnailsVertical .ProductImageViewer__ThumbnailsWrapper {
+  width: 20%;
+  flex-direction: column;
+  margin: 0 1rem;
+}
+
+/* This will be changed when desktop carousal is implemented for thumbnails */
+.ProductImageViewer__ThumbnailsVertical .ProductImageViewer__ThumbnailsWrapper .ProductImageViewer__Thumbnails {
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: min(31.25rem,50vw) !important;
+}

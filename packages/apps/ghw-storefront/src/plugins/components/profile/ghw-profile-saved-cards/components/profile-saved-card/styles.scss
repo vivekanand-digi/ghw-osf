@@ -1,0 +1,173 @@
+.ProfileSavedCard {
+    display: flex;
+    flex-flow: row;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.ProfileSavedCard {
+    &.card {
+        background-image: url(/file/general/payment-card-bg.png);
+        width: 284px;
+        height: 172px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-size: cover;
+        border: none;
+        padding: 0 20px;
+        justify-content: space-between;
+        position: relative;
+
+        .default-card {
+            position: absolute;
+            background: url('/file/general/default-payment.svg') no-repeat;
+            height: 24px;
+            font-weight: 400;
+            font-size: 12px;
+            color: #a43059;
+            width: 78px;
+            top: 6px;
+            left: 7px;
+            padding: 4px 8px;
+        }
+
+        .cc-logo-cnr {
+            margin: 12px 0 0;
+            display: flex;
+            justify-content: flex-end;
+            height: 40px;
+
+            >img {
+                max-height: 40px;
+            }
+        }
+
+
+        .card-txt {
+            font-family: 'Helvetica-Bold';
+
+            +.card-txt {
+                letter-spacing: 4px;
+            }
+        }
+
+        .flex-start-display {
+            display: flex;
+            justify-content: center;
+        }
+
+        .action-btn-cnr {
+            margin: 0;
+            padding: 6px 8px;
+
+            .link-btn {
+                color: #ffffff;
+                background-color: transparent;
+
+                &:hover {
+                    background: rgba(0, 167, 225, 0.20);
+
+                }
+
+            }
+
+            .delete-btn {
+                border: 1px solid rgba(248, 249, 249, 0.20);
+
+                >img {
+                    filter: contrast(2);
+                    height: 16px;
+                }
+
+                &:hover {
+                    border-color: #FE6C6C;
+                    background-color: rgba(255, 57, 57, 0.20);
+                }
+            }
+        }
+    }
+}
+
+.ProfileSavedCard__ImageContainer {
+    display: flex;
+    margin: 0.2rem 10px auto 0;
+    max-width: 7em;
+}
+
+.ProfileSavedCard__CardImage {
+    border: 0.8px solid var(--cc-border-color);
+    border-radius: var(--cc-border-radius);
+}
+
+.ProfileSavedCard__CardDetails {
+    display: flex;
+    flex-flow: column;
+    size: 0.9em;
+    flex: 1;
+}
+
+.ProfileSavedCard__CardText {
+    margin-bottom: .2rem;
+    max-width: inherit;
+}
+
+.ProfileSavedCard__CardActionsContainer {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-top: 0.6rem;
+}
+
+.ProfileSavedCard__MakeDefaultContainer {
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: flex;
+}
+
+.ProfileSavedCard__CardActionsContainer a,
+.ProfileSavedCard__CardActionsContainer button {
+    color: #dce0fd;
+}
+
+.ProfileSavedCard__MakeDefault {
+    background-color: transparent;
+    color: var(--cc-color);
+    transition: color var(--cc-transition-secondary);
+    text-decoration: underline;
+    font: unset;
+    width: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    padding: 0;
+    text-align: left;
+    border: none;
+    margin: 0;
+}
+
+.ProfileSavedCard__MakeDefault:not(:disabled):active,
+.ProfileSavedCard__MakeDefault:not(:disabled):hover {
+    background-color: transparent;
+}
+
+.ProfileSavedCard__MakeDefault:focus,
+.ProfileSavedCard__MakeDefault:disabled {
+    background-color: transparent;
+}
+
+.ProfileSavedCard__MakeDefault:hover,
+.ProfileSavedCard__MakeDefault:active {
+    color: var(--cc-color);
+}
+
+.ProfileSavedCard__MakeDefault__HelpText {
+    display: none;
+}
+
+.ProfileSavedCard__DeleteLinkContainer {
+    text-indent: 1rem;
+    text-align: right;
+    text-decoration: underline;
+    flex: 0 0 50%;
+    max-width: 50%;
+}

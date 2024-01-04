@@ -1,0 +1,28 @@
+.ProductImageViewer__Slide {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.ProductImageViewer__Slide img {
+  max-height: min(31.25rem,100vw) !important;
+  width: auto !important;
+  max-width: 31.25rem !important;
+}
+
+.ProductImageViewer__SlideImage {
+  position: relative;
+  display: inline-block;
+}
+
+@media (min-width: 992px) {
+  .ProductImageViewer__Slide img {
+    max-height: min(31.25rem,45vw) !important;
+  }
+  .ProductImageViewer__Modal .ProductImageViewer__SlideImage {
+    display: block;
+    max-width: 50rem;
+    overflow: hidden;
+    margin: auto;
+  }
+}

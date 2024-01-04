@@ -1,0 +1,151 @@
+@use './../../../utils/button';
+$color_1: var(--cc-color);
+
+form {
+	label {
+		display: block;
+		font-weight: 500;
+		padding-bottom: 0.25rem;
+	}
+}
+
+.AddressForm {
+	color: $color_1;
+
+	input {
+		width: 100%;
+		border: 0;
+		box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+		border-radius: 0;
+
+		&:focus {
+			// background: rgba(0, 0, 0, 0.05);
+			outline: none;
+			box-shadow: inset 0 -1px 0 #0077FF;
+		}
+	}
+
+	Form {
+		input {
+			width: 100%;
+			border: 0;
+			box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+			border-radius: 0;
+			// background: rgba(0, 0, 0, 0.05);
+			outline: none;
+			box-shadow: inset 0 -1px 0 #0077FF;
+		}
+
+		select {
+			width: 100%;
+			border: 0;
+			box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+			border-radius: 0;
+
+		}
+
+		button {
+			width: 100%;
+		}
+	}
+
+	form {
+		&:not(.invalid) {
+			.validationMessage {
+				display: block;
+			}
+		}
+	}
+}
+
+.AddressForm__Field {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+
+	.Checkbox {
+		&.AddressForm_SaveAsANewProfileAddressCheckBox {
+			.Checkbox__Control {
+				width: 20px;
+				height: 20px;
+
+				&:has(~ input[value='true']) {
+					&::before {
+						top: -4px !important;
+						content: '';
+						background: url('/file/general/tick-check.svg') center center no-repeat;
+						width: 16px;
+						height: 16px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.Checkbox input[type=checkbox]:checked~.Checkbox__Control::before {
+	content: '';
+	background: url('/file/general/tick-check.svg') center center no-repeat;
+	width: 16px;
+	height: 19px;
+	background-size: contain;
+}
+
+.AddressForm__AllFieldsRequiredText {
+	font-size: var(--cc-font-size-small);
+}
+
+.AddressForm__Buttons {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	gap: 20px;
+
+	.secondary-btn {
+		font-size: 16px;
+		padding: 12px;
+	}
+
+	button {
+		cursor: pointer;
+		flex: 0.5 0 0;
+		margin: 0.75rem 0;
+	}
+
+	.AddressForm__ConfirmButton {
+		margin-left: 0.25rem;
+	}
+
+	.AddressForm__CancelButton {
+		margin-right: 0.25rem;
+	}
+}
+
+.AddressForm_SaveAsANewProfileAddressCheckBox {
+	label {
+		padding: 1rem 0 0 0;
+	}
+}
+
+.AddressForm_SaveAsANewAccountAddressCheckBox {
+	label {
+		padding: 1rem 0 0 0;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.AddressForm__Buttons {
+		display: flex;
+		flex-direction: column;
+
+		.AddressForm__ConfirmButton {
+			margin-left: 0;
+		}
+
+		.AddressForm__CancelButton {
+			margin-right: 0;
+		}
+	}
+}

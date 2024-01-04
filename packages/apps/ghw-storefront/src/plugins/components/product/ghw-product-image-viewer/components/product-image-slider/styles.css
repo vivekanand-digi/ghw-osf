@@ -1,0 +1,34 @@
+.ProductImageViewer__Slider {
+  position: relative;
+  white-space: nowrap;
+  width: 100%;
+}
+.ProductImageViewer__SliderImage {
+  overflow: hidden;
+}
+.ProductImageViewer__Slider .ProductImageViewer__ImageZoom{
+  visibility: hidden;
+}
+.ProductImageViewer__Slider:hover .ProductImageViewer__ImageZoom{
+  visibility: visible;
+}
+.ProductImageViewer__HelpText {
+  text-align: center;
+}
+.ProductImageViewer__SliderWrapper {
+  position: relative;
+  transition: transform ease-out 250ms;
+  width: 100%;
+}
+
+.ProductImageViewer__SliderNumbers {
+  width: 100%;
+  text-align: center;
+  margin: 0.3rem;
+}
+
+@media only screen and (min-width: 992px) {
+  .ProductImageViewer__Slider {
+    min-width: 75%;
+  }
+}

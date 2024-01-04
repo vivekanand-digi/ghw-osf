@@ -1,0 +1,20 @@
+{
+  "layout": [
+    {
+      "components": [
+          "cart-item-details",
+          "promotions"
+      ],
+      "width": 9
+    },
+    {
+      "components": [
+          "cart-order-summary",
+          "checkout-button"
+      ],
+      "width": 3
+    }
+  ],
+  "component": "CartContainer",
+  "title": "Cart"
+}

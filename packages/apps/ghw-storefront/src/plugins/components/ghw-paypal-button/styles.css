@@ -1,0 +1,42 @@
+.GHWPaypalButton {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.GHWPaypalButton__Label {
+  color: #729fff;
+}
+.GHWPaypalButton__ExtraInfo {
+  background-color: red;
+  color: yellow;
+  margin-left: 5px;
+}
+
+@media (min-width: 992px) {
+  .ProductDetailsContainer__Section #paypal-button-widget-container {
+    max-width: 15rem;
+  }
+
+  .ProductDetailsContainer__Section #paypal-button-widget-container div[id*='paypal-button'] > div,
+  .CartContainer__Section #paypal-button-widget-container div[id*='paypal-button'] > div {
+    /* Fix overlap with mini-cart */
+    z-index: 0;
+  }
+}
+
+.CartContainer__Section #paypal-button-widget-container {
+  padding: 0 var(--cc-container-padding);
+}
+
+@media (min-width: 768px) {
+  .RHMCheckoutPaymentMethodsContainer{
+    position: relative;
+  }
+.RHMCheckoutPaymentMethodsContainer #paypal-button-widget-container.showCC{
+  position: absolute;
+  right: 0px;
+  top: 44px;
+  width: 30%;
+  z-index: 1;
+}
+}

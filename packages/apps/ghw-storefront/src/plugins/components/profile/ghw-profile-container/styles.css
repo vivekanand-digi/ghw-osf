@@ -1,0 +1,22 @@
+.tab-cnr {
+  display: flex;
+}
+
+.col-lg-9 {
+  flex: 0 0 83.3333333333%;
+  max-width: 83.3333333333%;
+}
+
+.col-lg-3 {
+  flex: 0 0 16.6666666667%;
+  max-width: 16.6666666667%;
+}
+
+@media only screen and (max-width: 540px) {
+  .profile-container {
+    display: block !important;
+  }
+  .col-lg-9 {
+    max-width: 100%;
+  }
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,313 @@
+.AmazingOffer {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    .capsule-detail {
+        border-radius: 8px;
+        border-top: 2px solid #00A7E1;
+        border-bottom: 2px solid #00A7E1;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(9.5px);
+        border-radius: 8px;
+        padding: 16px 16px 48px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        .capsule-list {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+    }
+
+    &.capsule-mb {
+        display: flex !important;
+    }
+
+    .title-name {
+        color: #00A7E1;
+        font-size: 20px;
+        border-bottom: 1px solid;
+        border-image-source: linear-gradient(90deg, #A3DCA6 0%, rgba(55, 173, 61, 0) 96.03%);
+        border-image-slice: 1;
+        margin-bottom: 10px;
+        padding-bottom: 4px;
+        font-family: 'Helvetica-Bold';
+    }
+
+    .capsule-sec {
+        display: flex;
+
+
+        .img {
+            display: flex;
+            width: 120px;
+            justify-content: center;
+
+            >img {
+                max-width: 120px;
+                max-height: 120px;
+            }
+        }
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        .title {
+            font-size: 20px;
+            font-weight: 600;
+
+            &.free {
+                color: #475467;
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+
+        .para {
+            color: #98A2B3;
+
+            &.count {
+                color: #344054;
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
+
+        .quantity {
+            display: flex;
+            gap: 4px;
+
+            &.order {
+                color: #667085;
+                font-size: 14px;
+                font-weight: 400;
+            }
+
+            hr {
+                opacity: 0.1;
+                border: 1px solid #000000;
+            }
+
+            p {
+                color: #667085;
+
+                span {
+                    color: #667085;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    .cost {
+        .cost-list {
+            display: flex;
+            justify-content: space-between;
+
+            .h4 {
+                display: flex;
+                flex: 1 1 auto;
+                color: #667085;
+                font-size: 16px;
+
+                &.total {
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+            }
+
+            .h3 {
+                color: #344054;
+                font-size: 18px;
+                font-weight: 700;
+            }
+
+            &.list {
+                font-size: 14px;
+
+                h5 {
+                    color: #667085;
+                    font-size: 12px;
+                    font-weight: 400;
+                    text-transform: capitalize;
+                }
+            }
+        }
+
+        hr {
+            opacity: 0.1;
+            border: 1px solid #777777;
+            margin: 8px 0 16px;
+        }
+    }
+
+    .cart {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 36px;
+
+        background: #FFFFFF;
+
+
+        .row {
+            display: flex;
+            gap: 22px;
+            align-items: center;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            padding: 20px;
+            position: relative;
+            border-radius: 8px;
+
+
+            .column {
+                display: flex;
+                flex-direction: column;
+
+                &:first-child {
+                    flex: 0 0 16%;
+                }
+
+                .h4 {
+                    // white-space: nowrap;
+                    color: #344054;
+                    font-weight: 400;
+                    font-size: 14px;
+                }
+
+                .icon {
+                    position: absolute;
+                    top: -10px;
+                    background-color: white;
+                    width: 24px;
+                    height: 24px;
+                    display: flex;
+                    justify-content: center;
+                    border-radius: 20px;
+                }
+
+                .h3 {
+                    color: #344054;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+
+            .icons {
+                color: #37AD3D;
+            }
+
+
+        }
+
+        .para {
+            color: #667085;
+            font-size: 12px;
+        }
+    }
+
+    &.money-back {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 5px;
+        background: rgba(159, 161, 162, 0.1);
+        mix-blend-mode: luminosity;
+        border: 1px solid #FFFFFF;
+        border-radius: 8px;
+
+        span {
+            margin-right: auto;
+        }
+    }
+}
+
+.AmazingOffer .cost .cost-list.list .h3,
+.AmazingOffer .cost .cost-list.list h4 {
+    font-size: 14px;
+    width: 230px;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+@media (min-width: 767px) and (max-width: 1024px) {
+    .AmazingOffer .content .title.free {
+        font-size: 12px;
+    }
+
+    .AmazingOffer .content .para {
+        font-size: 12px;
+    }
+
+    .AmazingOffer .content .para.count {
+        font-size: 14px;
+    }
+
+    .AmazingOffer .content .quantity {
+        font-size: 14px;
+    }
+
+    .AmazingOffer .content .quantity.order {
+        font-size: 12px;
+    }
+
+    .AmazingOffer .cost .cost-list .h4 {
+        font-size: 14px;
+    }
+
+    .AmazingOffer .cost .cost-list .h4.total {
+        font-size: 18px;
+    }
+
+    .AmazingOffer .cost .cost-list .h3 {
+        font-size: 16px;
+    }
+
+    .AmazingOffer .cart .row {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .AmazingOffer .cart .row.para {
+        font-size: 13px;
+        text-align: left;
+    }
+
+    .AmazingOffer.money-back {
+        font-size: 13px;
+    }
+
+    .AmazingOffer.money-back span {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .main-cnr .main-content .capsule {
+        width: 100%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .AmazingOffer .title-name {
+        cursor: pointer;
+    }
+
+    .AmazingOffer .capsule-sec .img img {
+        width: 52px;
+    }
+
+    .AmazingOffer.money-back {
+        display: none;
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$id": "initiateOrder",
+    "title": "initiateOrder",
+    "description": "Description for initiateOrder.",
+    "type": "object",
+    "properties": {
+    },
+    "example": {
+    }
+}

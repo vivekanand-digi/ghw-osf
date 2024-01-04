@@ -1,0 +1,14 @@
+.CheckoutSaveCardToProfile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+.CheckoutSaveCardToProfile .Checkbox__Control {
+  width: 20px;
+  height: 20px;
+}
+
+.CheckoutSaveCardToProfile_Checkbox {
+  font-size: var(--cc-font-size-small);
+}/*# sourceMappingURL=styles.css.map */

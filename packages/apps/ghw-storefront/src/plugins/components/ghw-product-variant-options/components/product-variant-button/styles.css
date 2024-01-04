@@ -1,0 +1,222 @@
+.ProductVariantOptions__Buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ProductVariantOptions__Buttons > *:not(:last-child) {
+  padding-right: 1rem;
+}
+
+
+
+.ProductVariantOptions__Button {
+  cursor: pointer;
+  /* background: var(--cc-secondary-button-background-color);
+  color: black;
+  border: 1px solid lightgray; */
+  margin: 0.5rem 0 0.75rem 0;
+
+  padding: 8px 12px;
+  width: 140px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  color: black;
+  background: none;
+}
+
+
+ button.ProductVariantOptions__Button:hover {
+  border: 2px solid #016FBF;
+  color: #016FBF;
+  background: none
+  /* background: var(--cc-secondary-button-background-color);
+  background-image: -webkit-linear-gradient(top, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-color));
+  background-image: -moz-linear-gradient(top, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-color));
+  background-image: -ms-linear-gradient(top, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-color));
+  background-image: -o-linear-gradient(top, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-color));
+  background-image: linear-gradient(to top, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-color)); */
+} 
+
+
+button.ProductVariantOptions__Button[aria-pressed="true"] {
+  /* background: var(--cc-button-background-color);
+  color: var(--cc-button-color);
+  border: 1px solid var(--cc-border-color);
+  box-shadow: none; */
+  border: 2px solid #016FBF;
+  color: #016FBF;
+}
+.button:focus{
+    box-shadow: none;
+
+}
+
+button.ProductVariantOptions__Button:disabled:focus,
+button.ProductVariantOptions__Button:disabled:hover,
+button.ProductVariantOptions__Button:disabled {
+  cursor: default;
+  background-image: none;
+  background-color: var(--cc-form-element-disabled-color);
+}
+/* try */
+
+payment-selection {
+  padding: 20px;
+}
+.payment-selection .selection {
+  display: flex;
+  flex: 1 1 auto;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.payment-selection .selection label {
+  display: flex;
+  flex: 1 1 auto;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #5d5d5d;
+}
+.payment-selection .selection .amount {
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+}
+/* .payment-selection hr {
+  opacity: 0.3;
+  border: 1px solid #ffa000;
+  margin-bottom: 16px;
+} */
+.payment-selection .group-btn {
+  display: flex;
+  gap: 20px;
+}
+.payment-selection .group-btn .btn {
+  padding: 8px 12px;
+  box-shadow: none;
+}
+.payment-selection .group-btn .btn.active,
+.payment-selection .group-btn .btn:active {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  color: #000000;
+  font-weight: 700;
+  font-size: 16px;
+}
+.payment-selection .group-btn.desktop {
+  display: flex;
+}
+.payment-selection .group-btn.ipad {
+  display: none;
+}
+
+.subscription {
+  background: #FFFFFF;
+  border: 1px solid #B9EAAD;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  padding: 12px 20px;
+  margin-bottom: 24px;
+}
+.subscription .heading {
+  display: flex;
+  border-bottom: 1px solid #000;
+}
+.subscription .heading h5 {
+  color: #0EC017;
+  font-size: 18px;
+  margin: auto;
+}
+.subscription .heading .sub {
+  display: flex;
+  flex: 1 1 auto;
+  margin-left: 10px;
+}
+.subscription .heading .more {
+  color: #016FBF;
+}
+.subscription .list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.subscription .list li {
+  display: flex;
+  flex: 0 0 50%;
+  gap: 12px;
+  align-items: center;
+  margin-top: 10px;
+}
+.subscription .list li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  opacity: 0.8;
+  transform: rotate(226deg);
+  display: flex;
+  align-items: center;
+  background: #35B73B;
+  opacity: 0.8;
+}
+
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .button-group .buttons .quantity {
+    font-size: 14px;
+    width: 84px;
+  }
+  .payment-selection .selection label {
+    font-size: 14px;
+    color: #5d5d5d;
+  }
+  .payment-selection .selection input {
+    width: 14px !important;
+    height: 14px !important;
+    margin-top: 4px;
+  }
+  .payment-selection .selection .amount {
+    font-size: 14px;
+  }
+  .payment-selection .group-btn.desktop {
+    display: none;
+  }
+  .payment-selection .group-btn.ipad {
+    display: flex;
+  }
+  .subscription {
+    width: 556px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .button-group .buttons .quantity {
+    width: 72px;
+  }
+  .payment-selection {
+    width: 100%;
+  }
+  .payment-selection .selection label {
+    font-size: 14px;
+  }
+  .subscription {
+    width: 100%;
+  }
+  .subscription .heading {
+    position: relative;
+    margin-bottom: 32px;
+    border-bottom: none;
+  }
+  .subscription .heading h5 {
+    font-size: 14px;
+  }
+  .subscription .heading .more {
+    position: absolute;
+    top: 24px;
+    font-size: 10px;
+  }
+  .subscription .list {
+    opacity: 0.8;
+    border-top: 1px solid rgba(185, 234, 173, 0.7);
+  }
+}

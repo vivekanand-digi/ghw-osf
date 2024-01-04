@@ -1,0 +1,18 @@
+.AddNewAddress__Container {
+  font-size: var(--cc-font-size-small);
+  color: var(--cc-info-message-icon-color);
+  display: inline-block;
+}
+
+.AddNewAddress__Icon {
+  vertical-align: middle;
+}
+
+.AddNewAddress svg {
+  height: 1em;
+}
+
+.AddNewAddress__Label {
+  font-weight: 600;
+  padding: 0 0.3rem;
+} 

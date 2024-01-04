@@ -1,0 +1,263 @@
+.CheckoutPaymentsContainer__Section {
+    >.Region:first-child {
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        border-radius: 8px;
+        padding: 20px;
+        margin-right: 20px;
+        flex: 0 0 calc(100% * (7 / 12) - 20px);
+        gap: 32px;
+    }
+
+}
+
+.PaymentMethodsContainer {
+    position: relative;
+    background: linear-gradient(180deg, rgba(0, 163, 255, 0.142) 0%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid rgba(152, 162, 179, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+
+    .payment {
+        display: flex;
+
+        .h2 {
+            font-family: 'Helvetica-Bold';
+            flex: 0 0 auto;
+        }
+
+        .payments-strip {
+            flex: 1 1 auto;
+            background: url(/file/general/cc-logo.svg) right center no-repeat;
+            height: 36px;
+        }
+    }
+
+    .TabContainer {
+        .TabContainer__TabHeaders {
+            display: inline-flex;
+            vertical-align: middle;
+            border-radius: 8px;
+            // width: 181px;
+            height: 48px;
+            background: #d3e9f5;
+            padding: 4px;
+
+            .TabContainer__TabHeader {
+
+                text-align: center;
+                white-space: nowrap;
+                vertical-align: middle;
+                border-radius: 8px;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                user-select: none;
+                border: 1px solid transparent;
+                background: #d3e9f5;
+                font-size: 1rem;
+                border-radius: 0.25rem;
+                color: #016fbf;
+                gap: 0;
+                padding: 8px;
+                display: flex;
+                gap: 8px;
+                width: auto;
+                height: 38px;
+                margin-right: 2px;
+
+                &::After {
+                    content: '';
+                }
+
+                &:first-child {
+                    &::after {
+                        content: 'Paypal';
+                    }
+                }
+
+                &:nth-child(2) {
+                    &::after {
+                        content: 'Credit Card';
+
+                    }
+                }
+
+
+
+                >svg {
+                    max-width: 24px;
+                    max-height: 24px;
+                }
+
+                &.selected {
+                    background: #ffffff;
+                    border-radius: 8px;
+                }
+
+            }
+        }
+
+        .TabContainer__TabContents {
+            padding: 16px 0;
+
+            .TabContainer__TabContent {
+                padding: 0;
+            }
+        }
+
+        .TabContainer__TabContents {}
+    }
+}
+
+.PaymentMethodsContainer .TabContainer__TabHeaders {
+    overflow-x: auto;
+}
+
+.PaymentMethodsContainer .SpinnerContent {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    justify-content: center;
+    background: #ffffffb5;
+    z-index: 1;
+}
+
+.PaymentMethodsContainer .SpinnerContent .SpinnerContent__Circle {
+    margin: initial;
+}
+
+.payment-list {
+    border-radius: 8px;
+    border: 1px solid rgba(0, 163, 255, 0.71);
+    background: #FFF;
+    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.20);
+    padding: 20px;
+
+    .Radio {
+        .Radio__Control {
+            width: 20px;
+            height: 20px;
+
+        }
+
+        input[type=radio]:checked {
+            ~.Radio__Control {
+                &::before {
+                    width: 9px;
+                    height: 9px;
+                }
+            }
+        }
+
+    }
+}
+
+.PaymentMethodsContainer__Items {
+    display: flex;
+    grid-column-gap: 0.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0.5fr;
+    margin: 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.PaymentMethodsContainer__SelectSavedPayment {
+    background-color: transparent;
+    color: var(--cc-color);
+    transition: color var(--cc-transition-secondary);
+    text-decoration: underline;
+    font: unset;
+    width: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    padding: 0;
+    text-align: left;
+    border: none;
+    margin: 0;
+    margin-top: 0.5em;
+}
+
+.PaymentMethodsContainer__SelectSavedPayment:hover {
+    color: #fff;
+}
+
+.PaymentMethodsContainer__CardDetails {
+    display: flex;
+    flex-flow: column;
+    size: 0.9em;
+    flex: 1;
+    // margin-left: 0.5em;
+}
+
+.PaymentMethodsContainer__Card {
+    display: flex;
+    flex-flow: row;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.PaymentMethodsContainer__Item {
+    display: flex;
+    max-width: 500px;
+    flex-flow: row;
+}
+
+.Accordion {
+    width: 100%;
+}
+
+.Accordion__Container {
+    border-radius: 4px;
+    box-shadow: 0 1px 4px 0 #00000063;
+    margin: 24px 16px;
+    transition: box-shadow 250ms ease-in-out;
+}
+
+.Accordion__Container:hover {
+    box-shadow: 0 1px 10px 0 #00000063;
+}
+
+.Accordion__Summary {
+    cursor: pointer;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.Accordion__Content {
+    overflow: hidden;
+    transition: max-height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    max-height: 0px;
+}
+
+.Accordion__Content--selected {
+    max-height: 1000px;
+    overflow: visible;
+}
+
+.Accordion__Inner {
+    padding: 0px 24px 24px 24px;
+    opacity: 0;
+    transition: opacity 250ms ease-in-out;
+    visibility: hidden;
+}
+
+.Accordion__Content--selected .Accordion__Inner {
+    opacity: 1;
+    visibility: visible;
+}
+
+.checkbox.check {
+    margin-top: 76px;
+    color: #777777;
+}
+
+.checkbox {
+    accent-color: #12b38c;
+}

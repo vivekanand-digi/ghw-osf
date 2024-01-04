@@ -1,0 +1,16 @@
+.GHWProductLongDescription {
+  margin-bottom: 1rem;
+}
+
+.GHWProductLongDescription__Html {
+ padding: .5rem 0
+}
+
+.GHWProductLongDescription .Collapsible__Wrapper {
+ border-bottom: 2px solid var(--cc-collapsible-button-background-color);
+}
+
+.GHWProductLongDescription .Collapsible__Wrapper span:first-child {
+ font-size: var(--cc-font-size-large);
+ font-weight: 500;
+}

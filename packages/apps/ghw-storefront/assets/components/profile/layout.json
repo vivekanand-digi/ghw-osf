@@ -1,0 +1,32 @@
+{
+  "regions": [
+    {
+      "components": [
+        "profile-details-summary"
+      ],
+      "width": 3,
+      "type": "main"
+    },
+    {
+      "components": [
+        "profile-address-book-summary"
+      ],
+      "width": 3,
+      "type": "main"
+    },
+    {
+      "components": [
+        "ProfileSavedPaymentSummary"
+      ],
+      "width": 3,
+      "type": "main"
+    },
+    {
+      "components": [
+        "profile-email-marketing-preferences-summary"
+      ],
+      "width": 3,
+      "type": "main"
+    }
+  ]
+}

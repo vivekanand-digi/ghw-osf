@@ -1,0 +1,80 @@
+.ProfileSavedPayments {
+  padding: 0 var(--cc-container-padding);
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 3rem;
+}
+
+.ProfileSavedPayments__ActionResponse {
+  margin-bottom: 1rem;
+}
+
+.ProfileSavedPayments__NoSavedCards {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .ProfileSavedPayments .Card {
+  border: 1px solid transparent;
+  border-top: 1px solid var(--cc-border-color);
+  border-radius: 0;
+  margin: 0;
+} */
+
+.ProfileSavedPayments .Card.ProfileSavedPayments__NoSavedCards.Card__Primary {
+  border: 1px solid var(--cc-border-color);
+  border-radius: var(--cc-border-radius);
+}
+
+.ProfileSavedPayments .Card:hover {
+  border: 1px solid var(--cc-border-color);
+  border-radius: var(--cc-border-radius);
+}
+
+.ProfileSavedPayments__Items {
+  display: grid;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 0.5fr;
+  margin: 0;
+}
+
+.ProfileSavedPayments__Footer {
+  margin-top: 1rem;
+  display: flex;
+  flex-flow: row;
+  width: 25%;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.ProfileSavedPayments__Item {
+  display: flex;
+  flex-flow: row;
+}
+
+@media only screen and (max-width: 768px) {
+  .ProfileSavedPayments__Items {
+    grid-column-gap: 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* .ProfileSavedPayments .Card {
+    border: 1px solid var(--cc-border-color);
+    border-radius: var(--cc-border-radius);
+  } */
+
+  .ProfileSavedPayments__Footer {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .ProfileSavedPayments__Items {
+    grid-column-gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "layout": [
+      {
+        "components": [
+          "profile-details-summary"
+        ],
+        "width": 3
+      },
+      {
+        "components": [
+          "profile-address-book-summary"
+        ],
+        "width": 3
+      },
+      {
+        "components": [
+          "profile-saved-card-summary"
+        ],
+        "width": 3
+      },
+      {
+        "components": [
+          "profile-email-marketing-preferences-summary"
+        ],
+        "width": 3
+      }
+    ],
+    "component": "ResponsiveContainer",
+    "title": "ProfileContainer"
+}

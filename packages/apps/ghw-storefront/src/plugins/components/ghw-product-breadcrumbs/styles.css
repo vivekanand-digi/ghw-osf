@@ -1,0 +1,23 @@
+.GHWProductBreadcrumbs {
+  padding: 0.5rem var(--cc-container-padding);
+  font-size: var(--cc-font-size-small);
+  display: inline;
+  text-align: left;
+}
+
+.GHWProductBreadcrumbs__BreadcrumbLabel {
+  color: var(--cc-color);
+  text-decoration: none
+}
+
+.GHWProductBreadcrumbs__BreadcrumbLink,
+.GHWProductBreadcrumbs__BreadcrumbLink:active,
+.GHWProductBreadcrumbs__BreadcrumbLink:hover {
+  color: var(--cc-color);
+  text-decoration: underline;
+}
+
+.GHWProductBreadcrumbs__CorrectedLabel {
+  text-decoration: line-through;
+  color: var(--cc-validation-error-color);
+}

@@ -1,0 +1,57 @@
+
+.howto {
+  .text-icon-cnr {
+    max-height: 520px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    .steps-list {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        padding: 0 0 16px;
+    
+        .step {
+            border-bottom: 1px solid #f7f7f7;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            &:last-child {
+                border: none;
+            }
+            .step-icon {
+                display: flex;
+
+                .icon {
+                    color: var(--text-content-color);
+                    margin: 0;
+                }
+            }
+
+            .step-content {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+
+                .step-title {
+                    font-weight: 700;
+                    font-size: 24px;
+                    color: var(--text-content-color);
+                }
+
+                .step-description {
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: var(--text-content-color);
+                }
+            }
+            .step-icon-title {
+                display: flex;
+                gap: 6px;
+                align-items: baseline;
+                padding: 20px 0 20px;
+    
+                
+            }
+        }
+    }
+  }
+}

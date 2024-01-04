@@ -1,0 +1,12 @@
+export const hostedFieldsTabLabel = 'Pay with Credit Card';
+export const paypalTabLabel = 'Pay with PayPal';
+export const googlePayTabLabel = 'Google Pay';
+export const venmoPayTabLabel = 'Venmo Pay';
+export const applePayTabLabel = 'Apple Pay';
+export const secureRemoteCommerceTabLabel = 'Secure Remote Commerce';
+export const localPaymentTabLabel = 'Local Payment';
+export const selectNewPaymentMethodButtonLabel = 'Add new payment';
+export const selectSavedPaymentMethodButtonLabel = 'Pay with saved payment method';
+export const useThisPaymentMethodButtonLabel = 'Use this payment method';
+export const selectedPaymentMethodLabel = 'Selected';
+export const textSavedPaymentBankDescription = '__bankName__ with last 4 digit __last4__';

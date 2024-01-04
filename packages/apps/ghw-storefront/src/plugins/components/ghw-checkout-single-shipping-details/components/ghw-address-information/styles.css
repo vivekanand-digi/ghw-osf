@@ -1,0 +1,27 @@
+/* .GHWAddressInformation button:hover {
+  text-decoration: underline;
+  font-size: var(--cc-font-size-small);
+  background-color: var(--cc-background-color);
+  padding: 0;
+  color: var(--cc-color);
+  display: inline-block;
+  text-align: unset;
+  width: unset;
+} */
+
+.GHWAddressInformation {
+  margin-top: 1rem;
+}
+
+.GHWAddressInformation__Buttons {
+  height: 2rem;
+}
+
+.GHWAddressInformation__OpenAddressBookButton {
+  float: right;
+}
+
+.GHWAddressInformation__NoAddressAvailable {
+  font-size: var(--cc-font-size-small);
+  margin: 0.5rem 0;
+}

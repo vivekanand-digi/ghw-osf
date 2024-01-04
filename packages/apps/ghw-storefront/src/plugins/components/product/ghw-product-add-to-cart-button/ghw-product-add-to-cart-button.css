@@ -1,0 +1,33 @@
+.GHWProductAddToCartButton__Wrapper {
+  display: flex;
+  align-items: center;
+  flex: 1 1 auto;
+}
+.GHWProductAddToCartButton__Wrapper .GHWProductQuantity__Wrapper {
+  display: flex;
+  flex: 0 0 auto;
+}
+.GHWProductAddToCartButton__Wrapper .AddToCartButton__Wrapper {
+  display: flex;
+  flex: 1 1 auto;
+}
+.GHWProductAddToCartButton__Wrapper .AddToCartButton__Wrapper form {
+  display: flex;
+  flex: 1 1 auto;
+}
+.GHWProductAddToCartButton__Wrapper .AddToCartButton__Wrapper form button {
+  max-width: 100%;
+  border-radius: 0 8px 8px 0;
+}
+@media only screen and (max-width: 540px) {
+  .GHWProductAddToCartButton__Wrapper {
+    position: fixed;
+    bottom: 20px;
+    width: calc(100% - 16px);
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(16px);
+            backdrop-filter: blur(16px);
+    margin-left: -16px;
+  }
+}/*# sourceMappingURL=ghw-product-add-to-cart-button.css.map */

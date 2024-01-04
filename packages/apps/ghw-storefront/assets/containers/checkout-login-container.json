@@ -1,0 +1,12 @@
+{
+    "layout": [
+      {
+        "components": [
+          "checkout-login"
+        ],
+        "width": 6
+      }
+    ],
+    "component": "ResponsiveContainer",
+    "title": "CheckoutLoginContainer"
+}

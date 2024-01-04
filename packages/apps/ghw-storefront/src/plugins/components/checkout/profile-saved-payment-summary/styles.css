@@ -1,0 +1,124 @@
+.ProfileSavedPaymentSummary {
+  padding: 0 var(--cc-container-padding);
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.ProfileSavedPaymentSummary__DefaultCardContent .Card {
+  margin: 0 0 1.25rem;
+  border: 1px solid transparent;
+  border-top: 1px solid var(--cc-border-color);
+  border-radius: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.ProfileSavedPaymentSummary__NoCardContent .Card {
+  margin: 0 0 1.25rem;
+  border: 1px solid transparent;
+  border-top: 1px solid var(--cc-border-color);
+  border-radius: 0;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.ProfileSavedPaymentSummary__NoCardContent svg {
+  margin-right: 0.7rem;
+}
+
+.ProfileSavedPaymentSummary__NoCardContent span {
+  vertical-align: super;
+  text-decoration: none;
+  display: inline-block;
+}
+.ProfileSavedPaymentSummary__AddACardLinkContainer {
+  color: var(--cc-info-message-icon-color);
+  margin: 1rem 0 0 0;
+}
+
+.ProfileSavedPaymentSummary__PaymentIconContainer {
+  display: flex;
+  margin: 0.2rem 10px auto 0;
+  max-width: 7em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ProfileSavedPaymentSummary__PaymentIcon {
+  border: 0.8px solid var(--cc-border-color);
+  width: 3.5em;
+  border-radius: var(--cc-border-radius);
+}
+
+.ProfileSavedPaymentSummary__PaymentIcon > svg {
+  width: 100%;
+  height: 100%;
+}
+
+.ProfileSavedPaymentSummary__PaymentDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.ProfileSavedPaymentSummary__PaymentText {
+  margin-bottom: 0.2rem;
+}
+
+.ProfileSavedPaymentSummary__DefaultBadge {
+  margin-top: 0.2rem;
+  width: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+}
+
+.ProfileSavedPaymentSummary__ManageLinkContainer {
+  text-align: right;
+  text-decoration: underline;
+  flex: 0 0 25%;
+  max-width: 25%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ProfileSavedPaymentSummary__ManageLinkContainer a {
+  color: var(--cc-color);
+}
+
+.ProfileSavedPaymentSummary__DefaultCardContent .Card:hover {
+  border: 1px solid var(--cc-border-color);
+  border-radius: var(--cc-border-radius);
+}
+
+.ProfileSavedPaymentSummary__NoCardContent .Card:hover {
+  border: 1px solid var(--cc-border-color);
+  border-radius: var(--cc-border-radius);
+}
+
+@media only screen and (max-width: 768px) {
+  .ProfileSavedPaymentSummary__DefaultCardContent .Card {
+    border: 1px solid var(--cc-border-color);
+    border-radius: var(--cc-border-radius);
+    height: 100%;
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ProfileSavedPaymentSummary__NoCardContent .Card {
+    border: 1px solid var(--cc-border-color);
+    border-radius: var(--cc-border-radius);
+    height: 100%;
+    margin: 0;
+    width: 100%;
+  }
+}

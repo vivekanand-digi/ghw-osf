@@ -1,0 +1,92 @@
+.supplement-facts-cnr {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border: 1px solid #e2ecff;
+    box-shadow: 6.1px 20.1px 50px rgba(174, 174, 174, 0.15);
+    border-radius: 20px;
+    width: min(100%, 1140px);
+    margin: 0px auto;
+    padding: 32px 32px 32px 32px;
+    position: relative;
+    margin-bottom: 98px;
+}
+
+.supplement-facts-cnr .supplement-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #344054;
+    border-bottom: 2px solid #d9d9d9;
+    padding-bottom: 10px;
+}
+
+.supplement-facts-cnr .amount-per-serving-sec {
+    display: flex;
+    flex-direction: column;
+}
+
+.supplement-facts-cnr .amount-per-serving-sec .servingtable-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #d9d9d9;
+    margin-bottom: 10px;
+}
+
+.supplement-facts-cnr .amount-per-serving-sec .servingtable-row .serving-heading {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344054;
+}
+
+.supplement-facts-cnr .amount-per-serving-sec .servingtable-row .value-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #5d5d5d;
+}
+
+.supplement-facts-cnr .amount-per-serving-sec .servingtable-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 10px 0px 5px 0px;
+}
+
+.supplement-facts-cnr .supplement-facts-bottom-cnr .copyright-text {
+    display: flex;
+    padding: 12px 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #344054;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.supplement-facts-cnr::before {
+    content: "";
+    /* background: url(../images/suppliment-facts-bg.png); */
+    background-size: contain;
+    width: 96px;
+    height: 280px;
+    position: absolute;
+    z-index: -1;
+    left: -52px;
+    top: -50px;
+}
+
+.supplement-facts-cnr::after {
+    content: "";
+    /* background: url(../images/suppliment-facts-bg.png); */
+    background-size: contain;
+    width: 96px;
+    height: 280px;
+    position: absolute;
+    z-index: -1;
+    right: -48px;
+    bottom: -42px;
+}

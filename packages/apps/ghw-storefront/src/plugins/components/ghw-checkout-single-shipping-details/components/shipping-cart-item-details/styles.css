@@ -1,0 +1,15 @@
+@media only screen and (min-width: 768px) {
+  .ShippingCartItemDetails__TableHeader {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ShippingCartItemDetails__TableHeader {
+    display: none;
+  }
+}
+
+.ShippingCartItemDetails .CommerceItemImage, .ShippingCartItemDetails  .CommerceItemName{
+  pointer-events: none;
+}

@@ -1,0 +1,557 @@
+.container-fixed {
+    width: min(1140px, 100%);
+    margin: 0 auto;
+}
+
+.footer-cnr {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(92deg, #005CB9 0%, #00A7E1 100%);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    color: #808080;
+
+    .top-section {
+        padding: 40px 0;
+
+        .logo-cnr {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+
+            .footer-logo {
+                height: 58px;
+            }
+        }
+
+        .language-menu {
+            display: flex;
+            gap: 8px;
+            border-radius: 8px;
+            background: #FFF;
+            padding: 2px;
+            align-items: center;
+            height: 52px;
+            width: 196px;
+            margin: 0 auto;
+        }
+
+        .btn {
+            vertical-align: middle;
+            padding: 4px 8px;
+            color: #005CB9;
+            font-size: 20px;
+            font-weight: 700;
+            border: 1px solid transparent;
+            display: flex;
+            cursor: pointer;
+            align-items: center;
+            margin: 4px;
+        }
+
+        .btn:hover,
+        .active {
+            border-radius: 8px;
+            background: #00A7E1;
+            box-shadow: 0px 0px 5.552362442016602px 0px rgba(0, 0, 0, 0.40);
+            color: #fff;
+        }
+
+        .language-menu img {
+            vertical-align: middle;
+        }
+
+        .footer-column {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 52px;
+            font-size: 18px;
+
+            .column {
+                display: flex;
+                flex-direction: column;
+                flex: 0 0 33%;
+
+                &.signup {
+                    .form {
+                        display: flex;
+                        flex-direction: column;
+                        flex: 1 1 auto;
+
+                        .form-title {
+                            color: #FFF;
+                            text-transform: uppercase;
+                        }
+
+                        .signup-in-cnr {
+                            display: flex;
+
+                            .signup-in {
+                                background: transparent;
+                                border: 0;
+                                border-bottom: 1px solid #FFF;
+                                padding: 12px 0;
+                                border-radius: 0;
+                                color: #FFFFFF;
+                                width: 100%;
+
+                                &::placeholder {
+                                    color: #FFFFFF;
+                                    font-weight: 700;
+                                }
+                            }
+
+                            .btn-icon {
+                                margin-left: -40px;
+                                background: url(/file/general/signup-icon.svg) left bottom no-repeat;
+                                width: 36px;
+                                height: 32px;
+                            }
+                        }
+                    }
+
+                }
+
+                &.social-links {
+                    color: #FFFFFF;
+                    font-size: 24px;
+                    font-family: "Helvetica-Bold";
+                    font-weight: 700;
+                    align-items: center;
+
+                    .social-icons {
+                        gap: 12px;
+                        display: flex;
+
+                        >a {
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+
+                &.digicert-cnr {
+                    display: flex;
+                    align-items: flex-end;
+
+                    .digi-cert {
+
+                        width: 166px;
+                    }
+                }
+            }
+
+            &.footer-link {
+                padding: 40px 60px;
+                border-bottom: 1px solid #FFF;
+                border-top: 1px solid #FFF;
+
+                .ft-link {
+                    color: #FFFFFF;
+                    font-size: 18px;
+                    font-weight: 400;
+                    text-transform: capitalize;
+                    text-align: left;
+
+                    &.ft-link-heading {
+                        color: #FFFFFF;
+                        font-size: 20px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        margin-bottom: 20px;
+
+                        &.contact-num {
+                            font-size: 22px;
+                            margin-top: -10px;
+                        }
+
+                        &.ft-link-omega {
+                            text-transform: capitalize;
+                        }
+
+                    }
+                }
+
+                .contact-info {
+                    gap: 0;
+
+                    .ct-title {
+                        color: #ffffff;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        margin-bottom: 8px;
+                    }
+
+                    .ct-info {
+                        color: #ffffff;
+                        font-weight: bold;
+                    }
+
+                    .ct-img {
+                        display: flex;
+                        padding-top: 12px;
+
+                        img {
+                            width: 148px;
+                        }
+                    }
+                }
+
+            }
+
+            .nav-column {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+
+                .ft-link {
+                    color: #667085;
+                    text-align: center;
+                    font-family: Helvetica;
+                    font-size: 20px;
+                    font-weight: 400;
+                    text-transform: capitalize;
+                    text-align: left;
+
+                    &.ft-link-heading {
+                        color: #000;
+                        font-family: Helvetica;
+                        font-size: 20px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+
+                        &.contact-num {
+                            font-size: 22px;
+                            margin-top: -10px;
+                        }
+
+                        &.ft-link-omega {
+                            text-transform: capitalize;
+                        }
+
+                    }
+                }
+
+                .digicert-mb {
+                    display: none;
+                }
+
+                .ft-link-heading {
+                    color: #000;
+                    font-family: Helvetica;
+                    font-size: 20px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+
+                    &.contact-num {
+                        font-size: 22px;
+                        margin-top: -10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .btm-section {
+        margin: -10px auto 30px;
+
+        .footer-top {
+            display: flex;
+            padding: 50px 16px 30px;
+            flex-wrap: wrap;
+
+            .resources-list {
+                display: flex;
+                flex-direction: column;
+                flex: 1 1 auto;
+
+                span {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #5d5d5d;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #808080;
+                }
+            }
+        }
+
+        .footer-mid {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .social-links {
+                display: flex;
+                gap: 18px;
+                font-weight: 700;
+                font-size: 14px;
+                color: #FFF;
+                align-items: center;
+                font-size: 24px;
+
+                .ft-follow-txt {
+                    font-weight: 700;
+                    margin: 0;
+                }
+
+                a {
+                    .icon {
+                        font-size: 52px;
+                        color: #FFF;
+                        margin: 0;
+
+                    }
+                }
+
+                .social-icons {
+                    display: flex;
+                    gap: 12px;
+
+                    a {
+                        cursor: pointer;
+                    }
+                }
+            }
+
+        }
+
+        .footer-bottom {
+            gap: 60px;
+
+            .nortoninfo-left {
+                display: flex;
+                flex-direction: column;
+                margin-top: 32px;
+
+                .ft-offer-box {
+                    box-sizing: border-box;
+                    padding: 8px 0;
+                    border: 1px solid #fff;
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 14px;
+                    font-weight: 400;
+                    text-transform: capitalize;
+                    line-height: 1.15;
+                }
+            }
+
+            .nortoninfo-right {
+                color: #fff;
+                text-transform: capitalize;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                .ft-offer-title {
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 14px;
+                    font-weight: 700;
+                    text-transform: capitalize;
+                    padding: 0;
+                }
+
+
+                .offers {
+                    font-size: 20px;
+                    font-weight: 700;
+                    text-transform: capitalize;
+                    margin-top: 12px;
+                }
+            }
+        }
+
+        .copyright-cnr {
+            padding-bottom: 40px;
+
+            .copyright-text {
+                display: flex;
+                padding: 24px 0;
+                justify-content: space-evenly;
+                align-items: center;
+                font-weight: 700;
+                font-size: 18px;
+                color: #808080;
+                width: min(100%, 1140px);
+                margin: 0px auto;
+
+                a {
+                    color: #fff;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                }
+
+                .separator {
+                    padding: 4px 12px;
+                }
+            }
+
+            hr {
+                margin-top: 12px;
+                border-top: 2px solid #FFF;
+                margin-bottom: 20px;
+            }
+
+            p {
+                padding-top: 10px;
+                color: #FFF;
+                text-align: center;
+                text-transform: capitalize;
+
+                &.ft-offer-copy-text {
+                    font-size: 20px;
+                    font-weight: 700;
+                    margin-top: 0;
+                }
+            }
+        }
+
+        .back-to-top {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            .top-link {
+                position: relative;
+                color: #FFF;
+                font-size: 14px;
+                font-weight: 700;
+                text-align: center;
+                padding-top: 28px;
+                transition: all .3s ease-out;
+                cursor: pointer;
+
+                &::before {
+                    color: #fff;
+                    content: '▲';
+                    font-size: 28px;
+                    position: absolute;
+                    margin: 0;
+                    top: -8px;
+                    left: calc(50% - 14px);
+                    transition: transform .5s ease-in;
+                }
+
+                &:hover {
+                    text-decoration: none;
+
+                    &::before {
+                        transform: rotate(360deg);
+                        color: #00A7E1;
+                    }
+                }
+            }
+
+        }
+    }
+
+
+    @media only screen and (max-width: 540px) {
+        padding: 0 16px;
+
+        .top-section {
+            .footer-column {
+                flex-direction: column;
+
+                .nav-column {
+                    gap: 0;
+
+                    .digi-cert {
+                        display: none;
+                    }
+
+
+                    &.contact-info {
+                        padding-top: 24px;
+                        display: flex;
+                        position: relative;
+                        padding-bottom: 60px;
+
+                        &::before {
+                            content: '';
+                            background: url('/file/general/digicert.svg') center bottom no-repeat;
+                            position: absolute;
+                            bottom: 0;
+                            width: 124px;
+                            height: 52px;
+                            background-size: contain;
+                            left: calc(50% - 62px);
+                        }
+
+                        .ct-title {
+                            width: 100%;
+                            text-align: center;
+                        }
+
+                        .ct-info {
+                            width: 100%;
+                            text-align: center;
+                        }
+
+                        img {
+                            margin: 0 auto;
+                        }
+                    }
+
+                    .ft-link {
+                        position: relative;
+                        border-bottom: 2px solid #667085;
+                        display: flex;
+                        padding-top: 6px;
+                        padding-bottom: 6px;
+
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            width: 16px;
+                            height: 16px;
+                            background: url('/file/general/arrow-right.svg') right center no-repeat;
+                            right: 0;
+                            top: 12px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .btm-section {
+            .footer-mid {
+                flex-direction: column;
+                gap: 16px;
+
+                .social-links {
+                    flex-direction: column;
+                }
+
+                .language-menu {
+                    margin: 0;
+                }
+            }
+
+            .footer-bottom {
+                .nortoninfo-right {
+                    p.ft-offer-copy-text {
+                        font-size: 14px;
+                    }
+                }
+
+            }
+
+            .copyright-cnr {
+                .copyright-text {
+                    flex-direction: column;
+                    gap: 4px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

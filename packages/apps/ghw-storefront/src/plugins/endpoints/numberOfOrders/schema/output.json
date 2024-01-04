@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$id": "numberOfOrders",
+    "title": "numberOfOrders",
+    "description": "Description for numberOfOrders.",
+    "type": "object",
+    "properties": {
+    },
+    "example": {
+    }
+}

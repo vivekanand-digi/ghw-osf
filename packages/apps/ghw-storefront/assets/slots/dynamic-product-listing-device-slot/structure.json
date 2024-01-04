@@ -1,0 +1,33 @@
+{
+  "regions": [
+    {
+      "components": [
+        "dynamic-product-listing-mobile"
+      ],
+      "displayName": "Mobile",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Mobile"
+        }
+      },
+      "deviceType": "xs",
+      "type": "main"
+    },
+    {
+      "components": [
+        "category-content",
+        "dynamic-product-listing-desktop"
+      ],
+      "displayName": "Desktop",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Desktop"
+        }
+      },
+      "deviceType": "md",
+      "type": "main"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+.profile-container {
+  display: flex !important;
+}
+.col-lg-9 {
+  flex: 0 0 calc(100% * (9 / 12));
+  max-width: calc(100% * (9 / 12));
+}
+
+@media only screen and (max-width: 540px) {
+  .profile-container {
+    display: block !important;
+  }
+  .col-lg-9 {
+    max-width: 100%;
+  }
+}

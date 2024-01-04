@@ -1,0 +1,10 @@
+export const header = 'Payment information';
+export const labelEdit = 'Edit';
+export const applePaySelectedText = 'Paying with Apple Pay';
+export const googlePaySelectedText = 'Paying with Google Pay';
+export const paypalSelectedText = 'Paying with PayPal';
+export const creditCardSelectedText = 'Paying with Credit Card';
+export const venmoSelectedText = 'Paying with Venmo';
+export const srcSelectedText = 'Paying with Secure Remote Commerce';
+export const localPaymentText = 'Paying with Local Payment method';
+export const textPayingWithUSBankAccount = 'Paying with ACH US bank account';

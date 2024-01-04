@@ -1,0 +1,11 @@
+.AddressFormModal {
+  display: flex;
+}
+.AddressFormModal .Modal__Header {
+  padding: 0;
+}
+.AddressFormModal__HeaderText {
+  flex: 1;
+  padding: 1rem 0;
+  font-size: 1.25rem;
+}

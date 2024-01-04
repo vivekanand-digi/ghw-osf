@@ -1,0 +1,53 @@
+.quotes {
+  /* background: url("../images/quotes-omegaxl.png") no-repeat; */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.quotes .container-fixed {
+  /* width: 1040px; */
+  margin: 0 auto;
+  display: flex;
+}
+
+.quotes .content {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quotes .content .title {
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.quotes .content .sub-title {
+  color: #fff;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 400;
+  width: 60%;
+  margin: 0 auto 24px;
+}
+
+.quotes .content .icons {
+  display: flex;
+  gap: 46px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 540px) {
+  .GHWPdpBanner {
+    max-width: 100vw;
+  }
+  .GHWPdpBanner .quotes .content {
+    flex: 1 1 auto;
+  }
+}/*# sourceMappingURL=styles.css.map */

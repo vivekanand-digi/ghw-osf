@@ -1,0 +1,24 @@
+.GHWCheckoutOrderConfirmationContainer {
+  padding: 0 var(--cc-container-padding);
+  margin-bottom: var(--cc-container-padding);
+}
+.GHWCheckoutOrderConfirmationContainer__Section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.GHWCheckoutOrderConfirmationContainer .ContinueShoppingButton__Link {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+.GHWCheckoutOrderConfirmationContainer__Section{
+  flex-wrap: wrap;
+}
+.GHWCheckoutOrderConfirmationContainer__Section > section{
+  width: 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+}

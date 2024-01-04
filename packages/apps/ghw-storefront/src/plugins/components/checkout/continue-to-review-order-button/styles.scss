@@ -1,0 +1,37 @@
+@use './../../utils/button';
+
+.ContinueToReviewOrderButton {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 0.5rem;
+    padding: var(--cc-container-padding);
+
+    .checkbox {
+        accent-color: #00A7E1;
+        display: flex;
+        gap: 8px;
+
+        .form-label {
+            font-size: 12px;
+            color: #667054;
+            line-height: 1.325;
+        }
+    }
+}
+
+// .ContinueToReviewOrderButton__Btn {
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+.ContinueToReviewOrderButton__Button {
+    width: 40%;
+}
+
+.secondary {
+    width: 40%;
+}
+
+.checkbox {
+    padding: 1.25rem 0;
+}

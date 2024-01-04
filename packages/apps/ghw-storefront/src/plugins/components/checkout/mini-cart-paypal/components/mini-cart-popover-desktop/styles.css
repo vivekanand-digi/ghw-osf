@@ -1,0 +1,36 @@
+.MiniCartDesktop__Popover {
+  transition: var(--cc-transition);
+}
+
+.MiniCartDesktop .Popover {
+  right: 0.75rem;
+  top: 3rem;
+}
+
+.MiniCartDesktop .Popover__HeaderTitle {
+  color: var(--cc-color);
+}
+
+.MiniCartDesktop .Popover__Header {
+  margin-bottom: var(--cc-container-padding);
+}
+
+.MiniCartDesktop .Popover__Wrapper {
+  width: 22rem;
+}
+
+/* PAYPAL BUTTON */
+.MiniCartDesktop .Popover .PayPalPaymentButton--standalone {
+  padding: 0px;
+  margin: var(--cc-container-padding) 0;
+}
+
+
+.MiniCartDesktop__Subscription {
+  color: var(--cc-color);
+}
+
+.MiniCartDesktop__Subscription span {
+  color: var(--cc-validation-success-color);
+  font-weight: 700;
+}

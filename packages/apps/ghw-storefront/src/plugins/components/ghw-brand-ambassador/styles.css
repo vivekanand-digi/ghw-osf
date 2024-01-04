@@ -1,0 +1,87 @@
+/*----========= Our team ==============----*/
+.our-team {
+  padding: 28px;
+}
+.our-team .h1-title {
+  color: #016FBF;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.our-team .team-list {
+  display: flex;
+  margin-top: 32px;
+  flex-direction: column;
+}
+.our-team .team-list .user-icon {
+  display: flex;
+  flex-direction: column;
+}
+.our-team .team-list .user-icon .team {
+  background-size: contain;
+}
+.our-team .team-list .user-icon:hover {
+  transform: scale(1.1);
+}
+.our-team .team-list .user-icon .content {
+  background: var(--primary-color, #016FBF);
+  padding: 12px 0;
+  width: 100%;
+  border-radius: 0 0 8px 8px;
+  margin-top: -1px;
+}
+.our-team .team-list .user-icon .content .name {
+  color: #FFF;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.our-team .team-list .user-icon .content .role {
+  color: #FFF;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+}
+.our-team .team-list .slick-list .slick-track {
+  display: flex;
+  gap: 25px;
+}
+.our-team .team-list .slick-prev {
+  display: none !important;
+}
+.our-team .team-list .slick-next {
+  display: none !important;
+}
+.our-team .team-list .slick-dots {
+  bottom: -20px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+.our-team .team-list .slick-dots .slick-active button {
+  background-color: #00A7E1;
+}
+.our-team .team-list .slick-dots li {
+  display: flex;
+}
+.our-team .team-list .slick-dots li button::before {
+  font-size: 40px;
+  color: #005CB9 !important;
+}
+.our-team .team-list .slick-dots button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #005CB9;
+  border-radius: 10px;
+}
+.our-team .team-list.slick-dotted.slick-slider {
+  margin-bottom: 40px;
+}/*# sourceMappingURL=styles.css.map */

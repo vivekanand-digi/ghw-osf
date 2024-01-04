@@ -1,0 +1,22 @@
+.address-cnr {
+  display: flex;
+  gap: 40px;
+  flex: 1 1 auto;
+  justify-content: space-between;
+}
+.address-cnr .info {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+.address-cnr .info .h4 {
+  color: #667085;
+  font-size: 20px;
+}
+.address-cnr .info .cust-name {
+  font-family: "Helvetica-Bold";
+}
+.address-cnr .info .meta-info {
+  color: #334054;
+  font-size: 16px;
+}/*# sourceMappingURL=ghw-billing-shipping-widget.css.map */

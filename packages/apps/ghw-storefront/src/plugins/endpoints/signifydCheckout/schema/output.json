@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$id": "signifydCheckout",
+    "title": "signifydCheckout",
+    "description": "Description for signifydCheckout.",
+    "type": "object",
+    "properties": {
+    },
+    "example": {
+    }
+}

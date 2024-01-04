@@ -1,0 +1,11 @@
+{
+    "regions": [
+      {
+        "components": [
+            "profile-email-marketing-preferences"
+        ],
+        "width": 6,
+        "type": "main"
+      }
+    ]
+  }

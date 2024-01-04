@@ -1,0 +1,47 @@
+.howto .text-icon-cnr {
+  max-height: 520px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.howto .text-icon-cnr .steps-list {
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0 0 16px;
+}
+.howto .text-icon-cnr .steps-list .step {
+  border-bottom: 1px solid #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.howto .text-icon-cnr .steps-list .step:last-child {
+  border: none;
+}
+.howto .text-icon-cnr .steps-list .step .step-icon {
+  display: flex;
+}
+.howto .text-icon-cnr .steps-list .step .step-icon .icon {
+  color: var(--text-content-color);
+  margin: 0;
+}
+.howto .text-icon-cnr .steps-list .step .step-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.howto .text-icon-cnr .steps-list .step .step-content .step-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--text-content-color);
+}
+.howto .text-icon-cnr .steps-list .step .step-content .step-description {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--text-content-color);
+}
+.howto .text-icon-cnr .steps-list .step .step-icon-title {
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+  padding: 20px 0 20px;
+}/*# sourceMappingURL=how-to-use.css.map */

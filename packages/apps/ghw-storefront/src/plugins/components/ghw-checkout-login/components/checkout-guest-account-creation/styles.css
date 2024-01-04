@@ -1,0 +1,207 @@
+.CheckoutVerifyIdentityForm {
+  padding: 0 var(--cc-container-padding);
+  display: flex;
+  flex-direction: column;
+  font-size: var(--cc-font-size);
+}
+
+.CheckoutGuestAccountCreation .shipping-info {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.CheckoutGuestAccountCreation .shipping-info .h4 {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #5d5d5d;
+}
+.CheckoutGuestAccountCreation .shipping-info #ship{
+    display: none;
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping {
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 32px;
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field {
+  position: relative;
+  flex: 0 0 47%;
+  border-radius: 3px;
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .form-field__label {
+  position: absolute;
+  top: 16px;
+  left: 4px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  transform-origin: 0 0;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.2s ease;
+  pointer-events: none;
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .focus-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .error {
+  font-size: 10px;
+  color: red;
+  padding-left: 10px;
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .form-field__input, .CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .form-field__textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 100%;
+  border: 0;
+  padding: 16px 4px 0 4px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 400;
+  resize: vertical;
+  background: transparent;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+  color: #000000;
+  transition: all 0.15s ease;
+  border-radius: 0;
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .form-field__input:hover, .CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .form-field__textarea:hover {
+  background: transparent;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .form-field__input:not(:-moz-placeholder-shown) + .form-field__label, .CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .form-field__textarea:not(:-moz-placeholder-shown) + .form-field__label {
+  color: rgba(0, 0, 0, 0.5);
+  transform: translate3d(0, -12px, 0) scale(0.75);
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .form-field__input:not(:placeholder-shown) + .form-field__label, .CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .form-field__textarea:not(:placeholder-shown) + .form-field__label {
+  color: rgba(0, 0, 0, 0.5);
+  transform: translate3d(0, -12px, 0) scale(0.75);
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .form-field__input:focus, .CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .form-field__textarea:focus {
+  background: transparent;
+  outline: none;
+  box-shadow: inset 0 -1px 0 #0077FF;
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .form-field__input:focus + .form-field__label, .CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .form-field__textarea:focus + .form-field__label {
+  color: #0077FF;
+  transform: translate3d(0, -12px, 0) scale(0.75);
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .form-field__input:focus + .form-field__label + .focus-bg, .CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .form-field__textarea:focus + .form-field__label + .focus-bg {
+  transform: scaleX(1);
+  transition: all 0.1s ease;
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .select-material {
+  position: relative;
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .select-material::after {
+  position: absolute;
+  top: 18px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  padding: 0;
+  content: "";
+  /* background: url(../images/select-arrow-icon.svg) no-repeat; */
+  width: 20px;
+  height: 20px;
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .select-material .select-text {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+  font-family: inherit;
+  background-color: transparent;
+  padding: 18px 10px 4px 4px;
+  border-radius: 0;
+  border: none;
+  width: 100%;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .select-material .select-text:focus {
+  outline: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  box-shadow: none;
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .select-material .select-text:focus ~ .select-label {
+  color: #0077FF;
+  top: 0px;
+  transition: 0.2s ease all;
+  font-size: 12px;
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .select-material .select-text:focus ~ .select-bar:before {
+  width: 50%;
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .select-material .select-text:focus ~ .select-bar:after {
+  width: 50%;
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .select-material .select-text:valid ~ .select-label {
+  color: #0077FF;
+  top: 0px;
+  transition: 0.2s ease all;
+  font-size: 12px;
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .select-material .select-bar {
+  position: relative;
+  display: block;
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .select-material .select-bar::after {
+  content: "";
+  height: 1px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  box-shadow: inset 0 -1px 0 #0077FF;
+  transition: 0.2s ease all;
+  right: 50%;
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .select-material .select-bar::before {
+  content: "";
+  height: 1px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  box-shadow: inset 0 -1px 0 #0077FF;
+  transition: 0.2s ease all;
+  left: 50%;
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .select-material .select-label {
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  color: rgba(0, 0, 0, 0.5);
+  top: 16px;
+  left: 4px;
+  transition: 0.2s ease all;
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .form-field__textarea {
+  height: 80px;
+}
+.CheckoutGuestAccountCreation .shipping-info .form_shipping .form-field .loginBtn {
+  border: 1px solid #D0D5DD;
+  border-radius: 6px;
+  color: #016FBF;
+  padding: 11px 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  border-radius: 10px;
+  background: #005CB9;
+  color: white;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}

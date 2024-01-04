@@ -1,0 +1,23 @@
+{
+  "layout": [
+    {
+      "components": [
+        "ghw-product-image-viewer",
+        "ghw-product-name",
+        "ghw-product-price",
+        "ghw-product-type-selection-widget",
+        "ghw-product-add-to-cart-button",
+        "ghw-product-long-description"
+      ],
+      "width": 12
+    },
+    {
+      "components":[
+        "ghw-product-one-time-purchase"
+      ],
+      "width": 12
+    }
+  ],
+  "component": "GHWProductDetailsContainer",
+  "title": "GHWProductDetails"
+}

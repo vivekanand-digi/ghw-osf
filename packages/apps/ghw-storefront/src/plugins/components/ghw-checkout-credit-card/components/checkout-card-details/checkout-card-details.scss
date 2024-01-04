@@ -1,0 +1,220 @@
+@use './../../../utils/form';
+
+.cc-cnr {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  .cc-row {
+    display: flex;
+    gap: 32px;
+
+    .form-field {
+      display: flex;
+
+      &:first-child {
+        display: flex;
+        flex: 0 0 64%;
+      }
+
+      .CheckoutCardDetails__ExpiryDateSeparator {
+        display: none;
+      }
+
+      &:last-child {
+        display: flex;
+        flex: 0 0 36%;
+
+        .form-field__input {
+          &:not(:placeholder-shown) {
+            +.CheckoutCardDetails__ExpiryDateSeparator {
+              display: flex;
+              align-items: flex-end;
+            }
+          }
+        }
+      }
+    }
+
+
+  }
+
+  .full-width {
+    &.form-field {
+      display: flex;
+      flex: 1 1 auto;
+      width: 100%;
+    }
+  }
+}
+
+// .CheckoutCardDetails {
+//   flex: 0 0 100%;
+//   max-width: 100%;
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// .CheckoutCardDetails__Invalid {
+//   border-color: var(--cc-invalid-focusring-color);
+// }
+
+// .CheckoutCardDetails__ErrorContainer {
+//   display: flex;
+// }
+
+// .CheckoutCardDetails__ErrorMessage {
+//   color: var(--cc-validation-error-color);
+//   font-weight: 500;
+//   font-size: var(--cc-font-size-xsmall);
+//   margin-left: 0.25rem;
+//   margin-top: 0.4rem;
+//   display: none;
+// }
+
+.CheckoutCardDetails__ErrorIconContainer {
+  display: none;
+  order: -1;
+}
+
+// .CheckoutCardDetails__ErrorIconContainer svg {
+//   color: var(--cc-error-message-icon-color);
+//   height: 1.3rem;
+//   padding-top: 0.5rem;
+// }
+
+// .CheckoutCardDetails__ErrorMessage:not(:empty) {
+//   display: block;
+// }
+
+// .CheckoutCardDetails__ErrorMessage:not(:empty)+.CheckoutCardDetails__ErrorIconContainer {
+//   display: block;
+// }
+
+// .CheckoutCardDetails__Row {
+//   flex: 0 0 100%;
+//   max-width: 100%;
+//   display: flex;
+//   flex-direction: column;
+//   padding-top: 1rem;
+// }
+
+// .CheckoutCardDetails__cardNumber {
+//   width: 100%;
+// }
+
+// .CheckoutCardDetails__Row:first-of-type {
+//   padding-top: 0;
+// }
+
+// .CheckoutCardDetails__ExpiryDateCvvRow {
+//   display: flex;
+//   flex: 0 0 100%;
+//   max-width: 100%;
+//   padding-top: 1rem;
+// }
+
+// .CheckoutCardDetails__ExpiryDateContainer {
+//   display: flex;
+//   flex-direction: column;
+//   flex: 0 0 55%;
+//   max-width: 55%;
+// }
+
+// .CheckoutCardDetails__ExpiryDateInputRegion {
+//   display: flex;
+//   width: calc(100% - 2rem);
+//   max-width: calc(100% - 2rem);
+// }
+
+// .CheckoutCardDetails__ExpiryDateInput {
+//   flex: 0 0 calc(50% - 0.75em);
+//   max-width: calc(50% - 0.75em);
+// }
+
+// .CheckoutCardDetails__ExpiryDateSeparator {
+//   width: 1.5em;
+//   align-items: center;
+//   justify-content: center;
+//   display: flex;
+//   font-weight: 500;
+// }
+
+// .CheckoutCardDetails__CvvContainer {
+//   display: flex;
+//   flex-direction: column;
+//   flex: 0 0 45%;
+//   max-width: 45%;
+// }
+
+// .CheckoutCardDetails__CvvInputRegion {
+//   display: flex;
+// }
+
+// .CheckoutCardDetails__CvvInput {
+//   min-width: 0;
+//   flex: 1;
+// }
+
+// .CheckoutCardDetails__CvvIconContainer {
+//   flex: 0 0 3.2em;
+//   line-height: 0.5;
+//   margin-left: 0.5rem;
+// }
+
+// .CheckoutCardDetails__CvvIconContainer svg {
+//   height: 2.625em;
+// }
+
+// .CheckoutCardDetails__Input:disabled {
+//   background-color: var(--cc-form-element-disabled-color);
+//   cursor: not-allowed;
+// }
+
+// /* CardTypes */
+// .CardTypes {
+//   display: flex;
+//   flex: 0 0 100%;
+//   max-width: 100%;
+//   flex-wrap: wrap;
+// }
+
+// .CardTypes>*:not(:last-child) {
+//   margin-right: 0.5rem;
+// }
+
+// .CardTypes__Icon {
+//   margin-top: 0.35rem;
+//   border-radius: 5.8px;
+//   border: 0.8px solid var(--cc-border-color);
+//   height: 1.6em;
+// }
+
+// .CardTypes__Icon--inactive {
+//   opacity: 0.3;
+// }
+
+// @media (min-width: 768px) {
+//   .CheckoutCardDetails__CardNumberAndTypeContainer {
+//     flex-direction: row;
+//   }
+
+//   .CheckoutCardDetails__CardNumberContainer {
+//     display: flex;
+//     flex-direction: column;
+//     flex: 0 0 55%;
+//     max-width: 55%;
+//   }
+
+//   .CheckoutCardDetails__cardNumber {
+//     width: calc(100% - 2rem);
+//   }
+
+//   .CheckoutCardDetails__CardTypeContainer {
+//     margin-top: 1.85rem;
+//     display: flex;
+//     flex-direction: column;
+//     flex: 0 0 45%;
+//     max-width: 45%;
+//   }
+// }

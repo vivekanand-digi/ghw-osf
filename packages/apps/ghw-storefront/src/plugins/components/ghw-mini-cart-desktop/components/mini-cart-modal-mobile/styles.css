@@ -1,0 +1,8 @@
+.MiniCartMobile .Modal__Backdrop {
+  display: none;
+}
+
+.MiniCartMobile .Modal_Wrapper {
+  width: 100%;
+  height: 100%;
+}

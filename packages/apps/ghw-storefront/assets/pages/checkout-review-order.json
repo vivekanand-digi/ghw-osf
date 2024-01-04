@@ -1,0 +1,39 @@
+{
+  "address": "/checkout-review-order",
+  "title": "Checkout Review Order",
+  "shortName": "checkout-review-order",
+  "defaultPage": true,
+  "settings": {
+    "displayName": "Checkout Review Order"
+  },
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "checkout-header-with-notification-device-slot",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "checkout-progress-tracker",
+        "checkout-review-order-container",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ]
+}

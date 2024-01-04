@@ -1,0 +1,176 @@
+.GHWFeaturedCategories {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.GHWFeaturedCategories__Label {
+  color: #729fff;
+}
+.GHWFeaturedCategories__ExtraInfo {
+  background-color: red;
+  color: yellow;
+  margin-left: 5px;
+}
+.main-heading{
+  text-align: center;
+  margin: 2.563rem auto 0.938rem auto;
+  color: var(--php-rectangle-blue); 
+  font-family: Helvetica;
+  font-size: 1.313rem;
+}
+.GHWGrid__Containers{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  /*flex-direction: column;*/
+  margin: 0 2rem;
+}
+.card-container{
+  width: 10.938rem;
+  height: 19rem;
+}
+.card-image{
+  width: 7.45rem;
+  height: 7.267rem;
+  display: flex;
+  margin: 0.938rem auto 0.394rem auto;
+}
+.card-text{
+  width: 10.25rem;
+  height: 3.75rem;
+  margin: 0.625rem auto 5px auto;
+  font-family: Helvetica;
+  font-size: 0.813rem;
+  line-height: 1.23;
+}
+@media only screen and(max-width: 991px){
+  .container{
+    width: 20rem;
+  }
+  .ProductItem__Image{
+    width: 20rem;
+    height: 20rem;
+  }
+}
+.add_to_cart{
+  width: 100%;
+  margin: 0 auto 0 auto;
+  background-color: var(--cc-ghw-blue)!important;
+  color:white;
+  font-weight: normal;
+  font-family: Helvetica;
+}
+.saved_list{
+  width: 4.813rem;
+  height: 2.063rem;
+  font-family: Helvetica;
+  font-size: 0.813rem;
+  color: var(--cc-ghw-blue);
+  align-items: center;
+  margin: 0.55rem auto 0.25rem auto;
+}
+.ProductItem__DisplayName{
+  font-family: Helvetica;
+}
+.ProductItem__Price{
+  font-family: Helvetica;
+  font-weight:bold;
+}
+.runningLow{
+   width: 370px;
+  height: 408px;
+  margin: 30px 59px 106px 9px;
+  padding: 21px 12px 20px 80px;
+  border: solid 1px var(--cc-ghw-lightgray);
+}
+.ruuningLow .GenericCarousel{
+  margin-left: 6rem !important;;
+}
+
+
+#GHWRelatedProductsHeading{
+  margin-left: 1.7rem;
+  margin-top: 2rem;
+  color: #faaaaa !important;
+  color: var(--php-rectangle-blue);
+  font-family: Helvetica;
+  font-size: 1.313rem;
+}
+.GHWRelatedProducts__Heading{
+  margin-left:1rem;
+  margin-top: 2rem;
+  color: #004a87!important;
+  color: var(--php-rectangle-blue);
+  font-family: Helvetica;
+  font-size: 1.313rem;
+}
+.AddToCartButton__Wrapper form button {
+  flex: 1;
+  height:2.2rem;
+  margin: 0.75rem 0;
+  background-color: #045ba4;
+  width: 248px;
+  color: #fff;
+}
+
+.ProductItem {
+  width: 150px;
+}
+
+.GenericCarouselSlider{
+  white-space: nowrap;
+  z-index: 2;
+  max-width: 100%;
+  height: 400px;
+  overflow: hidden;
+  margin-top: -48px;
+  width: 100%;
+  display: flex;
+}
+
+.GHWRelatedProducts .GenericCarouselSlider__Content {
+  margin: auto 17px !important;
+  max-width: 150px !important;
+  min-width: 150px !important;
+
+}
+.GHWRelatedProducts .GenericCarouselSlider__BackButton{
+   visibility: visible;
+   margin-left: 15px;
+   background-color: white;
+}
+.GHWRelatedProducts .GenericCarouselSlider__ForwardButton{
+  visibility: visible;
+  margin-right: 19px;
+  background-color: white;
+}
+.GHWRelatedProducts .GenericCarouselSlider__ForwardButton:hover{
+  background-color: white;
+}
+.GHWRelatedProducts .GenericCarouselSlider__BackButton:hover{
+  background-color: white;
+}
+
+.GHWRelatedProducts_Content {
+  /* width: 1100px; */
+  margin: auto;
+
+}
+.GHWRelatedProducts{
+  margin-top:-7%;
+}
+
+.GHWRelatedProducts_Content .CarouselHolder{
+  margin-left:85px;
+}
+.GenericCarouselSlider__WrapperSection{
+  width:75% !important;
+}
+
+/**
+ *  CSS uses the Block Element Modifier naming convention, an example :
+.GHWFeaturedCategories__ElementName {
+  display: inline-block;
+  font-size: large;
+}
+ * For more information - http://getbem.com/
+ */

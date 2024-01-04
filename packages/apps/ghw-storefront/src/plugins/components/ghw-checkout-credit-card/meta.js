@@ -1,0 +1,85 @@
+import {buildResources} from '@oracle-cx-commerce/resources/utils';
+import defaultConfig, {mergeDefaultConfig} from '@oracle-cx-commerce/react-widgets/config';
+import * as resourceBundle from '@oracle-cx-commerce/resources';
+// import defaultConfig from '@oracle-cx-commerce/react-widgets/config';
+import * as resources from '../../../core/ui/locales';
+import config from './config';
+
+const resourceKeys = ['helloText', 'labelExtraInfo', 'labelSampleTranslation'];
+
+const widgetResourceKeys = [
+  'actionCancel',
+  'buttonSaveAndContinue',
+  'closeLinkAltText',
+  'headingAddBillingAddress',
+  'headingBillingAddress',
+  'headingEditBillingAddress',
+  'labelAddANewAddress',
+  'labelAddressBook',
+  'labelCancel',
+  'labelCardCVV',
+  'labelCardNumber',
+  'labelCompanyName',
+  'labelCountry',
+  'labelCreditCard',
+  'labelDefaultAddress',
+  'labelDefaultBillingAddress',
+  'labelDefaultShippingAddress',
+  'labelEditAddress',
+  'labelExpiryDate',
+  'labelExpiryMonth',
+  'labelExpiryYear',
+  'labelFirstName',
+  'labelLastName',
+  'labelNameOnCard',
+  'labelNickName',
+  'labelNoAccountAddressesAvailable',
+  'labelNoDefaultAddressesAvailable',
+  'labelNoInheritedAddressesAvailable',
+  'labelNoProfileAddressesAvailable',
+  'labelOpenAddressBook',
+  'labelPhoneNumberOptional',
+  'labelSaveAsANewAccountAddress',
+  'labelSaveAsANewProfileAddress',
+  'textAccountAddressBook',
+  'textAddressesForThisAccount',
+  'textAllFieldsRequired',
+  'textDefaultAddresses',
+  'textEnterABillingAddress',
+  'textInheritedAddresses',
+  'textLoading',
+  'textLoadMoreAccountAddress',
+  'textLoadMoreInheritedAddress',
+  'textLoadMoreProfileAddress',
+  'textOpenAddressBookAndChooseBillingAddress',
+  'textProfileAddresses',
+  'textRequiredField',
+  'textInvalidField',
+  'textUseThisAddress',
+  'labelSavedCard',
+  'labelSaveCardToProfile',
+  'labelState',
+  'labelStreetAddress',
+  'labelTownCity',
+  'labelUseAnotherCard',
+  'labelZipCode',
+  'textFieldInvalid',
+  'textExpiryDate'
+];
+
+export default {
+  name: 'GHWCheckoutCreditCard',
+  decription: 'Description of widget GHWCheckoutCreditCard',
+  author: 'VirendraPatil',
+  // fetchers: [],
+  // actions: [],
+  // resources: buildResources(resources, resourceKeys),
+  // config: mergeDefaultConfig(config),
+  resources: buildResources(resourceBundle, widgetResourceKeys),
+  availableToAllPages: false,
+  pageTypes: ['checkout-payment', 'pending-payment'],
+  config: defaultConfig,
+  requiresContext: ['payment_context'],
+  actions: ['listProfileSavedCardsForCurrentSite', 'getOrganizationDefaultAddresses', 'notify'],
+  fetchers: ['fetchCardTypes', 'fetchBillingCountries']
+};

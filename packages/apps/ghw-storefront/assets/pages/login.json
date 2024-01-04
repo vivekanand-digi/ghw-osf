@@ -1,0 +1,16 @@
+{
+	"address": "/login",
+	"title": "Log in",
+	"shortName": "login",
+	"defaultPage": true,
+	"settings": {
+		"displayName": "Login"
+	},
+	"layout": [
+		{
+			"components": ["ghw-login"],
+			"width": 12,
+			"type": "main"
+		}
+	]
+}

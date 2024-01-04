@@ -1,0 +1,136 @@
+:root {
+    --white-bg: #ffffff;
+}
+
+$color_1: #ffffff;
+$color_2: #00ffff;
+$color_3: #344054;
+$color_4: #fff;
+$color_5: #667085;
+$color_6: #98A2B3;
+$color_7: #5d5d5d;
+$color_8: rgba(0, 0, 0, 0.5);
+$color_9: red;
+$color_10: #000000;
+$color_11: #0077FF;
+$color_12: #016FBF;
+$color_13: #26A13E;
+$color_14: #5D5D5D;
+$color_15: #666666;
+$color_16: #37AD3D;
+$color_17: #475467;
+$color_18: #343343;
+// $font-family_1: "Lato", sans-serif;
+$font-family_2: "Roboto", sans-serif;
+$font-family_3: inherit;
+$background-color_1: transparent;
+
+.form-field {
+    position: relative;
+    flex: 0 0 47%;
+    border-radius: 3px;
+    margin-left: auto;
+
+    &:nth-child(3) {
+        margin-left: auto;
+        text-align: right;
+    }
+
+    .form-field__label {
+        position: absolute;
+        top: 16px;
+        left: 0;
+        font-size: 16px;
+        color: $color_8;
+        transform-origin: 0 0;
+        transform: translate3d(0, 0, 0);
+        transition: all 0.2s ease;
+        pointer-events: none;
+    }
+
+    .focus-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        transform: scaleX(0);
+        transform-origin: left;
+    }
+
+    .error {
+        font-size: 10px;
+        color: $color_9;
+        padding-left: 10px;
+    }
+
+    .form-field__input {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        width: 100%;
+        border: 0;
+        padding: 16px 12px 0 0;
+        height: 48px;
+        font-size: 16px;
+        box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.3);
+        color: #344054;
+        transition: all 0.15s ease;
+        border-radius: 0;
+
+        &:hover {
+            box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.5);
+        }
+
+        &:not(:-moz-placeholder-shown) {
+            +.form-field__label {
+                color: $color_8;
+                transform: translate3d(0, -12px, 0) scale(0.75);
+
+            }
+        }
+
+        &:not(:placeholder-shown) {
+            +.form-field__label {
+                color: $color_8;
+                transform: translate3d(0, -12px, 0) scale(0.75);
+
+            }
+        }
+
+        &:focus {
+            outline: none;
+            box-shadow: inset 0 -2px 0 #0077FF;
+
+            +.form-field__label {
+                color: $color_11;
+                transform: translate3d(0, -12px, 0) scale(0.75);
+
+                +.focus-bg {
+                    transform: scaleX(1);
+                    transition: all 0.1s ease;
+                }
+
+            }
+
+        }
+    }
+
+    .loginBtn {
+        background: #F6F9FC;
+        border: 1px solid #D0D5DD;
+        border-radius: 6px;
+        display: flex;
+        color: $color_12;
+        padding: 4px 20px;
+        width: -moz-fit-content;
+        width: fit-content;
+        margin-left: auto;
+
+        &:hover {
+            background: #016FBF;
+            color: $color_1;
+        }
+    }
+}

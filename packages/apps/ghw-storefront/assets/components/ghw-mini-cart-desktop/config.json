@@ -1,0 +1,20 @@
+{
+  "bodyText": "RELATED PARTS",
+  "headerText": "QUESTIONS OR COMMENTS?",
+  "noOfProducts": 5,
+  "desktopSlidesCount": 5,
+  "mobileSlidesCount": 1,
+  "ctaText": "Read More",
+  "backgroundImage": {
+    "src": "'/file/general/Contact Us-image.png'",
+    "mediaName": "Contact US Page Banner"
+  },
+  "icons": {
+    "emptyCart": "/file/general/cart-empty.svg"
+  },
+  "Checkout": "/checkout",
+  "ctaLink": "/home",
+  "maximumNumberOfProducts": "6",
+  "runningLowProductIds": "0002060,0604980",
+  "miniCartProducts": "OXL0005,HRT0001,IXL0001"
+}

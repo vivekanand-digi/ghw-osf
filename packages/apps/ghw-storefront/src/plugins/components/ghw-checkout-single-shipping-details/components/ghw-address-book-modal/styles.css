@@ -1,0 +1,31 @@
+.AddressBookModal {
+  display: flex;
+}
+
+.AddressBookModal .Modal__Header {
+  padding: 0;
+}
+
+.AddressBookModal__HeaderText {
+  flex: 1;
+  padding: 1rem 0;
+  font-size: 1.25rem;
+}
+
+.AddressBookModal__Buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.AddressBookModal__Buttons button {
+  flex: 0.5;
+  margin: 1rem 0 0 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .AddressBookModal__Buttons button {
+    flex: 1;
+    margin: 1rem 0 0 0;
+  }
+}

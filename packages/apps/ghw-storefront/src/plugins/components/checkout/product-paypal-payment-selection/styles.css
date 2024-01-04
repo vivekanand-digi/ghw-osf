@@ -1,0 +1,32 @@
+.ProductPaypalPaymentSelection {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.ProductPaypalPaymentSelection__Label {
+  color: #729fff;
+}
+.ProductPaypalPaymentSelection__ExtraInfo {
+  background-color: red;
+  color: yellow;
+  margin-left: 5px;
+}
+/**
+ *  CSS uses the Block Element Modifier naming convention, an example :
+.ProductPaypalPaymentSelection__ElementName {
+  display: inline-block;
+  font-size: large;
+}
+ * For more information - http://getbem.com/
+ */
+
+ .ProductPaypalPaymentSelection__RadioContent {
+    padding: var(--cc-container-padding) 0;
+ }
+
+ @media (min-width: 992px) {
+  .ProductPaypalPaymentSelection__RadioContent .Dropdown__Select {
+    max-width: 15rem;
+  }
+}
+

@@ -1,0 +1,30 @@
+.CheckoutAddressBook {
+  color: var(--cc-color);
+  font-size: 1em;
+  padding: var(--cc-container-padding);
+  width: 100%;
+}
+
+.CheckoutAddressBook__List {
+  display: grid;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.5fr;
+  margin: 0;
+}
+
+.CheckoutAddressBook__NoAddressLabel {
+  font-size: var(--cc-font-size-small);
+  padding: var(--cc-container-padding) 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .CheckoutAddressBook button {
+    width: 100%;
+  }
+  .CheckoutAddressBook__List {
+    grid-column-gap: 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

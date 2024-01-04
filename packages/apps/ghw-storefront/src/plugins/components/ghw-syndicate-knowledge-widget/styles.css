@@ -1,0 +1,105 @@
+.main-cnr .faq-title {
+  font-family: "Helvetica-Bold";
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: #000000;
+  background: #f1f7fe;
+  border-radius: 8px;
+  padding: 20px;
+}
+.main-cnr #myDiv {
+  background-color: #f3f4f6;
+}
+.main-cnr #myDiv div.rn_Documents .rn_List li.rn_Item span.rn_Title a {
+  text-decoration: none !important;
+  color: #005CB9 !important;
+  font-size: 16px;
+}
+.main-cnr #myDiv div.rn_Content .rn_List li.rn_Item span.rn_Title a {
+  text-decoration: none !important;
+  color: #005CB9 !important;
+}
+.main-cnr #myDiv .KnowledgeSyndication {
+  width: min(1140px, 100%);
+  margin: 0 auto;
+  padding-bottom: 40px !important;
+}
+.main-cnr #myDiv .KnowledgeSyndication .rn_Content .rn_List {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  gap: 20px !important;
+}
+.main-cnr #myDiv .KnowledgeSyndication .rn_Content .rn_List .rn_Item {
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 12px;
+  border: 1px solid #E5F0F8;
+  background: #FFF;
+  flex: 0 0 calc(50% - 10px);
+}
+.main-cnr #myDiv .KnowledgeSyndication .rn_Content .rn_List .rn_Item .rn_Title {
+  font-size: 16px;
+}
+.main-cnr #myDiv .KnowledgeSyndication .rn_Content .rn_List .rn_Item br {
+  display: none;
+}
+.main-cnr #myDiv .KnowledgeSyndication .rn_Content .rn_List .rn_Item .rn_Description {
+  font-size: 16px;
+  color: #344054 !important;
+}
+.main-cnr #myDiv .KnowledgeSyndication .rn_SearchArea {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.main-cnr #myDiv .KnowledgeSyndication .rn_SearchArea .rn_SearchBox {
+  display: flex;
+  flex: 0 0 52%;
+}
+.main-cnr #myDiv .KnowledgeSyndication .rn_SearchArea .rn_SearchBox .rn_Query {
+  padding: 20px;
+  border: none;
+  text-indent: 32px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-weight: 400;
+  font-size: 20px;
+  color: #5e6366;
+  display: flex;
+  flex: 1 1 auto;
+}
+.main-cnr #myDiv .KnowledgeSyndication .rn_SearchArea .rn_SearchButton {
+  margin-left: -80px;
+  margin-top: 10px;
+}
+.main-cnr #myDiv .KnowledgeSyndication .rn_SearchArea .rn_SearchButton .rn_ButtonInput {
+  color: #667085;
+  font-size: 20px;
+  font-weight: 400;
+}
+.main-cnr #myDiv .KnowledgeSyndication .rn_SearchArea .rn_SearchButton .rn_ButtonInput:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+@media only screen and (max-width: 540px) {
+  .main-cnr #myDiv .KnowledgeSyndication .rn_Content .rn_List {
+    flex-direction: column !important;
+  }
+  .main-cnr #myDiv .KnowledgeSyndication .rn_SearchArea {
+    width: 100% !important;
+  }
+  .main-cnr #myDiv .KnowledgeSyndication .rn_SearchArea .rn_SearchBox .rn_Query {
+    box-shadow: none !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
+  }
+  .main-cnr #myDiv div.rn_Content .rn_List li.rn_Item span.rn_Title a {
+    font-size: 18px !important;
+  }
+}/*# sourceMappingURL=styles.css.map */

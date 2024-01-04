@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$id": "contactus",
+    "title": "contactus",
+    "description": "Description for contactus.",
+    "type": "object",
+    "properties": {
+    },
+    "example": {
+    }
+}

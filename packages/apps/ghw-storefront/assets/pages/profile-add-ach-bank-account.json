@@ -1,0 +1,40 @@
+{
+  "address": "/profile-add-ach-bank-account",
+  "title": "Profile Add ACH Bank Account",
+  "secured": true,
+  "allowCustomAddress": true,
+  "shortName": "profile",
+  "settings": {
+    "displayName": "Add ACH Bank Account"
+  },
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "header-with-notification-device-slot",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "your-account-breadcrumb",
+        "ProfileAddACHBankAccount",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ]
+}

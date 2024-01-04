@@ -1,0 +1,16 @@
+{
+  "regions": [
+    {
+      "components": ["PayPalPaymentButton"],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "ghw-checkout-credit-card copy"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

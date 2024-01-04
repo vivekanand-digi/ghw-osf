@@ -1,0 +1,77 @@
+.ProfileAddACHBankAccount {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.ProfileAddACHBankAccount__Label {
+  color: #729fff;
+}
+.ProfileAddACHBankAccount__ExtraInfo {
+  background-color: red;
+  color: yellow;
+  margin-left: 5px;
+}
+
+.ProfileAddACHBankAccount {
+  margin: var(--cc-container-padding);
+  color: var(--cc-color);
+}
+.ProfileAddACHBankAccount__AllFieldsRequiredText {
+  font-size: var(--cc-font-size-small);
+}
+.ProfileAddACHBankAccount input,
+.ProfileAddACHBankAccount Form input,
+.ProfileAddACHBankAccount Form select,
+.ProfileAddACHBankAccount Form button {
+  width: 100%;
+}
+.ProfileAddACHBankAccount__Buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.ProfileAddACHBankAccount__Buttons button {
+  cursor: pointer;
+  flex: 0.25 0 0;
+  margin: 0.75rem 0;
+}
+.ProfileAddACHBankAccount__Buttons .ProfileAddACHBankAccount__ConfirmButton {
+  margin-left: 0.25rem;
+}
+.ProfileAddACHBankAccount__Buttons .ProfileAddACHBankAccount__CancelButton {
+  margin-right: 0.25rem;
+}
+.ProfileAddressInput__Checkbox {
+  font-size: var(--cc-font-size-small);
+}
+
+.ProfileAddACHBankAccount form:not(.invalid) .validationMessage {
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  .ProfileAddACHBankAccount__Buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .ProfileAddACHBankAccount__Buttons .ProfileAddACHBankAccount__ConfirmButton {
+    margin-left: 0;
+  }
+  .ProfileAddACHBankAccount__Buttons .ProfileAddACHBankAccount__CancelButton {
+    margin-right: 0;
+  }
+  .ProfileAddACHBankAccount .ProfileAddACHBankAccount__AddressType,
+  .ProfileAddACHBankAccount .ProfileAddACHBankAccount__CompanyName {
+    width: 100%;
+  }
+  .ProfileAddACHBankAccount__FirstNameLastNameContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .ProfileAddACHBankAccount__FirstName {
+    margin: 0;
+  }
+  .ProfileAddACHBankAccount__LastName {
+    margin: 1rem 0 0 0;
+  }
+}

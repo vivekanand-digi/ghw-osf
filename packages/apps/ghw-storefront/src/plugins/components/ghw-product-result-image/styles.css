@@ -1,0 +1,12 @@
+
+.GHWProductResultImage {
+  display: inline-block;
+  width: 10rem;
+  /* height: 10rem; */
+}
+
+.GHWProductResultImage__Image{
+   width: 110px;
+   height:112px;
+
+}

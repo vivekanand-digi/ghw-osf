@@ -1,0 +1,210 @@
+:root {
+    --primary-color: #005CB9;
+    --secondary-color: #00A7E1;
+    --text-content-color: #ffffff;
+}
+
+
+
+.GHWProductName {
+    font-family: "Helvetica-Bold";
+    font-size: 40px;
+    line-height: 1.125;
+    font-weight: bold;
+}
+
+.GHWProductTabContainer {
+    background-size: cover;
+    background-size: cover;
+    background-position: top right;
+    background-repeat: no-repeat;
+
+    .TabContainer {
+        display: flex;
+        flex-direction: column;
+        width: min(1140px, 100%);
+        margin: 0 auto;
+
+        .TabContainer__TabHeaders {
+            display: flex;
+            border-bottom: 3px solid var(--text-content-color);
+            justify-content: center;
+            gap: 64px;
+            margin-top: 12px;
+
+            .TabContainer__TabHeader {
+                font-family: "Helvetica-Bold";
+                font-weight: 700;
+                font-size: 24px;
+                color: var(--text-content-color);
+                white-space: nowrap;
+                border: none;
+                border-bottom: 3px solid transparent;
+
+                &:last-child {
+                    display: none;
+                }
+
+                &.selected {
+                    border-bottom: 3px solid var(--secondary-color);
+                    margin-bottom: -3px;
+                }
+            }
+        }
+
+        .TabContainer__TabContents {
+            .TabContainer__TabContent {
+                .prod-detail {
+                    display: flex;
+                    padding: 44px 0 32px;
+                    width: 100%;
+                    flex-direction: row;
+                    gap: 0;
+
+                    &.about {
+                        flex-direction: column;
+                    }
+
+                    &.faq-tab {
+                        #product-faq {
+                            .rn_SearchArea {
+                                display: none;
+                            }
+
+                            .rn_Content {
+                                .rn_List {
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 32px;
+                                    max-height: 400px;
+                                    overflow-y: auto;
+
+                                    .rn_Title {
+                                        .rn_Link {
+                                            font-family: "Helvetica-Bold";
+                                            font-size: 24px;
+                                            color: #ffffff;
+                                        }
+                                    }
+
+                                    .rn_Description {
+                                        font-size: 16px;
+                                        color: #ffffff;
+                                    }
+                                }
+
+                                +.rn_Navigation {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+
+                    .text-icon-cnr {
+                        display: flex;
+                        flex-direction: column;
+                        flex: 0 0 64%;
+                        gap: 32px;
+
+                    }
+
+                    .action-btn-center {
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                    .product-img {
+                        display: flex;
+                        flex: 0 0 36%;
+
+                        .prod-desc-img {
+                            max-width: auto;
+                            max-height: auto;
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+
+    @media only screen and (max-width: 540px) {
+        .TabContainer {
+            .TabContainer__TabHeaders {
+                gap: initial;
+                justify-content: flex-start;
+
+                .TabContainer__TabHeader {
+                    font-size: 16px;
+                }
+
+            }
+
+            .TabContainer__TabContents {
+                .TabContainer__TabContent {
+                    .prod-detail {
+                        flex-direction: column;
+
+                        strong {
+                            font-family: 'Helvetica-Bold';
+                        }
+
+                        .product-img {
+                            display: none !important;
+                        }
+
+                        &.about {
+                            .product-title {
+                                white-space: initial;
+                            }
+
+                            .about-content {
+
+                                .text-icon-cnr {
+                                    flex: 1 1 auto;
+
+                                    .content-info {
+                                        &.two-col {
+                                            margin-right: 0;
+                                        }
+
+                                        .detail-item {
+                                            flex: 1 1 auto;
+
+                                            .detail {
+                                                text-align: left;
+
+                                                .desc {
+                                                    display: flex;
+                                                }
+                                            }
+
+                                        }
+                                    }
+
+                                }
+
+
+                            }
+                        }
+
+                        &.howto {
+                            .text-icon-cnr {
+                                .steps-list {
+                                    .step {
+                                        .step-content {
+                                            text-align: left;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+}

@@ -1,0 +1,24 @@
+$color_1: #344054;
+
+.GHWProductName {
+	font-size: var(--cc-font-size-xlarge);
+    font-size: 32px;
+	font-weight: 400;
+	// text-transform: uppercase;
+	margin-bottom: 0;
+	color: $color_1;
+    margin: 20px 0 12px;
+}
+@media (min-width: 767px) and (max-width: 1024px){
+    .GHWProductName{
+        font-size: 20px;
+        font-weight: 500;
+
+    }
+}
+@media only screen and (max-width: 540px){
+    .GHWProductName{
+        font-size: 20px;
+    }
+
+}

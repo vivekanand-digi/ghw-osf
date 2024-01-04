@@ -1,0 +1,35 @@
+{
+  "name": "ghw-storefront",
+  "version": "4.1.0",
+  "private": false,
+  "description": "GHW Storefront Application",
+  "dependencies": {
+    "@oracle-cx-commerce/actions": "4.3.0",
+    "@oracle-cx-commerce/endpoints": "4.3.0",
+    "@oracle-cx-commerce/oce-endpoints": "4.3.0",
+    "@oracle-cx-commerce/occ-metadata": "4.3.0",
+    "@oracle-cx-commerce/react-app": "4.3.0",
+    "@oracle-cx-commerce/react-widgets": "4.3.0",
+    "@oracle-cx-commerce/subscribers": "4.3.0",
+    "@oracle-cx-commerce/commerce-utils": "4.3.0",
+    "lodash-es": "4.17.21"
+  },
+  "devDependencies": {
+    "@oracle-cx-commerce/rollup-config": "4.3.0"
+  },
+  "occ": {
+    "namespace": "occ.react",
+    "plugins": {
+      "actions": "src/plugins/actions",
+      "components": "src/plugins/components",
+      "endpoints": "src/plugins/endpoints",
+      "subscribers": "src/plugins/subscribers"
+    },
+    "locales": [
+      "en"
+    ],
+    "aliases": {
+      "@oracle-cx-commerce/endpoints/profile/get-current-profile/index": "@oracle-cx-commerce/ghw-storefront/src/plugins/endpoints/profile/get-current-profile/index"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "facebookURL": "https://www.facebook.com/dialog/share?__facebookAppId__&display=popup&href=__productURL__&redirect_uri=https://www.facebook.com",
+  "pinterestURL": "https://pinterest.com/pin/create/button/?url=__productURL__&description=__textPinterestShare__&media=__productImage__",
+  "displayPinterest": true,
+  "twitterURL": "https://twitter.com/share?url=__productURL__&text=__textTwitterShare__",
+  "displayFacebook": true,
+  "displayTwitter": true,
+  "displayEmail": true
+}

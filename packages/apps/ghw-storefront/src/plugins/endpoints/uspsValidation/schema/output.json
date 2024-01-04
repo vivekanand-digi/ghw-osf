@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$id": "uspsValidation",
+    "title": "uspsValidation",
+    "description": "Description for uspsValidation.",
+    "type": "object",
+    "properties": {
+    },
+    "example": {
+    }
+}

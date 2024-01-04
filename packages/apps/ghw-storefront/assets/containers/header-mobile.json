@@ -1,0 +1,38 @@
+{
+    "layout": [
+      {
+        "components": [
+          "menu-mobile"
+        ],
+        "width": 3
+      },
+      {
+        "components": [
+          "logo"
+        ],
+        "width": 6
+      },
+      {
+        "components": [
+          "search-box-mobile",
+          "mini-cart-mobile"
+        ],
+        "width": 3
+      },
+      {
+        "components": [
+          "unsaved-changes-message"
+        ],
+        "width": 6
+      },
+      {
+        "components": [
+          "unsaved-changes-message"
+        ],
+        "width": 6,
+        "type": "main"
+      }
+    ],
+    "component": "HeaderContainerMobile",
+    "title": "HeaderMobile"
+  }

@@ -1,0 +1,12 @@
+.UseThisAddress__ButtonContainer {
+  display: flex;
+}
+
+.UseThisAddress__Button {
+  cursor: pointer;
+  flex: 1 1 0;
+  font-size: var(--cc-font-size-small);
+  font-weight: normal;
+  justify-content: center;
+  margin: 1rem 0 0 0;
+}

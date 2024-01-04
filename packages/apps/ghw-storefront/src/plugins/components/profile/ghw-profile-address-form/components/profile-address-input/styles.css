@@ -1,0 +1,135 @@
+.ProfileAddressInput__Field {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.ProfileAddressInput label{
+    color:  #667085;
+    font-family: Helvetica;
+    font-size: 16px;
+}
+.ProfileAddressInput__FirstNameLastNameContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.shipping-form .h4 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #667085;
+}
+
+.shipping-form  .form_shipping .form-field {
+  position: relative;
+  flex: 0 0 47%;
+  border-radius: 3px;
+}
+.shipping-form .form_shipping .form-field .form-field__input{
+  border-radius: 0px;
+  appearance: none;
+    width: 100%;
+    border: 0;
+    padding: 8px 4px 0 4px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+    transition: all 0.15s ease;
+}
+.shipping-form .form_shipping .form-field .form-field__input:hover{
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+.shipping-form .form_shipping .form-field .form-field__input:not(:-moz-placeholder-shown) + label {
+  color: rgba(0, 0, 0, 0.5);
+  transform: translate3d(0, -12px, 0) scale(0.75);
+}
+.shipping-form .form_shipping .form-field .form-field__input:not(:placeholder-shown) + label {
+  color: rgba(0, 0, 0, 0.5);
+  transform: translate3d(0, -12px, 0) scale(0.75);
+}
+.shipping-form .form_shipping .form-field .form-field__input .form-field__input:focus {
+  outline: none;
+  box-shadow: inset 0 -1px 0 #0077ff;
+}
+.typeahead-field .form-field__input{
+  border-radius: 0px;
+  appearance: none;
+  width: 100%;
+  border: 0;
+  padding: 8px 4px 0 4px;
+  height: 46px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+  transition: all 0.15s ease;
+  background-color: #FFFFFF;
+}
+label:has(+ input:focus) {
+  color: #0077ff !important;
+  transform: translate3d(0, -12px, 0) scale(0.75) !important;
+}
+
+label:has(+ input:not(:placeholder-shown)){
+  color: rgba(0, 0, 0, 0.5) !important;
+  transform: translate3d(0, -12px, 0) scale(0.75) !important;
+}
+
+.shipping-form .form_shipping .form-field .form-field__input:focus + label {
+  color: #0077ff;
+  transform: translate3d(0, -12px, 0) scale(0.75);
+}
+.shipping-form .form_shipping .form-field .form-field__input:focus + label {
+  transform: scaleX(1);
+  transition: all 0.1s ease;
+}
+
+
+.shipping-form .form_shipping .form-field .form-field__input:focus {
+  background: transparent;
+  outline: none;
+  box-shadow: inset 0 -1px 0 #0077ff;
+}
+.shipping-form .form_shipping .form-field .form-field__input:focus + label {
+  color: #0077ff;
+  transform: translate3d(0, -12px, 0) scale(0.75);
+}
+
+.shipping-form .form_shipping .form-field label{
+  position: absolute;
+  top: 16px;
+  left: 4px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  transform-origin: 0 0;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.2s ease;
+  pointer-events: none;
+}
+.shipping-form .form_shipping {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.shipping-form .form_shipping .form-fullwidth {
+  flex: 0 0 100% !important;
+}
+
+
+@media only screen and (max-width: 540px){
+  .shipping-form .form_shipping .form-field {
+    flex: 0 0 100%;
+}
+.shipping-form .form_shipping .form-field .form-field__input{
+  box-shadow: none;
+  border-bottom: 1px solid  rgb(102, 112, 133);
+}
+}

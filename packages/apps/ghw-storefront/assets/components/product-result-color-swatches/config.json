@@ -1,0 +1,10 @@
+{
+  "colorSwatchImageHeight": "24",
+  "colorSwatchShape": "circular",
+  "colorIndicator": "firstFew",
+  "swatchMappingProperty": "x_swatchMapping",
+  "numberOfSwatchesDisplayed": "5",
+  "colorSwatchUrlPlaceholder": "/ccstore/v1/images/?source=/file/products/__productId__.__swatchKey__.png&outputFormat=JPEG&quality=0.8&height=__height__&width=__width__",
+  "colorSwatchImageWidth": "24",
+  "swatchVariantOption": "color"
+}

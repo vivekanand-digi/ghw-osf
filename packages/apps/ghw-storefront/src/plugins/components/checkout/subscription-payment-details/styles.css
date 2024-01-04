@@ -1,0 +1,11 @@
+.SubscriptionPaymentDetails {
+  color: var(--cc-color);
+  margin: 0 var(--cc-container-padding);
+  padding: 1rem 0.75rem 0.75rem 0.75rem;
+}
+
+
+.SubscriptionPaymentDetails span {
+  color: var(--cc-validation-success-color);
+  font-weight: 700;
+}

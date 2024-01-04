@@ -1,0 +1,221 @@
+.GHWHomeBanner {
+  position: relative;
+}
+.GHWHomeBanner .btn-cnr {
+  position: absolute;
+  bottom: 8%;
+  right: 16%;
+}
+.GHWHomeBanner .btn-cnr .button-link {
+  font-family: "Helvetica-Bold";
+  border-radius: 16px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.GHWHomeBanner .h1-title {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 0;
+  background: var(--ghw-gradient, linear-gradient(90deg, #005CB9 0%, #00A7E1 100%));
+  color: #F1F1F1;
+  margin: 0;
+}
+
+.GHWHomeBanner .GenericCarousel {
+  margin: 48px 0 96px;
+}
+
+.GHWHomeBanner .GenericCarousel .GenericCarouselSlider__IndicatorSection {
+  margin-top: 40px;
+}
+
+.GHWHomeBanner .GenericCarousel .GenericCarouselSlider__Button {
+  display: none;
+}
+
+.GHWHomeBanner .GenericCarousel .GenericCarouselSlider__Wrapper .GenericCarouselSlider__Content:nth-child(2) .button-link {
+  background-color: #005CB9;
+}
+
+.GHWHomeBanner .GenericCarousel .GenericCarouselSlider__Wrapper .GenericCarouselSlider__Content:nth-child(3) .button-link {
+  background-color: #008333;
+}
+
+.GHWHomeBanner .GenericCarousel .GenericCarouselSlider__Wrapper .GenericCarouselSlider__Content:nth-child(4) .button-link {
+  background-color: #C30011;
+}
+
+.GHWHomeBanner .GenericCarousel .GenericCarouselSlider__Wrapper .product-item {
+  position: relative;
+}
+
+.GHWHomeBanner .GenericCarousel .GenericCarouselSlider__Wrapper .product-item .btn-cnr {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 20px;
+  display: flex;
+  flex: 1 1 auto;
+  width: 100%;
+  justify-content: center;
+}
+
+.GHWHomeBanner .GenericCarousel .GenericCarouselSlider__Wrapper .product-item .btn-cnr .button-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  line-height: 1.1;
+  padding: 4px;
+  width: 92%;
+}
+
+.GHWHomeBanner .GenericCarousel .GenericCarouselSlider__Wrapper .product-item .btn-cnr .button-link:hover {
+  border-radius: 8px;
+}
+
+.carousel-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-link:hover {
+  background-color: #0056b3;
+}
+
+.GHWHomeBanner .product-list {
+  display: flex;
+  padding: 36px 0 0;
+  flex-direction: column;
+}
+
+.GHWHomeBanner .product-list.slick-dotted.slick-slider {
+  margin-bottom: 28px;
+}
+
+.GHWHomeBanner .product-list .slick-list .slick-track {
+  display: flex;
+  gap: 20px;
+  display: flex;
+}
+
+.GHWHomeBanner .product-list .slick-list .slick-track .product-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: auto !important;
+}
+
+.GHWHomeBanner .product-list .slick-list .slick-track .product-list-item .prod-top-sec {
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.GHWHomeBanner .product-list .slick-list .slick-track .product-list-item .prod-top-sec img {
+  max-width: 100%;
+  max-width: 100%;
+  margin: 0;
+}
+
+.GHWHomeBanner .product-list .slick-list .slick-track .product-list-item .prod-bottom-sec {
+  padding: 20px 16px;
+}
+
+.GHWHomeBanner .product-list .slick-list .slick-track .product-list-item .prod-bottom-sec .price-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 8px;
+}
+
+.GHWHomeBanner .product-list .slick-list .slick-track .product-list-item .prod-bottom-sec .price-sec .price {
+  color: #016FBF;
+  font-size: 24px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.GHWHomeBanner .product-list .slick-list .slick-track .product-list-item .prod-bottom-sec .price-sec .price span {
+  color: #999999;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
+.GHWHomeBanner .product-list .slick-list .slick-track .product-list-item .prod-bottom-sec .price-sec .btnbg {
+  background: #016FBF;
+  padding: 6px 12px;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+.GHWHomeBanner .product-list .slick-list .slick-track .product-list-item .prod-bottom-sec .product-cnt {
+  padding-top: 8px;
+}
+
+.GHWHomeBanner .product-list .slick-list .slick-track .product-list-item .prod-bottom-sec .product-cnt .prod-title {
+  color: #344054;
+  font-size: 18px;
+}
+
+.GHWHomeBanner .product-list .slick-list .slick-track .product-list-item .prod-bottom-sec .product-cnt .para {
+  color: #667085;
+  font-size: 14px;
+}
+
+.GHWHomeBanner .product-list .slick-prev {
+  display: none !important;
+}
+
+.GHWHomeBanner .product-list .slick-next {
+  display: none !important;
+}
+
+.GHWHomeBanner .product-list .slick-dots {
+  bottom: -20px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.GHWHomeBanner .product-list .slick-dots .slick-active button {
+  background-color: #00A7E1;
+}
+
+.GHWHomeBanner .product-list .slick-dots li {
+  display: flex;
+}
+
+.GHWHomeBanner .product-list .slick-dots li button::before {
+  font-size: 40px;
+  color: #005CB9 !important;
+}
+
+.GHWHomeBanner .product-list .slick-dots button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #005CB9;
+  border-radius: 10px;
+}
+
+.GHWHomeBanner .slick-list.draggable {
+  overflow: hidden !important;
+}
+
+.GenericCarouselSlider__IndicatorSection .GenericSliderControls__SliderIndicatorButton[aria-pressed=true] {
+  background: #00A7E1;
+}
+
+.GenericCarouselSlider__IndicatorSection .GenericSliderControls__SliderIndicatorButton[aria-pressed=false] {
+  background: #005CB9;
+}/*# sourceMappingURL=ghw-home-banner.css.map */

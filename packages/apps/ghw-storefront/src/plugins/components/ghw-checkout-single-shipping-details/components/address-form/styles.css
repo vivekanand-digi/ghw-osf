@@ -1,0 +1,247 @@
+.btn {
+  border: 2px solid #016FBF;
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 auto;
+  text-decoration: none;
+  gap: 8px;
+  justify-content: center;
+}
+.btn.primary-btn {
+  background: #1C6AC6;
+  color: #fff;
+}
+.btn.secondary-btn {
+  background-color: white;
+  color: #016FBF;
+  border-color: #016FBF;
+}
+.btn.tertiary-btn {
+  background: #FBB82C;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+}
+.btn.sm {
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  line-height: 1;
+}
+.btn.md {
+  font-size: 16px;
+  padding: 8px 16px;
+  line-height: 1.125;
+}
+.btn.md-custom {
+  font-size: 18px;
+  padding: 12px 20px;
+  line-height: 1.25;
+  border-radius: 10px;
+  display: flex;
+  font-family: "Helvetica";
+}
+.btn.lg {
+  font-size: 28px;
+  padding: 18px 32px;
+  line-height: 1.2145;
+  border-radius: 16px;
+}
+.btn.xlg {
+  font-size: 36px;
+  padding: 18px 32px;
+  line-height: 1.2145;
+  border-radius: 20px;
+}
+
+.btn-link {
+  display: flex;
+  padding: 6px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: 20x solid transparent;
+  background: #FFF;
+  font-size: 14px;
+  color: #005CB9;
+}
+.btn-link:hover {
+  border-color: #005CB9;
+}
+
+.list.action-btn-cnr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px 8px;
+  min-height: auto;
+  flex: 0 0 auto;
+  flex-direction: row;
+  border-bottom: none;
+}
+.list.action-btn-cnr .icon-btn-cnr {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 12px;
+}
+.list.action-btn-cnr .icon-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  color: #344054;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e1e1e1;
+  cursor: pointer;
+}
+.list.action-btn-cnr .icon-btn:hover {
+  background-color: #efefef;
+}
+.list.action-btn-cnr .edit-btn:hover {
+  border-color: #C6EBFB;
+  background: #EDFBFF;
+}
+.list.action-btn-cnr .delete-btn:hover {
+  border-color: #FED1D1;
+  background: #FFEBEB;
+}
+.list.action-btn-cnr .link-btn {
+  color: #005CB9;
+  padding-left: 20px;
+  width: auto;
+  height: auto;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-family: "Helvetica-Bold";
+  border: 1px solid transparent;
+}
+.list.action-btn-cnr .link-btn:hover {
+  border-color: #00A7E1;
+  background-color: #ffffff;
+}
+
+.action-btn-cnr {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.action-btn-cnr .btn-custom.btn-secondary {
+  font-size: 18px !important;
+  padding: 12px 20px !important;
+}
+
+form label {
+  display: block;
+  font-weight: 500;
+  padding-bottom: 0.25rem;
+}
+
+.AddressForm {
+  color: var(--cc-color);
+}
+.AddressForm input {
+  width: 100%;
+  border: 0;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 0;
+}
+.AddressForm input:focus {
+  outline: none;
+  box-shadow: inset 0 -1px 0 #0077FF;
+}
+.AddressForm Form input {
+  width: 100%;
+  border: 0;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 0;
+  outline: none;
+  box-shadow: inset 0 -1px 0 #0077FF;
+}
+.AddressForm Form select {
+  width: 100%;
+  border: 0;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 0;
+}
+.AddressForm Form button {
+  width: 100%;
+}
+.AddressForm form:not(.invalid) .validationMessage {
+  display: block;
+}
+
+.AddressForm__Field {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.AddressForm__Field .Checkbox.AddressForm_SaveAsANewProfileAddressCheckBox .Checkbox__Control {
+  width: 20px;
+  height: 20px;
+}
+.AddressForm__Field .Checkbox.AddressForm_SaveAsANewProfileAddressCheckBox .Checkbox__Control:has(~ input[value=true])::before {
+  top: -4px !important;
+  content: "";
+  background: url("/file/general/tick-check.svg") center center no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+.Checkbox input[type=checkbox]:checked ~ .Checkbox__Control::before {
+  content: "";
+  background: url("/file/general/tick-check.svg") center center no-repeat;
+  width: 16px;
+  height: 19px;
+  background-size: contain;
+}
+
+.AddressForm__AllFieldsRequiredText {
+  font-size: var(--cc-font-size-small);
+}
+
+.AddressForm__Buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.AddressForm__Buttons .secondary-btn {
+  font-size: 16px;
+  padding: 12px;
+}
+.AddressForm__Buttons button {
+  cursor: pointer;
+  flex: 0.5 0 0;
+  margin: 0.75rem 0;
+}
+.AddressForm__Buttons .AddressForm__ConfirmButton {
+  margin-left: 0.25rem;
+}
+.AddressForm__Buttons .AddressForm__CancelButton {
+  margin-right: 0.25rem;
+}
+
+.AddressForm_SaveAsANewProfileAddressCheckBox label {
+  padding: 1rem 0 0 0;
+}
+
+.AddressForm_SaveAsANewAccountAddressCheckBox label {
+  padding: 1rem 0 0 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .AddressForm__Buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .AddressForm__Buttons .AddressForm__ConfirmButton {
+    margin-left: 0;
+  }
+  .AddressForm__Buttons .AddressForm__CancelButton {
+    margin-right: 0;
+  }
+}/*# sourceMappingURL=styles.css.map */

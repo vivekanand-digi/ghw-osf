@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$id": "addSavedPayment",
+    "title": "addSavedPayment",
+    "description": "Description for addSavedPayment.",
+    "type": "object",
+    "properties": {
+    },
+    "example": {
+    }
+}

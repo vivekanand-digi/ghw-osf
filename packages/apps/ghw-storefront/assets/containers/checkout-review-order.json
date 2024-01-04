@@ -1,0 +1,21 @@
+{
+  "layout": [
+    {
+      "components": [
+        "checkout-customer-email",
+        "review-order-shipping-information",
+        "review-order-payment-information"
+      ],
+      "width": 9
+    },
+    {
+      "components": [
+        "cart-order-summary",
+        "checkout-place-order-button"
+      ],
+      "width": 3
+    }
+  ],
+  "component": "CheckoutReviewOrderContainer",
+  "title": "CheckoutReviewOrder"
+}

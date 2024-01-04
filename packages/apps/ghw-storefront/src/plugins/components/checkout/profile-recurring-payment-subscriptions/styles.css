@@ -1,0 +1,65 @@
+.ProfileRecurringPaymentSubscriptions {
+  padding: 0 var(--cc-container-padding);
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 3rem;
+}
+
+.ProfileRecurringPaymentSubscriptions__ActionResponse {
+  margin-bottom: 1rem;
+}
+
+.ProfileRecurringPaymentSubscriptions__NoSubscriptions {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.ProfileRecurringPaymentSubscriptions .Card {
+  margin: 0;
+  cursor: pointer;
+}
+
+.ProfileRecurringPaymentSubscriptions .Card.ProfileRecurringPaymentSubscriptions__NoSubscriptions.Card__Primary {
+  border: 1px solid var(--cc-border-color);
+  border-radius: var(--cc-border-radius);
+}
+
+.ProfileRecurringPaymentSubscriptions .Card:hover {
+  border: 1px solid var(--cc-border-color);
+  border-radius: var(--cc-border-radius);
+}
+
+.ProfileRecurringPaymentSubscriptions__Items {
+  display: grid;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 0.5fr;
+  margin: 0;
+}
+
+.ProfileRecurringPaymentSubscriptions__Item {
+  display: flex;
+  flex-flow: row;
+}
+
+@media only screen and (max-width: 768px) {
+  .ProfileRecurringPaymentSubscriptions__Items {
+    grid-column-gap: 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .ProfileRecurringPaymentSubscriptions .Card {
+    border: 1px solid var(--cc-border-color);
+    border-radius: var(--cc-border-radius);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .ProfileRecurringPaymentSubscriptions__Items {
+    grid-column-gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

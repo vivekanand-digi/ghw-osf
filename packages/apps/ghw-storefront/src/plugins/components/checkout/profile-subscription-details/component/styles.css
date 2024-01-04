@@ -1,0 +1,12 @@
+.SubscriptionDetailsItem li {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.SubscriptionDetailsItem li > div:first-of-type {
+  font-weight: 500;
+}
+
+.SubscriptionDetailsItem__ItemLabel {
+  margin-right: 10px;
+}

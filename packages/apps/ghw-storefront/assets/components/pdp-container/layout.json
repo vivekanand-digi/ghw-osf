@@ -1,0 +1,23 @@
+{
+  "regions": [
+    {
+      "components": [
+        "ghw-product-image-viewer"
+      ],
+      "width": 6,
+      "type": "main"
+    },
+    {
+      "components": [
+        "ghw-product-name",
+        "product-short-description",
+        "ghw-product-price",
+        "ghw-product-variant-options",
+        "product-add-on-items",
+        "ghw-product-add-to-cart-button"
+      ],
+      "width": 6,
+      "type": "main"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$id": "getOrders",
+    "title": "getOrders",
+    "description": "Description for getOrders.",
+    "type": "object",
+    "properties": {
+    },
+    "example": {
+    }
+}

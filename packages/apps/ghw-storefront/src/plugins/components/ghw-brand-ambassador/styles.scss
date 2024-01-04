@@ -1,0 +1,117 @@
+$color_1: #016FBF;
+$color_2: #005CB9;
+$color_3: #FFF;
+$color_4: #98A2B3;
+$font-family_1: Helvetica;
+
+/*----========= Our team ==============----*/
+.our-team {
+    padding: 28px;
+
+    .h1-title {
+        color: $color_1;
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .team-list {
+        display: flex;
+        margin-top: 32px;
+        flex-direction: column;
+
+        .user-icon {
+            .team {
+                // background: url(../images/watch-now.svg) no-repeat;
+                background-size: contain;
+            }
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            display: flex;
+            flex-direction: column;
+
+            .content {
+                background: var(--primary-color, #016FBF);
+                padding: 12px 0;
+                width: 100%;
+                border-radius: 0 0 8px 8px;
+                margin-top: -1px;
+
+                .name {
+                    color: $color_3;
+                    text-align: center;
+                    font-family: $font-family_1;
+                    font-size: 24px;
+                    font-weight: 700;
+                    text-transform: capitalize;
+                }
+
+                .role {
+                    color: $color_3;
+                    text-align: center;
+                    font-family: $font-family_1;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .slick-list {
+            .slick-track {
+                display: flex;
+                gap: 25px;
+            }
+        }
+
+        .slick-prev {
+            display: none !important;
+        }
+
+        .slick-next {
+            display: none !important;
+        }
+
+        .slick-dots {
+            bottom: -20px;
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 20px;
+
+            .slick-active {
+                button {
+                    background-color: #00A7E1;
+                }
+            }
+
+            li {
+                display: flex;
+
+                button {
+                    &::before {
+                        font-size: 40px;
+                        color: #005CB9 !important;
+                    }
+                }
+            }
+
+            button {
+                font-size: 0;
+                width: 10px;
+                height: 10px;
+                background-color: #005CB9;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    .team-list.slick-dotted.slick-slider {
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,91 @@
+{
+	"layout": [{
+			"displayName": "Adaptive Region",
+			"width": 12,
+			"resources": {
+				"en": {
+					"displayName": "Adaptive Region"
+				}
+			},
+			"slot": "header-with-notification-device-slot",
+			"type": "header",
+			"structure": "slot"
+		},
+
+		{
+			"components": ["ghw-banner-javier-romero"],
+			"width": 12,
+			"type": "main"
+		},
+		{
+			"components": ["ghw-our-products-carousel"],
+			"width": 12,
+			"type": "main"
+		},
+		{
+			"components": ["ghw-shop-all"],
+			"width": 12,
+			"type": "main"
+		},
+		{
+			"components": ["ghw-benefits"],
+			"width": 12,
+			"type": "main"
+		},
+		{
+			"components": ["ghw-omegaxl-difference"],
+			"width": 12,
+			"type": "main"
+		},
+		{
+			"components": ["ghw-brand-ambassador2"],
+			"width": 12,
+			"type": "main"
+		},
+		{
+			"components": ["ghw-reviews"],
+			"width": 12,
+			"type": "main"
+		},
+		{
+			"components": ["ghw-homepage-video"],
+			"width": 12,
+			"type": "main"
+		},
+		{
+			"components": ["ghw-banner2-javier-romero"],
+			"width": 12,
+			"type": "main"
+		},
+		{
+			"components": ["ghw-review-moneyback"],
+			"width": 12,
+			"type": "main"
+		},
+		{
+			"components": ["ghw-footer"],
+			"width": 12,
+			"type": "footer"
+		}
+	],
+	"settings": {
+		"pageDisplayName": {
+			"en": {
+				"pageDisplayName": "Javier Romero"
+			}
+		},
+		"sites": [
+			"p29667083c1dev-store.occa.ocs.oraclecloud.com"
+		]
+	},
+
+	"address": "javier-romero",
+	"allowCustomAddress": true,
+	"title": "Javier Romero",
+	"shortName": "article",
+	"pageTypeDisplayName": {
+		"en": {
+			"pageTypeDisplayName": "article"
+		}
+	}
+}

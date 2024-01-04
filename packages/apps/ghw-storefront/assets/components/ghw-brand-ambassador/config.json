@@ -1,0 +1,22 @@
+
+
+  {
+    "teammember1": "Blair Underwood",
+    "teammember2": "Dr. Sharon McQuillan",
+    "teammember3": "Celebrity Health Secrets",
+    "role1": "Actor & Brand Ambassadors",
+    "role2": "Chief Science Officer , Great Health Works",
+    "role3": "TV Stats & Brand Ambassadors",
+    "image1": {
+      "src": "/file/general/brandAmbassor1.png",
+      "mediaName": "brandAmbassor1"
+    },
+    "image2": {
+      "src": "/file/general/brandAmbassor2.png",
+      "mediaName": "brandAmbassor2"
+    },
+    "image3": {
+      "src": "/file/general/brandAmbassor3.png",
+      "mediaName": "brandAmbassor3"
+    }
+  }

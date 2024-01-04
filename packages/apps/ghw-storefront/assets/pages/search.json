@@ -1,0 +1,42 @@
+{
+  "address": "/search",
+  "title": "Search Results Layout",
+  "shortName": "search",
+  "defaultPage": true,
+  "settings": {
+    "displayName": "Search"
+  },
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "header-with-notification-device-slot",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "dynamic-product-listing-for-search-device-slot",
+      "type": "main",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ]
+}

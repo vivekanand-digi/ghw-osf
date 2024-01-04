@@ -1,0 +1,15 @@
+{
+  "layout": [
+    {
+      "components": [
+        "product-result-image-quick-view",
+        "product-result-name",
+        "product-result-color-swatches",
+        "product-result-price"
+      ],
+      "width": 12
+    }
+  ],
+  "component": "DynamicProductList",
+  "title": "DynamicProductListQuickView"
+}

@@ -1,0 +1,20 @@
+{
+  "regions": [
+    {
+      "components": [
+        "ghw-billing-shipping-widget",
+        "payment-methods-container-paypal",
+        "continue-to-review-order-button"
+      ],
+      "width": 7,
+      "type": "main"
+    },
+    {
+      "components": [
+        "ghw-cart-order-summary"
+      ],
+      "width": 5,
+      "type": "main"
+    }
+  ]
+}

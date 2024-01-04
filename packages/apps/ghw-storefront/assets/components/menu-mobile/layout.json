@@ -1,0 +1,13 @@
+{
+  "regions": [
+    {
+      "components": [
+        "user-profile-links-mobile",
+        "collection-navigation-mobile",
+        "country-store-language-currency-mobile"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

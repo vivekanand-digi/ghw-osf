@@ -1,0 +1,290 @@
+.btn {
+  border: 2px solid #016FBF;
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 auto;
+  text-decoration: none;
+  gap: 8px;
+  justify-content: center;
+}
+.btn.primary-btn {
+  background: #1C6AC6;
+  color: #fff;
+}
+.btn.secondary-btn {
+  background-color: white;
+  color: #016FBF;
+  border-color: #016FBF;
+}
+.btn.tertiary-btn {
+  background: #FBB82C;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+}
+.btn.sm {
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  line-height: 1;
+}
+.btn.md {
+  font-size: 16px;
+  padding: 8px 16px;
+  line-height: 1.125;
+}
+.btn.md-custom {
+  font-size: 18px;
+  padding: 12px 20px;
+  line-height: 1.25;
+  border-radius: 10px;
+  display: flex;
+  font-family: "Helvetica";
+}
+.btn.lg {
+  font-size: 28px;
+  padding: 18px 32px;
+  line-height: 1.2145;
+  border-radius: 16px;
+}
+.btn.xlg {
+  font-size: 36px;
+  padding: 18px 32px;
+  line-height: 1.2145;
+  border-radius: 20px;
+}
+
+.btn-link {
+  display: flex;
+  padding: 6px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: 20x solid transparent;
+  background: #FFF;
+  font-size: 14px;
+  color: #005CB9;
+}
+.btn-link:hover {
+  border-color: #005CB9;
+}
+
+.list.action-btn-cnr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px 8px;
+  min-height: auto;
+  flex: 0 0 auto;
+  flex-direction: row;
+  border-bottom: none;
+}
+.list.action-btn-cnr .icon-btn-cnr {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 12px;
+}
+.list.action-btn-cnr .icon-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  color: #344054;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e1e1e1;
+  cursor: pointer;
+}
+.list.action-btn-cnr .icon-btn:hover {
+  background-color: #efefef;
+}
+.list.action-btn-cnr .edit-btn:hover {
+  border-color: #C6EBFB;
+  background: #EDFBFF;
+}
+.list.action-btn-cnr .delete-btn:hover {
+  border-color: #FED1D1;
+  background: #FFEBEB;
+}
+.list.action-btn-cnr .link-btn {
+  color: #005CB9;
+  padding-left: 20px;
+  width: auto;
+  height: auto;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-family: "Helvetica-Bold";
+  border: 1px solid transparent;
+}
+.list.action-btn-cnr .link-btn:hover {
+  border-color: #00A7E1;
+  background-color: #ffffff;
+}
+
+.action-btn-cnr {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.action-btn-cnr .btn-custom.btn-secondary {
+  font-size: 18px !important;
+  padding: 12px 20px !important;
+}
+
+:root {
+  --cc-color-inactive: #9b9b9b;
+  --cc-color-active: #0572ce;
+  --secondary-text-colour: #667085;
+}
+
+.Region:has(.GHWCheckoutOrderConfirmationContainer, .GHWCheckoutLoginRegistrationContainer, .GHWCheckoutPaymentsContainer__Section) {
+  background: linear-gradient(180deg, #92d6ee 0%, #f3f4f5 20%);
+}
+
+.GHWCheckoutProgressTracker {
+  padding: 0 var(--cc-container-padding);
+  margin: 2rem 0 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.GHWCheckoutProgressTracker button {
+  box-shadow: none;
+  color: var(--secondary-text-colour);
+  border: none;
+  background-color: transparent;
+}
+.GHWCheckoutProgressTracker button:hover {
+  background-color: transparent;
+}
+.GHWCheckoutProgressTracker button:disabled {
+  opacity: unset;
+}
+
+.GHWCheckoutProgressTracker__heading {
+  text-align: center;
+  display: none;
+}
+
+.GHWCheckoutProgressTracker__wrapper {
+  display: flex;
+  overflow: hidden;
+  padding: 0;
+  list-style: none;
+  width: auto;
+  justify-content: center;
+  margin: 0 auto;
+  flex: 0 0 auto;
+}
+
+.GHWCheckoutProgressTracker__step {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  color: var(--cc-color);
+}
+
+.GHWCheckoutProgressTracker__marker {
+  display: flex;
+  position: relative;
+  flex-grow: 0;
+  align-items: center;
+}
+.GHWCheckoutProgressTracker__marker .GHWCheckoutProgressTracker__label {
+  margin-right: 16px;
+}
+.GHWCheckoutProgressTracker__marker::before {
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: var(--cc-font-size-small);
+  background: #FFF;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.GHWCheckoutProgressTracker__marker::after {
+  content: "";
+  position: absolute;
+  background-image: url("/file/general/angle-right.svg");
+  background-size: contain;
+  background-position: right;
+  height: 20px;
+  width: 20px;
+  top: 12px;
+  right: 0;
+  background-repeat: no-repeat;
+}
+.GHWCheckoutProgressTracker__marker[data-text="1"]::before {
+  background-image: url("/file/general/address-icon.svg");
+}
+.GHWCheckoutProgressTracker__marker[data-text="2"]::before {
+  background-image: url("/file/general/payment-icon.svg");
+}
+.GHWCheckoutProgressTracker__marker[data-text="3"]::before {
+  background-image: url("/file/general/order-icon.svg");
+}
+
+.GHWCheckoutProgressTracker__markerActive .GHWCheckoutProgressTracker__label {
+  color: var(--cc-color-active);
+}
+.GHWCheckoutProgressTracker__markerActive::before {
+  background-color: var(--cc-color-active);
+}
+
+.GHWCheckoutProgressTracker__label {
+  display: inline-block;
+  position: relative;
+  max-width: 70%;
+  white-space: nowrap;
+  padding: 0.5rem 0.5rem;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  width: auto;
+  color: var(--Secondary-Text-Colour, #667085);
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+li:last-child {
+  flex-grow: 0;
+}
+li:last-child .GHWCheckoutProgressTracker__marker::after {
+  display: none;
+}
+
+.GHWCheckoutProgressTracker:has(~ .GHWCheckoutPaymentsContainer) .GHWCheckoutProgressTracker__marker[data-text="1"]::before {
+  background-image: url("/file/general/confirm-icon.svg");
+  background-color: #ffffff;
+}
+.GHWCheckoutProgressTracker:has(~ .GHWCheckoutPaymentsContainer) .GHWCheckoutProgressTracker__marker[data-text="2"]::before {
+  background-image: url("/file/general/payment-icon-white.svg");
+}
+
+.GHWCheckoutProgressTracker:has(~ .GHWCheckoutOrderConfirmationContainer) .GHWCheckoutProgressTracker__marker[data-text="1"]::before {
+  background-image: url("/file/general/confirm-icon.svg");
+}
+.GHWCheckoutProgressTracker:has(~ .GHWCheckoutOrderConfirmationContainer) .GHWCheckoutProgressTracker__marker[data-text="2"]::before {
+  background-image: url("/file/general/confirm-icon.svg");
+}
+.GHWCheckoutProgressTracker:has(~ .GHWCheckoutOrderConfirmationContainer) .GHWCheckoutProgressTracker__marker[data-text="3"]::before {
+  background-image: url(/file/general/order-white-icon.svg);
+  background-color: var(--cc-color-active);
+}
+
+.GHWCheckoutProgressTracker:has(~ .GHWCheckoutLoginRegistrationContainer) .GHWCheckoutProgressTracker__marker[data-text="1"]::before {
+  background-color: #0572ce;
+}
+
+.CheckoutPaymentsContainer__Section {
+  width: min(1140px, 100%) !important;
+  flex-wrap: nowrap !important;
+}/*# sourceMappingURL=ghw-checkout-progress-tracker.css.map */

@@ -1,0 +1,19 @@
+{
+  "layout": [
+    {
+      "components": [
+        "product-image-viewer",
+        "product-name",
+        "product-price",
+        "product-variant-options",
+        "product-inventory-status",
+        "product-add-to-cart-button",
+        "product-social-sharing",
+        "product-long-description"
+      ],
+      "width": 12
+    }
+  ],
+  "component": "ProductDetailsContainer",
+  "title": "ProductDetails"
+}

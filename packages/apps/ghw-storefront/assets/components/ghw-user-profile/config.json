@@ -1,0 +1,8 @@
+{
+  "anonymousPagesDisplayNameAndURL": "[{'0':'textLogIn','1':'login?redirect=_prev','2':''}]",
+  "authenticatedPagesDisplayNameAndURL": "[{'0':'textMyAccount','1':'profile','2':''},{'0':'textOrderHistory','1':'order-history','2':''},{'0':'textAddressBook','1':'address-book','2':''},{'0':'textUpdatePassword','1':'update-password','2':''},{'0':'textLogout','1':'#','2':''}]",
+  "b2bAuthenticatedPagesDisplayNameAndURL": "[{'0':'textMyAccount','1':'profile','2':''},{'0':'textOrderHistory','1':'order-history','2':''},{'0':'textSavedCreditCards','1':'profile-saved-cards','2':''},{'0':'textExtraLinks1','1':'profile-recurring-payment-subscriptions','2':''},{'0':'textEmailPreferences','1':'email-marketing-preferences','2':''},{'0':'textUpdatePassword','1':'update-password','2':''},{'0':'textLogout','1':'#','2':''}]",
+  "delegatedAdminUserDisplayNameAndURL": "[{'0':'textMyAccount','1':'profile','2':''},{'0':'textOrderHistory','1':'order-history','2':''},{'0':'textSavedCreditCards','1':'profile-saved-cards','2':''},{'0':'textExtraLinks1','1':'profile-recurring-payment-subscriptions','2':''},{'0':'textEmailPreferences','1':'email-marketing-preferences','2':''},{'0':'textUpdatePassword','1':'update-password','2':''},{'0':'textLogout','1':'#','2':''}]",
+  "approverUserDisplayNameAndURL": "[{'0':'textMyAccount','1':'profile','2':''},{'0':'textOrderHistory','1':'order-history','2':''},{'0':'textSavedCreditCards','1':'profile-saved-cards','2':''},{'0':'textExtraLinks1','1':'profile-recurring-payment-subscriptions','2':''},{'0':'textEmailPreferences','1':'email-marketing-preferences','2':''},{'0':'textUpdatePassword','1':'update-password','2':''},{'0':'textLogout','1':'#','2':''}]",
+  "navigationOrientation": "vertical"
+}

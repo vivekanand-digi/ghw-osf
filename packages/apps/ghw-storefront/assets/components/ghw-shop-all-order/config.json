@@ -1,0 +1,96 @@
+{
+  "title": "OTHER GREAT PRODUCTS BY GREAT HEALTHWORKS",
+    "autoSlideInterval": "10",
+    "slideTitle-9": "",
+    "slideTitle-8": "",
+    "slideTitle-7": "",
+    "slideTitle-6": "",
+    "slideTitle-5": "",
+    "slideTitle-4": "",
+    "slideTitle-3": "",
+    "slideTitle-2": "",
+    "slideTitle-1": "",
+  
+    "slideMediaTitle-1": "",
+    "slideMediaTitle-3": "",
+    "slideMediaTitle-2": "",
+  
+    "isAutoSlide": true,
+  
+    
+    "slideMediaLinkBehavior-1": "_self",
+    "slideMediaLinkBehavior-3": "_self",
+    "slideMediaLinkBehavior-2": "_self",
+    "slideMediaLinkBehavior-4": "_self",
+    "slideMediaLinkBehavior-5": "_self",
+    "slideMediaLinkBehavior-6": "_self",
+    "slideMediaLinkBehavior-7": "_self",
+    "slideMediaLinkBehavior-8": "_self",
+    "slideMediaLinkBehavior-9": "_self",
+  
+  
+    "slideMedia-1": {
+      "src":"/file/products/omegaXLsport_prod-strip.png",
+      "mediaName": "/products/omegaXLsport_prod-strip.png"
+    },
+    "slideMedia-3": {
+      
+      "src":"/file/products/heartXL_prod-strip.png",
+      "mediaName": "/products/heartXL_prod-strip.png"
+    },
+    "slideMedia-2": {
+      "src":"/file/products/probioticXL_prod-strip.png",
+      "mediaName": "/products/probioticXL_prod-strip.png"
+    }
+    ,
+    "slideMedia-4": {
+      "src":"/file/products/immunXL_prod-strip.png",
+      "mediaName": "/products/immunXL_prod-strip.png"
+    },
+    "slideMedia-5": {
+      "src":"/file/products/vitaminBCompleteXL_prod-strip.png",
+      "mediaName": "/products/vitaminBCompleteXL_prod-strip.png"
+    },
+    "slideMedia-6": {
+      "src":"/file/products/sleepXL_prod-strip.png",
+      "mediaName": "/products/sleepXL_prod-strip.png"
+    },
+    "slideMedia-7": {
+      "src":"/file/products/omegaXL_prod-strip.png",
+      "mediaName": "/products/omegaXL_prod-strip.png"
+    }
+    ,
+    "slideMedia-8": {
+      "src":"/file/products/turmericXL_prod-strip.png",
+      "mediaName": "/products/turmericXL_prod-strip.png"
+    },
+    "slideMedia-9": {
+      "src":"/file/products/vitaminXL_prod-strip.png",
+      "mediaName": "/products/vitaminXL_prod-strip.png"
+    },
+  
+    "slideMediaLink-2": "",
+    "slideMediaLink-3": "",
+    "slideMediaLink-1":"",
+  
+    "button1Link-1" : "/product/OXL0050",
+    "button1Link-2" : "/product/PXL0001",
+    "button1Link-3" : "/product/HRT0001",
+    "button1Link-4" : "/product/IXL0001",
+    "button1Link-5" : "/product/VBC30001",
+    "button1Link-6" : "/product/SLPXL0001",
+    "button1Link-7" : "/product/OXL0005",
+    "button1Link-8" : "/product/TXL0001",
+    "button1Link-9" : "/product/VD30001",
+  
+    
+    "sectionTitle-1" : "GAME ON*",
+    "sectionTitle-2" : "You’ve Got GUTS*",
+    "sectionTitle-3" : "Love Thyself*",
+    "sectionTitle-4" : "Get Up & Go* ",
+    "sectionTitle-5" : "B Ready* ",
+    "sectionTitle-6" : "Like a Baby*",
+    "sectionTitle-7" : "MUSSELS FOR YOUR JOINTS*",
+    "sectionTitle-8" : "Golden Goodness*",
+    "sectionTitle-9" : "Sunny Days*"
+  }

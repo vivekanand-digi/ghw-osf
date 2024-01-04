@@ -1,0 +1,54 @@
+/**
+ * Main component content
+ */
+
+:root {
+    --primary-color: #005CB9;
+    --secondary-color: #00A7E1;
+    --text-content-color: #fff;
+    --default-border-color: #ebecec;
+}
+
+
+.GHWProductImageViewer {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 50%;
+    max-width: calc(1140px * .5 - 20px);
+
+    .ProductImageViewer__Slider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        border: 1px solid #D0D5DD;
+        padding: 20px;
+
+        .ProductImageViewer__Slide {
+            .Img__Wrapper {
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        .icon {
+            font-size: 64px;
+            color: #005CB9;
+            margin: 0;
+        }
+
+    }
+
+
+    @media only screen and (max-width: 540px) {
+        max-width: 540px;
+
+        .ProductImageViewer__Slider {
+            flex-direction: column;
+            overflow: hidden;
+        }
+    }
+}

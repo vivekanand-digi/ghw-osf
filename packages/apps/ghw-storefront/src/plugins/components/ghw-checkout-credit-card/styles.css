@@ -1,0 +1,117 @@
+:root {
+  --white-bg: #ffffff;
+}
+
+.form-field {
+  position: relative;
+  flex: 0 0 47%;
+  border-radius: 3px;
+  margin-left: auto;
+}
+.form-field:nth-child(3) {
+  margin-left: auto;
+  text-align: right;
+}
+.form-field .form-field__label {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  transform-origin: 0 0;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.2s ease;
+  pointer-events: none;
+}
+.form-field .focus-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+.form-field .error {
+  font-size: 10px;
+  color: red;
+  padding-left: 10px;
+}
+.form-field .form-field__input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  border: 0;
+  padding: 16px 12px 0 0;
+  height: 48px;
+  font-size: 16px;
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.3);
+  color: #344054;
+  transition: all 0.15s ease;
+  border-radius: 0;
+}
+.form-field .form-field__input:hover {
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.5);
+}
+.form-field .form-field__input:not(:-moz-placeholder-shown) + .form-field__label {
+  color: rgba(0, 0, 0, 0.5);
+  transform: translate3d(0, -12px, 0) scale(0.75);
+}
+.form-field .form-field__input:not(:placeholder-shown) + .form-field__label {
+  color: rgba(0, 0, 0, 0.5);
+  transform: translate3d(0, -12px, 0) scale(0.75);
+}
+.form-field .form-field__input:focus {
+  outline: none;
+  box-shadow: inset 0 -2px 0 #0077FF;
+}
+.form-field .form-field__input:focus + .form-field__label {
+  color: #0077FF;
+  transform: translate3d(0, -12px, 0) scale(0.75);
+}
+.form-field .form-field__input:focus + .form-field__label + .focus-bg {
+  transform: scaleX(1);
+  transition: all 0.1s ease;
+}
+.form-field .loginBtn {
+  background: #F6F9FC;
+  border: 1px solid #D0D5DD;
+  border-radius: 6px;
+  display: flex;
+  color: #016FBF;
+  padding: 4px 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+}
+.form-field .loginBtn:hover {
+  background: #016FBF;
+  color: #ffffff;
+}
+
+/* .GHWCheckoutCreditCard {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.GHWCheckoutCreditCard__Label {
+  color: #729fff;
+}
+.GHWCheckoutCreditCard__ExtraInfo {
+  background-color: red;
+  color: yellow;
+  margin-left: 5px;
+} */
+/**
+ *  CSS uses the Block Element Modifier naming convention, an example :
+.GHWCheckoutCreditCard__ElementName {
+  display: inline-block;
+  font-size: large;
+}
+ * For more information - http://getbem.com/
+ */
+.GHWCheckoutCreditCard__AddCardDetailsContainer--hidden {
+  display: none;
+}/*# sourceMappingURL=styles.css.map */

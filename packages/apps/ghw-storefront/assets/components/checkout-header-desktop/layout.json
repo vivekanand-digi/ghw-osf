@@ -1,0 +1,9 @@
+{
+  "regions": [
+    {
+      "components": ["ghw header desktop"],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

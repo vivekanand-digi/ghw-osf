@@ -1,0 +1,26 @@
+{
+  "autoSlideInterval": "3",
+  "slideTitle-5": "",
+  "slideTitle-4": "",
+  "slideTitle-3": "",
+  "slideTitle-2": "",
+  "slideTitle-1": "",
+  "isAutoSlide": true,
+  "slideMedia-1": {
+    "src": "/file/general/banner.png",
+    "mediaName": "/general/banner.png"
+  },
+  "slideMediaLinkBehavior-1": "_self",
+  "slideMediaLinkBehavior-3": "_self",
+  "slideMediaLinkBehavior-2": "_self",
+  "slideMediaLinkBehavior-5": "_self",
+  "slideMediaLinkBehavior-4": "_self",
+  "slideMedia-3": {
+    "src": "",
+    "mediaName": ""
+  },
+  "slideMedia-2": {
+    "src": "",
+    "mediaName": ""
+  }
+}

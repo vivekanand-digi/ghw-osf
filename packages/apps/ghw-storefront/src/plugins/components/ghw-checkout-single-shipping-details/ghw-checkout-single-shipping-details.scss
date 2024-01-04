@@ -1,0 +1,79 @@
+#root {
+  &:has(.CheckoutShippingContainer) {
+    background-color: #f3F5F6;
+  }
+}
+
+.Region {
+  &:has(.CheckoutShippingContainer) {
+    background: linear-gradient(180deg, #92d6ee 0%, #f3f4f5 16%);
+  }
+}
+
+.checkout-lyt-cnr {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  max-width: 100%;
+  justify-content: space-between;
+
+  .checkout-left-panel {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-right: 20px;
+
+    .shipping-info {}
+
+    .billing-info {}
+  }
+
+  .checkout-right-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: 20px;
+  }
+}
+
+.CheckoutShippingContainer {
+  &:has(.Region) {
+    width: min(100%, 1140px);
+    margin: 0 auto;
+    padding: 20x;
+  }
+}
+
+.CheckoutShippingContainer__Heading {
+  display: none;
+}
+
+.shipping-info {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.CheckoutShippingContainer__Section {
+  justify-content: space-between;
+}
+
+.ProfileAddressInput__AllFieldsRequiredText {
+  font-size: var(--cc-font-size-small);
+}
+
+.ProfileAddressInput input,
+.ProfileAddressInput Form input,
+.ProfileAddressInput Form select,
+.ProfileAddressInput Form button {
+  width: 100%;
+}
+
+.ProfileAddressInput {
+  label {
+    display: block;
+    font-weight: 500;
+    padding-bottom: 0.25rem;
+  }
+}

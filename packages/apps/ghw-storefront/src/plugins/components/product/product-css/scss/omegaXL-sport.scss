@@ -1,0 +1,366 @@
+//Light Theme SCSS
+$prod-name: 'OXL0050';
+$primary-color: #005CB9;
+$bcrumb-active-color: #0073FF;
+$image-viewer-bg: #303030;
+$thumb-selected-color: linear-gradient(90deg, #1228C1 -2.7%, #0088FC 25.19%, #141EBB 77.99%, #0086FD 92.51%, #1128C1 100%);
+$radio-btn-color: $primary-color;
+$prod-gradient-color: linear-gradient(90deg, #005CB9 39.26%, #00A7E1 115.75%);
+
+$tab-bg-img: url(/file/products/omeganXL-sport-detail-bg.jpg);
+$tab-active-color: #036EDB; //linear-gradient(90deg, #1228C1 -2.7%, #0088FC 25.19%, #141EBB 77.99%, #0086FD 92.51%, #1128C1 100%);
+$quantity-btn-color: #00A7E1;
+
+$white-color: #FFFFFF;
+$black-color: #000000;
+$tab-bg-gradient: $black-color;
+$celeb-bg-gradient: url(/file/products/omegaXL_sport-celeb-shopnow-bg.jpg);
+$shop-btn-bg-color: $black-color;
+$list-price-color: #00A7E1;
+$cart-sep-color: $white-color;
+$return-title-color: $white-color;
+
+:root {
+	--top-section-bg:#{$black-color};
+	--bcrumb-highlight-color:#{$bcrumb-active-color};
+	--thumb-selected-color:#{$thumb-selected-color};
+	--img-viewer-bg:#{$image-viewer-bg};
+	--prod-title-color:#{$primary-color};
+	--offer-price-color:#{$primary-color};
+	--list-price-color:#{$list-price-color};
+	--radio-btn-selection-color:#{$radio-btn-color};
+	--quantity-btn-color:#{$quantity-btn-color};
+	--quantity-btn-txt-color:#{$white-color};
+	--benefit-border-solid-color:#{$primary-color};
+	--benefit-border-color:#{$prod-gradient-color};
+	--benefit-title-color:#{$white-color};
+	--benefit-bg-color:#{$black-color};
+	--cart-btn-color:#{$primary-color};
+	--cart-sep-color:#{$cart-sep-color};
+	--return-section-bg:#{$prod-gradient-color};
+	--return-title-color:#{$return-title-color};
+	--tab-bg-gradient:#{$tab-bg-gradient};
+	--tab-bg-img:#{$tab-bg-img};
+	--tab-border-color:#{$white-color};
+	--tab-active-color:#{$tab-active-color};
+	--text-content-color:#{$white-color};
+	--list-border-color:#{$white-color};
+	--shop-btn-bg-color:#{$shop-btn-bg-color};
+	--shop-btn-content-color:#{$white-color};
+	--celeb-bg-section:#{$black-color};
+	--celeb-separator:#{$thumb-selected-color};
+	--celeb-bg-gradient:#{$celeb-bg-gradient};
+	--you-may-like-bg:#{$white-color};
+	--text-content-color: #FFFFFF;
+
+	// --primary-color-bg: linear-gradient(90deg, #005CB9 0%, #00A7E1 100%);
+	// --primary-color: #{$primary-color};
+	// --secondary-color: #00A7E1;
+	// --text-content-color: #FFFFFF;
+	// --primary-btn-bg: #FFFFFF;
+	// --text-color: #667085;
+	// --faq-ans-color: #344054;
+
+
+}
+
+
+
+@mixin pdp($prod-name) {
+	.#{$prod-name} {
+		background-color: var(--top-section-bg);
+		box-shadow: 0 0 0 100vmax var(--top-section-bg);
+		-webkit-clip-path: inset(0 -100vmax);
+		clip-path: inset(0 -100vmax);
+
+		.GHWProductName {
+			color: var(--prod-title-color);
+		}
+
+		.ProductImageViewer__Slider {
+			background-color: var(--img-viewer-bg);
+		}
+
+		.ProductShortDescription {
+			color: var(--text-content-color);
+		}
+
+		.ProductPrice__SaleWrapper {
+			.super-txt {
+				color: var(--offer-price-color);
+			}
+
+			.offer-price-cnr {
+				.offer-price {
+					color: var(--offer-price-color);
+
+				}
+			}
+
+			.list-price-cnr {
+				.super-txt {
+					color: var(--list-price-color);
+				}
+
+				.list-price {
+					color: var(--list-price-color);
+				}
+			}
+		}
+
+		.button-group {
+			.buttons {
+				.quantity {
+					border-color: var(--quantity-btn-color);
+
+					.active {
+						border-color: var(--quantity-btn-color);
+						background-color: var(--quantity-btn-color);
+						;
+						color: var(--quantity-btn-txt-color);
+					}
+
+					&:active {
+						border-color: var(--quantity-btn-color);
+						background-color: var(--quantity-btn-color);
+						;
+						color: var(--quantity-btn-txt-color);
+					}
+				}
+
+			}
+		}
+
+		.GHWProductTypeSelection {
+			.payment-selection {
+				.selection {
+					.input-radio {
+						accent-color: var(--radio-btn-selection-color);
+					}
+
+					>label {
+						color: var(--text-content-color);
+
+						>span {
+							>span {
+								color: var(--radio-btn-selection-color);
+							}
+						}
+					}
+
+				}
+			}
+		}
+
+		.subscription-benefit-cnr {
+			border-color: var(--benefit-border-solid-color);
+			background-color: var(--benefit-border-color);
+
+			.heading {
+				color: var(--benefit-title-color);
+				border-color: var(--benefit-title-color);
+			}
+
+			.list {
+				.list-item {
+
+					.list-content {
+						color: var(--benefit-title-color);
+					}
+				}
+			}
+		}
+
+		.GHWProductAddToCartButton__Wrapper {
+			.Quantity__Textbox {
+				background-color: var(--cart-btn-color);
+			}
+
+			.Quantity__InputWrapper {
+				.stepper-btn-cnr {
+					.stepper-btn {
+						background-color: var(--cart-btn-color);
+					}
+				}
+			}
+		}
+
+		.GHWProductAddToCartButton__Wrapper {
+			.AddToCartButton__Wrapper {
+				form {
+					button {
+						background-color: var(--cart-btn-color);
+					}
+				}
+			}
+		}
+
+		.return-policy-cnr {
+			background: var(--return-section-bg);
+
+			.return {
+
+				.list {
+					.autoship-title {
+						color: var(--return-title-color);
+					}
+
+				}
+
+				.lists {
+					.safe-title {
+						color: var(--return-title-color);
+					}
+				}
+			}
+		}
+
+		// ----
+		// ----
+		.GHWProductTabContainer {
+			background-image: var(--tab-bg-img);
+
+			.TabContainer {
+				.TabContainer__TabHeaders {
+					border-bottom: 3px solid var(--tab-border-color);
+
+					.TabContainer__TabHeader {
+						color: var(--text-content-color);
+						border-bottom: 3px solid transparent;
+
+						&.selected {
+							border-bottom: 3px solid var(--tab-active-color);
+						}
+					}
+				}
+
+				.TabContainer__TabContents {
+					.TabContainer__TabContent {
+
+						.about {
+							.product-title {
+								color: var(--text-content-color);
+							}
+
+							.about-content {
+								.text-icon-cnr {
+									.content-info {
+										.detail-item {
+											.detail {
+												color: var(--text-content-color);
+
+												.title {
+													color: var(--text-content-color);
+												}
+
+												.desc {
+													color: var(--text-content-color);
+												}
+											}
+										}
+
+									}
+								}
+
+
+							}
+						}
+
+						.howto {
+							.text-icon-cnr {
+								.steps-list {
+									.step {
+										border-color: var(--list-border-color);
+
+										.step-icon-title {
+											.step-icon {
+												.icon {
+													color: var(--text-content-color);
+												}
+											}
+
+											.step-content {
+												.step-title {
+													color: var(--text-content-color);
+												}
+
+												.step-description {
+													color: var(--text-content-color);
+                                                    display: flex;
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+
+						.primary-btn-md {
+							background: var(--shop-btn-bg-color);
+							color: var(--shop-btn-content-color);
+						}
+
+					}
+				}
+			}
+		}
+
+		.GHWYouMayLike {
+			.h1-title {
+				background: var(--return-section-bg);
+			}
+		}
+
+		.GHWPdpBanner {
+			background-color: var(--celeb-bg-section);
+
+			.quotes {
+				.content {
+					flex: 0 0 50%;
+					width: auto;
+					padding: 50px 0;
+
+					.title {
+						font-size: 32px;
+						text-align: left;
+						padding: 24px 0;
+					}
+
+					.sub-title {
+						font-size: 22px;
+						margin: 0;
+						padding: 24px 20px 24px 0;
+						position: relative;
+						text-align: left;
+						width: 100%;
+
+						&::before {
+							content: "";
+							position: absolute;
+							width: 100%;
+							height: 2px;
+							background: var(--celeb-separator);
+							top: -4px;
+						}
+					}
+
+					.primary-btn-md {
+						display: none;
+						// background: var(--shop-btn-bg-color);
+						// color: var(--shop-btn-content-color);
+					}
+				}
+
+				.quotes-sec {
+					background-image: var(--celeb-bg-gradient);
+					background-size: cover;
+					background-repeat: no-repeat;
+					display: flex;
+					flex: 0 0 50%;
+				}
+			}
+		}
+	}
+}
+
+@include pdp($prod-name);

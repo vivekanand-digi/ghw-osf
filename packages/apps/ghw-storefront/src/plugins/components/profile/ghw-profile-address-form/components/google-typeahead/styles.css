@@ -1,0 +1,149 @@
+.AddressInput {
+  color: var(--cc-color);
+}
+
+.AddressInput input,
+.AddressInput select {
+  width: 100%;
+}
+.AddressInput__Field {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.AddressInput__CountryStateZipCodeContainer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+}
+
+.AddressInput__Country {
+  grid-area: 1 / 1 / 2 / 4;
+}
+
+.AddressInput__State {
+  grid-area: 1 / 5 / 2 / 7;
+}
+
+.AddressInput__ZipCode {
+  grid-area: 1 / 4 / 2 / 5;
+}
+
+.AddressInput__StreetAddressTownCityContainer {
+  display: flex;
+}
+
+.AddressInput__StreetAddress {
+  flex: 0.5 0 0;
+  margin: 0 0.5rem 0 0;
+}
+
+.AddressInput__TownCity {
+  flex: 0.5 0 0;
+  margin: 0 0 0 0.5rem;
+}
+
+.AddressInput__PhoneNumber {
+  position: relative;
+  width: calc(50% - 0.5rem);
+}
+
+.Icon.AddressInput__PhoneIcon {
+  position: absolute;
+  height: 1rem;
+  right: 0.6rem;
+  bottom : 0.75rem;
+  color: var(--cc-icon-color);
+}
+
+@media only screen and (max-width: 768px) {
+  .AddressInput__CountryStateZipCodeContainer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+  }
+  .AddressInput__Country {
+    grid-area: 1 / 1 / 2 / 7;
+  }
+  .AddressInput__State {
+    grid-area: 2 / 3 / 3 / 7;
+  }
+  .AddressInput__ZipCode {
+    grid-area: 2 / 1 / 3 / 3;
+  }
+  .AddressInput__StreetAddressTownCityContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .AddressInput__StreetAddress {
+    margin: 0;
+  }
+  .AddressInput__TownCity {
+    margin: 1rem 0 0 0;
+  }
+  .AddressInput__PhoneNumber {
+    width: 100%;
+  }
+}
+
+.AddressInput__Invalid {
+  border-color: var(--cc-invalid-focusring-color);
+}
+
+.AddressInput__ErrorContainer {
+  display: flex;
+}
+
+.AddressInput__ErrorMessage {
+  color: var(--cc-validation-error-color);
+  font-weight: 500;
+  font-size: var(--cc-font-size-xsmall);
+  margin-left: 0.25rem;
+  margin-top: 0.4rem;
+  display: none;
+}
+
+.AddressInput__ErrorMessage:not(:empty) {
+  display: block;
+}
+
+.AddressInput__ErrorMessage:not(:empty) + .AddressInput__ErrorIconContainer{
+  display: block;
+}
+
+.AddressInput__ErrorIconContainer {
+  display: none;
+  order: -1;
+}
+
+.AddressInput__ErrorIconContainer svg {
+  color: var(--cc-error-message-icon-color);
+  height: 1.3rem;
+  padding-top: 0.5rem;
+}
+
+.ProfileAddressInput input:disabled,
+.ProfileAddressInput select[disabled] {
+  background-color: var(--cc-form-element-disabled-color);
+}
+.typeahead-field .form-field__input{
+  border-radius: 0px;
+  appearance: none;
+  width: 100%;
+  border: 0;
+  padding: 8px 0px 0 0px;
+  height: 46px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344054;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+  transition: all 0.15s ease;
+  background-color: #FFFFFF;
+}

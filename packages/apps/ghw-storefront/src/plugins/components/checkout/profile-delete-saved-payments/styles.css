@@ -1,0 +1,63 @@
+.ProfileDeleteSavedPayment {
+  padding: 0 var(--cc-container-padding);
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.ProfileDeleteSavedPayment__ActionResponse {
+  margin-bottom: 1rem;
+}
+
+.ProfileDeleteSavedPayment__WarnMessageContainer {
+  margin-bottom: 1rem;
+}
+
+.ProfileDeleteSavedPayment__WarnMessage {
+  font-weight: bold;
+}
+
+.ProfileDeleteSavedPayment__WarnMessageHelp {
+  margin-left: -2rem;
+}
+
+.ProfileDeleteSavedPayment__ButtonContainer {
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-top: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.ProfileDeleteSavedPayment__ButtonContainer button {
+  flex: 0.25 0 0;
+}
+
+.ProfileDeleteSavedPayment__confirmButton {
+  margin-left: 0.25rem;
+}
+
+.ProfileDeleteSavedPayment__cancelButton {
+  margin-right: 0.25rem;
+}
+
+@media (max-width: 767px) {
+  .ProfileDeleteSavedPayment .secondary {
+    margin-top: 1rem;
+  }
+
+  .ProfileDeleteSavedPayment__ButtonContainer button {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .ProfileDeleteSavedPayment__confirmButton {
+    margin-left: 0;
+  }
+
+  .ProfileDeleteSavedPayment__cancelButton {
+    margin-right: 0;
+  }
+}

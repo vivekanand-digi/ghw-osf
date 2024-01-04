@@ -1,0 +1,69 @@
+.GHWProductLandingName {
+  margin-top: .5rem;
+  font-size: var(--cc-font-size-xlarge);
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.banner-section{
+  /* background: url(file/general/capsule-bg.png) no-repeat; */
+    background-size: cover;
+    height: 412px;
+}
+
+.GHWProductDescription {
+  margin-bottom: 1rem;
+}
+
+.GHWProductDescription__Html {
+  padding: .5rem 0
+}
+
+.GHWProductDescription .Collapsible__Wrapper {
+  border-bottom: 2px solid var(--cc-collapsible-button-background-color);
+}
+
+.GHWProductDescription .Collapsible__Wrapper span:first-child {
+  font-size: var(--cc-font-size-large);
+  font-weight: 500;
+}
+
+.banner-cnr{
+  width: 967px;
+  margin: 0 auto;
+  display: flex;
+  padding: 57px 0 0;
+  justify-content: space-evenly;
+}
+
+.banner-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.capsule-title{
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #344054;
+}
+
+.buy-btn{
+  padding: 6px 12px;
+    gap: 4px;
+    width: 130px;
+    height: 60px;
+    background: #1C6AC6;
+    box-shadow: 0px 4px 4px rgba(66, 164, 181, 0.1);
+    border-radius: 8px;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

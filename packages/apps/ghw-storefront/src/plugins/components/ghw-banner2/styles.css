@@ -1,0 +1,68 @@
+.quotes {
+  background: url(/file/general/celeb-ken-bg.jpg) center top no-repeat;
+  background-size: cover;
+}
+
+.quotes-sec {
+  backgroundImg: url(/file/general/celeb-ken-bg.jpg) center top no-repeat;
+  height: 400px;
+  backgroundImg-size: cover;
+  position: relative;
+}
+.quotes-sec .shop-now-btn {
+  position: absolute;
+  bottom: 32px;
+  left: 30%;
+  font-size: 28px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+@media (min-width: 1900px) {
+  .quotes-sec .shop-now-btn {
+    height: 48px;
+  }
+}
+
+.celeb-short-banner .bnr-content {
+  padding: 60px 0 40px;
+  width: 76%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.celeb-short-banner .bnr-content .title {
+  color: #fff;
+  text-align: center;
+  font-size: 68px;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.celeb-short-banner .bnr-content .sub-title {
+  color: #fff;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 400;
+  width: 60%;
+  margin: 0 auto 24px;
+}
+.celeb-short-banner .bnr-content .icons {
+  display: flex;
+  gap: 46px;
+  align-items: center;
+  justify-content: center;
+}
+.celeb-short-banner .bnr-content .shop-now-btn {
+  border-radius: 20px;
+  background: #00a7e1;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}/*# sourceMappingURL=styles.css.map */

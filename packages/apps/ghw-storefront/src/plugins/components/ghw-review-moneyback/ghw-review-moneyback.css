@@ -1,0 +1,129 @@
+.rating-return {
+  padding: 32px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background: linear-gradient(90deg, #F8F8F8 0.19%, #FFF 99.86%);
+}
+.rating-return .title-sect {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 auto;
+  gap: 8%;
+}
+.rating-return .title-sect .rev-logo {
+  display: flex;
+  flex: 0 0 38%;
+}
+.rating-return .title-sect .title {
+  color: #005cb9;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: capitalize;
+  width: 54%;
+  border-left: 4px solid #005cb9;
+  padding-left: 20px;
+}
+.rating-return .rating-return-cnr {
+  display: flex;
+  gap: 6%;
+}
+.rating-return .rating-return-cnr .rr-left-panel {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 40%;
+  gap: 20px;
+}
+.rating-return .rating-return-cnr .rr-left-panel .review-item {
+  display: flex;
+  background: #fff;
+  border-radius: 8px;
+}
+.rating-return .rating-return-cnr .rr-left-panel .review-item:hover {
+  box-shadow: 0px 11px 18px 0px rgba(0, 0, 0, 0.15);
+}
+.rating-return .rating-return-cnr .rr-left-panel .review-item .logo-rating {
+  padding: 24px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+.rating-return .rating-return-cnr .rr-left-panel .review-item .logo-rating .title {
+  color: #005a78;
+  font-size: 18px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.rating-return .rating-return-cnr .rr-left-panel .review-item .logo-rating .title.review-title {
+  color: #319f43;
+  text-align: center;
+}
+.rating-return .rating-return-cnr .rr-left-panel .review-item .value-rating {
+  background: #009ada;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 8px 8px 0;
+}
+.rating-return .rating-return-cnr .rr-left-panel .review-item .value-rating .rating-num {
+  color: #fff;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 700;
+}
+.rating-return .rating-return-cnr .rr-right-panel {
+  display: flex;
+  gap: 12px;
+  flex: 0 0 54%;
+  justify-content: space-between;
+}
+.rating-return .rating-return-cnr .rr-right-panel .return-item-info {
+  padding: 20px;
+  background: linear-gradient(124deg, #005cb9 0%, #00a7e1 100%);
+  border-color: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 50%;
+  position: relative;
+}
+.rating-return .rating-return-cnr .rr-right-panel .return-item-info .return-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rating-return .rating-return-cnr .rr-right-panel .return-item-info .return-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 1.25;
+  text-align: center;
+}
+.rating-return .rating-return-cnr .rr-right-panel .return-item-info .return-content .cnt-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.rating-return .rating-return-cnr .rr-right-panel .return-item-info .return-content .cnt-block .r-title {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+.rating-return .rating-return-cnr .rr-right-panel .return-item-info .return-content .cnt-block .desc {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+}
+.rating-return .rating-return-cnr .rr-right-panel .return-item-info .return-content .read-more {
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 500;
+  text-decoration: underline;
+}/*# sourceMappingURL=ghw-review-moneyback.css.map */

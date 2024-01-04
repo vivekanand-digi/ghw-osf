@@ -1,0 +1,156 @@
+:root {
+  --bcrumb-highlight-color:#F2CD00;
+  --thumb-selected-color:#F2CD00;
+  --prod-title-color:#F2CD00;
+  --offer-price-color:#F2CD00;
+  --list-price-color:#000000;
+  --radio-btn-selection-color:#F2CD00;
+  --quantity-btn-color:#00A7E1;
+  --quantity-btn-txt-color:#FFFFFF;
+  --benifit-border-color:linear-gradient(90deg, #F3C300 0%, #F2CD00 51.04%);
+  --benifit-title-color:#F2CD00;
+  --cart-btn-color:#F2CD00;
+  --cart-sep-color:#FFFFFF;
+  --return-section-bg:linear-gradient(90deg, #F3C300 0%, #F2CD00 51.04%);
+  --return-title-color:#FFFFFF;
+  --tab-bg-gradient:linear-gradient(0deg, #FFC305 18.92%, rgba(255, 195, 5, 0) 100%), linear-gradient(180deg, rgba(255, 195, 5, 0.39) 51.1%, rgba(255, 195, 5, 0) 100%);
+  --tab-bg-img:url(/file/products/vitaminXL-detail-bg.jpg);
+  --tab-border-color:#FFFFFF;
+  --tab-active-color:#000000;
+  --text-content-color:#FFFFFF;
+  --list-border-color:#FFFFFF;
+  --shop-btn-bg-color:#FFFFFF;
+  --shop-btn-content-color:#F2CD00;
+  --celeb-bg-gradient:linear-gradient(90deg, #FFC305 35.84%, rgba(255, 195, 5, 0) 68.75%), url(/file/products/vitaminXL-celeb-shopnow-bg.jpg);
+  --primary-color-bg: linear-gradient(90deg, #005CB9 0%, #00A7E1 100%);
+  --primary-color: #F2CD00;
+  --secondary-color: #00A7E1;
+  --text-content-color: #FFFFFF;
+  --primary-btn-bg: #FFFFFF;
+  --text-color: #667085;
+  --faq-ans-color: #344054;
+}
+
+.VD30001 .GHWProductName {
+  color: var(--prod-title-color);
+}
+.VD30001 .ProductPrice__SaleWrapper .super-txt {
+  color: var(--offer-price-color);
+}
+.VD30001 .ProductPrice__SaleWrapper .offer-price-cnr .offer-price {
+  color: var(--offer-price-color);
+}
+.VD30001 .ProductPrice__SaleWrapper .list-price-cnr .super-txt {
+  color: var(--list-price-color);
+}
+.VD30001 .ProductPrice__SaleWrapper .list-price-cnr .list-price {
+  color: var(--list-price-color);
+}
+.VD30001 .button-group .buttons .quantity {
+  border-color: var(--quantity-btn-color);
+}
+.VD30001 .button-group .buttons .quantity .active {
+  border-color: var(--quantity-btn-color);
+  background-color: var(--quantity-btn-color);
+  color: var(--quantity-btn-txt-color);
+}
+.VD30001 .button-group .buttons .quantity:active {
+  border-color: var(--quantity-btn-color);
+  background-color: var(--quantity-btn-color);
+  color: var(--quantity-btn-txt-color);
+}
+.VD30001 .GHWProductTypeSelection .payment-selection .selection .input-radio {
+  accent-color: var(--radio-btn-selection-color);
+}
+.VD30001 .GHWProductTypeSelection .payment-selection .selection > label > span > span {
+  color: var(--radio-btn-selection-color);
+}
+.VD30001 .subscription-benefit-cnr {
+  border-color: var(--benifit-title-color);
+}
+.VD30001 .subscription-benefit-cnr .heading {
+  color: var(--benifit-title-color);
+  border-color: var(--benifit-title-color);
+}
+.VD30001 .subscription-benefit-cnr .list .list-item > img {
+  filter: hue-rotate(204deg);
+}
+.VD30001 .subscription-benefit-cnr .list .list-item .list-content {
+  color: var(--list-price-color);
+}
+.VD30001 .GHWProductAddToCartButton__Wrapper .Quantity__Textbox {
+  background-color: var(--cart-btn-color);
+}
+.VD30001 .GHWProductAddToCartButton__Wrapper .Quantity__InputWrapper .stepper-btn-cnr .stepper-btn {
+  background-color: var(--cart-btn-color);
+}
+.VD30001 .GHWProductAddToCartButton__Wrapper .AddToCartButton__Wrapper form button {
+  background-color: var(--cart-btn-color);
+}
+.VD30001 .return-policy-cnr {
+  background-image: var(--return-section-bg);
+}
+.VD30001 .return-policy-cnr .return .list .autoship-title {
+  color: var(--return-title-color);
+}
+.VD30001 .return-policy-cnr .return .lists .safe-title {
+  color: var(--return-title-color);
+}
+.VD30001 .GHWProductTabContainer {
+  background-image: var(--tab-bg-img);
+}
+.VD30001 .GHWProductTabContainer .TabContainer .TabContainer__TabHeaders {
+  border-bottom: 3px solid var(--tab-border-color);
+}
+.VD30001 .GHWProductTabContainer .TabContainer .TabContainer__TabHeaders .TabContainer__TabHeader {
+  color: var(--text-content-color);
+  border-bottom: 3px solid transparent;
+}
+.VD30001 .GHWProductTabContainer .TabContainer .TabContainer__TabHeaders .TabContainer__TabHeader.selected {
+  border-bottom: 3px solid var(--tab-active-color);
+}
+.VD30001 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .about .product-title {
+  color: var(--text-content-color);
+}
+.VD30001 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .about .about-content .text-icon-cnr .content-info .detail-item .detail {
+  color: var(--text-content-color);
+}
+.VD30001 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .about .about-content .text-icon-cnr .content-info .detail-item .detail .title {
+  color: var(--text-content-color);
+}
+.VD30001 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .about .about-content .text-icon-cnr .content-info .detail-item .detail .desc {
+  color: var(--text-content-color);
+}
+.VD30001 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .howto .text-icon-cnr .steps-list .step {
+  border-color: var(--list-border-color);
+}
+.VD30001 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .howto .text-icon-cnr .steps-list .step .step-icon-title .step-icon .icon {
+  color: var(--text-content-color);
+}
+.VD30001 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .howto .text-icon-cnr .steps-list .step .step-icon-title .step-content .step-title {
+  color: var(--text-content-color);
+}
+.VD30001 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .howto .text-icon-cnr .steps-list .step .step-icon-title .step-content .step-description {
+  color: var(--text-content-color);
+}
+.VD30001 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .primary-btn-md {
+  background: var(--shop-btn-bg-color);
+  color: var(--shop-btn-content-color);
+}
+.VD30001 .GHWYouMayLike .h1-title {
+  background: var(--return-section-bg);
+}
+.VD30001 .GHWPdpBanner .quotes {
+  background-image: var(--celeb-bg-gradient);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.VD30001 .GHWPdpBanner .quotes .content {
+  flex: 0 0 72%;
+  width: auto;
+}
+.VD30001 .GHWPdpBanner .quotes .content .primary-btn-md {
+  background: var(--shop-btn-bg-color);
+  color: var(--shop-btn-content-color);
+}/*# sourceMappingURL=vitaminXL.css.map */

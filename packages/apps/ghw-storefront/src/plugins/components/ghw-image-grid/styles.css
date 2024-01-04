@@ -1,0 +1,157 @@
+.GHWImageGrid {
+  padding: 32px 32px;
+  background: rgba(0, 0, 0, 0.04);
+}
+.GHWImageGrid .main-cnr .grid-cnr {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(auto-fit, minmax(min(25rem, 100%), 1fr));
+}
+.GHWImageGrid .main-cnr .grid-cnr .grid-item {
+  align-self: center;
+}
+.GHWImageGrid .main-cnr .grid-cnr .grid-item.grid-bg {
+  background: url("/file/general/grid-bg.svg") no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.GHWImageGrid .main-cnr .grid-cnr .grid-item.blur-bg {
+  position: relative;
+}
+.GHWImageGrid .main-cnr .grid-cnr .grid-item.blur-bg .btn-bg {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(12px);
+  padding: 16px 6px 16px 20px;
+  bottom: 14px;
+  width: calc(100% - 16px);
+  margin-left: 8px;
+  border-radius: 0px 0px 12px 12px;
+}
+.GHWImageGrid .main-cnr .grid-cnr .grid-item.blur-bg .btn-bg .btn-info {
+  background: #016fbf;
+  border-radius: 8px;
+  padding: 12px 80px;
+  color: #fff;
+  margin: auto;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.GHWImageGrid .main-cnr .grid-cnr .grid-item .cnt-block .title-block {
+  border-bottom: 1px solid #e2ecff;
+}
+
+.GHWImageGrid
+  .main-cnr
+  .grid-cnr
+  .grid-item
+  .cnt-block
+  .title-block
+  .title-txt {
+  font-size: 100px;
+  color: #667085;
+  opacity: 0.2;
+}
+
+.GHWImageGrid
+  .main-cnr
+  .grid-cnr
+  .grid-item
+  .cnt-block
+  .title-block
+  .sub-title {
+  font-size: 32px;
+  color: #344054;
+}
+.GHWImageGrid .main-cnr .grid-cnr .grid-item .cnt-block .para {
+  color: #98a2b3;
+  padding-top: 14px;
+}
+.GHWImageGrid .main-cnr .grid-cnr .grid-item img {
+  background: #fff;
+  border: 1px solid #e2ecff;
+  box-shadow: 6.1px 20.1px 50px rgba(174, 174, 174, 0.15);
+  border-radius: 20px;
+  padding: 8px;
+}
+.GHWImageGrid .main-cnr .grid-cnr .grid-item .grid-cnt {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  flex-basis: 55%;
+}
+.GHWImageGrid .main-cnr .grid-cnr .grid-item .grid-cnt .title {
+  color: #344054;
+  font-size: 52px;
+}
+.GHWImageGrid .main-cnr .grid-cnr .grid-item .grid-cnt .para {
+  color: #667085;
+  font-size: 14px;
+  text-align: center;
+}
+.GHWImageGrid .main-cnr .grid-cnr .grid-item .grid-cnt .BuynowBtn {
+  background: linear-gradient(0deg, #05bca8, #05bca8), #2385f8;
+  border-radius: 12px;
+  padding: 18px 32px 20px;
+  box-shadow: 0px 4px 4px rgba(66, 164, 181, 0.1);
+  color: #fff;
+}
+
+@media (max-width: 540px) {
+  .GHWImageGrid .main-cnr .grid-cnr {
+    gap: 20px;
+  }
+  .GHWImageGrid .main-cnr .grid-cnr .grid-item:nth-child(1) {
+    order: 1;
+  }
+  .GHWImageGrid .main-cnr .grid-cnr .grid-item:nth-child(2) {
+    order: 0;
+  }
+  .GHWImageGrid .main-cnr .grid-cnr .grid-item:nth-child(3) {
+    order: 2;
+  }
+  .GHWImageGrid .main-cnr .grid-cnr .grid-item:nth-child(4) {
+    order: 3;
+  }
+  .GHWImageGrid .main-cnr .grid-cnr .grid-item:nth-child(5) {
+    order: 4;
+  }
+  .GHWImageGrid .main-cnr .grid-cnr .grid-item:nth-child(6) {
+    order: 5;
+  }
+  .GHWImageGrid .main-cnr .grid-cnr .grid-item.grid-bg {
+    background-size: cover;
+  }
+
+  .GHWImageGrid
+    .main-cnr
+    .grid-cnr
+    .grid-item
+    .cnt-block
+    .title-block
+    .title-txt {
+    font-size: 32px;
+    opacity: 1;
+  }
+
+  .GHWImageGrid
+    .main-cnr
+    .grid-cnr
+    .grid-item
+    .cnt-block
+    .title-block
+    .sub-title {
+    font-size: 14px;
+    padding-bottom: 4px;
+  }
+  .GHWImageGrid .main-cnr .grid-cnr .grid-item .grid-cnt {
+    flex-basis: 100%;
+    padding: 32px;
+  }
+}

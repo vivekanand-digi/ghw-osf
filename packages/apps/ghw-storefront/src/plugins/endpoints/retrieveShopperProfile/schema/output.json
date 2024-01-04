@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$id": "ccstorexcustomv1btretrieveshopperprofile",
+    "title": "ccstorexcustomv1btretrieveshopperprofile",
+    "description": "Description for ccstorexcustomv1btretrieveshopperprofile.",
+    "type": "object",
+    "properties": {
+    },
+    "example": {
+    }
+}

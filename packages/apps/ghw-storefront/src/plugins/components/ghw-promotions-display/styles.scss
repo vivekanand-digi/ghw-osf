@@ -1,0 +1,82 @@
+.GHWPromotionsDisplay {
+    padding: 2px 8px;
+    background: rgba(0, 167, 225, 0.2);
+    border-radius: 100px;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 4px;
+    color: #343434;
+    font-size: 14px;
+
+
+
+    .coupon-tag {
+        border-radius: 100px;
+        border: 1px solid rgba(35, 133, 248, 0.2);
+        padding: 4px 8px;
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        width: -moz-fit-content;
+        width: fit-content;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: white;
+
+        .code {
+            font-family: 'Helvetica-Bold';
+            color: #005CB9;
+            font-size: 16px;
+
+        }
+    }
+}
+
+.GHWPromotionsDisplay .Alert {
+    text-align: left;
+}
+
+.GHWPromotionsDisplay .Alert {
+    padding: 10px 5px;
+    margin: var(--cc-container-padding);
+    font-size: var(--cc-font-size-small);
+}
+
+.PromotionsDisplay__boldText {
+    font-weight: bold;
+}
+
+
+
+button.PromotionsDisplay__RemoveLink,
+button.PromotionsDisplay__RemoveLink:hover {
+    font-size: var(--cc-font-size-small);
+    color: var(--cc-color);
+    text-decoration: underline;
+    display: inline-block;
+    width: unset;
+    background-color: unset;
+    padding: unset;
+}
+
+.PromotionCodeEntry__ErrorMessage {
+    color: var(--cc-validation-error-color);
+    font-size: var(--cc-font-size-xsmall);
+    font-weight: 500;
+}
+
+.PromotionCodeEntry__ErrorMessage .Icon {
+    height: 1.3rem;
+    padding-top: 0.5rem;
+    color: var(--cc-error-message-icon-color);
+}
+
+@media only screen and (min-width: 768px) {
+    .GHWPromotionsDisplay {
+        // width: 28.125rem;
+    }
+}

@@ -1,0 +1,13 @@
+.ProfileSubscription {
+  display: flex;
+  flex-flow: column;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.ProfileSubscription__List li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}

@@ -1,0 +1,47 @@
+@use './../utils/form';
+
+/* .GHWCheckoutCreditCard {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.GHWCheckoutCreditCard__Label {
+  color: #729fff;
+}
+.GHWCheckoutCreditCard__ExtraInfo {
+  background-color: red;
+  color: yellow;
+  margin-left: 5px;
+} */
+/**
+ *  CSS uses the Block Element Modifier naming convention, an example :
+.GHWCheckoutCreditCard__ElementName {
+  display: inline-block;
+  font-size: large;
+}
+ * For more information - http://getbem.com/
+ */
+
+// .GHWCheckoutCreditCard {
+//     flex: 0 0 100%;
+//     max-width: 100%;
+//     display: flex;
+//     flex-direction: column;
+//     margin: 0 var(--cc-container-padding);
+//     /* border: 1px solid var(--cc-border-color); */
+// }
+
+// .GHWCheckoutCreditCard__RadioButtonContainer {
+//     display: flex;
+//     padding: 0.5rem;
+// }
+
+// .GHWCheckoutCreditCard__AddCardDetailsContainer {
+//     padding: 0.5rem;
+//     background-color: var(--cc-secondary-background-color);
+//     border-top: 1px solid var(--cc-border-color);
+// }
+
+.GHWCheckoutCreditCard__AddCardDetailsContainer--hidden {
+    display: none;
+}

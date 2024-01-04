@@ -1,0 +1,85 @@
+$color_1: var(--cc-color);
+$background-color_1: var(--cc-background-color);
+
+/* Progress section */
+.CheckoutProgressTracker {
+	margin: 32px 0 24px;
+
+	.CheckoutProgressTracker__heading {
+		display: none;
+	}
+
+	.CheckoutProgressTracker__wrapper {
+		gap: 16px;
+		margin: 0 auto;
+		width: 24%;
+
+		.CheckoutProgressTracker__step {
+			flex: 0;
+
+			.CheckoutProgressTracker__marker {
+				gap: 6px;
+
+				.CheckoutProgressTracker__label {
+					padding: 0;
+					color: var(--667-series, #667085);
+					font-family: Lato;
+					font-size: 18px;
+					text-transform: capitalize;
+				}
+			}
+		}
+	}
+}
+
+/* Progress section end*/
+// .CheckoutShippingContainer {
+// 	background: #F3F5F6;
+// }
+.ShippingGroupDetails {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+
+	.ShippingGroupDetails__Wrapper {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+
+	}
+}
+
+
+// .ShippingGroupDetails__AddANewAddress {
+// 	// padding: 1rem;
+// 	border-top: 1px solid var(--cc-border-color);
+// }
+
+.ShippingGroupDetails__HeadingContainer {
+	display: flex;
+	flex-direction: row;
+
+	button {
+		text-decoration: underline;
+		font-size: var(--cc-font-size-small);
+		background-color: $background-color_1;
+		padding: 0;
+		color: $color_1;
+		display: inline-block;
+		text-align: unset;
+		width: unset;
+		margin-left: auto;
+
+		&:hover {
+			text-decoration: underline;
+			font-size: var(--cc-font-size-small);
+			background-color: $background-color_1;
+			padding: 0;
+			color: $color_1;
+			display: inline-block;
+			text-align: unset;
+			width: unset;
+			margin-left: auto;
+		}
+	}
+}

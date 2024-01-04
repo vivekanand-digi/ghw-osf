@@ -1,0 +1,26 @@
+    .address-cnr {
+        display: flex;
+        gap: 40px;
+        flex: 1 1 auto;
+        justify-content: space-between;
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            flex: 1 1 auto;
+
+            .h4 {
+                color: #667085;
+                font-size: 20px;
+            }
+
+            .cust-name {
+                font-family: 'Helvetica-Bold';
+            }
+
+            .meta-info {
+                color: #334054;
+                font-size: 16px;
+            }
+        }
+    }

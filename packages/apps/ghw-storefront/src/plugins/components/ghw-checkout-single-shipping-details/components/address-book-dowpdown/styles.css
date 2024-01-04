@@ -1,0 +1,331 @@
+.btn {
+  border: 2px solid #016FBF;
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 auto;
+  text-decoration: none;
+  gap: 8px;
+  justify-content: center;
+}
+.btn.primary-btn {
+  background: #1C6AC6;
+  color: #fff;
+}
+.btn.secondary-btn {
+  background-color: white;
+  color: #016FBF;
+  border-color: #016FBF;
+}
+.btn.tertiary-btn {
+  background: #FBB82C;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+}
+.btn.sm {
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  line-height: 1;
+}
+.btn.md {
+  font-size: 16px;
+  padding: 8px 16px;
+  line-height: 1.125;
+}
+.btn.md-custom {
+  font-size: 18px;
+  padding: 12px 20px;
+  line-height: 1.25;
+  border-radius: 10px;
+  display: flex;
+  font-family: "Helvetica";
+}
+.btn.lg {
+  font-size: 28px;
+  padding: 18px 32px;
+  line-height: 1.2145;
+  border-radius: 16px;
+}
+.btn.xlg {
+  font-size: 36px;
+  padding: 18px 32px;
+  line-height: 1.2145;
+  border-radius: 20px;
+}
+
+.btn-link {
+  display: flex;
+  padding: 6px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: 20x solid transparent;
+  background: #FFF;
+  font-size: 14px;
+  color: #005CB9;
+}
+.btn-link:hover {
+  border-color: #005CB9;
+}
+
+.list.action-btn-cnr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px 8px;
+  min-height: auto;
+  flex: 0 0 auto;
+  flex-direction: row;
+  border-bottom: none;
+}
+.list.action-btn-cnr .icon-btn-cnr {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 12px;
+}
+.list.action-btn-cnr .icon-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  color: #344054;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e1e1e1;
+  cursor: pointer;
+}
+.list.action-btn-cnr .icon-btn:hover {
+  background-color: #efefef;
+}
+.list.action-btn-cnr .edit-btn:hover {
+  border-color: #C6EBFB;
+  background: #EDFBFF;
+}
+.list.action-btn-cnr .delete-btn:hover {
+  border-color: #FED1D1;
+  background: #FFEBEB;
+}
+.list.action-btn-cnr .link-btn {
+  color: #005CB9;
+  padding-left: 20px;
+  width: auto;
+  height: auto;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-family: "Helvetica-Bold";
+  border: 1px solid transparent;
+}
+.list.action-btn-cnr .link-btn:hover {
+  border-color: #00A7E1;
+  background-color: #ffffff;
+}
+
+.action-btn-cnr {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.action-btn-cnr .btn-custom.btn-secondary {
+  font-size: 18px !important;
+  padding: 12px 20px !important;
+}
+
+.CheckoutAddressBook {
+  color: var(--cc-color);
+  font-size: 1em;
+  padding: var(--cc-container-padding);
+  width: 100%;
+}
+
+.CheckoutAddressBook__List {
+  display: grid;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.5fr;
+  margin: 0;
+}
+
+.CheckoutAddressBook__NoAddressLabel {
+  font-size: var(--cc-font-size-small);
+  padding: var(--cc-container-padding) 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .CheckoutAddressBook button {
+    width: 100%;
+  }
+  .CheckoutAddressBook__List {
+    grid-column-gap: 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.section-title {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #344054;
+  font-family: "Helvetica-Bold";
+}
+
+.dropdown-container {
+  display: flex;
+  text-align: left;
+  position: relative;
+  border-radius: 5px;
+  border-bottom: 1px solid #CFD3D4;
+  border-radius: 0;
+  width: 50%;
+}
+.dropdown-container .dropdown-input {
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  border-radius: 0;
+  cursor: pointer;
+  flex: 1 1 auto;
+}
+.dropdown-container .Dropdown__Icon {
+  display: flex;
+  width: 16px;
+  height: 40px;
+  background: url(/file/general/dd-icon.svg) center center no-repeat;
+}
+
+.dropdown-tool {
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.15);
+  padding: 16px 16px 0 16px;
+  margin-top: -1px;
+  position: absolute;
+  transform: translate(-3px);
+  top: 40px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-height: 240px;
+  background-color: #fff;
+  overflow: auto;
+  overflow-x: hidden;
+  z-index: 9;
+}
+.dropdown-tool .dropdown-menu {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+.dropdown-tool .dropdown-menu .dropdown-content-cnr {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.dropdown-tool .dropdown-menu .dropdown-content-cnr .disable-msg {
+  display: flex;
+  padding: 8px 12px;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 auto;
+  border-radius: 10px;
+  border: 1px solid #DEDEDE;
+  margin: 0 auto;
+  background: #F1F1F1;
+  font-size: 13px;
+  color: #667085;
+}
+.dropdown-tool .dropdown-menu .action-btn-cnr {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-between;
+  width: calc(100% + 32px);
+  position: sticky;
+  bottom: 0;
+  border-top: 1px solid #DEDEDE;
+  margin: 0 -16px;
+  padding: 16px;
+  background-color: #FAFAFA;
+}
+.dropdown-tool .dropdown-menu .btn-link {
+  border: 2px solid #005CB9;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background: #FFFFFF;
+}
+.dropdown-tool .dropdown-menu .btn-link:hover {
+  background-color: #E5F0F8;
+  border-color: transparent;
+}
+.dropdown-tool .dropdown-menu .btn-link:hover .add-icon {
+  background-color: #005CB9;
+  border-radius: 24px;
+  color: #FFFFFF;
+}
+.dropdown-tool .dropdown-menu .add-icon {
+  display: flex;
+  width: var(--Paragraph-spacing, 24px);
+  height: var(--Paragraph-spacing, 24px);
+  padding: 0px 9px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #E5F0F8;
+  line-height: 1;
+  font-family: math;
+}
+
+.dropdown-item {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #a5a6e5;
+}
+
+.address-card {
+  display: flex;
+  padding-bottom: 12px;
+}
+.address-card .address-radio {
+  display: flex;
+  flex: 0 0 40px;
+  align-items: center;
+}
+.address-card .address-radio input[type=radio] {
+  width: 24px;
+  height: 24px;
+}
+.address-card .link-btn {
+  cursor: pointer;
+  display: flex;
+  text-decoration: none;
+}
+.address-card .address {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.address-card:last-child {
+  position: sticky;
+  bottom: 0;
+  z-index: 112;
+  background-color: #fff;
+  margin-bottom: 0;
+  padding: 8px;
+  padding-left: 16px;
+}
+
+.CheckoutAddressBookDropDown__AddressesList .section-title {
+  margin-bottom: 0;
+}/*# sourceMappingURL=styles.css.map */

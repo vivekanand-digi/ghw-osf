@@ -1,0 +1,34 @@
+/* .PayPalPaymentButton--standalone {
+  padding: 0px 16px;
+} */
+
+.PayPalPaymentButton__saveCheckbox {
+  margin-bottom: 16px;
+  display: none;
+}
+
+.PayPalPaymentButton__Spinner {
+  position: relative;
+}
+.PayPalPaymentButton__Spinner .SpinnerContent__Circle {
+  margin-top: 0px;
+  position: absolute;
+  top: 0;
+}
+
+.PayPalPaymentButton__Spinner .SpinnerContent__Circle > div {
+  width: 2rem;
+  height: 2rem;
+}
+
+@media (min-width: 992px) {
+  .ProductDetailsContainer__Section #paypal-button-widget-container {
+    max-width: 15rem;
+  }
+
+  .ProductDetailsContainer__Section #paypal-button-widget-container div[id*='paypal-button'] > div,
+  .CartContainer__Section #paypal-button-widget-container div[id*='paypal-button'] > div {
+    /* Fix overlap with mini-cart */
+    z-index: 0;
+  }
+}

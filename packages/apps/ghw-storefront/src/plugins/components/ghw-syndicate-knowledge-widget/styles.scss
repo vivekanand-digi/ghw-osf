@@ -1,0 +1,168 @@
+$color_1: #005CB9;
+$color_2: #344054;
+
+.main-cnr {
+    .faq-title {
+        font-family: "Helvetica-Bold";
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 24px;
+        text-align: center;
+        color: #000000;
+        background: #f1f7fe;
+        border-radius: 8px;
+        padding: 20px;
+    }
+
+    #myDiv {
+        background-color: #f3f4f6;
+
+
+        div.rn_Documents {
+            .rn_List {
+                li.rn_Item {
+                    span.rn_Title {
+                        a {
+                            text-decoration: none !important;
+                            color: $color_1 !important;
+                            font-size: 16px;
+                        }
+                    }
+
+
+                }
+            }
+        }
+
+        div.rn_Content {
+            .rn_List {
+                li.rn_Item {
+                    span.rn_Title {
+                        a {
+                            text-decoration: none !important;
+                            color: $color_1 !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        .KnowledgeSyndication {
+            width: min(1140px, 100%);
+            margin: 0 auto;
+
+            .rn_Content {
+                .rn_List {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 40px;
+
+                    .rn_Item {
+                        display: flex;
+                        padding: 12px;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        border-radius: 12px;
+                        border: 1px solid #E5F0F8;
+                        background: #FFF;
+                        flex: 0 0 calc(50% - 10px);
+
+                        .rn_Title {
+                            font-size: 16px;
+                        }
+
+                        br {
+                            display: none;
+                        }
+
+                        .rn_Description {
+                            font-size: 16px;
+                            color: $color_2 !important;
+                        }
+
+                    }
+
+                    gap: 20px !important;
+                }
+            }
+
+            padding-bottom: 40px !important;
+
+            .rn_SearchArea {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 40px;
+
+                .rn_SearchBox {
+                    display: flex;
+                    flex: 0 0 52%;
+
+                    .rn_Query {
+                        padding: 20px;
+                        border: none;
+                        text-indent: 32px;
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+                        font-weight: 400;
+                        font-size: 20px;
+                        color: #5e6366;
+                        display: flex;
+                        flex: 1 1 auto;
+                    }
+                }
+
+                .rn_SearchButton {
+                    margin-left: -80px;
+                    margin-top: 10px;
+
+                    .rn_ButtonInput {
+                        color: #667085;
+                        font-size: 20px;
+                        font-weight: 400;
+
+                        &:focus {
+                            outline: none !important;
+                            box-shadow: none !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media only screen and (max-width: 540px) {
+            .KnowledgeSyndication {
+                .rn_Content {
+                    .rn_List {
+                        flex-direction: column !important;
+                    }
+
+                }
+
+                .rn_SearchArea {
+                    width: 100% !important;
+
+                    .rn_SearchBox {
+                        .rn_Query {
+                            box-shadow: none !important;
+                            border-bottom: 1px solid rgba(0, 0, 0, 0.20) !important;
+                        }
+                    }
+                }
+            }
+
+            div.rn_Content {
+                .rn_List {
+                    li.rn_Item {
+                        span.rn_Title {
+                            a {
+                                font-size: 18px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

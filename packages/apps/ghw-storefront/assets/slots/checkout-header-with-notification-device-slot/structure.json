@@ -1,0 +1,34 @@
+{
+  "regions": [
+    {
+      "components": [
+        "checkout-header-mobile",
+        "notifications"
+      ],
+      "displayName": "Mobile",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Mobile"
+        }
+      },
+      "deviceType": "xs",
+      "type": "header"
+    },
+    {
+      "components": [
+        "checkout-header-desktop",
+        "notifications"
+      ],
+      "displayName": "Desktop",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Desktop"
+        }
+      },
+      "deviceType": "md",
+      "type": "header"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "layout": [
+    {
+      "components": [
+        "profile-return-request-id",
+        "profile-return-request-date",
+        "profile-return-request-items",
+        "profile-return-request-status"
+      ],
+      "width": 8
+    },
+    {
+      "components": [
+        "profile-return-request-refund",
+        "profile-return-request-message"
+      ],
+      "width": 4
+    },
+    {
+      "components": [
+        "profile-return-request-order-button"
+      ],
+      "width": 12
+    }
+  ],
+  "component": "ProfileReturnDetailsContainer",
+  "title": "ReturnDetails"
+}

@@ -1,0 +1,9 @@
+{
+  "en": {
+      "actionViewCart": "VIEW CART",
+      "actionCheckout": "PROCEED TO CHECKOUT",
+      "continueshopping": "CONTINUE SHOPPING",
+      "AddedToCart":"__numberOfItems__ ITEM(S) ADDED TO CART",
+      "AddedToCart2":"__numberOfItems__ item(s) in cart"
+  }
+}

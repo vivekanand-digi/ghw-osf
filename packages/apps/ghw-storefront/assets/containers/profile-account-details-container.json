@@ -1,0 +1,12 @@
+{
+    "layout": [
+      {
+        "components": [
+          "profile-details"
+        ],
+        "width": 6
+      }
+    ],
+    "component": "ResponsiveContainer",
+    "title": "Profile Account Details Container"
+}

@@ -1,0 +1,44 @@
+.SelectedPaymentInfo__HeadingContainer {
+  display: flex;
+  flex-direction: row;
+}
+.SelectedPaymentInfo__PaymentGroupItem {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--cc-border-color);
+  padding: 0.9375rem 0;
+}
+.SelectedPaymentInfo__PaymentGroupItem:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.SelectedPaymentInfo__PaymentGroupItem:first-child {
+  padding-top: 0;
+}
+.SelectedPaymentInfo__EditPayment {
+  margin-left: auto;
+  margin-top: 0.4em;
+  text-decoration: underline;
+}
+.SelectedPaymentInfo__EditPayment a {
+  color: var(--cc-color);
+  vertical-align: middle;
+}
+.SelectedPaymentInfo__EditPayment--disable {
+  margin-left: auto;
+  margin-top: 0.4em;
+  text-decoration: underline;
+}
+.SelectedPaymentInfo__EditPayment--disable a {
+  color: var(--cc-color);
+  vertical-align: middle;
+  pointer-events: none;
+}
+.SelectedPaymentInfo__Card {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5em;
+}
+.payment-type-label {
+  margin-left: 2em;
+}

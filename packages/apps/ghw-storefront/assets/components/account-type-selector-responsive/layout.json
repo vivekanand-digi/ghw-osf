@@ -1,0 +1,11 @@
+{
+  "regions": [
+    {
+      "components": [
+          "account-type-selector"
+      ],
+      "width": 6,
+      "type": "main"
+    }
+  ]
+}

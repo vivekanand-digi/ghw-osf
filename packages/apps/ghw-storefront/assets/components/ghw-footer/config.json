@@ -1,0 +1,23 @@
+
+
+  {
+    "faqTitle": "FAQs",
+    "faqLink": "/faq",    
+    "rewardsTitle": "Rewards",
+    "rewardsLink": "/home",
+
+    "customerServiceTitle": "Customer Service",
+    "customerServiceLink": "/home",
+    "cancellationTitle": "Cancellation",
+    "cancellationLink": "/home",
+    
+    "guaranteeTitle": "OmegaXL Guarantee",
+    "guaranteeLink": "/home",
+    "returnPolicyTitle": "Return Policy",
+    "returnPolicyLink": "/home",
+
+    "privacyPolicyLink": "/home",
+    "tcLink": "/home",
+    "retunPolicyLink": "/home",
+    "copyrightNoticeLink": "/home"
+  }

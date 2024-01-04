@@ -1,0 +1,133 @@
+:root {
+    --cc-color-inactive: #9b9b9b;
+    --cc-color-active: #0572ce;
+  }
+  
+  .GHWCheckoutProgressTracker {
+    padding: 0 var(--cc-container-padding);
+    margin: 1rem 0;
+  }
+  
+  @media (min-width: 768px) {
+    .GHWCheckoutProgressTracker__wrapper {
+      width: 80%;
+      margin: auto;
+    }
+  }
+  
+  .GHWCheckoutProgressTracker button {
+    box-shadow: none;
+    color: var(--cc-color-inactive);
+    border: none;
+    background-color: transparent;
+  }
+  
+  .GHWCheckoutProgressTracker button:hover {
+    background-color: transparent;
+  }
+  
+  .GHWCheckoutProgressTracker button:disabled {
+    opacity: unset;
+  }
+  
+  .GHWCheckoutProgressTracker__heading {
+    text-align: center;
+    display: none;
+  }
+  
+  .GHWCheckoutProgressTracker__wrapper {
+    display: flex;
+    overflow: hidden;
+    padding: 0;
+    list-style: none;
+    width: 38%;
+  }
+  
+  .GHWCheckoutProgressTracker__step {
+    flex: 1 1 0%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    color: var(--cc-color);
+  }
+  
+  .GHWCheckoutProgressTracker__marker {
+    display: flex;
+    position: relative;
+    flex-grow: 0;
+    align-items: center;
+    /* background: url("/file/general/angle-right.svg") no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 16px; */
+  }
+  .GHWCheckoutProgressTracker__marker .GHWCheckoutProgressTracker__label {
+      margin-right: 16px;
+  }
+  .GHWCheckoutProgressTracker__markerActive .GHWCheckoutProgressTracker__label {
+    color: var(--cc-color-active);
+  }
+  
+  .GHWCheckoutProgressTracker__marker::before {
+    content: attr(data-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cc-color-inactive);
+    color: var(--cc-button-color);
+    position: relative;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    font-size: var(--cc-font-size-small);
+    border-radius: 28px;
+    background: #FFF;
+  }
+  
+  .GHWCheckoutProgressTracker__markerActive::before {
+    background-color: var(--cc-color-active);
+    /* background: var(--cc-color-active), url(/file/general/angle-right.svg) no-repeat;
+    background-size: contain;
+    width: 14px;
+    height: 14px; */
+  
+  }
+  
+  .GHWCheckoutProgressTracker__label {
+    display: inline-block;
+    position: relative;
+    max-width: 70%;
+    white-space: nowrap;
+    padding: 0.5rem 0.5rem;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    width: auto;
+    /* font-size: var(--cc-font-size-xsmall); */
+    color: var(--Secondary-Text-Colour, #667085);
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+  }
+  
+  .GHWCheckoutProgressTracker__marker::after {
+    content: '';
+    position: absolute;
+    /* z-index: -10; */
+    background: url("/file/general/angle-right.svg") no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 16px;
+    height: 16px;
+    top: 13px;
+    right: 8px;
+    width: 30px;
+  }
+  
+  li:last-child {
+    flex-grow: 0;
+  }
+  
+  li:last-child  .GHWCheckoutProgressTracker__marker::after {
+    display: none;
+  }

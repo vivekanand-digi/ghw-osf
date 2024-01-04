@@ -1,0 +1,105 @@
+.ProfileSavedPayment {
+  display: flex;
+  flex-flow: row;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.ProfileSavedPayment__ImageContainer {
+  display: flex;
+  margin: 0.2rem 10px auto 0;
+  max-width: 7em;
+}
+
+.ProfileSavedPayment__PaymentImage {
+  width: 3.5em;
+}
+
+.ProfileSavedPayment__PaymentImage > svg {
+  width: 100%;
+  height: 100%;
+}
+
+.ProfileSavedPayment__PaymentDetails {
+  display: flex;
+  flex-flow: column;
+  size: 0.9em;
+  flex: 1;
+}
+
+.ProfileSavedPayment__PaymentText {
+  margin-bottom: 0.2rem;
+  max-width: inherit;
+}
+
+.ProfileSavedPayment__PaymentActionsContainer {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-top: 0.6rem;
+  justify-content: space-between;
+}
+
+.ProfileSavedPayment__MakeDefaultContainer {
+  flex: 0 0 50%;
+  max-width: 50%;
+  display: flex;
+}
+
+.ProfileSavedPayment__PaymentActionsContainer a,
+.ProfileSavedPayment__PaymentActionsContainer button {
+  color: var(--cc-color);
+}
+
+.ProfileSavedPayment__MakeDefault {
+  background-color: transparent;
+  color: var(--cc-color);
+  transition: color var(--cc-transition-secondary);
+  text-decoration: underline;
+  font: unset;
+  width: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  padding: 0;
+  text-align: left;
+  border: none;
+  margin: 0;
+}
+
+.ProfileSavedPayment__MakeDefault:not(:disabled):active,
+.ProfileSavedPayment__MakeDefault:not(:disabled):hover {
+  background-color: transparent;
+}
+
+.ProfileSavedPayment__MakeDefault:focus,
+.ProfileSavedPayment__MakeDefault:disabled {
+  background-color: transparent;
+}
+
+.ProfileSavedPayment__MakeDefault:hover,
+.ProfileSavedPayment__MakeDefault:active {
+  color: var(--cc-color);
+}
+
+.ProfileSavedPayment__MakeDefault__HelpText {
+  display: none;
+}
+
+.ProfileSavedPayment__DeleteLinkContainer {
+  text-indent: 1rem;
+  text-align: right;
+  text-decoration: underline;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.ProfileSavedPayment__EditLinkContainer {
+  text-align: center;
+}
+
+.ProfileSavedPayment__PaymentActionsContainer--hasEdit .ProfileSavedPayment__DeleteLinkContainer,
+.ProfileSavedPayment__PaymentActionsContainer--hasEdit .ProfileSavedPayment__MakeDefaultContainer,
+.ProfileSavedPayment__EditLinkContainer {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}

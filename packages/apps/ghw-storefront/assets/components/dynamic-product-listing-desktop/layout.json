@@ -1,0 +1,42 @@
+{
+  "regions": [
+    {
+      "components": [
+        "dynamic-breadcrumbs"
+      ],
+      "width": 12
+    },
+    {
+      "components": [
+        "search-terms-summary"
+      ],
+      "width": 12
+    },
+    {
+      "components": [
+        "product-listing-summary-information"
+      ],
+      "width": 12
+    },
+    {
+      "components": [
+        "sort-results"
+      ],
+      "width": 12
+    },
+    {
+      "components": [
+        "dynamic-product-list-quick-view",
+        "product-listing-summary-information",
+        "show-more-products-button"
+      ],
+      "width": 9
+    },
+    {
+      "components": [
+        "back-to-top-link"
+      ],
+      "width": 12
+    }
+  ]
+}

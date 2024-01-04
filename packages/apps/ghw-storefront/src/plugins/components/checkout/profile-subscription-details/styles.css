@@ -1,0 +1,11 @@
+.ProfileSubscriptionDetails {
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-width: 700px;
+  margin-bottom: 20px;
+}
+
+.ProfileSubscriptionDetails__CardButtons {
+  display: flex;
+  justify-content: space-around;
+}

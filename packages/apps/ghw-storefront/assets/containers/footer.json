@@ -1,0 +1,12 @@
+{
+    "layout": [
+      {
+        "components": [
+          "ghw-footer"
+        ],
+        "width": 12
+      }
+    ],
+    "component": "FooterContainer",
+    "title": "Footer"
+  }

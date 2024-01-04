@@ -1,0 +1,108 @@
+.GHWProductOneTimePurchase {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 12px;
+  gap: 10px;
+  height: 107px;
+  background: #f2f8ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.flex-item {
+  margin: 5px 150px;
+  padding: 3px;
+  width: 100px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  padding-right: 22px;
+  border-right: 1px solid;
+  margin-right: 32px;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: capitalize;
+  color: #5d5d5d;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.safecheckout-text {
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #555555;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.icon-image {
+  width: 21px;
+  height: 22px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #8a8a8a;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-right: 12px;
+}
+
+.policy {
+  display: flex;
+  align-items: center;
+}
+
+.image-icon {
+  width: 14px;
+  height: 22px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #5d5d5d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-right: 10px;
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .GHWProductOneTimePurchase .flex-item .safeCheckout .icon-box {
+    display: flex;
+  }
+  .safecheckout-text {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .GHWProductOneTimePurchase {
+    height: 295px;
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
+  .GHWProductOneTimePurchase .flex-item .safeCheckout .icon-box {
+    display: flex;
+  }
+  .details {
+    width: 100%;
+  }
+}/*# sourceMappingURL=styles.css.map */

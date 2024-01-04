@@ -1,0 +1,82 @@
+.ProfileSubscriptionDetailsContainer {
+  padding: 0 var(--cc-container-padding);
+  margin-bottom: 3rem;
+}
+.ProfileSubscriptionDetailsContainer__Section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+}
+.ProfileSubscriptionDetailsContainer .ShippingInformation .Card {
+  border: 0;
+  padding: 0;
+  margin: 0 0.5rem 0.5rem 0;
+}
+
+.ProfileSubscriptionDetailsContainer .ShippingAddressDetails__ShippingDetails {
+  color: var(--cc-color);
+  border: 1px solid var(--cc-border-color);
+  border-radius: 0.313rem;
+  padding: 0.95em;
+  display: flex;
+}
+.ProfileSubscriptionDetailsContainer .HomeDeliveryAddressInformation__AddressSummary {
+  padding-top: 0;
+}
+
+.ProfileSubscriptionDetailsContainer .ShippingAddressSelected__SelectedShippingOption {
+  padding-bottom: 0;
+}
+
+.ProfileSubscriptionDetailsContainer .HomeDeliveryAddressInformation__Heading {
+  display: none;
+}
+
+.ProfileSubscriptionDetailsContainer .ShippingInformation .ShippingGroup__Heading {
+  margin-top: 1.25rem;
+}
+
+.ProfileSubscriptionDetailsContainer .ShippingInformation__HeadingContainer h2,
+.ProfileSubscriptionDetailsContainer .PaymentInformation__HeadingContainer h2,
+.ProfileSubscriptionDetailsContainer .ReturnSummaryContainer h2 {
+  margin-top: 1.25rem;
+}
+
+.ProfileSubscriptionDetailsContainer .PaymentInformation__HeadingContainer h2 {
+  margin-bottom: 0;
+}
+
+.ProfileSubscriptionDetailsContainer .ShippingAddressDetails__ShippingOptionLabel {
+  font-weight: normal;
+}
+
+.ProfileSubscriptionDetailsContainer .HomeDeliveryAddressInformation__LastName,
+.ProfileSubscriptionDetailsContainer .HomeDeliveryAddressInformation__FirstName {
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) {
+  .ProfileSubscriptionDetailsContainer .ShippingAddressDetails__ShippingMethodIcon {
+    display: block;
+  }
+  .ProfileSubscriptionDetailsContainer .AddItemsToCart {
+    display: inline-flex;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ProfileSubscriptionDetailsContainer__Section > section {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .ProfileSubscriptionDetailsContainer .AddItemsToCart {
+    margin-bottom: 1rem;
+  }
+  .ProfileSubscriptionDetailsContainer .AddToPurchaseList {
+    width: 100%;
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "autoSlideInterval": "3",
+  "slideTitle-5": "",
+  "slideTitle-4": "",
+  "slideTitle-3": "",
+  "slideTitle-2": "",
+  "slideTitle-1": "",
+
+  "Banner_Desc-4": "Award Winning Actor",
+  "Banner_Desc-3": "Chief Science Officer, Great HealthWorks",
+  "Banner_Desc-2": "TV Host",
+  "Banner_Desc-1": "Founder, Executive Chairman",
+
+  "Banner_Title-4": "Blair Underwood",
+  "Banner_Title-3": "Sharon McQuillan, M.D.",
+  "Banner_Title-2": "John Walsh",
+  "Banner_Title-1": "Ken Meares",
+
+  "slideMediaTitle-1": "",
+  "slideMediaTitle-3": "",
+  "slideMediaTitle-2": "",
+
+  "isAutoSlide": true,
+
+  "slideMedia-1": {
+    "src": "/file/general/ken_amb.jpg"
+  },
+  "slideMedia-3": {
+    "src": "/file/general/sharon_amb.jpg"
+  },
+  "slideMedia-2": {
+    "src": "/file/general/john_amb.jpg"
+  },
+  "slideMedia-4": {
+    "src":"/file/general/blair_amb.jpg"
+  },
+
+  "slideMediaLinkBehavior-1": "_blank",
+  "slideMediaLinkBehavior-3": "_blank",
+  "slideMediaLinkBehavior-2": "_blank",
+  "slideMediaLinkBehavior-5": "_blank",
+  "slideMediaLinkBehavior-4": "_blank",
+ 
+  "slideMediaLink-2": "https://www.youtube.com/watch?v=B2FeNXf7rMg",
+  "slideMediaLink-3": "https://www.youtube.com/watch?v=B2FeNXf7rMg",
+  "slideMediaLink-1":"https://www.youtube.com/watch?v=6u36ae0tfAU",
+  "slideMediaLink-4":"https://www.youtube.com/watch?v=B2FeNXf7rMg"
+}

@@ -1,0 +1,14 @@
+{
+  "layout": [
+    {
+      "components": [
+        "profile-return-request-id",
+        "profile-return-details-link",
+        "profile-return-request-items"
+      ],
+      "width": 12
+    }
+  ],
+  "component": "ProfileReturnsSummaryContainer",
+  "title": "ReturnsSummary"
+}

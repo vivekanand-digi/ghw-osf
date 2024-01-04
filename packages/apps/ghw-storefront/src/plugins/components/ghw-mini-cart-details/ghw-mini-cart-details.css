@@ -1,0 +1,299 @@
+.btn {
+  border: 2px solid #016FBF;
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 auto;
+  text-decoration: none;
+  gap: 8px;
+  justify-content: center;
+}
+.btn.primary-btn {
+  background: #1C6AC6;
+  color: #fff;
+}
+.btn.secondary-btn {
+  background-color: white;
+  color: #016FBF;
+  border-color: #016FBF;
+}
+.btn.tertiary-btn {
+  background: #FBB82C;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+}
+.btn.sm {
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  line-height: 1;
+}
+.btn.md {
+  font-size: 16px;
+  padding: 8px 16px;
+  line-height: 1.125;
+}
+.btn.md-custom {
+  font-size: 18px;
+  padding: 12px 20px;
+  line-height: 1.25;
+  border-radius: 10px;
+  display: flex;
+  font-family: "Helvetica";
+}
+.btn.lg {
+  font-size: 28px;
+  padding: 18px 32px;
+  line-height: 1.2145;
+  border-radius: 16px;
+}
+.btn.xlg {
+  font-size: 36px;
+  padding: 18px 32px;
+  line-height: 1.2145;
+  border-radius: 20px;
+}
+
+.btn-link {
+  display: flex;
+  padding: 6px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: 20x solid transparent;
+  background: #FFF;
+  font-size: 14px;
+  color: #005CB9;
+}
+.btn-link:hover {
+  border-color: #005CB9;
+}
+
+.list.action-btn-cnr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px 8px;
+  min-height: auto;
+  flex: 0 0 auto;
+  flex-direction: row;
+  border-bottom: none;
+}
+.list.action-btn-cnr .icon-btn-cnr {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 12px;
+}
+.list.action-btn-cnr .icon-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  color: #344054;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e1e1e1;
+  cursor: pointer;
+}
+.list.action-btn-cnr .icon-btn:hover {
+  background-color: #efefef;
+}
+.list.action-btn-cnr .edit-btn:hover {
+  border-color: #C6EBFB;
+  background: #EDFBFF;
+}
+.list.action-btn-cnr .delete-btn:hover {
+  border-color: #FED1D1;
+  background: #FFEBEB;
+}
+.list.action-btn-cnr .link-btn {
+  color: #005CB9;
+  padding-left: 20px;
+  width: auto;
+  height: auto;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-family: "Helvetica-Bold";
+  border: 1px solid transparent;
+}
+.list.action-btn-cnr .link-btn:hover {
+  border-color: #00A7E1;
+  background-color: #ffffff;
+}
+
+.action-btn-cnr {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.action-btn-cnr .btn-custom.btn-secondary {
+  font-size: 18px !important;
+  padding: 12px 20px !important;
+}
+
+/**
+ *  CSS uses the Block Element Modifier naming convention, an example :
+.GHWMiniCartDetails__ElementName {
+  display: inline-block;
+  font-size: large;
+}
+ * For more information - http://getbem.com/
+ */
+.GHWEmptyCartMiniCartDetails {
+  line-height: 1.2;
+  margin: var(--cc-container-padding);
+}
+
+.Clear-Shopping-Cart {
+  width: 143px;
+  height: 33px;
+  margin: 0 14px 0 28.2rem;
+  font-family: NimbusSan-Reg;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.06;
+  letter-spacing: normal;
+  color: var(--cc-a-color-active);
+}
+
+.warningBody {
+  margin-left: 2.5rem;
+}
+
+.Move-All-Item-to-Lis {
+  width: 140px;
+  height: 33px;
+  margin: 0 0 0 -8px;
+  font-family: NimbusSan-Reg;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.06;
+  letter-spacing: normal;
+  color: var(--cc-a-color-active);
+}
+
+.Warning-Next-day-ai {
+  width: 565px;
+  height: 36px;
+  margin: 22px 27px 119px 40px;
+  font-family: NimbusSan-Reg;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: var(--social-icon-shape);
+}
+
+.GHWMiniCartDetails {
+  text-align: center;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+.GHWMiniCartDetails .GHWMiniCartItemsTable_Body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-items: center;
+}
+.GHWMiniCartDetails .GHWMiniCartItemsTable_Body > div:nth-child(2) > div:last-child {
+  display: flex;
+  gap: 24px;
+}
+.GHWMiniCartDetails .GHWMiniCartItemsTable_Body > div:nth-child(2) > div:last-child .continue-shopping {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 50%;
+}
+.GHWMiniCartDetails .GHWMiniCartItemsTable_Body > div:nth-child(2) > div:last-child .payment-method {
+  margin: 0;
+  flex: 0 0 50%;
+  text-decoration: none;
+}
+.GHWMiniCartDetails .GHWMiniCartItemsTable_Body > div:nth-child(2) > div:last-child .payment-method .checknow:hover {
+  text-decoration: none;
+}
+
+.GHWLimeGreen__Color:hover {
+  color: var(--cc-ghw-bitter-lemon) !important;
+}
+
+.GHWMiniCartDetails__EmptyMessage {
+  width: 250px;
+  margin: 0px 0 20px 0;
+  font-family: NimbusSan-Bla;
+  font-size: 18px;
+  line-height: 1.43;
+  letter-spacing: normal;
+}
+
+.GHWMiniCartDetails__ContiueShopping {
+  background-color: var(--cc-ghw-blue) !important;
+  color: white;
+  font-weight: normal;
+  font-family: NimbusSan-Lig;
+}
+
+.my-cart {
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: auto !important;
+  flex: 1 1 auto;
+  padding: 16px 20px 12px;
+}
+.my-cart .delete-btn {
+  display: inline-block;
+  width: 18px;
+  height: 17px;
+  /* background: url(../images/delete.svg) no-repeat center; */
+  cursor: pointer;
+}
+
+.empty-cart-cnr {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  flex: 0 0 60%;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.empty-cart-cnr .empty-msg {
+  font-size: 20px;
+  color: #667085;
+  display: flex;
+  justify-content: center;
+}
+.empty-cart-cnr .empty-img {
+  display: flex;
+  background: url("/file/general/empty-cart.svg") center top no-repeat;
+  width: 292px;
+  height: 292px;
+}
+
+@media only screen and (min-width: 768px) {
+  .GHWMiniCartDetails__EmptyMessage {
+    text-align: left;
+    margin: 2rem 0;
+  }
+  .GHWMiniCartDetails__ContiueShopping {
+    width: -moz-max-content;
+    width: max-content;
+    margin: 10px 0 0 0;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .GHWMiniCartDetails .GHWMiniCartItemsTable_Body > div {
+    overflow-x: hidden;
+  }
+}/*# sourceMappingURL=ghw-mini-cart-details.css.map */

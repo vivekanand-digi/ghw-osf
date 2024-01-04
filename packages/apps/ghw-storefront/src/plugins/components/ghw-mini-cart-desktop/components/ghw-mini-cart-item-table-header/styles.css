@@ -1,0 +1,33 @@
+.GHWMiniCartItemsTableHeader {
+  display: flex;
+  margin:0 0 0 3px;
+  justify-content: space-between;
+}
+
+.GHWMiniCartItemsTableHeader__Text {
+  font-family: Helvetica;
+  font-size: 15px;
+  line-height: 2.06;
+  color: var(--cc-ghw-black);
+}
+
+/* .GHWMiniCartItemsTableHeader__Details,
+.GHWMiniCartItemsTableHeader__PartNumber {
+  width: 15%;
+} */
+
+.GHWMiniCartItemsTableHeader__Description {
+  width: 30%;
+  margin-left: -5px;
+}
+
+.GHWMiniCartItemsTableHeader__Quantity {
+  text-align: right;
+  margin:0 0 0 11px;
+}
+
+.GHWMiniCartItemsTableHeader__Price,
+.GHWMiniCartItemsTableHeader__Total {
+  width: 16%;
+  text-align: right;
+}

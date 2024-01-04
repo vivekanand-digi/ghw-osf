@@ -1,0 +1,39 @@
+{
+  "address": "/checkout-shipping",
+  "title": "Checkout Shipping",
+  "shortName": "checkout-shipping",
+  "defaultPage": true,
+  "settings": {
+    "displayName": "Checkout Shipping"
+  },
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "header-with-notification-device-slot",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "ghw-checkout-progress-tracker",
+        "ghw-checkout-shipping-container",
+        "back-to-top-link"
+      ],
+      "width": "12",
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ]
+}

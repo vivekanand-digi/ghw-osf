@@ -1,0 +1,13 @@
+{
+  "helloText": "sample component text",
+  "labelExtraInfo": "...with some extra info!",
+  "labelSampleTranslation": "A Translated Label",
+  "labelCurrencies": "Currencies:",
+  "labelSelectACurrency": "Select a currency...",
+  "labelSelectedCurrency": "Selected Currency:",
+  "includeExtraInfoLabel": "Display extra info",
+  "includeExtraInfoHelpText": "If selected, the display will include some extra info.",
+  "actionRemove": "Remove",
+  "messagePromoApplied": "__PROMOCODE__  - Applied. ",
+  "messagePromoOffer": "__OFFPRICE__ off your order. "
+}

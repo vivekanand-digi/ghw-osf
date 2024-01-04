@@ -1,0 +1,12 @@
+{
+    "layout": [
+      {
+        "components": [
+          "profile-email-marketing-preferences"
+        ],
+        "width": 6
+      }
+    ],
+    "component": "ResponsiveContainer",
+    "title": "Profile Email Marketing Preferences Container"
+}

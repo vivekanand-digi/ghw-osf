@@ -1,0 +1,41 @@
+{
+  "layout": [
+    {
+      "components": [
+        "header-desktop"
+      ],
+      "width": 12,
+      "type": "header"
+    },
+    {
+      "components": [
+        "content-item"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Content Item Page"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "cmsContent",
+  "title": "Content Item Page",
+  "shortName": "cmsContent",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "cmsContent"
+    }
+  }
+}

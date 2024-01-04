@@ -1,0 +1,136 @@
+:root {
+  --primary-color-bg: linear-gradient(90deg, #005CB9 0%, #00A7E1 100%);
+  --primary-color: #005CB9;
+  --secondary-color: #00A7E1;
+  --text-content-color: #FFFFFF;
+  --primary-btn-bg: #FFFFFF;
+  --text-color: #667085;
+  --faq-ans-color: #344054;
+  --image-abt-bg: url(/file/products/omegaXL-abt-bg.png);
+}
+
+.about {
+  flex-direction: column;
+}
+.about .product-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--text-content-color);
+  margin-bottom: 40px;
+  white-space: nowrap;
+}
+.about .product-title-m {
+  display: none;
+}
+.about .about-omega {
+  display: none;
+}
+.about .about-content {
+  display: flex;
+  flex-direction: row;
+}
+.about .about-content .text-icon-cnr .content-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about .about-content .text-icon-cnr .content-info.two-col {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px 12px;
+  margin-right: -10%;
+  justify-content: space-between;
+}
+.about .about-content .text-icon-cnr .content-info.two-col .detail-item {
+  flex: 0 0 calc(50% - 16px);
+}
+.about .about-content .text-icon-cnr .content-info.two-col .detail-item .icon {
+  flex: 0 0 48px;
+}
+.about .about-content .text-icon-cnr .content-info.two-col .detail-item .detail .desc {
+  font-size: 16px;
+}
+.about .about-content .text-icon-cnr .content-info .detail-item {
+  display: flex;
+  gap: 16px;
+}
+.about .about-content .text-icon-cnr .content-info .detail-item .icon {
+  display: flex;
+  flex: 0 0 112px;
+  justify-content: center;
+  margin: 0;
+  align-items: flex-start;
+}
+.about .about-content .text-icon-cnr .content-info .detail-item .icon img {
+  max-width: none;
+}
+.about .about-content .text-icon-cnr .content-info .detail-item .detail {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  color: var(--text-content-color);
+}
+.about .about-content .text-icon-cnr .content-info .detail-item .detail .title {
+  color: var(--text-content-color);
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.25;
+}
+.about .about-content .text-icon-cnr .content-info .detail-item .detail .desc {
+  color: var(--text-content-color);
+  font-size: 18px;
+  line-height: 1.25;
+}
+.about .about-content .text-icon-cnr .content-info .shop-now-btn {
+  border-radius: 20px;
+  background: var(--primary-btn-bg);
+  background: var(--primary-btn-bg);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  flex: 0 0 auto;
+  width: 45%;
+  margin: 0 auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.about .about-content .text-icon-cnr .action-btn-center {
+  display: flex;
+  justify-content: center;
+}
+.about .about-content .text-icon-cnr .action-btn-center .arrow {
+  line-height: 1.225;
+}
+.about .about-content .omegaxl-img {
+  max-width: none;
+}
+
+.primary-btn-md {
+  background: var(--secondary-color);
+  border-radius: 20px;
+  color: var(--primary-btn-bg);
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0px auto;
+  padding: 0px 32px 4px;
+}
+.primary-btn-md .arrow {
+  display: inline-flex;
+  transform: scale(0.64, 1);
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1.225;
+}
+
+.step-order {
+  display: flex;
+  flex-direction: column;
+}
+.step-order:last-child() {
+  border-bottom: none;
+}/*# sourceMappingURL=about.css.map */

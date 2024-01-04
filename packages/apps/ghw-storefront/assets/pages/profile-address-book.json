@@ -1,0 +1,39 @@
+  {
+    "address": "/ootb-address-book",
+    "title": "OOTB Address Book",
+    "shortName": "profile",
+    "secured": true,
+    "settings": {
+      "displayName": "Address Book"
+    },
+    "layout": [
+      {
+        "displayName": "Adaptive Region",
+        "width": 12,
+        "resources": {
+          "en": {
+            "displayName": "Adaptive Region"
+          }
+        },
+        "slot": "header-with-notification-device-slot",
+        "type": "header",
+        "structure": "slot"
+      },
+      {
+        "components": [
+          "your-account-breadcrumb",
+          "profile-address-book",
+          "back-to-top-link"
+        ],
+        "width": 12,
+        "type": "main"
+      },
+      {
+        "components": [
+          "footer"
+        ],
+        "width": 12,
+        "type": "footer"
+      }
+    ]
+  }

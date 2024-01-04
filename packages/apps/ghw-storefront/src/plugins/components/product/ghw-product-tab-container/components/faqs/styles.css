@@ -1,0 +1,12 @@
+.Faq{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Faq-tab{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

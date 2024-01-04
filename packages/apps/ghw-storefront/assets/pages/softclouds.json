@@ -1,0 +1,31 @@
+{
+  "layout": [
+
+    {
+      "components": [
+   "softclouds"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "FAQ"
+      }
+    },
+    "sites": [
+      "p29667083c1dev-store.occa.ocs.oraclecloud.com"
+    ]
+  },
+  "address": "softclouds",
+  "allowCustomAddress": true,
+  "title": "softclouds",
+  "shortName": "article",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "article"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "autoSlideInterval": "3",
+  "slideTitle-1": "",
+
+  "slideMediaTitle-1": "",
+
+  "isAutoSlide": true,
+
+  "slideMediaLinkBehavior-1": "_self",
+
+  "slideMedia-1": {
+    "src": "/file/general/banner-sept.jpg",
+    "mediaName": "/general/banner.png"
+  },
+
+  "slideMediaLink-2": "",
+  "slideMediaLink-3": "",
+  "slideMediaLink-1":"",
+
+  "button1Link-1" : "/product/OXL0005"
+}

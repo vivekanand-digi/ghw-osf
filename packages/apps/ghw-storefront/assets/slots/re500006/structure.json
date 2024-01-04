@@ -1,0 +1,36 @@
+{
+  "regions": [
+    {
+      "deviceType": "xs",
+      "components": [
+        "promotional-banner",
+        "header-mobile",
+        "notifications"
+      ],
+      "displayName": "Mobile",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Mobile"
+        }
+      },
+      "type": "main"
+    },
+    {
+      "deviceType": "md",
+      "components": [
+        "promotional-banner",
+        "header-desktop",
+        "notifications"
+      ],
+      "displayName": "Desktop",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Desktop"
+        }
+      },
+      "type": "main"
+    }
+  ]
+}

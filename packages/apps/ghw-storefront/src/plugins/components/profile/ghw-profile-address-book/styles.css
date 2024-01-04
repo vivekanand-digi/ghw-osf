@@ -1,0 +1,152 @@
+.shipping-info {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #667085;
+  margin-bottom: 40px;
+}
+.shipping-info .address-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 16px;
+  gap: 28px;
+}
+.shipping-info .address-main .address-list {
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+.shipping-info .address-main .address-list .default-address-bg {
+  background: url(/file/general/default-badge.svg) no-repeat;
+  font-size: 12px;
+  line-height: 22px;
+  color: #ffffff;
+  padding-left: 12px;
+  position: absolute;
+  min-width: 81px;
+  height: 28px;
+}
+.shipping-info .address-main .address-list > div {
+  font-size: 16px;
+  line-height: 24px;
+  color: #344054;
+  padding: 32px 20px 20px;
+  border-bottom: 1px solid #d0d5dd;
+  min-height: 120px;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+.shipping-info .address-main .address-list > div .name-info {
+  font-family: "Helvetica-Bold";
+}
+.shipping-info .address-main .address-list .flex-start-display {
+  display: flex !important;
+  justify-content: center !important;
+}
+.shipping-info .address-main .address-list .action-btn-cnr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px 8px;
+  min-height: auto;
+  flex: 0 0 auto;
+  flex-direction: row;
+  border-bottom: none;
+}
+.shipping-info .address-main .address-list .action-btn-cnr .icon-btn-cnr {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 12px;
+}
+.shipping-info .address-main .address-list .action-btn-cnr .icon-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  color: #344054;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e1e1e1;
+  cursor: pointer;
+}
+.shipping-info .address-main .address-list .action-btn-cnr .icon-btn:hover {
+  background-color: #efefef;
+}
+.shipping-info .address-main .address-list .action-btn-cnr .edit-btn:hover {
+  border-color: #C6EBFB;
+  background: #EDFBFF;
+}
+.shipping-info .address-main .address-list .action-btn-cnr .delete-btn:hover {
+  border-color: #FED1D1;
+  background: #FFEBEB;
+}
+.shipping-info .address-main .address-list .action-btn-cnr .link-btn {
+  color: #005CB9;
+  padding-left: 20px;
+  width: auto;
+  height: auto;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-family: "Helvetica-Bold";
+  border: 1px solid transparent;
+}
+.shipping-info .address-main .address-list .action-btn-cnr .link-btn:hover {
+  border-color: #00A7E1;
+  background-color: #ffffff;
+}
+
+.add-btn {
+  float: right;
+}
+.add-btn button {
+  border: 1px solid rgba(87, 125, 153, 0.2);
+  background: #005CB9;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 8px 16px;
+  color: #ffffff;
+}
+.add-btn button:hover {
+  background-color: #0164ac;
+}
+
+.Shipping-detail {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  padding: 22px 58px;
+  border-radius: 8px;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 540px) {
+  .Shipping-detail {
+    flex-wrap: wrap;
+    padding: 0px;
+  }
+  .Shipping-detail .Button-wrapper {
+    width: 100%;
+  }
+  .profile_address_book {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    width: 92%;
+    margin: 10px auto;
+  }
+  .shipping-info .address-main {
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .Shipping-detail {
+    padding: 20px 0px;
+  }
+}/*# sourceMappingURL=styles.css.map */

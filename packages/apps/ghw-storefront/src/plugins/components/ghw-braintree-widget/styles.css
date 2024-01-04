@@ -1,0 +1,21 @@
+.GHWBraintreeWidget {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.GHWBraintreeWidget__Label {
+  color: #729fff;
+}
+.GHWBraintreeWidget__ExtraInfo {
+  background-color: red;
+  color: yellow;
+  margin-left: 5px;
+}
+/**
+ *  CSS uses the Block Element Modifier naming convention, an example :
+.GHWBraintreeWidget__ElementName {
+  display: inline-block;
+  font-size: large;
+}
+ * For more information - http://getbem.com/
+ */

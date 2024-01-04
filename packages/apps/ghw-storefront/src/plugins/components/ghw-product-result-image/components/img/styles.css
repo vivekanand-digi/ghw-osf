@@ -1,0 +1,29 @@
+.Img__Wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.GHWProductResultImage .GHWPLP__ImgWrapper {
+  display: flex;
+  align-items: center;
+  height: 10.9rem;
+}
+
+.GHWPLP__ImgWrapper img,
+.GHWPLP__ImgWrapper .Icon {
+  /* width: 100%;
+  height: auto !important; */
+  aspect-ratio: 80/80;
+  object-fit: contain;
+}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+
+  .Img__Wrapper img,
+  .Img__Wrapper .Icon {
+    /* width: 100%;
+    height: 100%; */
+  }
+}

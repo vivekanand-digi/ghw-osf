@@ -1,0 +1,50 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "header-with-notification-device-slot",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "ghw-generic-breadcrumb",
+        "ghw-our-guarantee"
+      ],
+      "width": 12,
+      "type": "main"
+    },    
+    {
+      "components": [
+        "ghw-footer"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Our Guarantee"
+      }
+    },
+    "sites": [
+      "p29667083c1dev-store.occa.ocs.oraclecloud.com"
+    ]
+  },
+  "address": "our-guarantee",
+  "allowCustomAddress": true,
+  "title": "Our Guarantee",
+  "shortName": "article",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "article"
+    }
+  }
+}

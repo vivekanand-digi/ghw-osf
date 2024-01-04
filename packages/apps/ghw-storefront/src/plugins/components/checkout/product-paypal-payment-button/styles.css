@@ -1,0 +1,14 @@
+.ProductPayPalPaymentButton .PayPalPaymentButton--standalone {
+  padding: 0;
+}
+
+.ProductPayPalPaymentButton .PayPalPaymentButton--standalone > div {
+  /* Fix overlap with mini-cart */
+  z-index: 0;
+}
+
+@media (min-width: 992px) {
+  .ProductPayPalPaymentButton .PayPalPaymentButton--standalone {
+    max-width: 15rem;
+  }
+}

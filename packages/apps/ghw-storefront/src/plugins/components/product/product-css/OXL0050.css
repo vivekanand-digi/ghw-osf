@@ -1,0 +1,195 @@
+:root {
+  --top-section-bg:#000000;
+  --bcrumb-highlight-color:#0073FF;
+  --thumb-selected-color:linear-gradient(90deg, #1228C1 -2.7%, #0088FC 25.19%, #141EBB 77.99%, #0086FD 92.51%, #1128C1 100%);
+  --img-viewer-bg:#303030;
+  --prod-title-color:#005CB9;
+  --offer-price-color:#005CB9;
+  --list-price-color:#00A7E1;
+  --radio-btn-selection-color:#005CB9;
+  --quantity-btn-color:#00A7E1;
+  --quantity-btn-txt-color:#FFFFFF;
+  --benefit-border-solid-color:#005CB9;
+  --benefit-border-color:linear-gradient(90deg, #005CB9 39.26%, #00A7E1 115.75%);
+  --benefit-title-color:#FFFFFF;
+  --benefit-bg-color:#000000;
+  --cart-btn-color:#005CB9;
+  --cart-sep-color:#FFFFFF;
+  --return-section-bg:linear-gradient(90deg, #005CB9 39.26%, #00A7E1 115.75%);
+  --return-title-color:#FFFFFF;
+  --tab-bg-gradient:#000000;
+  --tab-bg-img:url(/file/products/omeganXL-sport-detail-bg.jpg);
+  --tab-border-color:#FFFFFF;
+  --tab-active-color:#036EDB;
+  --text-content-color:#FFFFFF;
+  --list-border-color:#FFFFFF;
+  --shop-btn-bg-color:#000000;
+  --shop-btn-content-color:#FFFFFF;
+  --celeb-bg-section:#000000;
+  --celeb-separator:linear-gradient(90deg, #1228C1 -2.7%, #0088FC 25.19%, #141EBB 77.99%, #0086FD 92.51%, #1128C1 100%);
+  --celeb-bg-gradient:url(/file/products/omegaXL_sport-celeb-shopnow-bg.jpg);
+  --you-may-like-bg:#FFFFFF;
+  --text-content-color: #FFFFFF;
+}
+
+.OXL0050 {
+  background-color: var(--top-section-bg);
+  box-shadow: 0 0 0 100vmax var(--top-section-bg);
+  -webkit-clip-path: inset(0 -100vmax);
+  clip-path: inset(0 -100vmax);
+}
+.OXL0050 .GHWProductName {
+  color: var(--prod-title-color);
+}
+.OXL0050 .ProductImageViewer__Slider {
+  background-color: var(--img-viewer-bg);
+}
+.OXL0050 .ProductShortDescription {
+  color: var(--text-content-color);
+}
+.OXL0050 .ProductPrice__SaleWrapper .super-txt {
+  color: var(--offer-price-color);
+}
+.OXL0050 .ProductPrice__SaleWrapper .offer-price-cnr .offer-price {
+  color: var(--offer-price-color);
+}
+.OXL0050 .ProductPrice__SaleWrapper .list-price-cnr .super-txt {
+  color: var(--list-price-color);
+}
+.OXL0050 .ProductPrice__SaleWrapper .list-price-cnr .list-price {
+  color: var(--list-price-color);
+}
+.OXL0050 .button-group .buttons .quantity {
+  border-color: var(--quantity-btn-color);
+}
+.OXL0050 .button-group .buttons .quantity .active {
+  border-color: var(--quantity-btn-color);
+  background-color: var(--quantity-btn-color);
+  color: var(--quantity-btn-txt-color);
+}
+.OXL0050 .button-group .buttons .quantity:active {
+  border-color: var(--quantity-btn-color);
+  background-color: var(--quantity-btn-color);
+  color: var(--quantity-btn-txt-color);
+}
+.OXL0050 .GHWProductTypeSelection .payment-selection .selection .input-radio {
+  accent-color: var(--radio-btn-selection-color);
+}
+.OXL0050 .GHWProductTypeSelection .payment-selection .selection > label {
+  color: var(--text-content-color);
+}
+.OXL0050 .GHWProductTypeSelection .payment-selection .selection > label > span > span {
+  color: var(--radio-btn-selection-color);
+}
+.OXL0050 .subscription-benefit-cnr {
+  border-color: var(--benefit-border-solid-color);
+  background-color: var(--benefit-border-color);
+}
+.OXL0050 .subscription-benefit-cnr .heading {
+  color: var(--benefit-title-color);
+  border-color: var(--benefit-title-color);
+}
+.OXL0050 .subscription-benefit-cnr .list .list-item .list-content {
+  color: var(--benefit-title-color);
+}
+.OXL0050 .GHWProductAddToCartButton__Wrapper .Quantity__Textbox {
+  background-color: var(--cart-btn-color);
+}
+.OXL0050 .GHWProductAddToCartButton__Wrapper .Quantity__InputWrapper .stepper-btn-cnr .stepper-btn {
+  background-color: var(--cart-btn-color);
+}
+.OXL0050 .GHWProductAddToCartButton__Wrapper .AddToCartButton__Wrapper form button {
+  background-color: var(--cart-btn-color);
+}
+.OXL0050 .return-policy-cnr {
+  background: var(--return-section-bg);
+}
+.OXL0050 .return-policy-cnr .return .list .autoship-title {
+  color: var(--return-title-color);
+}
+.OXL0050 .return-policy-cnr .return .lists .safe-title {
+  color: var(--return-title-color);
+}
+.OXL0050 .GHWProductTabContainer {
+  background-image: var(--tab-bg-img);
+}
+.OXL0050 .GHWProductTabContainer .TabContainer .TabContainer__TabHeaders {
+  border-bottom: 3px solid var(--tab-border-color);
+}
+.OXL0050 .GHWProductTabContainer .TabContainer .TabContainer__TabHeaders .TabContainer__TabHeader {
+  color: var(--text-content-color);
+  border-bottom: 3px solid transparent;
+}
+.OXL0050 .GHWProductTabContainer .TabContainer .TabContainer__TabHeaders .TabContainer__TabHeader.selected {
+  border-bottom: 3px solid var(--tab-active-color);
+}
+.OXL0050 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .about .product-title {
+  color: var(--text-content-color);
+}
+.OXL0050 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .about .about-content .text-icon-cnr .content-info .detail-item .detail {
+  color: var(--text-content-color);
+}
+.OXL0050 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .about .about-content .text-icon-cnr .content-info .detail-item .detail .title {
+  color: var(--text-content-color);
+}
+.OXL0050 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .about .about-content .text-icon-cnr .content-info .detail-item .detail .desc {
+  color: var(--text-content-color);
+}
+.OXL0050 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .howto .text-icon-cnr .steps-list .step {
+  border-color: var(--list-border-color);
+}
+.OXL0050 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .howto .text-icon-cnr .steps-list .step .step-icon-title .step-icon .icon {
+  color: var(--text-content-color);
+}
+.OXL0050 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .howto .text-icon-cnr .steps-list .step .step-icon-title .step-content .step-title {
+  color: var(--text-content-color);
+}
+.OXL0050 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .howto .text-icon-cnr .steps-list .step .step-icon-title .step-content .step-description {
+  color: var(--text-content-color);
+}
+.OXL0050 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .primary-btn-md {
+  background: var(--shop-btn-bg-color);
+  color: var(--shop-btn-content-color);
+}
+.OXL0050 .GHWYouMayLike .h1-title {
+  background: var(--return-section-bg);
+}
+.OXL0050 .GHWPdpBanner {
+  background-color: var(--celeb-bg-section);
+}
+.OXL0050 .GHWPdpBanner .quotes .content {
+  flex: 0 0 50%;
+  width: auto;
+  padding: 50px 0;
+}
+.OXL0050 .GHWPdpBanner .quotes .content .title {
+  font-size: 32px;
+  text-align: left;
+  padding: 24px 0;
+}
+.OXL0050 .GHWPdpBanner .quotes .content .sub-title {
+  font-size: 22px;
+  margin: 0;
+  padding: 24px 20px 24px 0;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+.OXL0050 .GHWPdpBanner .quotes .content .sub-title::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: var(--celeb-separator);
+  top: -4px;
+}
+.OXL0050 .GHWPdpBanner .quotes .content .primary-btn-md {
+  display: none;
+}
+.OXL0050 .GHWPdpBanner .quotes .quotes-sec {
+  background-image: var(--celeb-bg-gradient);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex: 0 0 50%;
+}/*# sourceMappingURL=omegaXL-sport.css.map */

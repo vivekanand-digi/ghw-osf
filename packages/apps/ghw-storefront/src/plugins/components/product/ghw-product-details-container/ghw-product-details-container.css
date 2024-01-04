@@ -1,0 +1,56 @@
+.GHWProductDetailsContainer {
+  display: flex;
+}
+.GHWProductDetailsContainer .GHWProductDetailsContainer__Section {
+  display: flex;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+}
+.GHWProductDetailsContainer .GHWProductDetailsContainer__Section > .col-12 > .Container__Section {
+  width: min(1140px, 100%);
+  margin: 0 auto;
+}
+.GHWProductDetailsContainer .ProductSocialSharing {
+  align-self: flex-end;
+}
+.GHWProductDetailsContainer .AddToPurchaseList {
+  width: 50%;
+}
+
+@media only screen and (max-width: 540px) {
+  .GHWProductTabContainer {
+    max-width: 100vw;
+  }
+  .GHWProductDetailsContainer__Section > .col-12 > .Container__Section {
+    flex-direction: column;
+    text-align: left;
+    padding: 0 16px;
+  }
+  .GHWProductDetailsContainer__Section > .col-12 > .Container__Section .col-6 {
+    max-width: 100vw;
+    width: 100%;
+    flex: 1 1 auto;
+  }
+}
+.NavigationBreadcrumbs {
+  display: flex;
+  width: min(1140px, 100%);
+  margin: 0 auto;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px 0 14px;
+}
+.NavigationBreadcrumbs > span {
+  display: flex;
+}
+.NavigationBreadcrumbs .NavigationBreadcrumbs__BreadcrumbItem {
+  text-decoration: none;
+}
+.NavigationBreadcrumbs .NavigationBreadcrumbs__Seperator {
+  display: flex;
+  align-items: center;
+}
+.NavigationBreadcrumbs .NavigationBreadcrumbs__BreadcrumbItem--disable {
+  color: #667667;
+}/*# sourceMappingURL=ghw-product-details-container.css.map */

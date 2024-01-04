@@ -1,0 +1,16 @@
+export const PAGE_CREATE_SAVED_LIST_LINK = 'create-saved-list';
+export const PAGE_SAVED_LIST_DETAILS_LINK = 'saved-list-details';
+export const PAGE_SAVED_LISTS_LINK = 'saved-lists';
+export const PAGE_CART_LINK = 'cart';
+export const PAGE_TERMS_LINK = 'terms';
+export const PAGE_PARTS_SPECIAL = 'parts-special';
+export const PAGE_RECOMMENDED_PARTS = 'recommended-parts';
+export const PAGE_PARTS_SEARCH = 'search';
+export const PAGE_TERMS_AND_CONDITIONS_LINK = 'terms';
+export const PAGE_SAVED_LIST_DETAILS = 'saved-list-details';
+export const PAGE_QUICK_ORDER_LINK = 'quickOrder';
+export const PAGE_DOWNLOAD_LINK = 'publication';
+export const PAGE_INTERACTIVE_LINK = 'interactive';
+export const PAGE_MIXED_FLEET = 'parts-mixed';
+export const PAGE_CONTACT_US_LINK = 'contact';
+export const PAGE_PRIVACY_POLICY = 'https://www.mcneiluscompanies.com/privacy-policy';

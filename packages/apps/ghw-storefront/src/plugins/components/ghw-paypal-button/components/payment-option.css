@@ -1,0 +1,65 @@
+.PaymentOption {
+  display: flex;
+  flex-flow: row;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.PaymentOption__PaymentDetails {
+  display: flex;
+  flex-flow: column;
+  size: 0.9em;
+  flex: 1;
+}
+
+.PaymentOption__Name {
+  margin-bottom: 0.2rem;
+  max-width: inherit;
+}
+
+.PaymentOption__PaymentActionsContainer {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-top: 0.6rem;
+}
+
+.PaymentOption__SelectedPaymentContainer {
+  flex: 0 0 50%;
+  max-width: 50%;
+  display: flex;
+}
+
+.PaymentOption__SelectPayment {
+  background-color: transparent;
+  color: var(--cc-color);
+  transition: color var(--cc-transition-secondary);
+  text-decoration: underline;
+  font: unset;
+  width: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  padding: 0;
+  text-align: left;
+  border: none;
+  margin: 0;
+}
+
+.PaymentOption__MakeDefault:not(:disabled):active,
+.PaymentOption__MakeDefault:not(:disabled):hover {
+  background-color: transparent;
+}
+
+.PaymentOption__MakeDefault:focus,
+.PaymentOption__MakeDefault:disabled {
+  background-color: transparent;
+}
+
+.PaymentOption__MakeDefault:hover,
+.PaymentOption__MakeDefault:active {
+  color: var(--cc-color);
+}
+
+.PaymentOption__MakeDefault__HelpText {
+  display: none;
+}

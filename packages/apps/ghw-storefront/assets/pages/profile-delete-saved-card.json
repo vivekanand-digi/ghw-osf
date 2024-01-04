@@ -1,0 +1,40 @@
+{
+  "address": "/confirm-delete-saved-card",
+  "title": "Profile Delete Saved Card",
+  "secured": true,
+  "allowCustomAddress": true,
+  "shortName": "profile",
+  "settings": {
+    "displayName": "Delete Card"
+  },
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "header-with-notification-device-slot",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "your-account-breadcrumb",
+        "profile-delete-saved-card",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ]
+}

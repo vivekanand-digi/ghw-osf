@@ -1,0 +1,123 @@
+.GHWMiniCartDesktop {
+  position: relative;
+}
+.GHWMiniCartDesktop > span {
+  color: #ffffff;
+  background: var(--cc-button-background-color);
+  border-radius: 50%;
+  display: flex;
+  flex: 1 1 auto;
+  font-family: "Helvetica-bold-condensed";
+  font-size: var(--cc-font-size-small);
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  pointer-events: none;
+  position: absolute;
+  right: -12px;
+  top: -4px;
+}
+.GHWMiniCartDesktop .Popover {
+  right: 0.75rem;
+  top: 3rem;
+}
+
+:root {
+  --mini-cart-item-height: 7.5rem;
+  --mini-cart-items-before-scrolling: 24rem;
+}
+
+.GHWModal_Wrapper_Minicart {
+  height: 100vh;
+}
+.GHWModal_Wrapper_Minicart .ProductItem {
+  width: 60% !important;
+}
+.GHWModal_Wrapper_Minicart .GHWModal__Header {
+  justify-content: end !important;
+}
+
+.GHWCartItemRemoveLink {
+  margin: 0px 34px 0px -1px;
+  display: inline-block;
+}
+
+.GHWModal_Wrapper.GHWModal_Wrapper_Minicart {
+  right: 1rem;
+  top: 6rem;
+  margin-left: auto;
+  overflow: hidden;
+  overflow-y: auto;
+  outline: 0;
+  border: 1px solid var(--cc-background-color);
+  box-shadow: var(--cc-box-shadow);
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  transform: none !important;
+}
+
+@media (min-width: 400px) and (max-width: 1200px) {
+  .GHWMiniCartDesktop a {
+    text-decoration: none;
+    margin-top: 0rem !important;
+    align-items: center;
+    width: 5.2rem;
+    height: 2.5rem;
+    border-radius: 0%;
+  }
+  .GHWMiniCartDesktop .ActionIcon {
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    display: inline-flex;
+    font-weight: 600;
+    height: 3rem;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .cartTitle {
+    visibility: hidden;
+  }
+  .GHWMiniCartDesktop a {
+    width: 4.2rem;
+  }
+  .GHWMiniCartDesktop > span {
+    font-size: 11px;
+    right: -6px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .cartTitle {
+    visibility: hidden !important;
+  }
+  .GHWMiniCartDesktop a {
+    width: 4.2rem;
+  }
+  .GHWMiniCartDesktop > span {
+    font-size: 11px;
+    right: -6px;
+  }
+  .GHWCartItemRemoveLink {
+    margin-bottom: 11px;
+  }
+}
+@media only screen and (max-width: 949px) {
+  .cartTitle {
+    visibility: visible;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .GHWModal_Wrapper_Minicart {
+    width: 100%;
+    max-width: 100%;
+  }
+}/*# sourceMappingURL=styles.css.map */

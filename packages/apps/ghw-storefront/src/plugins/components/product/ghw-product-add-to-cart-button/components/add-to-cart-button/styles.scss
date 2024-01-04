@@ -1,0 +1,20 @@
+$color_1: #fff;
+
+.AddToCartButton__Wrapper {
+	form {
+		display: flex;
+
+		button {
+			width: 100%;
+			align-items: center;
+			border-radius: 0 8px 8px 0;
+			color: #fff;
+			display: flex;
+			flex: 1 1 auto;
+			font-size: 2rem;
+			height: 88px;
+			justify-content: center;
+			margin-left: 12px;
+		}
+	}
+}

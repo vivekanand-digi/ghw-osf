@@ -1,0 +1,12 @@
+{
+    "layout": [
+      {
+        "components": [
+          "account-type-selector"
+        ],
+        "width": 6
+      }
+    ],
+    "component": "ResponsiveContainer",
+    "title": "AccountTypeSelectorContainer"
+}

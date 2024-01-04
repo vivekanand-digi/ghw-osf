@@ -1,0 +1,40 @@
+.v-tab_container {
+  float: left;
+  min-height: 132px;
+}
+.v-tab_content > :first-child {
+  margin-top: 0;
+}
+.table {
+  border-collapse: collapse;
+  background: #ffffff;
+  font-size: 14px;
+  color: #667085;
+  width: 98%;
+  margin: 24px 20px;
+  border: 1px solid rgba(36, 25, 84, 0.08);
+}
+.table tr {
+  border: 1px solid rgba(208, 213, 221, 0.5);
+}
+.table th {
+  padding: 12px;
+  border-bottom-width: 0;
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  color: #667085;
+}
+.table tbody td {
+  padding: 11px 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #344054;
+  white-space: nowrap;
+}
+input.blue {
+  accent-color: #016FBF;
+  border: 2px solid rgba(1, 111, 191, 0.2);
+  margin-right: 8px;
+}

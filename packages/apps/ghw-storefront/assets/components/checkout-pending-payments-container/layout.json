@@ -1,0 +1,13 @@
+{
+  "regions": [
+    {
+      "components": [
+        "checkout-payment-methods-container",
+        "cart-order-summary",
+        "checkout-complete-payment-button"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

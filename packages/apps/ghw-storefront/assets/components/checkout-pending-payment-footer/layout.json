@@ -1,0 +1,12 @@
+{
+  "regions": [
+    {
+      "components": [
+        "web-content-copyright-and-social-links",
+        "progress-bar"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

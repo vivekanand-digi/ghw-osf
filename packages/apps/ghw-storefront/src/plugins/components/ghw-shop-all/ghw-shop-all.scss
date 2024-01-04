@@ -1,0 +1,402 @@
+.GHWShopAll {
+  margin-top: 20px;
+
+  .h1-title {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 0;
+    background: var(--ghw-gradient, linear-gradient(90deg, #005CB9 0%, #00A7E1 100%));
+    color: #F1F1F1;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .GenericCarousel {
+    margin: 48px 0 96px;
+
+    .GenericCarouselSlider__IndicatorSection {
+      margin-top: 40px;
+    }
+
+    .GenericCarouselSlider__Button {
+      display: none;
+    }
+
+    .GenericCarouselSlider__Wrapper {
+      .GenericCarouselSlider__Content {
+        &:nth-child(2) {
+          .button-link {
+            background-color: #005CB9;
+          }
+        }
+
+        &:nth-child(3) {
+          .button-link {
+            background-color: #008333;
+          }
+        }
+
+        &:nth-child(4) {
+          .button-link {
+            background-color: #C30011;
+          }
+        }
+      }
+
+      // .product-item {
+      //   max-width: 360px;
+      //   position: relative;
+      //   border-radius: 12px;
+
+      //   &.bg0 {
+      //     //omegaXL sport
+      //     background-color: #000000;
+      //   }
+
+      //   .btn-cnr {
+      //     position: absolute;
+      //     bottom: 0;
+      //     padding-bottom: 20px;
+      //     display: flex;
+      //     flex: 1 1 auto;
+      //     width: 100%;
+      //     justify-content: center;
+
+      //     .button-link {
+      //       display: flex;
+      //       justify-content: center;
+      //       align-items: center;
+      //       color: #FFF;
+      //       font-weight: bold;
+      //       font-size: 24px;
+      //       text-transform: uppercase;
+      //       border-radius: 8px;
+      //       line-height: 1.1;
+      //       padding: 4px;
+      //       width: 92%;
+
+      //       &:hover {
+      //         border-radius: 8px;
+      //       }
+      //     }
+
+      //   }
+
+      //   .title {
+      //     position: absolute;
+      //     top: 10px;
+      //     color: #ffff;
+      //     z-index: 1;
+      //     font-size: 28px;
+      //     text-align: center;
+      //     white-space: pre-wrap;
+      //   }
+      // }
+      .product-item {
+        max-width: 360px;
+        position: relative;
+        border-radius: 12px;
+        padding: 12px 0 16px;
+        gap: 12px;
+        min-height: 360px;
+
+        .product-img {
+          display: flex;
+          max-height: 232px;
+          min-height: 232px;
+
+          .Img__Wrapper {
+            padding: 0 32px;
+
+            img {
+              width: auto;
+              height: auto;
+            }
+          }
+        }
+
+        &.bg0 {
+          //omegaXL sport
+          background-color: #000000;
+
+          .btn-cnr {
+            .button-link {
+              background-color: #005CB9;
+            }
+          }
+        }
+
+        &.bg1 {
+          background-color: #009C4E;
+
+          .btn-cnr {
+            .button-link {
+              background-color: #008333;
+            }
+          }
+        }
+
+        &.bg2 {
+          background-color: #E1251B;
+
+          .btn-cnr {
+            .button-link {
+              background-color: #C30011;
+            }
+          }
+        }
+
+        &.bg3 {
+          background-color: #E34F35;
+
+          .btn-cnr {
+            .button-link {
+              background-color: #B9371A;
+            }
+          }
+        }
+
+        &.bg4 {
+          background-color: #F3C300;
+
+          .btn-cnr {
+            .button-link {
+              background-color: #E4A620;
+            }
+          }
+        }
+
+        &.bg5 {
+          background-color: #1D4387;
+
+          .btn-cnr {
+            .button-link {
+              background-color: #E4A620;
+            }
+          }
+        }
+
+        &.bg6 {
+          background-color: #005cb9;
+
+          .title {
+            line-height: 1.1;
+            margin-bottom: -12px;
+          }
+
+          .btn-cnr {
+            margin-top: -12px;
+
+            .button-link {
+              background-color: #00A7E1;
+            }
+          }
+        }
+
+        &.bg7 {
+          background-color: #FF9900;
+
+          .btn-cnr {
+            .button-link {
+              background-color: #E5831F;
+            }
+          }
+        }
+
+        &.bg8 {
+          background: #F3C300 url(/file/products/light-vitamin-effect.png) right top no-repeat;
+
+          .btn-cnr {
+            .button-link {
+              background-color: #E5B024;
+            }
+          }
+        }
+
+        .btn-cnr {
+          display: flex;
+          flex: 1 1 auto;
+          width: 100%;
+          padding: 0 20px;
+          justify-content: center;
+
+          .button-link {
+            display: flex;
+            font-family: "Helvetica-Bold";
+            justify-content: center;
+            align-items: center;
+            color: #FFF;
+            font-weight: bold;
+            font-size: 24px;
+            text-transform: uppercase;
+            border-radius: 8px;
+            line-height: 1;
+            padding: 8px;
+            flex: 1 1 auto;
+            border: 3px solid transparent;
+
+            &:hover {
+              border-radius: 8px;
+              border-color: #ffffff;
+            }
+          }
+        }
+
+        .title {
+          font-family: "Helvetica-Bold";
+          color: white;
+          font-size: 28px;
+          text-align: center;
+          white-space: pre-wrap;
+        }
+      }
+    }
+  }
+}
+
+.carousel-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+
+.button-link:hover {
+  background-color: #0056b3;
+}
+
+.GHWShopAll .product-list {
+  display: flex;
+  padding: 36px 0 0;
+  flex-direction: column;
+}
+
+.GHWShopAll .product-list.slick-dotted.slick-slider {
+  margin-bottom: 28px;
+}
+
+.GHWShopAll .product-list .slick-list .slick-track {
+  display: flex;
+  gap: 20px;
+  display: flex;
+}
+
+.GHWShopAll .product-list .slick-list .slick-track .product-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: auto !important;
+}
+
+.GHWShopAll .product-list .slick-list .slick-track .product-list-item .prod-top-sec {
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.GHWShopAll .product-list .slick-list .slick-track .product-list-item .prod-top-sec img {
+  max-width: 100%;
+  max-width: 100%;
+  margin: 0;
+}
+
+.GHWShopAll .product-list .slick-list .slick-track .product-list-item .prod-bottom-sec {
+  padding: 20px 16px;
+}
+
+.GHWShopAll .product-list .slick-list .slick-track .product-list-item .prod-bottom-sec .price-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 8px;
+}
+
+.GHWShopAll .product-list .slick-list .slick-track .product-list-item .prod-bottom-sec .price-sec .price {
+  color: #016FBF;
+  font-size: 24px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.GHWShopAll .product-list .slick-list .slick-track .product-list-item .prod-bottom-sec .price-sec .price span {
+  color: #999999;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
+.GHWShopAll .product-list .slick-list .slick-track .product-list-item .prod-bottom-sec .price-sec .btnbg {
+  background: #016FBF;
+  padding: 6px 12px;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+.GHWShopAll .product-list .slick-list .slick-track .product-list-item .prod-bottom-sec .product-cnt {
+  padding-top: 8px;
+}
+
+.GHWShopAll .product-list .slick-list .slick-track .product-list-item .prod-bottom-sec .product-cnt .prod-title {
+  color: #344054;
+  font-size: 18px;
+}
+
+.GHWShopAll .product-list .slick-list .slick-track .product-list-item .prod-bottom-sec .product-cnt .para {
+  color: #667085;
+  font-size: 14px;
+}
+
+.GHWShopAll .product-list .slick-prev {
+  display: none !important;
+}
+
+.GHWShopAll .product-list .slick-next {
+  display: none !important;
+}
+
+.GHWShopAll .product-list .slick-dots {
+  bottom: -20px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.GHWShopAll .product-list .slick-dots .slick-active button {
+  background-color: #00A7E1;
+}
+
+.GHWShopAll .product-list .slick-dots li {
+  display: flex;
+}
+
+.GHWShopAll .product-list .slick-dots li button::before {
+  font-size: 40px;
+  color: #005CB9 !important;
+}
+
+.GHWShopAll .product-list .slick-dots button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #005CB9;
+  border-radius: 10px;
+}
+
+.GHWShopAll .slick-list.draggable {
+  overflow: hidden !important;
+}
+
+/*# sourceMappingURL=styles.css.map */
+
+.GenericCarouselSlider__IndicatorSection .GenericSliderControls__SliderIndicatorButton[aria-pressed='true'] {
+  background: #00A7E1;
+}
+
+.GenericCarouselSlider__IndicatorSection .GenericSliderControls__SliderIndicatorButton[aria-pressed='false'] {
+  background: #005CB9;
+}

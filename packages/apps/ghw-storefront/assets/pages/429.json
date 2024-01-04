@@ -1,0 +1,28 @@
+{
+  "layout": [
+    {
+      "components": [
+        "site-busy",
+        "site-busy-image"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Error 429 - Site Busy"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "429",
+  "title": "Error 429 - Site Busy",
+  "shortName": "429",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "429"
+    }
+  }
+}

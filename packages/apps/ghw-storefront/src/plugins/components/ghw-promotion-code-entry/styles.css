@@ -1,0 +1,102 @@
+.GHWPromotionCodeEntry {
+  margin: 0;
+  margin-bottom: 0.75rem;
+  width: 100% !important;
+}
+.GHWPromotionCodeEntry__LabelContainer {
+  font-size: var(--cc-font-size-small);
+  color: var(--cc-info-message-icon-color);
+  display: inline-block;
+  font-weight: 500;
+}
+.GHWPromotionCodeEntry__Label {
+  font-weight: 600;
+  padding: 0px 5px;
+}
+.GHWPromotionCodeEntry__LabelContainer svg {
+  height: 0.9rem;
+}
+.GHWPromotionCodeEntry__Icon{
+  vertical-align: middle;
+}
+.GHWPromotionCodeEntry__Container {
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--cc-border-color);
+}
+.GHWPromotionCodeEntry__Container__Lable {
+  font-size: var(--cc-font-size);
+  font-weight: 500;
+  padding-bottom: 0.313rem;
+  display: block;
+}
+.GHWPromotionCodeEntry__ErrorMessage {
+  color: var(--cc-validation-error-color);
+  font-size: var(--cc-font-size-xsmall);
+  font-weight: 500;
+}
+.GHWPromotionCodeEntry__ErrorMessage .Icon {
+  height: 1.3rem;
+  padding-top: 0.5rem;
+  color: var(--cc-error-message-icon-color);
+}
+.GHWPromotionCodeEntry__InputContainer {
+  display: flex;
+ 
+}
+.GHWPromotionCodeEntry__InputContainer input {
+  /* flex: 8; */
+  color: #667085;
+  font-family: Helvetica;
+  font-size: 16px;
+  border: 0;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 0;
+  width: 100%;
+  margin-right: -196px;
+  padding-bottom: 4px;
+}
+.GHWPromotionCodeEntry__InputContainer input:focus {
+    background: rgba(0, 0, 0, 0.05);
+    outline: none;
+    box-shadow: inset 0 -1px 0 #0077FF;
+}
+.GHWPromotionCodeEntry__InputContainer span {
+  width: 0.625rem;
+}
+.GHWPromotionCodeEntry__InputContainer button {
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+  color: #667085;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 10px 28px;
+  text-align: center;
+  background: none;
+  flex: 2;
+font-family: Helvetica;
+margin-bottom: 4px;
+}
+.shipping-sec{
+    margin: 12px 0 !important;
+}
+/* .discount{
+    margin: 12px 0 !important;
+} */
+
+@media only screen and (min-width: 768px) {
+  .GHWPromotionCodeEntry {
+      width: 28.125rem;
+  }
+  .GHWPromotionCodeEntry__Container {
+      border-bottom: none;
+      padding-bottom: 0;
+  }
+}
+@media only screen and (max-width: 540px){
+    .GHWPromotionCodeEntry__InputContainer input{
+        border: 0;
+        box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+        border-radius: 0;
+    }
+}

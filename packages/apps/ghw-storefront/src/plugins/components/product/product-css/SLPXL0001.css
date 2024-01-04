@@ -1,0 +1,163 @@
+:root {
+  --bcrumb-highlight-color:#1D4387;
+  --thumb-selected-color:#1D4387;
+  --prod-title-color:#1D4387;
+  --offer-price-color:#1D4387;
+  --list-price-color:#000000;
+  --radio-btn-selection-color:#1D4387;
+  --quantity-btn-color:#00A7E1;
+  --quantity-btn-txt-color:#FFFFFF;
+  --benifit-border-color:linear-gradient(90deg, #003577 0%, #1D4387 100%);
+  --benifit-title-color:#1D4387;
+  --cart-btn-color:#1D4387;
+  --cart-sep-color:#FFFFFF;
+  --return-section-bg:linear-gradient(90deg, #003577 0%, #1D4387 100%);
+  --return-title-color:#BD9A5F;
+  --tab-bg-gradient:#1D4387;
+  --tab-bg-img:url(/file/products/sleepXL-detail-bg.jpg);
+  --tab-border-color:#BD9A5F;
+  --tab-active-color:#FFFFFF;
+  --text-content-color:#FFFFFF;
+  --list-border-color:#FFFFFF;
+  --shop-btn-bg-color:#BD9A5F;
+  --shop-btn-content-color:#FFFFFF;
+  --celeb-bg-gradient:url(/file/products/sleepXL-celeb-shopnow-bg.jpg);
+  --primary-color-bg: linear-gradient(90deg, #005CB9 0%, #00A7E1 100%);
+  --primary-color: #1D4387;
+  --secondary-color: #00A7E1;
+  --text-content-color: #FFFFFF;
+  --primary-btn-bg: #FFFFFF;
+  --text-color: #667085;
+  --faq-ans-color: #344054;
+}
+
+.SLPXL0001 .GHWProductName {
+  color: var(--prod-title-color);
+}
+.SLPXL0001 .ProductPrice__SaleWrapper .super-txt {
+  color: var(--offer-price-color);
+}
+.SLPXL0001 .ProductPrice__SaleWrapper .offer-price-cnr .offer-price {
+  color: var(--offer-price-color);
+}
+.SLPXL0001 .ProductPrice__SaleWrapper .list-price-cnr .super-txt {
+  color: var(--list-price-color);
+}
+.SLPXL0001 .ProductPrice__SaleWrapper .list-price-cnr .list-price {
+  color: var(--list-price-color);
+}
+.SLPXL0001 .button-group .buttons .quantity {
+  border-color: var(--quantity-btn-color);
+}
+.SLPXL0001 .button-group .buttons .quantity .active {
+  border-color: var(--quantity-btn-color);
+  background-color: var(--quantity-btn-color);
+  color: var(--quantity-btn-txt-color);
+}
+.SLPXL0001 .button-group .buttons .quantity:active {
+  border-color: var(--quantity-btn-color);
+  background-color: var(--quantity-btn-color);
+  color: var(--quantity-btn-txt-color);
+}
+.SLPXL0001 .GHWProductTypeSelection .payment-selection .selection .input-radio {
+  accent-color: var(--radio-btn-selection-color);
+}
+.SLPXL0001 .GHWProductTypeSelection .payment-selection .selection > label > span > span {
+  color: var(--radio-btn-selection-color);
+}
+.SLPXL0001 .subscription-benefit-cnr {
+  border-color: var(--benifit-title-color);
+}
+.SLPXL0001 .subscription-benefit-cnr .heading {
+  color: var(--benifit-title-color);
+  border-color: var(--benifit-title-color);
+}
+.SLPXL0001 .subscription-benefit-cnr .list .list-item > img {
+  filter: brightness(0.6);
+}
+.SLPXL0001 .subscription-benefit-cnr .list .list-item .list-content {
+  color: var(--list-price-color);
+}
+.SLPXL0001 .GHWProductAddToCartButton__Wrapper .Quantity__Textbox {
+  background-color: var(--cart-btn-color);
+}
+.SLPXL0001 .GHWProductAddToCartButton__Wrapper .Quantity__InputWrapper .stepper-btn-cnr .stepper-btn {
+  background-color: var(--cart-btn-color);
+}
+.SLPXL0001 .GHWProductAddToCartButton__Wrapper .AddToCartButton__Wrapper form button {
+  background-color: var(--cart-btn-color);
+}
+.SLPXL0001 .return-policy-cnr {
+  background: var(--return-section-bg);
+}
+.SLPXL0001 .return-policy-cnr .return .list .autoship-title {
+  color: var(--return-title-color);
+}
+.SLPXL0001 .return-policy-cnr .return .lists .safe-title {
+  color: var(--return-title-color);
+}
+.SLPXL0001 .GHWProductTabContainer {
+  background-image: var(--tab-bg-img);
+}
+.SLPXL0001 .GHWProductTabContainer .TabContainer .TabContainer__TabHeaders {
+  border-bottom: 3px solid var(--tab-border-color);
+}
+.SLPXL0001 .GHWProductTabContainer .TabContainer .TabContainer__TabHeaders .TabContainer__TabHeader {
+  color: var(--text-content-color);
+  border-bottom: 3px solid transparent;
+}
+.SLPXL0001 .GHWProductTabContainer .TabContainer .TabContainer__TabHeaders .TabContainer__TabHeader.selected {
+  border-bottom: 3px solid var(--tab-active-color);
+}
+.SLPXL0001 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .about .product-title {
+  color: var(--text-content-color);
+}
+.SLPXL0001 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .about .about-content .text-icon-cnr .content-info .detail-item .detail {
+  color: var(--text-content-color);
+}
+.SLPXL0001 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .about .about-content .text-icon-cnr .content-info .detail-item .detail .title {
+  color: var(--text-content-color);
+}
+.SLPXL0001 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .about .about-content .text-icon-cnr .content-info .detail-item .detail .desc {
+  color: var(--text-content-color);
+}
+.SLPXL0001 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .howto .text-icon-cnr .steps-list .step {
+  border-color: var(--list-border-color);
+}
+.SLPXL0001 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .howto .text-icon-cnr .steps-list .step .step-icon-title .step-icon .icon {
+  color: var(--text-content-color);
+}
+.SLPXL0001 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .howto .text-icon-cnr .steps-list .step .step-icon-title .step-content .step-title {
+  color: var(--text-content-color);
+}
+.SLPXL0001 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .howto .text-icon-cnr .steps-list .step .step-icon-title .step-content .step-description {
+  color: var(--text-content-color);
+}
+.SLPXL0001 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .primary-btn-md {
+  background: var(--shop-btn-bg-color);
+  color: var(--shop-btn-content-color);
+}
+.SLPXL0001 .GHWYouMayLike .h1-title {
+  background: var(--return-section-bg);
+}
+.SLPXL0001 .GHWPdpBanner .quotes {
+  background-image: var(--celeb-bg-gradient);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.SLPXL0001 .GHWPdpBanner .quotes .content {
+  flex: 0 0 50%;
+  margin-left: 10%;
+}
+.SLPXL0001 .GHWPdpBanner .quotes .content .title {
+  line-height: 1.125;
+}
+.SLPXL0001 .GHWPdpBanner .quotes .content .sub-title {
+  width: 50%;
+  line-height: 1.25;
+}
+.SLPXL0001 .GHWPdpBanner .quotes .content .primary-btn-md {
+  background: var(--shop-btn-bg-color);
+  color: var(--shop-btn-content-color);
+}/*# sourceMappingURL=sleepXL.css.map */

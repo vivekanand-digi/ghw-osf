@@ -1,0 +1,59 @@
+.payment-list {
+    border-radius: 8px;
+    border: 1px solid rgba(0, 163, 255, 0.71);
+    background: #FFF;
+    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.20);
+    border: 2px solid red;
+}
+
+// .PaymentMethodsContainer__Items {
+//     display: flex;
+//     grid-column-gap: 0.5rem;
+//     grid-template-columns: repeat(4, 1fr);
+//     grid-template-rows: 0.5fr;
+//     margin: 0;
+//     flex-wrap: nowrap;
+//     flex-direction: column;
+//     justify-content: flex-start;
+// }
+
+// .PaymentMethodsContainer__Item {
+//     display: flex;
+//     max-width: 500px;
+//     flex-flow: row;
+// }
+
+// .PaymentMethodsContainer__CardDetails {
+//     display: flex;
+//     flex-flow: column;
+//     size: 0.9em;
+//     flex: 1;
+//     margin-left: 0.5em;
+// }
+
+// .PaymentMethodsContainer__Card {
+//     display: flex;
+//     flex-flow: row;
+//     flex: 0 0 100%;
+//     max-width: 100%;
+// }
+
+// .PaymentMethodsContainer__SelectSavedPayment {
+//     background-color: transparent;
+//     color: var(--cc-color);
+//     transition: color var(--cc-transition-secondary);
+//     text-decoration: underline;
+//     font: unset;
+//     width: fit-content;
+//     width: -webkit-fit-content;
+//     width: -moz-fit-content;
+//     padding: 0;
+//     text-align: left;
+//     border: none;
+//     margin: 0;
+//     margin-top: 0.5em;
+// }
+
+// .PaymentMethodsContainer__SelectSavedPayment:hover {
+//     color: #fff;
+// }

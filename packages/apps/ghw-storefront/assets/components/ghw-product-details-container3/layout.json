@@ -1,0 +1,15 @@
+{
+  "regions": [
+    {
+      "components":[
+        "ghw-product-landing-banner",
+        "ghw-product-landing-detail",
+        "ghw-product-landing-content",
+        "ghw-product-landing-howtouse",
+        "ghw-product-landing-supplement"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

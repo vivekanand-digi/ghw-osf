@@ -1,0 +1,95 @@
+.OrderSummary {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.OrderSummary__Row {
+    display: flex;
+}
+
+.OrderSummary__ColLabel {
+    width: 70%;
+    white-space: pre-wrap;
+}
+
+.OrderSummary__ColValue {
+    width: 30%;
+}
+
+.OrderSummary__Label {
+    float: left;
+    color: #667085;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.OrderSummary__Value {
+    float: right;
+    color: #344054;
+    font-size: 18px;
+    font-family: 'Helvetica-Bold';
+}
+
+.OrderSummary__Promotion {
+    display: flex;
+    margin-left: 2rem;
+}
+
+.OrderSummary__Total {
+    border-top: 1px solid var(--cc-border-color);
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+    font-size: var(--cc-font-size-xlarge);
+
+}
+
+.OrderSummary__LabelTotal {
+    float: left;
+    color: #344054;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.OrderSummary__ValueTotal {
+    float: right;
+    color: #344054;
+    font-size: 18px;
+    font-family: 'Helvetica-Bold';
+}
+
+.OrderSummary__LabelTotalExcludingTax {
+    float: left;
+    font-weight: 500;
+}
+
+.OrderSummary__ValueTotalExcludingTax {
+    float: right;
+    font-weight: 500;
+}
+
+.OrderSummary__TextExcludingTax {
+    font-size: var(--cc-font-size-large);
+    font-weight: 500;
+}
+
+.OrderSummary__TextIncludingTax {
+    font-size: var(--cc-font-size-large);
+}
+
+.OrderSummary__MessageLabel {
+    width: 100%;
+    white-space: pre-wrap;
+}
+
+.OrderSummary__LabelPricingMessage {
+    float: left;
+    font-size: var(--cc-font-size-small);
+    width: 100% !important;
+}
+
+@media (min-width: 768px) {
+    .OrderSummary {
+        margin-top: 1.2rem;
+    }
+}

@@ -1,0 +1,232 @@
+:root {
+  --bcrumb-highlight-color:#005CB9;
+  --thumb-selected-color:#005CB9;
+  --prod-title-color:#005CB9;
+  --offer-price-color:#005CB9;
+  --list-price-color:#000000;
+  --radio-btn-selection-color:#00A7E1;
+  --quantity-btn-color:#00A7E1;
+  --quantity-btn-txt-color:#FFFFFF;
+  --benifit-border-color:linear-gradient(90deg, #005CB9 39.26%, #00A7E1 115.75%);
+  --benifit-title-color:#005CB9;
+  --cart-btn-color:#005CB9;
+  --cart-sep-color:#FFFFFF;
+  --return-section-bg:linear-gradient(90deg, #005CB9 39.26%, #00A7E1 115.75%);
+  --return-title-color:#FFFFFF;
+  --tab-bg-gradient:linear-gradient(90deg, #005CB9 8.97%, rgba(0, 92, 185, 0) 100%);
+  --tab-bg-img:url(/file/products/omegaXL-detail-bg.jpg);
+  --tab-border-color:#FFFFFF;
+  --tab-active-color:#00A7E1;
+  --text-content-color:#FFFFFF;
+  --list-border-color:#FFFFFF;
+  --shop-btn-bg-color:#00A7E1;
+  --shop-btn-content-color:#FFFFFF;
+  --celeb-bg-gradient:url(/file/products/omegaxl-celeb-shopnow-bg.jpg);
+  --primary-color-bg: linear-gradient(90deg, #005CB9 0%, #00A7E1 100%);
+  --primary-color: #005CB9;
+  --secondary-color: #00A7E1;
+  --text-content-color: #FFFFFF;
+  --primary-btn-bg: #FFFFFF;
+  --text-color: #667085;
+  --faq-ans-color: #344054;
+}
+
+.OXL0005 .GHWProductName {
+  color: var(--prod-title-color);
+}
+.OXL0005 .ProductPrice__SaleWrapper .super-txt {
+  color: var(--offer-price-color);
+}
+.OXL0005 .ProductPrice__SaleWrapper .offer-price-cnr .offer-price {
+  color: var(--offer-price-color);
+}
+.OXL0005 .ProductPrice__SaleWrapper .list-price-cnr .super-txt {
+  color: var(--list-price-color);
+}
+.OXL0005 .ProductPrice__SaleWrapper .list-price-cnr .list-price {
+  color: var(--list-price-color);
+}
+.OXL0005 .button-group .buttons .quantity {
+  border-color: var(--quantity-btn-color);
+}
+.OXL0005 .button-group .buttons .quantity .active {
+  border-color: var(--quantity-btn-color);
+  background-color: var(--quantity-btn-color);
+  color: var(--quantity-btn-txt-color);
+}
+.OXL0005 .button-group .buttons .quantity:active {
+  border-color: var(--quantity-btn-color);
+  background-color: var(--quantity-btn-color);
+  color: var(--quantity-btn-txt-color);
+}
+.OXL0005 .GHWProductTypeSelection .payment-selection .selection .input-radio {
+  accent-color: var(--radio-btn-selection-color);
+}
+.OXL0005 .GHWProductTypeSelection .payment-selection .selection > label > span > span {
+  color: var(--radio-btn-selection-color);
+}
+.OXL0005 .subscription-benefit-cnr {
+  border-color: var(--benifit-title-color);
+}
+.OXL0005 .subscription-benefit-cnr .heading {
+  color: var(--benifit-title-color);
+  border-color: var(--benifit-title-color);
+}
+.OXL0005 .subscription-benefit-cnr .list .list-item .list-content {
+  color: var(--list-price-color);
+}
+.OXL0005 .GHWProductAddToCartButton__Wrapper .Quantity__Textbox {
+  background-color: var(--cart-btn-color);
+}
+.OXL0005 .GHWProductAddToCartButton__Wrapper .Quantity__InputWrapper .stepper-btn-cnr .stepper-btn {
+  background-color: var(--cart-btn-color);
+}
+.OXL0005 .GHWProductAddToCartButton__Wrapper .AddToCartButton__Wrapper form button {
+  background-color: var(--cart-btn-color);
+}
+.OXL0005 .return-policy-cnr {
+  background-image: var(--return-section-bg);
+}
+.OXL0005 .return-policy-cnr .return .list .autoship-title {
+  color: var(--return-title-color);
+}
+.OXL0005 .return-policy-cnr .return .lists .safe-title {
+  color: var(--return-title-color);
+}
+.OXL0005 .GHWProductTabContainer {
+  background-image: var(--tab-bg-img);
+}
+.OXL0005 .GHWProductTabContainer .TabContainer .TabContainer__TabHeaders {
+  border-bottom: 3px solid var(--tab-border-color);
+}
+.OXL0005 .GHWProductTabContainer .TabContainer .TabContainer__TabHeaders .TabContainer__TabHeader {
+  color: var(--text-content-color);
+  border-bottom: 3px solid transparent;
+}
+.OXL0005 .GHWProductTabContainer .TabContainer .TabContainer__TabHeaders .TabContainer__TabHeader.selected {
+  border-bottom: 3px solid var(--tab-active-color);
+}
+.OXL0005 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .about .product-title {
+  color: var(--text-content-color);
+}
+.OXL0005 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .about .about-content .text-icon-cnr .content-info .detail-item .detail {
+  color: var(--text-content-color);
+}
+.OXL0005 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .about .about-content .text-icon-cnr .content-info .detail-item .detail .title {
+  color: var(--text-content-color);
+}
+.OXL0005 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .about .about-content .text-icon-cnr .content-info .detail-item .detail .desc {
+  color: var(--text-content-color);
+}
+.OXL0005 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .howto .text-icon-cnr .steps-list .step {
+  border-color: var(--list-border-color);
+}
+.OXL0005 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .howto .text-icon-cnr .steps-list .step .step-icon-title .step-icon .icon {
+  color: var(--text-content-color);
+}
+.OXL0005 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .howto .text-icon-cnr .steps-list .step .step-icon-title .step-content .step-title {
+  color: var(--text-content-color);
+}
+.OXL0005 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .howto .text-icon-cnr .steps-list .step .step-icon-title .step-content .step-description {
+  color: var(--text-content-color);
+}
+.OXL0005 .GHWProductTabContainer .TabContainer .TabContainer__TabContents .TabContainer__TabContent .primary-btn-md {
+  background: var(--shop-btn-bg-color);
+  color: var(--shop-btn-content-color);
+}
+.OXL0005 .GHWYouMayLike .h1-title {
+  background: var(--return-section-bg);
+}
+.OXL0005 .GHWPdpBanner .quotes {
+  background-image: var(--celeb-bg-gradient);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.OXL0005 .GHWPdpBanner .quotes .content {
+  flex: 0 0 72%;
+  width: auto;
+}
+.OXL0005 .GHWPdpBanner .quotes .content .primary-btn-md {
+  background: var(--shop-btn-bg-color);
+  color: var(--shop-btn-content-color);
+}
+
+@media only screen and (max-width: 540px) {
+  .GHWProductDetailsContainer .GHWProductDetailsContainer__Section > .col-12 > .Container__Section {
+    flex-direction: column;
+    text-align: left;
+  }
+  .GHWProductDetailsContainer .GHWProductDetailsContainer__Section > .col-12 > .Container__Section .col-6 {
+    max-width: 100%;
+    width: 100%;
+    flex: 1 1 auto;
+  }
+  .GHWProductImageViewer .ProductImageViewer__Slider {
+    flex-direction: column;
+  }
+  .return-policy-cnr .return {
+    flex-direction: column;
+  }
+  .OXL0005 .GHWProductName {
+    font-size: 38px;
+  }
+  .OXL0005 .subscription {
+    border-radius: 8px;
+    border: 2px solid #005CB9;
+    background: #FFF;
+    box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.05);
+    padding: 16px;
+  }
+  .OXL0005 .subscription .heading .sub {
+    color: #005CB9;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .OXL0005 .subscription .list li {
+    color: #667085;
+    font-size: 16px;
+  }
+  .ProductShortDescription {
+    font-size: 20px;
+  }
+  .GHWProductAddToCartButton__Wrapper {
+    position: fixed;
+    bottom: 20px;
+  }
+  .GHWProductTypeSelection .payment-selection .selection label {
+    color: #344054;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  .button-group h4 {
+    color: #00A7E1;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .button-group .buttons .quantity {
+    border-radius: 8px;
+    background: #00A7E1;
+    color: #fff;
+    width: 100%;
+  }
+  .about .about-content {
+    flex-direction: column !important;
+  }
+  .about .about-content .text-icon-cnr .content-info.two-col {
+    flex-direction: column !important;
+  }
+  .about .about-content .text-icon-cnr .content-info .detail-item .detail {
+    text-align: left;
+  }
+  .howto .text-icon-cnr .steps-list .step .step-content {
+    text-align: left;
+  }
+  .TabContainer .TabContainer__TabContents .TabContainer__TabContent .prod-detail {
+    flex-direction: column !important;
+  }
+  .TabContainer .TabContainer__TabContents .TabContainer__TabContent .prod-detail .product-img {
+    display: none !important;
+  }
+}/*# sourceMappingURL=omegaXL.css.map */

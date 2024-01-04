@@ -1,0 +1,33 @@
+.GHWNavigationBreadcrumbs {
+  display: flex;
+  width: min(1140px, 100%);
+  margin: 0 auto;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px 0 14px;
+}
+.GHWNavigationBreadcrumbs > span {
+  display: flex;
+  gap: 6px;
+}
+.GHWNavigationBreadcrumbs .GHWNavigationBreadcrumbs__BreadcrumbItem {
+  color: #000;
+  display: inline-block;
+  cursor: pointer;
+}
+.GHWNavigationBreadcrumbs .GHWNavigationBreadcrumbs__BreadcrumbItem:hover {
+  color: #005CB9;
+}
+.GHWNavigationBreadcrumbs .GHWNavigationBreadcrumbs__Seperator {
+  padding-right: 6px;
+}
+.GHWNavigationBreadcrumbs .NavigationBreadcrumbs__BreadcrumbItem--disable {
+  pointer-events: none;
+  text-decoration: none;
+  display: inline-block;
+}
+.GHWNavigationBreadcrumbs .NavigationBreadcrumbs__Seperator {
+  margin: 0.188rem;
+  display: inline-block;
+}/*# sourceMappingURL=styles.css.map */

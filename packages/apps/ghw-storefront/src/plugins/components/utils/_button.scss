@@ -1,0 +1,162 @@
+.btn {
+    border: 2px solid #016FBF;
+    border-radius: 8px;
+    display: flex;
+    flex: 0 0 auto;
+    text-decoration: none;
+    gap: 8px;
+    justify-content: center;
+
+    &.primary-btn {
+        background: #1C6AC6;
+        color: #fff;
+    }
+
+    &.secondary-btn {
+        // font-size: 28px;
+        background-color: white;
+        // padding: 18px 32px;
+        color: #016FBF;
+        border-color: #016FBF;
+    }
+
+    &.tertiary-btn {
+        background: #FBB82C;
+        color: #fff;
+        border-radius: 8px;
+        border: none;
+    }
+
+    &.sm {
+        font-size: 14px;
+        padding: 6px 10px;
+        border-radius: 6px;
+        line-height: 1;
+    }
+
+    &.md {
+        font-size: 16px;
+        padding: 8px 16px;
+        line-height: 1.125;
+    }
+
+    &.md-custom {
+        font-size: 18px;
+        padding: 12px 20px;
+        line-height: 1.25;
+        border-radius: 10px;
+        display: flex;
+        font-family: 'Helvetica';
+    }
+
+    &.lg {
+        font-size: 28px;
+        padding: 18px 32px;
+        line-height: 1.2145;
+        border-radius: 16px;
+    }
+
+    &.xlg {
+        font-size: 36px;
+        padding: 18px 32px;
+        line-height: 1.2145;
+        border-radius: 20px;
+    }
+}
+
+.btn-link {
+    display: flex;
+    padding: 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 6px;
+    border: 20x solid transparent;
+    background: #FFF;
+
+    font-size: 14px;
+    color: #005CB9;
+
+    &:hover {
+        border-color: #005CB9;
+    }
+}
+
+.list {
+    &.action-btn-cnr {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 8px 8px;
+        min-height: auto;
+        flex: 0 0 auto;
+        flex-direction: row;
+        border-bottom: none;
+
+        .icon-btn-cnr {
+            display: flex;
+            flex: 0 0 auto;
+            gap: 12px;
+        }
+
+        .icon-btn {
+            width: 32px;
+            height: 32px;
+            border-radius: 6px;
+            color: #344054;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #e1e1e1;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #efefef;
+            }
+        }
+
+        .edit-btn {
+            &:hover {
+                border-color: #C6EBFB;
+                background: #EDFBFF;
+            }
+        }
+
+        .delete-btn {
+            &:hover {
+                border-color: #FED1D1;
+                background: #FFEBEB;
+            }
+        }
+
+        .link-btn {
+            color: #005CB9;
+            padding-left: 20px;
+            width: auto;
+            height: auto;
+            padding: 4px 8px;
+            font-size: 14px;
+            font-family: "Helvetica-Bold";
+            border: 1px solid transparent;
+
+            &:hover {
+                border-color: #00A7E1;
+                background-color: #ffffff;
+            }
+        }
+    }
+}
+
+.action-btn-cnr {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+
+    .btn-custom {
+        &.btn-secondary {
+            font-size: 18px !important;
+            padding: 12px 20px !important;
+        }
+    }
+}

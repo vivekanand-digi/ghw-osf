@@ -1,0 +1,64 @@
+/* Progress section */
+.CheckoutProgressTracker {
+  margin: 32px 0 24px;
+}
+.CheckoutProgressTracker .CheckoutProgressTracker__heading {
+  display: none;
+}
+.CheckoutProgressTracker .CheckoutProgressTracker__wrapper {
+  gap: 16px;
+  margin: 0 auto;
+  width: 24%;
+}
+.CheckoutProgressTracker .CheckoutProgressTracker__wrapper .CheckoutProgressTracker__step {
+  flex: 0;
+}
+.CheckoutProgressTracker .CheckoutProgressTracker__wrapper .CheckoutProgressTracker__step .CheckoutProgressTracker__marker {
+  gap: 6px;
+}
+.CheckoutProgressTracker .CheckoutProgressTracker__wrapper .CheckoutProgressTracker__step .CheckoutProgressTracker__marker .CheckoutProgressTracker__label {
+  padding: 0;
+  color: var(--667-series, #667085);
+  font-family: Lato;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+/* Progress section end*/
+.ShippingGroupDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.ShippingGroupDetails .ShippingGroupDetails__Wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ShippingGroupDetails__HeadingContainer {
+  display: flex;
+  flex-direction: row;
+}
+.ShippingGroupDetails__HeadingContainer button {
+  text-decoration: underline;
+  font-size: var(--cc-font-size-small);
+  background-color: var(--cc-background-color);
+  padding: 0;
+  color: var(--cc-color);
+  display: inline-block;
+  text-align: unset;
+  width: unset;
+  margin-left: auto;
+}
+.ShippingGroupDetails__HeadingContainer button:hover {
+  text-decoration: underline;
+  font-size: var(--cc-font-size-small);
+  background-color: var(--cc-background-color);
+  padding: 0;
+  color: var(--cc-color);
+  display: inline-block;
+  text-align: unset;
+  width: unset;
+  margin-left: auto;
+}/*# sourceMappingURL=styles.css.map */

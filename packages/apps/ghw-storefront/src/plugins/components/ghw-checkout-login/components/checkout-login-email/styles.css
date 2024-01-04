@@ -1,0 +1,56 @@
+.CheckoutLoginForm .Alert {
+  margin-bottom: 1rem;
+}
+
+.CheckoutLoginForm__Row {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.CheckoutLoginForm input,
+.CheckoutLoginForm button,
+.CheckoutLoginForm a {
+  width: 100%
+}
+
+.alertMessage{
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.CheckoutLoginForm__EmailField,
+.CheckoutLoginForm__PasswordField {
+  position: relative;
+}
+
+.CheckoutLoginForm__EmailIcon, 
+.CheckoutLoginForm__PasswordIcon {
+  position: absolute;
+  right: .5rem;
+  top: 0.85rem;
+}
+
+.CheckoutLoginForm__EmailField .Icon,
+.CheckoutLoginForm__PasswordField .Icon {
+  color: var(--cc-icon-color);
+  height: 1rem;
+}
+
+/* .CheckoutLoginForm__ForgotPassword {
+  float: right;
+  margin-bottom: 1rem;
+} */
+
+.CheckoutLoginForm__ForgotPassword a {
+  color: var(--cc-color);
+  text-decoration: underline;
+  font-size: var(--cc-font-size-small);
+}
+
+.CheckoutLoginForm__CheckoutButton {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,17 @@
+.Login__EmailMarketingPreferences {
+  padding: var(--cc-container-padding);
+}
+
+@media only screen and (min-width: 768px) {
+  .Login__EmailMarketingPreferences {
+    width: 45%;
+    margin-left: 4rem;
+  }
+
+  .Login__EmailMarketingPreferences button {
+    width: 45%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+} 
+

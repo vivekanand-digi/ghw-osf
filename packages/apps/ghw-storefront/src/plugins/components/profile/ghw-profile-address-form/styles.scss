@@ -1,0 +1,121 @@
+.GHWProfileAddressForm {
+    margin: var(--cc-container-padding);
+    color: var(--cc-color);
+}
+
+
+
+.ProfileAddressForm__AllFieldsRequiredText {
+    font-size: var(--cc-font-size-small);
+}
+
+.GHWProfileAddressForm input,
+.GHWProfileAddressForm Form input,
+.GHWProfileAddressForm Form select,
+.GHWProfileAddressForm Form button {
+    width: 100%;
+}
+
+.ProfileAddressForm__Buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.ProfileAddressForm__Buttons button {
+    cursor: pointer;
+    flex: 0.25 0 0;
+    margin: 0.75rem 0;
+}
+
+.ProfileAddressForm__Buttons .ProfileAddressForm__ConfirmButton {
+    margin-left: 0.25rem;
+}
+
+.ProfileAddressForm__Buttons .ProfileAddressForm__CancelButton {
+    margin-right: 0.25rem;
+}
+
+.ProfileAddressInput__Checkbox {
+    font-size: var(--cc-font-size-small);
+}
+
+.GHWProfileAddressForm form:not(.invalid) .validationMessage {
+    display: block;
+}
+
+.GHWProfileAddressForm h1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #667085;
+    padding: 0;
+    font-family: "Helvetica-Bold";
+    margin-top: -32px;
+}
+
+.Buttons-Address-Container {
+    margin-top: 20px !important;
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+
+.Buttons-Address-Container .ProfileAddressForm__ConfirmButton {
+    padding: 6px 12px;
+    background: #016fbf;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.Buttons-Address-Container .ProfileAddressForm__CancelButton {
+    width: fit-content;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #016fbf;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #D9E0E5;
+    background: #FFF;
+}
+
+@media only screen and (max-width: 768px) {
+    .ProfileAddressForm__Buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ProfileAddressForm__Buttons .ProfileAddressForm__ConfirmButton {
+        margin-left: 0;
+    }
+
+    .ProfileAddressForm__Buttons .ProfileAddressForm__CancelButton {
+        margin-right: 0;
+    }
+
+    .GHWProfileAddressForm .ProfileAddressForm__AddressType,
+    .GHWProfileAddressForm .ProfileAddressForm__CompanyName {
+        width: 100%;
+    }
+
+    .ProfileAddressForm__FirstNameLastNameContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ProfileAddressForm__FirstName {
+        margin: 0;
+    }
+
+    .ProfileAddressForm__LastName {
+        margin: 1rem 0 0 0;
+    }
+}

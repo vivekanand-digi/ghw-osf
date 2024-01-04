@@ -1,0 +1,21 @@
+@use '../ghw-checkout-single-shipping-details/checkout-common';
+
+.GHWCheckoutLoginRegistrationContainer {}
+
+.GHWCheckoutLoginRegistrationContainer__Label {
+    color: #729fff;
+}
+
+.GHWCheckoutLoginRegistrationContainer__ExtraInfo {
+    background-color: red;
+    color: yellow;
+    margin-left: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.CheckoutShippingContainer__Heading {
+    display: none;
+}

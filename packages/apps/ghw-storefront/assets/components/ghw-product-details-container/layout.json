@@ -1,0 +1,21 @@
+{
+  "regions": [
+    {
+      "components": [
+        "pdp-container"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "ghw-product-one-time-purchase",
+        "ghw-product-tab-container",
+        "ghw-shop-all-pdp",
+        "ghw-pdp-banner"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

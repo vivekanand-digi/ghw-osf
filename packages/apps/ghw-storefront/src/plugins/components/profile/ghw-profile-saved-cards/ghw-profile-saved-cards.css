@@ -1,0 +1,277 @@
+.btn {
+  border: 2px solid #016FBF;
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 auto;
+  text-decoration: none;
+  gap: 8px;
+  justify-content: center;
+}
+.btn.primary-btn {
+  background: #1C6AC6;
+  color: #fff;
+}
+.btn.secondary-btn {
+  background-color: white;
+  color: #016FBF;
+  border-color: #016FBF;
+}
+.btn.tertiary-btn {
+  background: #FBB82C;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+}
+.btn.sm {
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  line-height: 1;
+}
+.btn.md {
+  font-size: 16px;
+  padding: 8px 16px;
+  line-height: 1.125;
+}
+.btn.md-custom {
+  font-size: 18px;
+  padding: 12px 20px;
+  line-height: 1.25;
+  border-radius: 10px;
+  display: flex;
+  font-family: "Helvetica";
+}
+.btn.lg {
+  font-size: 28px;
+  padding: 18px 32px;
+  line-height: 1.2145;
+  border-radius: 16px;
+}
+.btn.xlg {
+  font-size: 36px;
+  padding: 18px 32px;
+  line-height: 1.2145;
+  border-radius: 20px;
+}
+
+.btn-link {
+  display: flex;
+  padding: 6px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: 20x solid transparent;
+  background: #FFF;
+  font-size: 14px;
+  color: #005CB9;
+}
+.btn-link:hover {
+  border-color: #005CB9;
+}
+
+.list.action-btn-cnr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px 8px;
+  min-height: auto;
+  flex: 0 0 auto;
+  flex-direction: row;
+  border-bottom: none;
+}
+.list.action-btn-cnr .icon-btn-cnr {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 12px;
+}
+.list.action-btn-cnr .icon-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  color: #344054;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e1e1e1;
+  cursor: pointer;
+}
+.list.action-btn-cnr .icon-btn:hover {
+  background-color: #efefef;
+}
+.list.action-btn-cnr .edit-btn:hover {
+  border-color: #C6EBFB;
+  background: #EDFBFF;
+}
+.list.action-btn-cnr .delete-btn:hover {
+  border-color: #FED1D1;
+  background: #FFEBEB;
+}
+.list.action-btn-cnr .link-btn {
+  color: #005CB9;
+  padding-left: 20px;
+  width: auto;
+  height: auto;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-family: "Helvetica-Bold";
+  border: 1px solid transparent;
+}
+.list.action-btn-cnr .link-btn:hover {
+  border-color: #00A7E1;
+  background-color: #ffffff;
+}
+
+.action-btn-cnr {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.action-btn-cnr .btn-custom.btn-secondary {
+  font-size: 18px !important;
+  padding: 12px 20px !important;
+}
+
+.payment-method {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  padding: 22px 18px;
+  border-radius: 8px;
+  gap: 10px;
+}
+.payment-method .payment-info {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #667085;
+  margin-bottom: 40px;
+}
+.payment-method .payment-info .payment-main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+  gap: 28px;
+}
+
+.GHWProfileSavedCards__Items {
+  display: grid;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0.5fr;
+  margin: 0;
+}
+
+.GHWProfileSavedCards.card {
+  background-image: url(/file/general/payment-card-bg.png);
+  width: 284px;
+  height: 172px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-size: cover;
+}
+.GHWProfileSavedCards.card .default-payment-bg {
+  background-position: 16px 10px;
+  height: 42px;
+  padding: 0px 2px;
+  margin: 10px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #a43059;
+}
+.GHWProfileSavedCards.card .card-logo {
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.GHWProfileSavedCards.card .default-payment {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344054;
+  padding: 6px 50px 22px;
+  border-bottom: none;
+}
+.GHWProfileSavedCards.card .default-payment span {
+  font-weight: 700;
+}
+.GHWProfileSavedCards.card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344054;
+  padding: 32px 20px;
+  border-bottom: 1px solid #d0d5dd;
+}
+.GHWProfileSavedCards.card .edit-sect {
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+  align-items: center;
+}
+.GHWProfileSavedCards.card .edit-sect .edit-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #fed1d1;
+  background: #000;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+}
+.GHWProfileSavedCards.card .edit-sect .edit-btn:hover, .GHWProfileSavedCards.card .edit-sect .edit-btn.active {
+  border-radius: 4px;
+  border: 1px solid #fe6c6c;
+  background: rgba(255, 57, 57, 0.2);
+}
+.GHWProfileSavedCards.card .edit-sect .delete-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #f8f9f9;
+  color: #ffffff;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  border-radius: 4px;
+  border: 1px solid #fed1d1;
+  background: #000;
+}
+.GHWProfileSavedCards.card .edit-sect .delete-btn:hover, .GHWProfileSavedCards.card .edit-sect .delete-btn.active {
+  border-radius: 4px;
+  border: 1px solid #fe6c6c;
+  background: rgba(255, 57, 57, 0.2);
+}
+.GHWProfileSavedCards.card .edit-sect .delete-btn:hover img, .GHWProfileSavedCards.card .edit-sect .delete-btn.active img {
+  filter: hue-rotate(152deg);
+}
+.GHWProfileSavedCards.card .edit-sect .default-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #fff;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+}
+.GHWProfileSavedCards.card .edit-sect .default-text:hover, .GHWProfileSavedCards.card .edit-sect .default-text.active {
+  border-radius: 4px;
+  border: 1px solid #00a7e1;
+  background: var(--accent-blue-20, rgba(0, 167, 225, 0.2));
+}
+.GHWProfileSavedCards.card .flex-start-display {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=ghw-profile-saved-cards.css.map */

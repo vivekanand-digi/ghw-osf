@@ -1,0 +1,183 @@
+@font-face {
+    font-family: "Helvetica";
+    /* src: url("Helvetica-Oblique.eot"); */
+    src: url(/occ-public/fonts/Helvetica.woff2) format('woff2');
+    /* src: local("Helvetica Oblique"), local("Helvetica-Oblique"), url("Helvetica-Oblique.eot?#iefix") format("embedded-opentype"), url("Helvetica-Oblique.woff2") format("woff2"), url("Helvetica-Oblique.woff") format("woff"), url("Helvetica-Oblique.ttf") format("truetype"); */
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Helvetica-Bold";
+    /* src: url("Helvetica-Bold.eot"); */
+    src: url(/occ-public/fonts/Helvetica-Bold.woff2) format('woff2');
+    /* src: local("Helvetica Bold"), local("Helvetica-Bold"), url("Helvetica-Bold.eot?#iefix") format("embedded-opentype"), url("Helvetica-Bold.woff2") format("woff2"), url("Helvetica-Bold.woff") format("woff"), url("Helvetica-Bold.ttf") format("truetype"); */
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Helvetica-Light";
+    /* src: url("Helvetica-Light.eot"); */
+    src: url(/occ-public/fonts/Helvetica-Light.woff2) format('woff2');
+    /* src: local("Helvetica Light"), local("Helvetica-Light"), url("Helvetica-Light.eot?#iefix") format("embedded-opentype"), url("Helvetica-Light.woff2") format("woff2"), url("Helvetica-Light.woff") format("woff"), url("Helvetica-Light.ttf") format("truetype"); */
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Helvetica-bold-condensed";
+    src: url(/occ-public/fonts/Helvetica-Condensed-Bold.woff2) format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Helvetica-medium-condensed";
+    src: url(/occ-public/fonts/Helvetica-Condensed-Medium.woff2) format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Helvetica-oblique-condensed";
+    src: url(/occ-public/fonts/Helvetica-Condensed-Light-Oblique.woff2) format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  /* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  min-width: 100% !important;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-cnr {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.main-cnr .container-fixed {
+  width: min(1140px, 100%);
+  margin: 0 auto;
+}
+.container-fixed {
+  width: min(1140px, 100%);
+  margin: 0 auto;
+}
+/* Remove default margin 
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+*/
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-padding-top: 7.2rem;
+}
+
+/* Set core body defaults */
+body {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: smooth;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: smooth !important;
+  }
+}
+.main-content {
+  margin: 32px auto 72px !important;
+}/*# sourceMappingURL=common.css.map */
+
+.region {
+  padding: 0;
+}
+b, strong {
+  font-family: 'Helvetica-Bold';
+  font-weight: bold;
+}

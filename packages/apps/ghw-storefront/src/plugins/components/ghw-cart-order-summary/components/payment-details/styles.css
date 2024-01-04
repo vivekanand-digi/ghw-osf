@@ -1,0 +1,32 @@
+.PaymentDetails__CardType {
+  text-transform: capitalize;
+}
+
+.PaymentDetails__CardNumber {
+  margin: 0 var(--cc-container-padding);
+}
+
+.PaymentDetails__Row {
+  display: flex;
+}
+
+.PaymentDetails__ColLabel {
+  width: 70%;
+  white-space: pre-wrap;
+}
+
+.PaymentDetails__ColValue {
+  width: 30%;
+}
+
+.PaymentDetails__Label {
+  float: left;
+  font-size: var(--cc-font-size-large);
+  font-weight: 500;
+}
+
+.PaymentDetails__Value {
+  float: right;
+  font-size: var(--cc-font-size-large);
+  font-weight: 500;
+}

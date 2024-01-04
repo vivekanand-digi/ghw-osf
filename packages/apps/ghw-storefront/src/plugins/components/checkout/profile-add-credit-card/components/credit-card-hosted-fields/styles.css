@@ -1,0 +1,129 @@
+.CardDetails {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.CardDetails__Row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+.CardDetails .CardDetails__Row:first-of-type {
+  padding-top: 0;
+}
+
+.CardDetails .CardDetails__Row:last-of-type {
+  padding-bottom: 0.25rem;
+}
+
+.CardDetails__CardNumberAndTypeContainer {
+  flex-direction: row;
+}
+
+.CardDetails__CardNumberContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 55%;
+  max-width: 55%;
+}
+
+.CardDetails__CardTypeContainer {
+  margin-top: 1.85rem;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 45%;
+  max-width: 45%;
+}
+
+/* CardTypes */
+.CardDetails .CardTypes {
+  display: flex;
+  flex: 0 0 100%;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.CardDetails .CardTypes > *:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.CardDetails .CardTypes__Icon {
+  margin-top: 0.35rem;
+  border-radius: 5.8px;
+  border: 0.8px solid var(--cc-border-color);
+  height: 1.6em;
+}
+
+.CardDetails .CardTypes__Icon > svg {
+  height: 100%;
+  width: 100%;
+}
+
+.CardDetails .CardTypes__Icon--Inactive {
+  opacity: 0.3;
+}
+
+.CardDetails__Cvv {
+  display: flex;
+  flex-direction: column;
+}
+
+.CardDetails input:disabled {
+  background-color: var(--cc-form-element-disabled-color);
+  cursor: not-allowed;
+}
+
+.CardDetails__CvvInputAndCCVIconContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.CardDetails__CvvInput {
+  width: 60%;
+  flex: 1;
+}
+
+.CardDetails__CvvInputAndCCVIconContainer svg {
+  align-self: center;
+  max-width: 3.5em;
+  height: 2.625em;
+  margin-left: 0.5rem;
+}
+
+.CardDetails__Field {
+  height: 50px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  display: inline-block;
+  box-shadow: none;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #dddddd;
+  line-height: 20px;
+  background: #fcfcfc;
+  margin-bottom: 12px;
+  background: linear-gradient(to right, white 50%, #fcfcfc 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 300ms ease-in-out;
+}
+
+.CardDetails__Fields--cardNumber {
+  width: calc(100% - 2rem);
+}
+
+.CardDetails__Field--invalid {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+.CardDetails__Field-Error {
+  color: #dc3545;
+  font-size: 14px;
+  margin: 0;
+}

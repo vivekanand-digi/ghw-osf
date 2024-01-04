@@ -1,0 +1,241 @@
+@use './../utils/button';
+$color_1: var(--cc-color-inactive);
+$color_2: var(--cc-color);
+$color_3: var(--cc-color-active);
+$color_4: var(--cc-button-color);
+$color_5: var(--Secondary-Text-Colour, #667085);
+$background-color_1: transparent;
+$background-color_2: var(--cc-color-inactive);
+$background-color_3: var(--cc-color-active);
+
+:root {
+    --cc-color-inactive: #9b9b9b;
+    --cc-color-active: #0572ce;
+    --secondary-text-colour: #667085;
+}
+
+.Region:has(.GHWCheckoutOrderConfirmationContainer, .GHWCheckoutLoginRegistrationContainer, .GHWCheckoutPaymentsContainer__Section) {
+    // .Region:has(.GHWCheckoutOrderConfirmationContainer, .GHWCheckoutLoginRegistrationContainer, .CheckoutPaymentsContainer__Section) {
+    background: linear-gradient(180deg, #92d6ee 0%, #f3f4f5 20%);
+}
+
+
+.GHWCheckoutProgressTracker {
+    padding: 0 var(--cc-container-padding);
+    margin: 2rem 0 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.GHWCheckoutProgressTracker {
+    button {
+        box-shadow: none;
+        color: var(--secondary-text-colour);
+        border: none;
+        background-color: $background-color_1;
+
+        &:hover {
+            background-color: $background-color_1;
+        }
+
+        &:disabled {
+            opacity: unset;
+        }
+    }
+}
+
+.GHWCheckoutProgressTracker__heading {
+    text-align: center;
+    display: none;
+}
+
+.GHWCheckoutProgressTracker__wrapper {
+    display: flex;
+    overflow: hidden;
+    padding: 0;
+    list-style: none;
+    width: auto;
+    justify-content: center;
+    margin: 0 auto;
+    flex: 0 0 auto;
+}
+
+.GHWCheckoutProgressTracker__step {
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    color: $color_2;
+}
+
+.GHWCheckoutProgressTracker__marker {
+    display: flex;
+    position: relative;
+    flex-grow: 0;
+    align-items: center;
+
+    .GHWCheckoutProgressTracker__label {
+        margin-right: 16px;
+    }
+
+    &::before {
+        // content: attr(data-text);
+        content: '';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        font-size: var(--cc-font-size-small);
+        background: #FFF;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        background-image: url("/file/general/angle-right.svg");
+        background-size: contain;
+        background-position: right;
+        height: 20px;
+        width: 20px;
+        top: 12px;
+        right: 0;
+        background-repeat: no-repeat;
+    }
+
+    &[data-text='1'] {
+        &::before {
+            background-image: url("/file/general/address-icon.svg");
+        }
+    }
+
+    &[data-text='2'] {
+        &::before {
+            background-image: url("/file/general/payment-icon.svg");
+        }
+    }
+
+    &[data-text='3'] {
+        &::before {
+            background-image: url("/file/general/order-icon.svg");
+        }
+    }
+}
+
+.GHWCheckoutProgressTracker__markerActive {
+    .GHWCheckoutProgressTracker__label {
+        color: $color_3;
+    }
+
+    &::before {
+        background-color: $background-color_3;
+    }
+}
+
+.GHWCheckoutProgressTracker__label {
+    display: inline-block;
+    position: relative;
+    max-width: 70%;
+    white-space: nowrap;
+    padding: 0.5rem 0.5rem;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    width: auto;
+    color: $color_5;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+li {
+    &:last-child {
+        flex-grow: 0;
+
+        .GHWCheckoutProgressTracker__marker {
+            &::after {
+                display: none;
+            }
+        }
+    }
+}
+
+.GHWCheckoutProgressTracker:has(~ .GHWCheckoutPaymentsContainer) {
+
+
+    .GHWCheckoutProgressTracker__marker {
+        &[data-text='1'] {
+            &::before {
+                background-image: url("/file/general/confirm-icon.svg");
+                background-color: #ffffff;
+            }
+        }
+
+        &[data-text='2'] {
+            &::before {
+                background-image: url("/file/general/payment-icon-white.svg");
+            }
+        }
+
+        // &[data-text='3'] {
+        //     &::before {
+        //         background-image: url(/file/general/order-icon.svg);
+        //         // background-color: var(--cc-color-active);
+        //     }
+        // }
+    }
+}
+
+.GHWCheckoutProgressTracker:has(~ .GHWCheckoutOrderConfirmationContainer) {
+
+
+    .GHWCheckoutProgressTracker__marker {
+        &[data-text='1'] {
+            &::before {
+                background-image: url("/file/general/confirm-icon.svg");
+            }
+        }
+
+        &[data-text='2'] {
+            &::before {
+                background-image: url("/file/general/confirm-icon.svg");
+            }
+        }
+
+        &[data-text='3'] {
+            &::before {
+                background-image: url(/file/general/order-white-icon.svg);
+                background-color: var(--cc-color-active);
+            }
+        }
+    }
+}
+
+.GHWCheckoutProgressTracker:has(~ .GHWCheckoutLoginRegistrationContainer) {
+
+    .GHWCheckoutProgressTracker__marker[data-text="1"] {
+        &::before {
+            background-color: #0572ce;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    // .GHWCheckoutProgressTracker__wrapper {
+    //     width: 80%;
+    //     margin: auto;
+    // }
+}
+
+.CheckoutPaymentsContainer__Section {
+    width: min(1140px, 100%) !important;
+    flex-wrap: nowrap !important;
+}

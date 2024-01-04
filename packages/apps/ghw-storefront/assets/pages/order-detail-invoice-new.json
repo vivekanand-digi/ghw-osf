@@ -1,0 +1,51 @@
+{
+  "layout": [
+    {
+      "cssClass": "",
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "header-with-notification-device-slot",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "ghw-my-account-tab"
+      ],
+      "cssClass": "",
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "ghw-footer"
+      ],
+      "cssClass": "",
+      "width": 12,
+      "type": "main"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Order detail invoice new"
+      }
+    }
+  },
+  "defaultPage": false,
+  "address": "order-detail-invoice",
+  "allowCustomAddress": true,
+  "title": "Order Detail Invoice new",
+  "shortName": "profile",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "profile"
+    }
+  },
+  "secured": true
+}

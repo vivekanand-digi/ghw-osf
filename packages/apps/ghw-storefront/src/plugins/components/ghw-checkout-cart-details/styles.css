@@ -1,0 +1,21 @@
+.GHWCheckoutCartDetails {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.GHWCheckoutCartDetails__Label {
+  color: #729fff;
+}
+.GHWCheckoutCartDetails__ExtraInfo {
+  background-color: red;
+  color: yellow;
+  margin-left: 5px;
+}
+/**
+ *  CSS uses the Block Element Modifier naming convention, an example :
+.GHWCheckoutCartDetails__ElementName {
+  display: inline-block;
+  font-size: large;
+}
+ * For more information - http://getbem.com/
+ */

@@ -1,0 +1,111 @@
+.Modal_Wrapper:has(.usps-cnr) {
+  width: min(72%, 600px);
+  border-radius: 12px;
+  padding: 0;
+}
+.Modal_Wrapper:has(.usps-cnr) .Modal__Header {
+  padding: 12px 16px;
+  border-bottom: 1px solid #dedede;
+}
+.Modal_Wrapper:has(.usps-cnr) .Modal__Header .Modal__HeaderText {
+  color: #667085;
+}
+.Modal_Wrapper:has(.usps-cnr) .Modal__Header .Modal__Close {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.Modal_Wrapper:has(.usps-cnr) .Modal__Header .Modal__Close:focus {
+  box-shadow: none;
+}
+.Modal_Wrapper:has(.usps-cnr) .Modal__Header .Modal__Close::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: url(/file/general/close-icon.svg);
+  position: absolute;
+  top: 6px;
+}
+.Modal_Wrapper:has(.usps-cnr) .Modal__Header .Modal__Close > svg {
+  display: none;
+}
+.Modal_Wrapper:has(.usps-cnr) .Modal__Body .container {
+  width: 424px;
+  margin: 16px auto 0;
+}
+.Modal_Wrapper:has(.usps-cnr) .Modal__Body .container .radio-option-cnr {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Modal_Wrapper:has(.usps-cnr) .Modal__Body .container .radio-option-cnr .row-address {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.Modal_Wrapper:has(.usps-cnr) .Modal__Body .h4 {
+  margin: 0;
+  font-family: "Helvetica-Bold";
+  color: #344054;
+}
+.Modal_Wrapper:has(.usps-cnr) .Modal__Body .note {
+  font-size: 14px;
+  color: #667085;
+  margin-bottom: 16px;
+}
+.Modal_Wrapper:has(.usps-cnr) .Modal__Body .form-group {
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #CFD3D4;
+  padding: 12px;
+  margin-bottom: 16px;
+  display: flex;
+  gap: 8px;
+}
+.Modal_Wrapper:has(.usps-cnr) .Modal__Body .form-group:has(.form-radio:checked) {
+  border-color: #ADE3E5;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+.Modal_Wrapper:has(.usps-cnr) .Modal__Body .form-group:has(.form-radio:focus) {
+  box-shadow: 0 0 0 0.2rem var(--cc-focusring-halo-color);
+}
+.Modal_Wrapper:has(.usps-cnr) .Modal__Body .form-group .form-radio {
+  accent-color: #00A7E1;
+  width: 24px;
+  height: 24px;
+}
+.Modal_Wrapper:has(.usps-cnr) .Modal__Body .form-group .form-radio:focus {
+  box-shadow: none;
+}
+.Modal_Wrapper:has(.usps-cnr) .Modal__Body .form-group .form-label {
+  text-align: left;
+  color: #344054;
+}
+.Modal_Wrapper:has(.usps-cnr) .Modal__Body .dis-note {
+  display: flex;
+  padding: 12px 32px 32px;
+}
+.Modal_Wrapper:has(.usps-cnr) .Modal__Body .dis-note .para {
+  font-size: 12px;
+  color: #667085;
+}
+
+label.active,
+label:active {
+  color: #344054;
+}
+
+.btn {
+  background: #016fbf;
+  border-radius: 8px;
+  padding: 12px;
+  height: 48px;
+  margin-top: 4px;
+  margin-bottom: 20px;
+}
+
+hr {
+  opacity: 0.1;
+  border: 1px solid #000000;
+  margin: 16px;
+}/*# sourceMappingURL=usps-model.css.map */

@@ -1,0 +1,71 @@
+:root {
+    --primary-color: #005CB9;
+    --secondary-color: #00A7E1;
+}
+
+.GHWProductAddToCartButton__Wrapper {
+    .Quantity__Textbox {
+        width: 100%;
+        background-color: var(--primary-color);
+        color: #ffffff;
+        width: 126px;
+        height: 88px;
+        text-align: center;
+        font-size: 2rem;
+        font-style: normal;
+        border-radius: 8px 0 0 8px;
+
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+        }
+    }
+
+    .GHWProductQuantity__Wrapper {
+        display: flex;
+    }
+
+    .Quantity__InputWrapper {
+        display: flex;
+        align-items: center;
+
+        .stepper-btn-cnr {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-left: 1px;
+            gap: 2px;
+
+            button {
+                height: 43px;
+            }
+
+            .stepper-btn {
+                .plus-btn {
+                    width: 0;
+                    height: 0;
+                    border-left: 9px solid transparent;
+                    border-right: 9px solid transparent;
+                    border-bottom: 12px solid white;
+                    display: flex;
+                }
+
+                .minus-btn {
+                    width: 0;
+                    height: 0;
+                    border-left: 9px solid transparent;
+                    border-right: 9px solid transparent;
+                    border-top: 12px solid white;
+                    display: flex;
+                }
+            }
+        }
+    }
+
+    .stepper-btn-cnr {
+        button {
+            border-radius: 0;
+        }
+    }
+}

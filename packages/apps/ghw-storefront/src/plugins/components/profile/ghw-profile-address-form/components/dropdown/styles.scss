@@ -1,0 +1,228 @@
+$color_1: #ffffff;
+$color_2: #00ffff;
+$color_3: #344054;
+$color_4: #fff;
+$color_5: #667085;
+$color_6: #98A2B3;
+$color_7: #5d5d5d;
+$color_8: rgba(0, 0, 0, 0.5);
+$color_9: red;
+$color_10: #000000;
+$color_11: #0077FF;
+$color_12: #016FBF;
+$color_13: #26A13E;
+$color_14: #5D5D5D;
+$color_15: #666666;
+$color_16: #37AD3D;
+$color_17: #475467;
+$color_18: #343343;
+// $font-family_1: "Lato", sans-serif;
+// $font-family_2: "Roboto", sans-serif;
+$background-color_1: transparent;
+
+// .Dropdown {
+//     width: 100%;
+// }
+
+// .Dropdown label {
+//     display: block;
+//     margin-bottom: 0.5rem;
+// }
+
+// .Dropdown__Icon {
+//     height: 1rem;
+//     margin-right: 0.2rem;
+//     pointer-events: none;
+//     display: none;
+// }
+
+// .Dropdown__Icon svg {
+//     height: 1.5em !important;
+//     vertical-align: bottom;
+//     width: 0.5rem;
+// }
+
+// .Dropdown__Select {
+//     text-align: right;
+// }
+
+// .Dropdown__Select select {
+//     margin-top: -1.5rem;
+//     display: block;
+//     box-sizing: border-box;
+//     padding-right: 1.5rem;
+//     background-color: var(--cc-background-color);
+//     -webkit-appearance: none;
+//     -moz-appearance: none;
+//     appearance: none;
+//     text-overflow: ellipsis;
+//     width: 100%;
+// }
+
+// .Dropdown__Select--WithBackgroundIcon {
+//     color: var(--cc-icon-color-hover);
+//     background-position-x: 0.5rem;
+//     background-position-y: 50%;
+//     background-size: 1.5rem 1.5rem;
+//     background-repeat: no-repeat;
+//     width: 100%;
+//     padding-left: 0.5rem;
+// }
+
+
+
+
+
+// .shipping-form .form_shipping .form-field .select-material {
+//     position: relative;
+// }
+
+// .shipping-form .form_shipping .form-field .select-material .select-text {
+//     -webkit-appearance: none;
+//     -moz-appearance: none;
+//     appearance: none;
+//     position: relative;
+//     font-family: inherit;
+//     background-color: transparent;
+//     padding: 8px 0;
+//     border-radius: 0;
+//     border: none;
+//     width: 100%;
+//     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+//     margin-top: 5px !important;
+//     color: #667085;
+//     font-size: 16px;
+//     font-weight: 400;
+// }
+
+.select-material {
+    position: relative;
+    // padding: 12px 0;
+    display: flex;
+    flex: 1 1 auto;
+
+    &::after {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        width: 0;
+        height: 0;
+        padding: 0;
+        content: "";
+        width: 20px;
+        height: 20px;
+        background: url(/file/general/dd-icon.svg) center center no-repeat;
+    }
+
+    .select-text {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        position: relative;
+        background-color: $background-color_1;
+        padding: 16px 12px 0 0;
+        border-radius: 0;
+        border: none;
+        // width: 50%;
+        box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+        font-weight: 400;
+        font-size: 16px;
+        height: 48px;
+        color: $color_3;
+
+        &:focus {
+            outline: none;
+            border-bottom: 1px solid $color_11;
+            box-shadow: none;
+
+            ~ {
+                .select-label {
+                    color: $color_11;
+                    top: 0px;
+                    transition: 0.2s ease all;
+                    font-size: 12px;
+                }
+
+                .select-bar {
+                    &:before {
+                        width: 50%;
+                    }
+
+                    &:after {
+                        width: 50%;
+                    }
+                }
+            }
+        }
+
+        &:valid {
+            ~ {
+                .select-label {
+                    // color: $color_11;
+                    top: 4px;
+                    transition: 0.2s ease all;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        &:invalid {
+            color: $color_6;
+
+            ~ {
+                .select-label {
+                    color: $color_11;
+                    top: 16px;
+                }
+            }
+        }
+
+    }
+
+    .select-bar {
+        position: relative;
+        display: block;
+
+        &::after {
+            content: "";
+            height: 1px;
+            width: 0;
+            bottom: 1px;
+            position: absolute;
+            transition: 0.2s ease all;
+            right: 50%;
+        }
+
+        &::before {
+            content: "";
+            height: 1px;
+            width: 0;
+            bottom: 1px;
+            position: absolute;
+            transition: 0.2s ease all;
+            left: 50%;
+        }
+    }
+
+    .select-label {
+        font-size: 16px;
+        font-weight: normal;
+        position: absolute;
+        pointer-events: none;
+        color: $color_8;
+        top: 11px;
+        left: 0;
+        transition: 0.2s ease all;
+    }
+
+    .green-label {
+        color: $color_13;
+        font-size: 14px;
+    }
+}
+
+.select-material.provide {
+    &::after {
+        display: none;
+    }
+}

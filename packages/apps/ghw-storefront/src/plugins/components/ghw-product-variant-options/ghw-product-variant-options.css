@@ -1,0 +1,262 @@
+:root {
+  --primary-color: #005CB9;
+  --secondary-color: #00A7E1;
+}
+
+.GHWProductVariantOptions__Wrapper {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.GHWProductVariantOptions__OptionName {
+  font-size: var(--cc-font-size-large);
+  font-weight: 500;
+}
+
+button:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+input:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+select:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+textarea:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+a:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+[role=menuitem]:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+[role=button]:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+[role=link]:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+a.button.secondary:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+a.button:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+button.link:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+button.secondary:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.button-group .buttons {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.button-group .buttons .quantity {
+  padding: 8px 12px;
+  width: 140px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  background: none;
+  color: black;
+}
+.button-group .buttons .quantity .Quantity__InputWrapper .Quantity__Textbox:focus {
+  box-shadow: none;
+}
+.button-group .buttons .quantity .active {
+  border: 2px solid #016FBF;
+  color: #016FBF;
+}
+.button-group .buttons .quantity:active {
+  border: 2px solid #016FBF;
+  color: #016FBF;
+}
+.button-group .buttons .active {
+  border: 2px solid #016FBF;
+  color: #016FBF;
+}
+
+.GHWProductTypeSelection .payment-selection {
+  padding: 20px 0 0;
+}
+.GHWProductTypeSelection .payment-selection .selection {
+  display: flex;
+  flex: 1 1 auto;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.GHWProductTypeSelection .payment-selection .selection:last-child {
+  margin-bottom: 0;
+}
+.GHWProductTypeSelection .payment-selection .selection .input-radio {
+  width: 24px;
+  height: 24px;
+  accent-color: var(--primary-color);
+}
+.GHWProductTypeSelection .payment-selection .selection label {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #5d5d5d;
+}
+.GHWProductTypeSelection .payment-selection .selection .amount {
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+}
+.GHWProductTypeSelection .payment-selection .group-btn {
+  display: flex;
+  gap: 20px;
+}
+.GHWProductTypeSelection .payment-selection .group-btn .btn {
+  padding: 8px 12px;
+}
+.GHWProductTypeSelection .payment-selection .group-btn .btn:active {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  color: #000000;
+  font-weight: 700;
+  font-size: 18px;
+}
+.GHWProductTypeSelection .payment-selection .group-btn .btn.active {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  color: #000000;
+  font-weight: 700;
+  font-size: 18px;
+}
+.GHWProductTypeSelection .payment-selection .group-btn.desktop {
+  display: flex;
+}
+.GHWProductTypeSelection .payment-selection .group-btn.ipad {
+  display: none;
+}
+.GHWProductTypeSelection .payment-selection .capsule-month {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.GHWProductTypeSelection .payment-selection .capsule-month .btn-item {
+  padding: 8px 26px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #555555;
+  white-space: nowrap;
+  background: no-repeat;
+}
+.GHWProductTypeSelection .payment-selection .capsule-month .btn-item:active {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  color: #000000;
+  font-weight: 700;
+  cursor: pointer;
+}
+.GHWProductTypeSelection .payment-selection .capsule-month .btn-item.active {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  color: #000000;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.subscription-benefit-cnr {
+  background: #FFFFFF;
+  border: 3px solid var(--primary-color);
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  padding: 4px 16px 12px;
+  margin-bottom: 24px;
+}
+.subscription-benefit-cnr h3.heading {
+  display: flex;
+  font-family: "Helvetica-Bold";
+  border-bottom: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: bold;
+}
+.subscription-benefit-cnr .list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.subscription-benefit-cnr .list .list-item {
+  display: flex;
+  flex: 1 1 auto;
+  gap: 8px;
+}
+.subscription-benefit-cnr .list .list-item .list-item-content {
+  color: #000000;
+  font-size: 16px;
+  display: flex;
+  flex: 0 0 auto;
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .button-group .buttons .quantity {
+    font-size: 14px;
+    width: 84px;
+  }
+  .GHWProductTypeSelection .payment-selection .selection label {
+    font-size: 14px;
+  }
+  .GHWProductTypeSelection .payment-selection .selection .amount {
+    font-size: 14px;
+  }
+  .GHWProductTypeSelection .payment-selection .group-btn.desktop {
+    display: none;
+  }
+  .GHWProductTypeSelection .payment-selection .group-btn.ipad {
+    display: flex;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .button-group .buttons .quantity {
+    width: 72px;
+  }
+  .GHWProductTypeSelection .payment-selection {
+    width: 100%;
+  }
+  .GHWProductTypeSelection .payment-selection .selection label {
+    font-size: 14px;
+  }
+  .subscription-benefit-cnr .list {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=ghw-product-variant-options.css.map */

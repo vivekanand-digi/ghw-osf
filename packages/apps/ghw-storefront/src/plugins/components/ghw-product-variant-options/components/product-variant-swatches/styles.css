@@ -1,0 +1,41 @@
+
+.ProductVariantOptions__Swatches {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: .5rem;
+}
+ 
+.ProductVariantOptions__Swatches > *:not(:last-child) {
+  padding-right: 1rem;
+}
+ 
+.ProductVariantOptions__SwatchWrapper {
+  display: flex;
+  padding-bottom: 1rem;
+}
+ 
+.ProductVariantOptions__SwatchWrapper input {
+  display: none;
+}
+ 
+.ProductVariantOptions__SwatchWrapper span {
+  cursor: pointer;
+  padding: 1.5rem;
+  border: 0.2rem solid white;
+  box-shadow: 0 0 0 .1em lightgrey;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 120%, cover;
+}
+ 
+.ProductVariantOptions__SwatchSpan--circular {
+  border-radius: 50%;
+}
+ 
+.ProductVariantOptions__SwatchWrapper:focus span{
+  box-shadow: 0 0 0 0.2rem var(--cc-focusring-halo-color);
+}
+ 
+.ProductVariantOptions__SwatchWrapper input:checked + span {
+  box-shadow: 0 0 0 .2em var(--cc-button-background-color);
+}

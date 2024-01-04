@@ -1,0 +1,95 @@
+.GHWProductGrid {
+  padding: 32px 32px;
+}
+.GHWProductGrid .main-cnr .grid-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.GHWProductGrid .main-cnr .grid-list .grid-list-item .grid-bg {
+  width: 554px;
+  height: 424px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border-radius: 20px;
+  border: 1px solid #e2ecff;
+  box-shadow: 6.1px 20.1px 50px rgba(174, 174, 174, 0.15);
+}
+.GHWProductGrid .main-cnr .grid-list .grid-list-item .grid-bg.yellow-bg {
+  background: url("/file/general/prod-bg.png") #e5b01f no-repeat;
+  background-position: center;
+}
+.GHWProductGrid .main-cnr .grid-list .grid-list-item .grid-bg.brown-bg {
+  background: url("/file/general/prod-bg.png") #d67c29 no-repeat;
+  background-position: center;
+}
+.GHWProductGrid .main-cnr .grid-list .grid-list-item .grid-bg.green-bg {
+  background: url("/file/general/prod-bg.png") #208445 no-repeat;
+  background-position: center;
+}
+.GHWProductGrid .main-cnr .grid-list .grid-list-item .grid-bg.red-bg {
+  background: url("/file/general/prod-bg.png") #b72d2c no-repeat;
+  background-position: center;
+}
+.GHWProductGrid .main-cnr .grid-list .grid-list-item .grid-bg .btn-bg {
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(12px);
+  padding: 16px 6px 16px 20px;
+  width: calc(100% - 16px);
+  margin-left: 8px;
+  margin-bottom: 8px;
+  border-radius: 0px 0px 12px 12px;
+}
+.GHWProductGrid
+  .main-cnr
+  .grid-list
+  .grid-list-item
+  .grid-bg
+  .btn-bg
+  .btn-info {
+  background: #016fbf;
+  border-radius: 8px;
+  padding: 12px 80px;
+  color: #fff;
+  margin: auto;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 540px) {
+  .GHWProductGrid {
+    padding: 32px 32px;
+  }
+  .GHWProductGrid .main-cnr .grid-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .GHWProductGrid .main-cnr .grid-list .grid-list-item .grid-bg {
+    width: 100%;
+    height: 300px;
+  }
+  .GHWProductGrid .main-cnr .grid-list .grid-list-item .grid-bg.yellow-bg {
+    background-size: contain;
+    background-position: bottom;
+  }
+  .GHWProductGrid .main-cnr .grid-list .grid-list-item .grid-bg.brown-bg {
+    background-size: contain;
+    background-position: bottom;
+  }
+  .GHWProductGrid .main-cnr .grid-list .grid-list-item .grid-bg.green-bg {
+    background-size: contain;
+    background-position: bottom;
+  }
+  .GHWProductGrid .main-cnr .grid-list .grid-list-item .grid-bg.red-bg {
+    background-size: contain;
+    background-position: bottom;
+  }
+  .GHWProductGrid .main-cnr .grid-list .grid-list-item .grid-bg .btn-bg {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+  }
+}

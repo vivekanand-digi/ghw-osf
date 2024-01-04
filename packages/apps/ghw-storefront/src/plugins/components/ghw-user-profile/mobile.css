@@ -1,0 +1,112 @@
+.UserProfileLinksIcon {
+  width: 1.5rem;
+}
+
+.UserProfileLinks__VerticalDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 1.3rem;
+}
+
+.UserProfileLinks__Icon {
+  width: 1.56rem;
+  height: 1.8rem;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 1rem;
+  text-align: center
+}
+
+.UserProfileLinks__Icon svg > path {
+  fill: var(--cc-icon-color);
+}
+
+.UserProfileLinks__LinkName {
+  vertical-align: middle;
+  display: inline-block;
+  color: var(--cc-color);
+}
+
+.UserProfileLinks__VerticalDiv > *:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.UserProfileLinks__HomeIcon {
+  width: 1.65rem;
+}
+
+.UserProfileLinks__WishlistIcon {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.UserProfileLinks__UserIcon {
+  width: 1.3rem;
+  padding-top: 0.15rem;
+  padding-right: 0.1rem;
+}
+
+.UserProfileLinks__CreateAccountIcon {
+  width: 1.4rem;
+}
+
+.UserProfileLinks__PasswordIcon {
+  width: 1.2rem;
+}
+
+.UserProfileLinks__LogoutIcon {
+  padding-top: 0.2rem;
+}
+
+.UserProfileLinks__HistoryIcon,
+.UserProfileLinks__SchedulerIcon,
+.UserProfileLinks__EmailIcon,
+.UserProfileLinks__CreditCardIcon {
+  padding-top: 0.2rem;
+  width: 1.4rem;
+}
+.UserProfileLinks__CrownIcon {
+  height: 1.4rem;
+  width: 2rem;
+  margin-left: -0.3rem;
+}
+
+/* Override default button hover/active/focus styling
+.UserProfileLinks__ProfileLink--Logout:not(:disabled):hover {
+  background: var(--cc-background-color);
+}
+.UserProfileLinks__ProfileLink--Logout:not(:disabled):active {
+  background: var(--cc-background-color);
+}
+.UserProfileLinks__ProfileLink--Logout:focus {
+  box-shadow: 0 0 0 0 var(--cc-background-color);
+} */
+
+.UserProfileLinks__ProfileLink--Logout:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.UserProfileLinks__ProfileLink {
+  height: 1.8rem;
+}
+
+.UserProfileLinks__ProfileLink--Logout {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  cursor: pointer;
+  height: 1.8rem;
+  display: flex;
+  font-weight: 400
+}
+
+.UserProfileLinks__HorizontalDiv {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.3rem;
+}
+
+.UserProfileLinks__HorizontalDiv a:not(:last-child) {
+  padding-right: 1rem;
+}

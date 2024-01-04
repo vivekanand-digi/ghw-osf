@@ -1,0 +1,6 @@
+{
+  "enableMiniCartOnDesktop" : true,
+  "displayCheckoutButtonOnMiniCart" : true,
+  "miniCartitemsBeforeScrolling": "3"
+}
+      

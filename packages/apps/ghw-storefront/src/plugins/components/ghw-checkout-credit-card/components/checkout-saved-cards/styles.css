@@ -1,0 +1,148 @@
+.CheckoutSavedCards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.CheckoutSavedCards__List {
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.CheckoutSavedCards__ListItem {
+  /* border-bottom: 1px solid var(--cc-border-color); */
+  width: 100%;
+}
+
+.CheckoutSavedCards__List li:first-child {
+  border-top: none;
+}
+
+.CheckoutSavedCards__List li:last-child {
+  border: none;
+}
+
+.CheckoutSavedCards__Item {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0.3rem;
+  width: 100%;
+}
+
+.CheckoutSavedCards__Item--selected {
+  background-color: var(--cc-secondary-background-color);
+}
+
+.CheckoutSavedCards__RadioButtonContainer {
+  margin: 0.625rem 0px 0.625rem 0.2rem;
+  order: 1;
+}
+
+.CheckoutSavedCards__RadioButton label {
+  margin-left: 0;
+  font-weight: normal;
+}
+
+.CheckoutSavedCards__CardTypeContainer {
+  margin: 0.625rem 0.5rem;
+  margin-left: 0;
+}
+
+.CheckoutSavedCards__CardTypeImg {
+  border: 0.8px solid var(--cc-border-color);
+  border-radius: 5.8px;
+  height: 1.75em;
+}
+
+.CheckoutSavedCards__CardDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0.625rem 0.31rem 0.31rem 0;
+  flex: 1;
+}
+
+.CheckoutSavedCards__CardNumber {
+  font-weight: bold;
+  margin-bottom: 0.187rem;
+}
+
+.CheckoutSavedCards__CvvDetailsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.CheckoutSavedCards__CvvLabel {
+  padding-top: 0.625rem;
+  padding-bottom: 0.31rem;
+}
+
+.CheckoutSavedCards__CvvInputContainer {
+  display: flex;
+  width: 100%;
+}
+
+.CheckoutSavedCards__CvvInput {
+  max-width: 5em;
+  max-height: 2.3em;
+  padding: 0;
+}
+
+.CheckoutSavedCards__CvvInput:disabled {
+  background-color: var(--cc-form-element-disabled-color);
+  cursor: not-allowed;
+}
+
+.CheckoutSavedCards__CvvIconContainer {
+  flex: 0 0 3.2em;
+  line-height: 0.5;
+  margin-left: 0.5rem;
+}
+
+.CheckoutSavedCards__CvvIconContainer svg {
+  height: 2.3em;
+}
+
+.CheckoutSavedCards__Invalid {
+  border-color: var(--cc-invalid-focusring-color);
+}
+
+.CheckoutSavedCards__ErrorContainer {
+  display: flex;
+}
+
+.CheckoutSavedCards__ErrorMessage {
+  color: var(--cc-validation-error-color);
+  font-weight: 500;
+  font-size: var(--cc-font-size-xsmall);
+  margin-left: 0.25rem;
+  margin-top: 0.4rem;
+  display: none;
+}
+
+.CheckoutSavedCards__ErrorIconContainer {
+  display: none;
+  order: -1;
+}
+
+.CheckoutSavedCards__ErrorIconContainer svg {
+  color: var(--cc-error-message-icon-color);
+  height: 1.3rem;
+  padding-top: 0.5rem;
+}
+
+.CheckoutSavedCards__ErrorMessage:not(:empty) {
+  display: block;
+}
+
+.CheckoutSavedCards__ErrorMessage:not(:empty) + .CheckoutSavedCards__ErrorIconContainer{
+  display: block;
+}
+
+.CheckoutSavedCards__AddAnotherCardContainer {
+  display: flex;
+  border-top: 1px solid var(--cc-border-color);
+  padding: 0.5rem;
+  width: 100%;
+}

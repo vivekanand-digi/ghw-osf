@@ -1,0 +1,12 @@
+{
+  "regions": [
+    {
+      "components": [
+        "category-image-carousel",
+        "category-long-description"
+      ],
+      "width": 12
+    }
+  ]
+}
+

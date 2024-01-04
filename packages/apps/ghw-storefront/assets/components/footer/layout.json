@@ -1,0 +1,11 @@
+{
+  "regions": [
+    {
+      "components": [
+        "ghw-footer"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

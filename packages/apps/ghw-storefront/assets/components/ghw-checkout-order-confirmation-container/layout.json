@@ -1,0 +1,12 @@
+{
+  "regions": [
+    {
+      "components": [
+        "ghw-checkout-order-confirmation",
+        "ghw-shop-all-order"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

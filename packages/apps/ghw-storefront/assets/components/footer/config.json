@@ -1,0 +1,5 @@
+{
+  "navigationOrientation": "horizontal",
+  "displayAndURL": "[{'0':'labelHelp','1':'help'},{'0':'labelCustomerServices','1':'customer-services'},{'0':'labelContactUs','1':'contactus'},{'0':'labelShippingInformation','1':'shipping-information'},{'0':'labelReturnsRefunds','1':'returns-refunds'}]",
+  "linkBehavior": "_self"
+}

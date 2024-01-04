@@ -1,0 +1,63 @@
+.ProfileCancelSubscription {
+  padding: 0 var(--cc-container-padding);
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.ProfileCancelSubscription__ActionResponse {
+  margin-bottom: 1rem;
+}
+
+.ProfileCancelSubscription__WarnMessageContainer {
+  margin-bottom: 1rem;
+}
+
+.ProfileCancelSubscription__WarnMessage {
+  font-weight: bold;
+}
+
+.ProfileCancelSubscription__WarnMessageHelp {
+  margin-left: -2rem;
+}
+
+.ProfileCancelSubscription__ButtonContainer {
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-top: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.ProfileCancelSubscription__ButtonContainer button {
+  flex: 0.25 0 0;
+}
+
+.ProfileCancelSubscription__confirmButton {
+  margin-left: 0.25rem;
+}
+
+.ProfileCancelSubscription__cancelButton {
+  margin-right: 0.25rem;
+}
+
+@media (max-width: 767px) {
+  .ProfileCancelSubscription .secondary {
+    margin-top: 1rem;
+  }
+
+  .ProfileCancelSubscription__ButtonContainer button {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .ProfileCancelSubscription__confirmButton {
+    margin-left: 0;
+  }
+
+  .ProfileCancelSubscription__cancelButton {
+    margin-right: 0;
+  }
+}

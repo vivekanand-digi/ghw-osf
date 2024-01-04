@@ -1,0 +1,68 @@
+$color-black: #000000;
+$color-white: #ffffff;
+$color-primary: #016FBF;
+$color-purple: #666666;
+$color-secondary: #555555;
+$color-link: #5D5D5D;
+$color-accent: #016FBF;
+$color-gray-1: #525252;
+$animation-duration: 0.4s;
+$title-clr: #344054;
+$para-clr: #667085;
+$bg-clr: #344054;
+$txt-placeholder: #98A2B3;
+$fw-100: 400;
+$fw-200: 500;
+$fw-300: 700;
+
+
+$font-size-100: 40px;
+$font-size-200: 32px;
+$font-size-300: 24px;
+$font-size-400: 18px;
+$font-size-500: 16px;
+$font-size-600: 14px;
+$font-size-700: 10px;
+
+@mixin f-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lang-login-cnr {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    border-bottom: 1px solid $color-white;
+
+    .container-fixed {
+        display: flex;
+        justify-content: space-between;
+
+        .lang-cnr {
+            display: none;
+            gap: 12px;
+
+            .lang-title {
+                color: $color-white;
+                font-family: Helvetica;
+                font-size: 16px;
+                font-weight: 400;
+                text-transform: capitalize;
+            }
+        }
+
+        .login-cnr {
+
+            .login-link {
+                color: $color-white;
+                font-size: 17px;
+                line-height: 1.4;
+                font-weight: 400;
+                text-transform: uppercase;
+
+            }
+        }
+    }
+}

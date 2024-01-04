@@ -1,0 +1,40 @@
+{
+  "regions": [
+    {
+      "components": [
+        "checkout-payment-methods-container",
+        "promotions"
+      ],
+      "width": 9,
+      "type": "main"
+    },
+    {
+      "components": [
+        "cart-order-summary"
+      ],
+      "width": 3,
+      "type": "main"
+    },
+    {
+      "components": [
+        "checkout-review-and-place-quoted-order-button"
+      ],
+      "width": 4,
+      "type": "main"
+    },
+    {
+      "components": [
+        
+      ],
+      "width": 1,
+      "type": "main"
+    },
+    {
+      "components": [
+        "checkout-back-to-previous-button"
+      ],
+      "width": 4,
+      "type": "main"
+    }
+  ]
+}

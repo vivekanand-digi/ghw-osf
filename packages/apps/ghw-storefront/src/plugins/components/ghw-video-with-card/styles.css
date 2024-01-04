@@ -1,0 +1,167 @@
+.GHWVideoWithCard {
+  background: url("/file/general/video-bg.svg");
+  background-size: cover;
+  padding: 32px 90px;
+  margin: 32px 0px;
+}
+.GHWVideoWithCard .GHWVideoWithCard-cnr .video-container {
+  display: flex;
+  gap: 42px;
+}
+.GHWVideoWithCard
+ 
+  .GHWVideoWithCard-cnr
+  .video-container
+  .video-left-sec
+  .videoImg {
+  border-radius: 20px;
+  background: #fff;
+  padding: 8px;
+}
+.GHWVideoWithCard
+ 
+  .GHWVideoWithCard-cnr
+  .video-container
+  .video-right-sec {
+  display: flex;
+  gap: 20px;
+}
+.GHWVideoWithCard
+ 
+  .GHWVideoWithCard-cnr
+  .video-container
+  .video-right-sec
+  .video-panel-item {
+  padding: 20px;
+  background: #fff;
+  border-width: 2px 0px;
+  border-style: solid;
+  border-color: #016fbf;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  flex-basis: 274px;
+  position: relative;
+}
+.GHWVideoWithCard
+ 
+  .GHWVideoWithCard-cnr
+  .video-container
+  .video-right-sec
+  .video-panel-item
+  .offer-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.GHWVideoWithCard
+ 
+  .GHWVideoWithCard-cnr
+  .video-container
+  .video-right-sec
+  .video-panel-item
+  .video-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.GHWVideoWithCard
+ 
+  .GHWVideoWithCard-cnr
+  .video-container
+  .video-right-sec
+  .video-panel-item
+  .video-cnt
+  .cnt-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.GHWVideoWithCard
+ 
+  .GHWVideoWithCard-cnr
+  .video-container
+  .video-right-sec
+  .video-panel-item
+  .video-cnt
+  .cnt-block
+  .vid-title {
+  color: #5d5d5d;
+  font-size: 16px;
+}
+.GHWVideoWithCard
+ 
+  .GHWVideoWithCard-cnr
+  .video-container
+  .video-right-sec
+  .video-panel-item
+  .video-cnt
+  .cnt-block
+  .desc {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+}
+.GHWVideoWithCard
+ 
+  .GHWVideoWithCard-cnr
+  .video-container
+  .video-right-sec
+  .video-panel-item
+  .video-cnt
+  .read-more {
+  color: #016fbf;
+  font-size: 16px;
+  position: absolute;
+  bottom: 20px;
+}
+
+@media (max-width: 540px) {
+  .GHWVideoWithCard {
+    padding: 20px;
+    margin: 32px 0px 0px 0px;
+  }
+  .GHWVideoWithCard .GHWVideoWithCard-cnr .video-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .GHWVideoWithCard
+   
+    .GHWVideoWithCard-cnr
+    .video-container
+    .video-right-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .GHWVideoWithCard
+   
+    .GHWVideoWithCard-cnr
+    .video-container
+    .video-right-sec
+    .video-panel-item {
+    flex-basis: 100%;
+  }
+  .GHWVideoWithCard
+   
+    .GHWVideoWithCard-cnr
+    .video-container
+    .video-right-sec
+    .video-panel-item
+    .offer-img {
+    border-bottom: 1px solid #e2ecff;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+  }
+  .GHWVideoWithCard
+   
+    .GHWVideoWithCard-cnr
+    .video-container
+    .video-right-sec
+    .video-panel-item
+    .video-cnt
+    .read-more {
+    position: relative;
+    bottom: inherit;
+    top: 8px;
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "layout": [
+      {
+        "components": [
+            "category-image-carousel",
+            "category-long-description"
+        ],
+        "width": 12
+      }
+    ],
+    "component": "CategoryContentContainer",
+    "title": "CategoryContent"
+  }

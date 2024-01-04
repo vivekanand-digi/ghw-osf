@@ -1,0 +1,178 @@
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.button-group .buttons {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.button-group .buttons .quantity {
+  padding: 8px 12px;
+  width: 140px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+.button-group .buttons .quantity.active, .button-group .buttons .quantity:active {
+  border: 2px solid #016FBF;
+  color: #016FBF;
+}
+
+.payment-selection {
+  padding: 20px 0;
+}
+.payment-selection .selection {
+  display: flex;
+  flex: 1 1 auto;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.payment-selection .selection label {
+  display: flex;
+  flex: 1 1 auto;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #5d5d5d;
+}
+.payment-selection .selection .amount {
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+}
+/* .payment-selection hr {
+  opacity: 0.3;
+  border: 1px solid #ffa000;
+  margin-bottom: 16px;
+} */
+.payment-selection .group-btn {
+  display: flex;
+  gap: 20px;
+}
+.payment-selection .group-btn .btn {
+  padding: 8px 12px;
+}
+.payment-selection .group-btn .btn.active,
+.payment-selection .group-btn .btn:active {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  color: #000000;
+  font-weight: 700;
+  font-size: 18px;
+}
+.payment-selection .group-btn.desktop {
+  display: flex;
+}
+.payment-selection .group-btn.ipad {
+  display: none;
+}
+
+.subscription {
+  background: #FFFFFF;
+  border: 1px solid #B9EAAD;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  padding: 12px 20px;
+  margin-bottom: 24px;
+}
+.subscription .heading {
+  display: flex;
+  border-bottom: 1px solid #000;
+}
+.subscription .heading h5 {
+  color: #0EC017;
+  font-size: 18px;
+  margin: auto;
+}
+.subscription .heading .sub {
+  display: flex;
+  flex: 1 1 auto;
+  margin-left: 10px;
+}
+.subscription .heading .more {
+  color: #016FBF;
+}
+.subscription .list {
+  display: flex;
+  flex-direction: column;
+}
+.subscription .list li {
+  display: flex;
+  flex: 0 0 50%;
+  gap: 12px;
+  align-items: center;
+  margin-top: 10px;
+}
+.subscription .list li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  opacity: 0.8;
+  transform: rotate(226deg);
+  display: flex;
+  align-items: center;
+  background: #35B73B;
+  opacity: 0.8;
+}
+
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .button-group .buttons .quantity {
+    font-size: 14px;
+    width: 84px;
+  }
+  .payment-selection{
+    width: 100%;
+  }
+  .payment-selection .selection label {
+    font-size: 14px;
+  }
+  .payment-selection .selection .amount {
+    font-size: 14px;
+  }
+  .payment-selection .group-btn.desktop {
+    display: none;
+  }
+  .payment-selection .group-btn.ipad {
+    display: flex;
+  }
+  .subscription {
+    width: 556px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .button-group .buttons .quantity {
+    width: 72px;
+  }
+  .payment-selection {
+    width: 100%;
+  }
+  .payment-selection .selection label {
+    font-size: 14px;
+  }
+  .subscription {
+    width: 100%;
+  }
+  .subscription .heading {
+    position: relative;
+    margin-bottom: 32px;
+    border-bottom: none;
+  }
+  .subscription .heading h5 {
+    font-size: 14px;
+  }
+  .subscription .heading .more {
+    position: absolute;
+    top: 24px;
+    font-size: 10px;
+  }
+  .subscription .list {
+    opacity: 0.8;
+    border-top: 1px solid rgba(185, 234, 173, 0.7);
+  }
+}

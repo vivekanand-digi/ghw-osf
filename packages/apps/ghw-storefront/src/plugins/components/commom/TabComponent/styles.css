@@ -1,0 +1,60 @@
+
+.TabHeader {
+  display: flex;
+  align-items: end;
+  border-bottom: 1px solid var(--d-0-d-series, #D0D5DD);
+  padding: 12px 20px 0px 20px;
+}
+
+.TabHeader a:active {
+  text-decoration: none;
+}
+
+.TabHeader a:focus {
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.TabBorderBottom {
+  border-bottom: 1px solid #005CB9 !important;
+  color: #005CB9 !important;
+}
+.TabHeader .TabButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  letter-spacing: 0px;
+  color: #00265d;
+  text-transform: capitalize;
+  opacity: 1;
+  text-align: center;
+  margin-right: 70px;
+  font-family: Helvetica;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px
+}
+
+@media screen and(max-width:767.9px) {
+  .TabHeader .TabButton {
+    padding: 0;
+  }
+  .TabContent {
+    position: relative;
+  }
+}
+
+.TabContent .Tab-Wrapper {
+  display: none;
+}
+
+.TabContent .Tab-Wrapper.active {
+  display: block;
+}
+
+.checkout__tab_border {
+  border-radius: 0 !important;
+  border: 1px solid #d8d8d8;
+}

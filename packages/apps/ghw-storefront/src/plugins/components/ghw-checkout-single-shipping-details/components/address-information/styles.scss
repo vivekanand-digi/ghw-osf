@@ -1,0 +1,53 @@
+.AddressInformation,
+.GHWAddressInformation {
+
+    .AddressInformation__Container,
+    .GHWAddressInformation__Container {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        .HomeDeliveryAddressInformation__AddressSummary {
+            .HomeDeliveryAddressInformation__AddressDetails {
+                &:first-child {
+                    span {
+                        font-family: 'Helvetica-Bold';
+                    }
+                }
+            }
+        }
+    }
+}
+
+.AddressInformation button,
+.AddressInformation button:hover {
+    text-decoration: underline;
+    font-size: var(--cc-font-size-small);
+    background-color: var(--cc-background-color);
+    padding: 0;
+    color: var(--cc-color);
+    display: inline-block;
+    text-align: unset;
+    width: unset;
+}
+
+/* .AddressInformation {
+  margin-top: 1rem;
+} */
+
+.AddressInformation__Buttons {
+    height: 2rem;
+}
+
+.AddressInformation__OpenAddressBookButton {
+    float: right;
+}
+
+.AddressInformation__NoAddressAvailable {
+    font-size: var(--cc-font-size-small);
+    margin: 0.5rem 0;
+}
+
+.AddressInformation__Container .HomeDeliveryAddressInformation__Heading {
+    display: none;
+}

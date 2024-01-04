@@ -1,0 +1,16 @@
+.prod-slider-sec {
+  background: #fff;
+  background-size: cover;
+  background-position: center;
+}
+
+.prod-slider-sec .video-cnr {
+  padding: 80px 0;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+}
+
+.prod-slider-sec .thumb {
+  width: 80%;
+}

@@ -1,0 +1,11 @@
+{
+    "regions": [
+      {
+        "components": [
+            "profile-update-password"
+        ],
+        "width": 6,
+        "type": "main"
+      }
+    ]
+  }

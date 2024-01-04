@@ -1,0 +1,19 @@
+{
+  "regions": [
+    {
+      "components": [
+        "checkout-order-confirmation"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "checkout-registration",
+        "continue-shopping-button"
+      ],
+      "width": 6,
+      "type": "main"
+    }
+  ]
+}

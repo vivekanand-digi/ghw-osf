@@ -1,0 +1,38 @@
+.OrderConfirmationPlaceholder {
+  display: flex;
+  flex-direction: row;
+  text-align: unset;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.OrderConfirmationPlaceholder__Heading {
+  height: 2rem;
+  width: 100%;
+  margin: var(--cc-container-padding) 5rem;
+  background-color: var(--cc-pageloader-box-background);
+}
+
+.OrderConfirmationPlaceholder__ConfirmationDetails {
+  height: 4rem;
+  width: 100%;
+  margin: var(--cc-container-padding) 0;
+  background-color: var(--cc-pageloader-box-background);
+}
+
+.OrderConfirmationPlaceholder__ContinueShopping {
+  height: 2rem;
+  margin: var(--cc-container-padding) 8rem;
+  width: 100%;
+  background-color: var(--cc-pageloader-box-background);
+}
+
+@media only screen and (min-width: 768px) {
+  .OrderConfirmationPlaceholder__ContinueShopping {
+    width: 100%;
+    margin: var(--cc-container-padding) 10rem;
+  }
+  .OrderConfirmationPlaceholder__Heading {
+    margin: var(--cc-container-padding) 10rem;
+  }
+}

@@ -1,0 +1,63 @@
+.ProfileDeleteSavedCard {
+  padding: 0 var(--cc-container-padding);
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.ProfileDeleteSavedCard__ActionResponse {
+  margin-bottom: 1rem;
+}
+
+.ProfileDeleteSavedCard__WarnMessageContainer {
+  margin-bottom: 1rem;
+}
+
+.ProfileDeleteSavedCard__WarnMessage {
+  font-weight: bold;
+}
+
+.ProfileDeleteSavedCard__WarnMessageHelp {
+  margin-left: -2rem;
+}
+
+.ProfileDeleteSavedCard__ButtonContainer {
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-top: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.ProfileDeleteSavedCard__ButtonContainer button{
+  flex: 0.25 0 0;
+}
+
+.ProfileDeleteSavedCard__confirmButton {
+  margin-left: 0.25rem;
+}
+
+.ProfileDeleteSavedCard__cancelButton {
+  margin-right: 0.25rem;
+}
+
+@media (max-width: 767px) {
+ .ProfileDeleteSavedCard .secondary {
+   margin-top: 1rem;
+ }
+
+ .ProfileDeleteSavedCard__ButtonContainer button {
+   flex: 0 0 100%;
+   max-width: 100%;
+ }
+
+ .ProfileDeleteSavedCard__confirmButton {
+   margin-left: 0;
+ }
+
+ .ProfileDeleteSavedCard__cancelButton {
+   margin-right: 0;
+ }
+}

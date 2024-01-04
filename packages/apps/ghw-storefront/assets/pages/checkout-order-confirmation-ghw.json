@@ -1,0 +1,51 @@
+{
+  "layout": [
+    {
+      "cssClass": "",
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "header-with-notification-device-slot",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "ghw-checkout-progress-tracker",
+        "ghw-checkout-order-confirmation-container",
+        "back-to-top-link"
+      ],
+      "cssClass": "",
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "cssClass": "",
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Checkout Order Confirmation"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "checkout-order-confirmation",
+  "title": "Checkout Order Confirmation",
+  "shortName": "checkout-order-confirmation",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "checkout-order-confirmation"
+    }
+  }
+}

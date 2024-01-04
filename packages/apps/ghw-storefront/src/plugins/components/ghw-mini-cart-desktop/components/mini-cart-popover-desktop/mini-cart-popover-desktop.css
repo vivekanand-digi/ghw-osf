@@ -1,0 +1,98 @@
+.MiniCartDesktop__Popover {
+  transition: var(--cc-transition);
+}
+.MiniCartDesktop__Popover .GHWModal__Body {
+  margin-top: -6.4% !important;
+}
+
+.MiniCartDesktop__Popover__Body {
+  display: flex;
+  width: 100%;
+  flex: 1 1 auto;
+}
+
+.MiniCartDesktop__Popover__CartItems {
+  width: 100%;
+}
+
+.MiniCartDesktop__Popover__CartSummary {
+  width: 30%;
+  padding: 0 40px;
+}
+
+.MiniCartDesktop .Popover {
+  right: 0.75rem;
+  top: 3rem;
+}
+.MiniCartDesktop .Popover__HeaderTitle {
+  color: var(--cc-color);
+}
+.MiniCartDesktop .Popover__Header {
+  margin-bottom: var(--cc-container-padding);
+}
+.MiniCartDesktop .Popover__Wrapper {
+  width: 22rem;
+}
+
+element.style {
+  border-radius: 10px;
+}
+
+.Popover::before {
+  left: 90%;
+  top: -1px;
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(233, 225, 225, 0.36);
+  transform: translate(-50%, -50%) rotate(45deg);
+  content: "";
+  height: 16px;
+  width: 16px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 1;
+}
+
+.Popover__Wrapper {
+  width: 22rem !important;
+}
+
+.GHWModal__HeaderText {
+  display: none !important;
+}
+
+.GHWModal__Close {
+  z-index: 2;
+}
+
+.LineBottom {
+  border: solid 1px var(--cc-root-header-color);
+}
+
+.MiniCartDesktop__Popover__CartSummary__Heading {
+  font-family: Helvetica;
+  font-size: 13px;
+  color: var(--cc-ghw-black);
+  margin: 8px 0;
+}
+
+.my-cart .delete-btn {
+  display: inline-block;
+  width: 18px;
+  height: 17px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .GHWModal_Wrapper_Minicart {
+    position: absolute !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .GHWModal_Wrapper_Minicart {
+    width: 100% !important;
+    min-width: unset !important;
+  }
+  .MiniCartButtons__CartButton {
+    width: 8rem !important;
+  }
+}/*# sourceMappingURL=mini-cart-popover-desktop.css.map */

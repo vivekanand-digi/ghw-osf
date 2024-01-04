@@ -1,0 +1,13 @@
+{
+  "regions": [
+    {
+      "components":[
+        "ghw-product-tab-container",
+        "ghw-shop-all-pdp",
+        "ghw-pdp-banner"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

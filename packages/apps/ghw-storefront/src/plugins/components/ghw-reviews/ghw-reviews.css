@@ -1,0 +1,154 @@
+.customer-reviews .h1-title {
+  text-align: center;
+  margin: auto;
+  color: #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.customer-reviews .review-list {
+  margin-top: 12px;
+}
+.customer-reviews .review-list .slick-list {
+  overflow: inherit;
+}
+.customer-reviews .review-list .slick-list .slick-track {
+  display: flex;
+}
+.customer-reviews .review-list .slick-list .slick-track .review-list-item {
+  padding: 32px;
+  margin: 8px 0px 40px 0px;
+  position: relative;
+  margin: 0 auto 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.customer-reviews .review-list .slick-list .slick-track .review-list-item .testimonial-content {
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  border-radius: 0 0 8px 8px;
+}
+.customer-reviews .review-list .slick-list .slick-track .review-list-item .testimonial-content .user-icon {
+  display: flex;
+  gap: 33px;
+  align-items: end;
+}
+.customer-reviews .review-list .slick-list .slick-track .review-list-item .testimonial-content .user-icon .user-input {
+  color: #016FBF;
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+}
+.customer-reviews .review-list .slick-list .slick-track .review-list-item .testimonial-content .para {
+  color: #667085;
+  font-size: 14px;
+}
+.customer-reviews .review-list .slick-list .slick-track .review-list-item .testimonial-content .feedback-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.customer-reviews .review-list .slick-list .slick-track .review-list-item .testimonial-content .feedback-sec .author-name {
+  color: #344054;
+  font-size: 14px;
+}
+.customer-reviews .review-list .slick-prev {
+  display: none !important;
+}
+.customer-reviews .review-list .slick-next {
+  display: none !important;
+}
+.customer-reviews .review-list .slick-dots {
+  bottom: -32px;
+}
+.customer-reviews .review-list .slick-dots li button::before {
+  font-size: 40px;
+  color: #fff !important;
+}
+
+.user-rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.user-rating.star-rating .star-img.rating-bg {
+  flex: auto;
+  justify-content: flex-end;
+  background: url(/file/general/sm-star-empty.svg) left top;
+  flex: 0 0 208px;
+  height: 40px;
+  background-repeat: repeat-x;
+  background-size: 42px 40px;
+}
+.user-rating.star-rating .star-img.lg {
+  flex: 0 0 392px;
+  height: 64px;
+  background-size: 80px 64px;
+}
+.user-rating.star-rating .star-img.lg .fill {
+  background: url(/file/general/sm-star-yellow.svg) left top;
+  background-size: 80px 64px;
+  height: 64px;
+}
+.user-rating.star-rating .star-img.lg .fill.rate-10 {
+  width: 32px;
+}
+.user-rating.star-rating .star-img.lg .fill.rate-15 {
+  width: 80px;
+}
+.user-rating.star-rating .star-img.lg .fill.rate-20 {
+  width: 160px;
+}
+.user-rating.star-rating .star-img.lg .fill.rate-25 {
+  width: 192px;
+}
+.user-rating.star-rating .star-img.lg .fill.rate-30 {
+  width: 240px;
+}
+.user-rating.star-rating .star-img.lg .fill.rate-35 {
+  width: 272px;
+}
+.user-rating.star-rating .star-img.lg .fill.rate-40 {
+  width: 320px;
+}
+.user-rating.star-rating .star-img.lg .fill.rate-45 {
+  width: 352px;
+}
+.user-rating.star-rating .star-img .fill {
+  background: url(/file/general/sm-star-yellow.svg) left top;
+  height: 40px;
+  background-size: 42px 40px;
+}
+.user-rating.star-rating .star-img .fill.rate-10 {
+  width: 42px;
+}
+.user-rating.star-rating .star-img .fill.rate-15 {
+  width: 63px;
+}
+.user-rating.star-rating .star-img .fill.rate-20 {
+  width: 84px;
+}
+.user-rating.star-rating .star-img .fill.rate-25 {
+  width: 105px;
+}
+.user-rating.star-rating .star-img .fill.rate-30 {
+  width: 126px;
+}
+.user-rating.star-rating .star-img .fill.rate-35 {
+  width: 147px;
+}
+.user-rating.star-rating .star-img .fill.rate-40 {
+  width: 166px;
+}
+.user-rating.star-rating .star-img .fill.rate-45 {
+  width: 189px;
+}/*# sourceMappingURL=ghw-reviews.css.map */

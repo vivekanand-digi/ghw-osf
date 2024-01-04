@@ -1,0 +1,39 @@
+{
+  "address": "/checkout-payment-old",
+  "title": "Checkout Payment old",
+  "shortName": "checkout-payment-old",
+  "defaultPage": false,
+  "settings": {
+    "displayName": "Checkout Payment"
+  },
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "checkout-header-with-notification-device-slot",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "checkout-progress-tracker",
+        "checkout-payments-container",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ]
+}

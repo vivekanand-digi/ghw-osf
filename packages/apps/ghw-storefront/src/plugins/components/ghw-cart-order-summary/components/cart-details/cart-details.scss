@@ -1,0 +1,123 @@
+.GHWCartOrderSummary__Wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.CartDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  .capsule-sec {
+    display: flex;
+
+    .img {
+      display: flex;
+      align-items: center;
+      // padding-right: 12px;
+
+      >img {
+        max-width: 120px;
+        max-width: 120px;
+        height: 120px;
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    .title {
+      font-size: 20px;
+      font-family: 'Helvetica-Bold';
+      margin: 0;
+      padding: 0;
+
+      &.free {
+        color: #475467;
+        font-size: 18px;
+        font-weight: 400;
+      }
+    }
+
+    .para {
+      color: #667085;
+      font-size: 12px;
+      font-weight: 400;
+
+      &.count,
+      .qty-value {
+        color: #344054;
+        font-size: 16px;
+        font-family: 'Helvetica-Bold';
+      }
+    }
+
+    .quantity {
+      display: flex;
+      gap: 4px;
+
+      &.order {
+        color: #667085;
+        font-size: 14px;
+        font-weight: 400;
+      }
+
+      .qty-value {
+        color: #344054;
+        font-family: 'Helvetica-Bold';
+      }
+
+      hr {
+        opacity: 0.1;
+        border: 1px solid #000000;
+      }
+
+      p {
+        color: #667085;
+        font-size: 14px;
+
+        span {
+          color: #667085;
+          padding-left: 6px;
+          font-family: 'Helvetica-Bold';
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .CartDetails .content .title.free {
+    font-size: 12px;
+  }
+
+  .CartDetails .content .para {
+    font-size: 12px;
+  }
+
+  .CartDetails .content .para.count {
+    font-size: 14px;
+  }
+
+  .CartDetails .content .quantity {
+    font-size: 14px;
+  }
+
+  .CartDetails .content .quantity.order {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .CartDetails .title-name {
+    cursor: pointer;
+  }
+
+  .CartDetails .capsule-sec .img img {
+    width: 52px;
+  }
+}

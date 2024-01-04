@@ -1,0 +1,68 @@
+.ResponsiveContainer__Section {
+  justify-content: center;
+}
+.ResponsiveContainer__Section .Region .ProfileUpdatePassword {
+  width: 50%;
+  margin: 0 auto;
+}
+.ResponsiveContainer__Section .Region .ProfileUpdatePassword .ProfileUpdatePassword__Content .updatePasswordTitle {
+  display: none;
+}
+.ResponsiveContainer__Section .Region .ProfileUpdatePassword .ProfileUpdatePassword__Content form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.ResponsiveContainer__Section .Region .ProfileUpdatePassword .ProfileUpdatePassword__Content form > div .ProfileUpdatePassword__InputElement {
+  margin: 0;
+}
+.ResponsiveContainer__Section .Region .ProfileUpdatePassword .ProfileUpdatePassword__Content form > div .ProfileUpdatePassword__InputElement label {
+  color: #667085;
+  font-family: Helvetica;
+  font-size: 16px;
+}
+.ResponsiveContainer__Section .Region .ProfileUpdatePassword .ProfileUpdatePassword__Content form > div .ProfileUpdatePassword__InputElement .ProfileUpdatePassword__InputElementIconDiv {
+  display: none;
+}
+.ResponsiveContainer__Section .Region .ProfileUpdatePassword .ProfileUpdatePassword__Content form > div .ProfileUpdatePassword__InputElement .ProfileUpdatePassword__InputElementDiv input {
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+  border: 0;
+  border-radius: 0;
+}
+.ResponsiveContainer__Section .Region .ProfileUpdatePassword .ProfileUpdatePassword__Content form .ProfileUpdatePassword__Buttons {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 84px;
+}
+.ResponsiveContainer__Section .Region .ProfileUpdatePassword .ProfileUpdatePassword__Content form .ProfileUpdatePassword__Buttons .ProfileUpdatePassword__SubmitButton {
+  border-radius: 10px;
+  background: var(--primary-color, #005CB9);
+  color: #FFF;
+  font-family: Helvetica;
+  font-size: 18px;
+}
+.ResponsiveContainer__Section .Region .ProfileUpdatePassword .ProfileUpdatePassword__Content form .ProfileUpdatePassword__Buttons .ProfileUpdatePassword__CancelButton {
+  color: #005CB9;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: 1px solid #D9E0E5;
+  background: #FFF;
+}
+
+.ProfileAddCreditCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--cc-container-padding);
+  margin-bottom: 3rem;
+}
+.ProfileAddCreditCard h1 {
+  font-weight: 500;
+  margin: 0.7rem 0;
+}
+
+.ProfileAddCreditCard__ActionResponse {
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=styles.css.map */

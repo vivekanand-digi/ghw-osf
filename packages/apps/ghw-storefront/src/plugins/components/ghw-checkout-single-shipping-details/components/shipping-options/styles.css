@@ -1,0 +1,38 @@
+.ShippingOptions__RadioButtons {
+  margin-top: 0.5rem;
+}
+
+.ShippingOptions .Radio label {
+  margin-left: 0;
+  cursor: pointer;
+}
+
+.ShippingOptions__Dropdown {
+  margin-top: 1.2rem;
+}
+
+.option-cnr {
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid #CFD3D4;
+  background: #FFF;
+}
+.option-cnr .Radio .Radio__Control {
+  width: 20px;
+  height: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .ShippingOptions__Dropdown {
+    display: flex;
+  }
+  .Dropdown__Select {
+    min-width: 20%;
+  }
+}/*# sourceMappingURL=styles.css.map */

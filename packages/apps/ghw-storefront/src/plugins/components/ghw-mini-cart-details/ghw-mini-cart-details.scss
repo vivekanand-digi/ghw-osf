@@ -1,0 +1,203 @@
+$color_1: var(--cc-a-color-active);
+$color_2: var(--social-icon-shape);
+$color_3: var(--cc-ghw-bitter-lemon);
+$color_4: white;
+$font-family_1: NimbusSan-Reg;
+$font-family_2: NimbusSan-Bla;
+$font-family_3: NimbusSan-Lig;
+$background-color_1: var(--cc-ghw-blue);
+@use './../utils/button';
+
+/**
+ *  CSS uses the Block Element Modifier naming convention, an example :
+.GHWMiniCartDetails__ElementName {
+  display: inline-block;
+  font-size: large;
+}
+ * For more information - http://getbem.com/
+ */
+.GHWEmptyCartMiniCartDetails {
+	line-height: 1.2;
+	margin: var(--cc-container-padding);
+}
+
+.Clear-Shopping-Cart {
+	width: 143px;
+	height: 33px;
+	margin: 0 14px 0 28.2rem;
+	font-family: $font-family_1;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.06;
+	letter-spacing: normal;
+	color: $color_1;
+}
+
+.warningBody {
+	margin-left: 2.5rem;
+}
+
+.Move-All-Item-to-Lis {
+	width: 140px;
+	height: 33px;
+	margin: 0 0 0 -8px;
+	font-family: $font-family_1;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.06;
+	letter-spacing: normal;
+	color: $color_1;
+}
+
+.Warning-Next-day-ai {
+	width: 565px;
+	height: 36px;
+	margin: 22px 27px 119px 40px;
+	font-family: $font-family_1;
+	font-size: 13px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.38;
+	letter-spacing: normal;
+	color: $color_2;
+}
+
+.GHWMiniCartDetails {
+	text-align: center;
+	display: flex;
+	flex: 1 1 auto;
+	flex-direction: column;
+
+	.GHWMiniCartItemsTable_Body {
+		display: flex;
+		flex: 1 1 auto;
+		flex-direction: column;
+		align-items: center;
+
+
+		>div:nth-child(2) {
+			>div:last-child {
+				display: flex;
+				gap: 24px;
+
+				.continue-shopping {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					flex: 0 0 50%;
+				}
+
+				.payment-method {
+					margin: 0;
+					flex: 0 0 50%;
+					text-decoration: none;
+
+					.checknow {
+						&:hover {
+							text-decoration: none;
+						}
+
+					}
+				}
+			}
+		}
+
+	}
+}
+
+.GHWLimeGreen__Color {
+	&:hover {
+		color: $color_3 !important;
+	}
+}
+
+.GHWMiniCartDetails__EmptyMessage {
+	width: 250px;
+	margin: 0px 0 20px 0;
+	font-family: $font-family_2;
+	font-size: 18px;
+	line-height: 1.43;
+	letter-spacing: normal;
+}
+
+.GHWMiniCartDetails__ContiueShopping {
+	background-color: $background-color_1 !important;
+	color: $color_4;
+	font-weight: normal;
+	font-family: $font-family_3;
+}
+
+.my-cart {
+	display: flex;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	height: auto !important;
+	flex: 1 1 auto;
+	padding: 16px 20px 12px;
+
+	// .h1 {
+	// 	font-weight: 400;
+	// 	font-size: 32px;
+	// 	line-height: 24px;
+	// 	flex: 1 1 auto;
+	// }
+
+	.delete-btn {
+		display: inline-block;
+		width: 18px;
+		height: 17px;
+		/* background: url(../images/delete.svg) no-repeat center; */
+		cursor: pointer;
+	}
+}
+
+.empty-cart-cnr {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	flex: 0 0 60%;
+	width: 60%;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	padding-top: 40px;
+
+	.empty-msg {
+		font-size: 20px;
+		color: #667085;
+		display: flex;
+		justify-content: center;
+	}
+
+	.empty-img {
+		display: flex;
+		background: url('/file/general/empty-cart.svg') center top no-repeat;
+		width: 292px;
+		height: 292px;
+	}
+}
+
+
+@media only screen and (min-width: 768px) {
+	.GHWMiniCartDetails__EmptyMessage {
+		text-align: left;
+		margin: 2rem 0;
+	}
+
+	.GHWMiniCartDetails__ContiueShopping {
+		width: max-content;
+		margin: 10px 0 0 0;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.GHWMiniCartDetails {
+		.GHWMiniCartItemsTable_Body>div {
+			overflow-x: hidden;
+		}
+	}
+}

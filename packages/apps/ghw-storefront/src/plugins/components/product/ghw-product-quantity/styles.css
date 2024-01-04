@@ -1,0 +1,23 @@
+.GHWProductQuantity__Wrapper .validationMsg {
+  font-size: var(--cc-font-size-small);
+  color: var(--cc-error-message-color);
+  flex-basis: 100%;
+  white-space: normal;
+}
+
+.GHWProductQuantity .Dropdown label,
+.GHWProductQuantity label {
+  font-size: var(--cc-font-size-large);
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-align: left;
+  display: block;
+}
+
+.GHWProductQuantity label {
+  margin-bottom: 0.5rem;
+}
+
+.GHWProductQuantity__Wrapper .validationMsgContainer{
+  height: 1rem;
+}

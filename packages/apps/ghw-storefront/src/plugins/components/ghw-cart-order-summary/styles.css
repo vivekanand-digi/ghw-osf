@@ -1,0 +1,21 @@
+.GHWCartOrderSummary {
+  margin-top: 0.5rem;
+  padding: 0 var(--cc-container-padding);
+  background: #fff;
+  border: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .GHWCartOrderSummary__Heading {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .GHWCartOrderSummary {
+    border: 1px solid var(--cc-border-color);
+    border-radius: var(--cc-border-radius);
+    margin: 0 var(--cc-container-padding);
+    padding: 1rem 0.75rem 0.75rem 0.75rem;
+  }
+}

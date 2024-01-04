@@ -1,0 +1,242 @@
+@use './../../utils/button';
+
+.payment-method {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  padding: 22px 18px;
+  border-radius: 8px;
+  gap: 10px;
+
+  .payment-info {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #667085;
+    margin-bottom: 40px;
+
+    .payment-main {
+      display: flex;
+      flex-direction: row;
+      margin-top: 16px;
+      gap: 28px;
+
+
+    }
+  }
+}
+
+.GHWProfileSavedCards__Items {
+  display: grid;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0.5fr;
+  margin: 0;
+}
+
+.GHWProfileSavedCards {
+  &.card {
+    background-image: url(/file/general/payment-card-bg.png);
+    width: 284px;
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    // background: url(../images/payment-card-bg.png) no-repeat;
+    background-size: cover;
+
+    .default-payment-bg {
+      // background: url(../images/mastercard-logo.svg) no-repeat;
+      background-position: 16px 10px;
+      height: 42px;
+      padding: 0px 2px;
+      margin: 10px;
+      font-weight: 400;
+      font-size: 12px;
+      color: #a43059;
+    }
+
+    .card-logo {
+      margin: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .default-payment {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #344054;
+      padding: 6px 50px 22px;
+      border-bottom: none;
+
+      span {
+        font-weight: 700;
+      }
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #344054;
+      padding: 32px 20px;
+      border-bottom: 1px solid #d0d5dd;
+    }
+
+    .edit-sect {
+      display: flex;
+      // flex-wrap: wrap;
+      justify-content: center;
+      gap: 13px;
+      align-items: center;
+      // margin: 0px 20px 10px;
+
+      .edit-btn {
+        width: 30px;
+        height: 30px;
+        border-radius: 4px;
+        border: 1px solid #fed1d1;
+        background: #000;
+
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 14px;
+
+        &:hover,
+        &.active {
+          border-radius: 4px;
+          border: 1px solid #fe6c6c;
+          background: rgba(255, 57, 57, 0.2);
+        }
+      }
+
+      .delete-btn {
+        width: 30px;
+        height: 30px;
+        border-radius: 4px;
+        border: 1px solid #f8f9f9;
+        color: #ffffff;
+        display: flex;
+        gap: 4px;
+        align-items: center;
+        justify-content: center;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 14px;
+        border-radius: 4px;
+        border: 1px solid #fed1d1;
+        background: #000;
+
+        &:hover,
+        &.active {
+          border-radius: 4px;
+          border: 1px solid #fe6c6c;
+          background: rgba(255, 57, 57, 0.2);
+
+          img {
+            filter: hue-rotate(152deg);
+          }
+        }
+      }
+
+      .default-text {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: #fff;
+        // padding-left: 40px;
+        padding: 5px 10px;
+        border: 1px solid transparent;
+
+        &:hover,
+        &.active {
+          border-radius: 4px;
+          border: 1px solid #00a7e1;
+          background: var(--accent-blue-20,
+              rgba(0, 167, 225, 0.2));
+        }
+      }
+    }
+
+    .flex-start-display {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+// .GHWProfileSavedCards {
+//   padding: 0 var(--cc-container-padding);
+//   width: 100%;
+//   display: flex;
+//   flex-flow: column;
+//   margin-bottom: 3rem;
+// }
+
+// .GHWProfileSavedCards__ActionResponse {
+//   margin-bottom: 1rem;
+// }
+
+// .GHWProfileSavedCards__NoSavedCards {
+//   text-align: center;
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// .GHWProfileSavedCards .Card {
+//   border-radius: 0;
+//   margin: 0;
+// }
+
+
+// .GHWProfileSavedCards__Items {
+//   display: grid;
+//   grid-column-gap: 0.5rem;
+//   grid-row-gap: 1.5rem;
+//   grid-template-columns: repeat(3, 1fr);
+//   grid-template-rows: 0.5fr;
+//   margin: 0;
+// }
+
+// .GHWProfileSavedCards__Footer {
+//   margin-top: 1rem;
+//   display: flex;
+//   flex-flow: column;
+//   width: 25%;
+//   align-self: center;
+// }
+
+// .GHWProfileSavedCards__Item {
+//   display: flex;
+//   flex-flow: row;
+//   width: 300px;
+//   height: 180px;
+// }
+
+// @media only screen and (max-width: 768px) {
+//   .GHWProfileSavedCards__Items {
+//     grid-column-gap: 0;
+//     grid-template-columns: repeat(1, 1fr);
+//   }
+
+
+//   .GHWProfileSavedCards__Footer {
+//     width: 100%;
+//   }
+// }
+
+// @media only screen and (min-width : 768px) and (max-width : 1024px) {
+//   .GHWProfileSavedCards__Items {
+//     grid-column-gap: 0.5rem;
+//     grid-template-columns: repeat(2, 1fr);
+//   }
+// }

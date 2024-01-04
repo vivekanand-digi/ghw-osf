@@ -1,0 +1,58 @@
+{
+	"autoSlideInterval": "3",
+	"slideTitle-5": "",
+	"slideTitle-4": "",
+	"slideTitle-3": "",
+	"slideTitle-2": "",
+	"slideTitle-1": "",
+
+	"slideMediaTitle-1": "",
+	"slideMediaTitle-3": "",
+	"slideMediaTitle-2": "",
+
+	"isAutoSlide": true,
+
+	"slideMedia-1": {
+		"src": "file/products/bndl-rest-review.png"
+	},
+	"slideMediaLinkBehavior-1": "_self",
+	"slideMediaLinkBehavior-3": "_self",
+	"slideMediaLinkBehavior-2": "_self",
+	"slideMediaLinkBehavior-5": "_self",
+	"slideMediaLinkBehavior-4": "_self",
+
+	"slideMedia-3": {
+		"src": "file/products/bndl-inflammation-focus.png"
+	},
+	"slideMedia-2": {
+		"src": "file/products/bndl-2x-supply.png"
+	},
+	"slideMedia-4": {
+		"src": "file/products/bndl-omega-value.png"
+	},
+
+	"slideMedia-5": {
+		"src": "file/products/bndl-inflammation-focus.png"
+	},
+
+	"slideMedia-6": {
+		"src": "file/products/bndl-2x-supply.png"
+	},
+
+	"slideMediaLink-2": "",
+	"slideMediaLink-3": "",
+	"slideMediaLink-1": "",
+
+	"button1Link-1": "",
+	"button1Link-2": "",
+	"button1Link-3": "",
+	"button1Link-4": "",
+	"button1Link-5": "",
+
+	"productTitle-1": "REST & REVIVE*",
+	"productTitle-2": "Inflammation Focused*",
+	"productTitle-3": "2X SUPPLY",
+	"productTitle-4": "OMEGA VALUE",
+	"productTitle-5": "Inflammation Focused*",
+	"productTitle-6": "2X SUPPLY"
+}

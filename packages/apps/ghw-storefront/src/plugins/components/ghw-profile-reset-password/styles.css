@@ -1,0 +1,31 @@
+.GHWProfileResetPassword input,
+.GHWProfileResetPassword button {
+  width: 100%
+}
+
+.GHWProfileResetPassword p {
+  margin-top: 0;
+}
+
+.GHWProfileResetPassword {
+  padding: 0 var(--cc-container-padding);
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  font-size: var(--cc-font-size);
+}
+
+.GHWProfileResetPassword__Username {
+  margin-bottom: 2.5em;
+}
+
+.GHWProfileResetPassword__EmailIcon {
+  position: absolute;
+  right: .5em;
+  top: 0.55em;
+  width: 1.2rem;
+}
+
+.GHWProfileResetPassword__EmailField {
+  position: relative;
+}

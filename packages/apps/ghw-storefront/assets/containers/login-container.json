@@ -1,0 +1,12 @@
+{
+    "layout": [
+      {
+        "components": [
+          "login"
+        ],
+        "width": 6
+      }
+    ],
+    "component": "ResponsiveContainer",
+    "title": "LoginContainer"
+}

@@ -1,0 +1,28 @@
+.lang-login-cnr {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid #ffffff;
+}
+.lang-login-cnr .container-fixed {
+  display: flex;
+  justify-content: space-between;
+}
+.lang-login-cnr .container-fixed .lang-cnr {
+  display: none;
+  gap: 12px;
+}
+.lang-login-cnr .container-fixed .lang-cnr .lang-title {
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.lang-login-cnr .container-fixed .login-cnr .login-link {
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 1.4;
+  font-weight: 400;
+  text-transform: uppercase;
+}/*# sourceMappingURL=styles.css.map */

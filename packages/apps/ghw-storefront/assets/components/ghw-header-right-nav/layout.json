@@ -1,0 +1,19 @@
+{
+  "regions": [
+    {
+      "components": [
+        "search-box-desktop"
+      ],
+      "width": 8,
+      "type": "main"
+    },
+    
+    {
+      "components": [
+        "ghw-mini-cart-desktop"
+      ],
+      "width": 1,
+      "type": "main"
+    }
+  ]
+}

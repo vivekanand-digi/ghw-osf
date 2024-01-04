@@ -1,0 +1,60 @@
+.achdirectdebit__MandateText {
+  font-size: var(--cc-font-size-small);
+  padding: 1rem 0px;
+}
+
+.AddressSection__Container label {
+  display: block;
+  font-weight: 500;
+  padding-bottom: 0.25rem;
+}
+
+.AddressSection__Container input {
+  width: 100%;
+}
+
+.AddressSection__Container > div {
+  margin-bottom: 1rem;
+}
+
+.AccountDetailsForm {
+  margin: 3rem 0px;
+}
+
+.AccountDetailsForm__Field {
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .AccountDetailsForm__Field.Options {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+.AccountDetailsForm__Field > label {
+  width: 170px;
+  font-weight: 500;
+  margin-right: 2rem;
+  text-align: right;
+}
+
+.AccountDetailsForm__Field > input {
+  flex: 1;
+}
+
+.Options__Container {
+  align-items: flex-start;
+}
+
+.Options__Container:nth-of-type(2) {
+  margin-left: 4rem;
+}
+
+.Options__Container .Options__RadioButtons {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}

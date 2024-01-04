@@ -1,0 +1,126 @@
+:root {
+    --primary-color: #005CB9;
+    --secondary-color: #00A7E1;
+}
+
+.ProductPrice__SaleWrapper {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+
+    .super-txt {
+        font-weight: 600;
+        font-size: 16px;
+        color: var(--primary-color);
+        vertical-align: super;
+    }
+
+    .offer-price-cnr {
+        display: flex;
+
+        .offer-price {
+            font-family: "Helvetica-Bold";
+
+            &::first-letter {
+                font-size: 0;
+            }
+
+            font-weight: 700;
+            font-size: 40px !important;
+            color: var(--primary-color);
+
+        }
+    }
+
+    .list-price-cnr {
+        display: flex;
+        padding-bottom: 10px;
+
+        .super-txt {
+            color: var(--secondary-color);
+        }
+
+        .list-price {
+            &::first-letter {
+                font-size: 0;
+            }
+
+            font-weight: 700;
+            font-size: 24px;
+            color: var(--secondary-color);
+            text-decoration: line-through;
+        }
+    }
+}
+
+// .GHWProductPrice {
+// 	padding: 10px;
+// 	padding-bottom: .5rem;
+// 	span {
+// 		font-size: var(--cc-font-size-xlarge);
+// 		font-weight: bold;
+// 	}
+// 	.ProductPrice__ListVolumePriceWrapper {
+// 		font-size: var(--cc-font-size);
+// 	}
+// 	.ProductPrice__ListVolumePriceWrapper--heading {
+// 		border-bottom: 1px solid var(--cc-border-color);
+// 		display: flex;
+// 		span {
+// 			font-weight: bold;
+// 		}
+// 		.ProductPrice__ListVolumePriceWrapper--quantity {
+// 			text-align: left;
+// 		}
+// 	}
+// 	.ProductPrice__ListVolumePriceWrapper--quantity {
+// 		text-align: center;
+// 		flex: 1;
+// 		font-weight: normal;
+// 		font-size: var(--cc-font-size);
+// 		padding: 0.25rem 0;
+// 	}
+// 	.ProductPrice__ListVolumePriceWrapper--price {
+// 		text-align: right;
+// 		flex: 5;
+// 		font-weight: normal;
+// 		padding: 0.25rem 0;
+// 		font-size: var(--cc-font-size);
+// 	}
+// }
+// .GHWProductPrice__Label {
+// 	color: #729fff;
+// }
+// .GHWProductPrice__ExtraInfo {
+// 	background-color: red;
+// 	color: yellow;
+// 	margin-left: 5px;
+// }
+// .ProductPrice__SaleWrapper {
+// 	:not(:last-child) {
+// 		padding-right: 1rem;
+// 	}
+// }
+// .ProductPrice__Price--Was {
+// 	text-decoration: line-through;
+// 	font-family: 'Lato';
+// 	font-style: normal;
+// 	font-weight: 700;
+// 	font-size: 24px;
+// 	line-height: 48px;
+// }
+// .ProductPrice__Price--Sale {
+// 	font-family: 'Lato';
+// 	font-style: normal;
+// 	font-weight: 700;
+// 	font-size: 40px !important;
+// 	line-height: 48px;
+// 	color: #016FBF;
+// }
+// .ProductPrice__Price--empty {
+// 	white-space: pre;
+// }
+// .ProductPrice__ListVolumePriceWrapper--item {
+// 	border-bottom: 1px solid var(--cc-border-color);
+// 	display: flex;
+// }

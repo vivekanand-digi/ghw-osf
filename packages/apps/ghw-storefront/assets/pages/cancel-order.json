@@ -1,0 +1,40 @@
+{
+  "address": "/cancel-order",
+  "title": "Cancel Order",
+  "allowCustomAddress" :true,
+  "secured": true,
+  "shortName": "profile",
+  "settings": {
+	"displayName": "Cancel Order"
+  },
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "header-with-notification-device-slot",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "order-history-breadcrumb",
+        "cancel-order",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+      "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ]
+}

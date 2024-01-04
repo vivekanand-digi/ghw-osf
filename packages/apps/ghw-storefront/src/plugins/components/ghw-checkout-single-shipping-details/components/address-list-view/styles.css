@@ -1,0 +1,29 @@
+.CheckoutAddressListView {
+  display: grid;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.5fr;
+  margin: 1rem 0;
+}
+
+.CheckoutAddressListView__NoAddress {
+  font-size: var(--cc-font-size-small);
+  padding: var(--cc-container-padding) 0;
+}
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) {
+  .CheckoutAddressListView {
+    grid-column-gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .CheckoutAddressListView {
+    grid-column-gap: 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

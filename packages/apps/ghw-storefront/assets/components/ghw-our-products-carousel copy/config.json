@@ -1,0 +1,42 @@
+{
+  "autoSlideInterval": "3",
+  "slideTitle-5": "",
+  "slideTitle-4": "",
+  "slideTitle-3": "",
+  "slideTitle-2": "",
+  "slideTitle-1": "",
+  "Banner_Desc-3": {
+    "src":"/home"
+  },
+  "Banner_Desc-2": "/hjome1",
+  "Banner_Desc-1": "xxx",
+  "slideMediaTitle-1": "",
+  "slideMediaTitle-3": "",
+  "slideMediaTitle-2": "",
+  "isAutoSlide": true,
+  "slideMedia-1": {
+    "src":"/file/general/product-sleepxl.png",
+    "mediaName": "/general/product-sleepxl.png"
+  },
+  "slideMediaLinkBehavior-1": "_self",
+  "slideMediaLinkBehavior-3": "_self",
+  "slideMediaLinkBehavior-2": "_self",
+  "slideMediaLinkBehavior-5": "_self",
+  "slideMediaLinkBehavior-4": "_self",
+  "slideMedia-3": {
+    "src":"/file/general/product-immunxl.png",
+    "mediaName": "/general/product-immunxl.png"
+  },
+  "slideMedia-2": {
+    "src":"/file/general/product-omegaxl.jpg",
+    "mediaName": "/general/product-omegaxl.jpg"
+  }
+  ,
+  "slideMedia-4": {
+    "src":"/file/general/product-omegaxl.jpg",
+    "mediaName": "/general/product-omegaxl.jpg"
+  },
+  "slideMediaLink-2": "",
+  "slideMediaLink-3": "",
+  "slideMediaLink-1":""
+}

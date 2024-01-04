@@ -1,0 +1,41 @@
+.popup {
+  width: 360px;
+  background: #fff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  display: none;
+  text-align: center;
+  height: auto;
+  border-bottom: 1px solid #000000;
+}
+
+.popup button {
+  display: block;
+  margin: 0 0 20px auto;
+  background-color: transparent;
+  font-size: 30px;
+  color: #ffffff;
+  background: #03549a;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.popup h2 {
+  margin-top: -20px;
+}
+
+.popup p {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #667085;
+  text-align: left;
+}

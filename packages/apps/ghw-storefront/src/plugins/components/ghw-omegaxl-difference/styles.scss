@@ -1,0 +1,105 @@
+.Region {
+  .diffrence {
+    margin-bottom: 44px;
+
+    .title {
+      color: #005CB9;
+      font-size: 40px;
+      font-weight: 700;
+      text-transform: capitalize;
+      text-align: center;
+      // padding: 46px 0;
+    }
+
+    .table-content {
+      margin-bottom: 44px;
+
+      table,
+      td {
+        border: 1px solid #ddd;
+        text-align: left;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 72%;
+        margin: 0 auto;
+        border-radius: 12px;
+        background: #FFF;
+        box-shadow: 0px -4px 10px 0px rgba(0, 0, 0, 0.25);
+      }
+
+
+      th,
+      td {
+        padding: 15px;
+      }
+
+      th {
+        background: #005CB9;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        border-radius: 0 8px 0 0;
+
+        &:nth-child(2) {
+          border-radius: 0;
+        }
+      }
+
+      .title {
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: capitalize;
+        border-radius: 8px 0 0 0;
+        text-align: left;
+      }
+
+      td {
+        border: none;
+        border-bottom: 1px solid var(--Primary-Color, #005CB9);
+        color: #005CB9;
+        font-size: 16px;
+        font-weight: 700;
+
+        img {
+          margin: 0 auto;
+          width: 24px;
+        }
+
+      }
+
+
+    }
+  }
+}
+
+.shop-now-btn {
+  border-radius: 20px;
+  background: #00A7E1;
+  color: #FFF;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  flex: 0 0 auto;
+  // width: 20%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: 3px solid transparent;
+}
+
+.shop-now-btn:hover {
+  border: 3px solid #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  text-decoration: none;
+}
+
+.quotes .quotes-sec .shop-now-btn {
+  margin-top: 16%;
+}

@@ -1,0 +1,103 @@
+$color_1: #729fff;
+$color_2: yellow;
+$color_3: #005CB9;
+$color_4: #07a0d3;
+$color_5: #016FBF;
+$font-family_1: 'Lato';
+$background-color_1: red;
+
+/**
+ *  CSS uses the Block Element Modifier naming convention, an example :
+.GHWProductPrice__ElementName {
+  display: inline-block;
+  font-size: large;
+}
+ * For more information - http://getbem.com/
+ */
+.GHWProductPrice {
+	padding: 10px;
+	padding-bottom: .5rem;
+	span {
+		font-size: var(--cc-font-size-xlarge);
+		font-weight: bold;
+		// color: $color_3;
+	}
+	.ProductPrice__ListVolumePriceWrapper {
+		font-size: var(--cc-font-size);
+	}
+	.ProductPrice__ListVolumePriceWrapper--heading {
+		border-bottom: 1px solid var(--cc-border-color);
+		display: flex;
+		span {
+			font-weight: bold;
+		}
+		.ProductPrice__ListVolumePriceWrapper--quantity {
+			text-align: left;
+		}
+	}
+	.ProductPrice__ListVolumePriceWrapper--quantity {
+		text-align: center;
+		flex: 1;
+		font-weight: normal;
+		font-size: var(--cc-font-size);
+		padding: 0.25rem 0;
+	}
+	.ProductPrice__ListVolumePriceWrapper--price {
+		text-align: right;
+		flex: 5;
+		font-weight: normal;
+		padding: 0.25rem 0;
+		font-size: var(--cc-font-size);
+	}
+}
+.GHWProductPrice__Label {
+	color: $color_1;
+}
+.GHWProductPrice__ExtraInfo {
+	background-color: $background-color_1;
+	color: $color_2;
+	margin-left: 5px;
+}
+.ProductPrice__SaleWrapper {
+	&:not(:last-child) {
+		padding-right: 1rem;
+	}
+}
+.ProductPrice__Price--Was {
+	text-decoration: line-through;
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 48px;
+	color: $color_4 !important;
+}
+.ProductPrice__Price--Sale {
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px !important;
+	line-height: 48px;
+	color: $color_5;
+}
+.ProductPrice__Price--empty {
+	white-space: pre;
+}
+.ProductPrice__ListVolumePriceWrapper--item {
+	border-bottom: 1px solid var(--cc-border-color);
+	display: flex;
+}
+
+
+@media (min-width: 767px) and (max-width: 1024px){
+    .ProductPrice__Price--Sale {
+      
+        font-size: 24px !important;
+   
+    }
+}
+@media only screen and (max-width: 540px){
+    .ProductPrice__Price--Sale{
+        font-size: 24px;
+    }
+}

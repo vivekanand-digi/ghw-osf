@@ -1,0 +1,50 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "header-with-notification-device-slot",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "ghw-generic-breadcrumb",
+        "ghw-terms-and-conditions"
+      ],
+      "width": 12,
+      "type": "main"
+    },    
+    {
+      "components": [
+        "ghw-footer"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Terms and Conditions"
+      }
+    },
+    "sites": [
+      "p29667083c1dev-store.occa.ocs.oraclecloud.com"
+    ]
+  },
+  "address": "terms-and-condition",
+  "allowCustomAddress": true,
+  "title": "Terms and Conditions",
+  "shortName": "article",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "article"
+    }
+  }
+}

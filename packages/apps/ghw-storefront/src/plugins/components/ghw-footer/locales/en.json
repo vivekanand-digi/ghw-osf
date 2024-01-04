@@ -1,0 +1,19 @@
+{
+    "faqTitleLabel": "FAQs Title",
+    "faqLinkLabel": "FAQs Link",
+    "rewardsTitleLabel": "Rewards Title",
+    "rewardsLinkLabel": "Rewards Link",
+    "customerServiceTitleLabel": "Customer Service Title",
+    "customerServiceLinkLabel": "Customer Service Link",
+    "cancellationTitleLabel": "Cancellation Title",
+    "cancellationLinkLabel": "Cancellation Link",
+    "guaranteeTitleLabel": "OmegaXL Guarantee Title",
+    "guaranteeLinkLabel": "OmegaXL Guarantee Link",
+    "returnPolicyTitleLabel": "Return Policy Title",
+    "returnPolicyLinkLabel":"Return Policy Link",
+
+    "privacyPolicyLinkLabel": "Privacy Policy Link",
+    "tcLinkLabel": "Terms & Conditions Link",
+    "retunPolicyLinkLabel": "Guarantee/Return Policy Link",
+    "copyrightNoticeLinkLabel": "Copyright Notice Link"
+  }

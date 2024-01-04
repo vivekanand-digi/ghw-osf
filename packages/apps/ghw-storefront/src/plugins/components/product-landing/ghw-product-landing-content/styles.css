@@ -1,0 +1,933 @@
+.header-cnr {
+  position: relative;
+  background: #016FBF;
+  padding: 12px 0px;
+}
+.header-cnr .menu-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-cnr .menu-wrapper .logo {
+  outline: none;
+}
+.header-cnr .menu-wrapper .navbar {
+  margin: 0 auto;
+  display: flex;
+  padding: 0 16px;
+}
+.header-cnr .menu-wrapper .navbar .nav-list {
+  display: flex;
+  align-items: center;
+  gap: 52px;
+  color: #ffffff;
+}
+.header-cnr .menu-wrapper .navbar .nav-list .nav-item .nav-link {
+  font-size: 16px;
+  color: #ffffff;
+}
+.header-cnr .menu-wrapper .navbar .nav-list .nav-item .nav-link:hover {
+  color: #00ffff;
+}
+.header-cnr .menu-wrapper .navbar .navbar-toggle {
+  display: none;
+}
+.header-cnr .menu-wrapper .navbar.nav-back {
+  margin: 0;
+  font-size: 16px;
+  color: #ffffff;
+}
+.header-cnr .menu-wrapper .navbar.nav-back .nav-link {
+  color: #ffffff;
+  margin-right: 8px;
+}
+.header-cnr .menu-wrapper .nav-right-menu {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.header-cnr .menu-wrapper .nav-right-menu .menu-icon .lang {
+  color: #ffffff;
+}
+.header-cnr .menu-wrapper .nav-right-menu .menu-icon.profile {
+  border: 1px solid #ffffff;
+  border-radius: 100%;
+  padding: 4px 10px;
+}
+.header-cnr .menu-wrapper .nav-right-menu .menu-item-contact {
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+
+.container-fixed {
+  width: min(1140px, 100%);
+  margin: 0 auto;
+}
+
+/*----Responsive --------*/
+.grp-btn {
+  display: flex;
+  flex: 0 0 auto;
+  justify-self: start;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn {
+  border: 2px solid #016FBF;
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 auto;
+  justify-self: start;
+}
+.btn.primary-btn {
+  background: #1C6AC6;
+  color: #fff;
+}
+.btn.secondary-btn {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  color: #525252;
+}
+.btn.tertiary-btn {
+  background-color: white;
+  color: #016FBF;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  border: none;
+}
+.btn.sm {
+  font-size: 14px;
+  padding: 8px 12px;
+}
+.btn.sm-custom {
+  font-size: 24px;
+  padding: 26px 30px;
+}
+.btn.md {
+  font-size: 14px;
+  padding: 6px 26px;
+}
+.btn.md-custom {
+  font-size: 14px;
+  padding: 8px 32px;
+}
+.btn.custom {
+  font-size: 14px;
+  padding: 10px 49px;
+}
+.btn.lg-custom {
+  font-size: 16px;
+  padding: 16px 80px;
+}
+.btn.lg {
+  font-size: 16px;
+  padding: 14px 66px;
+}
+.btn.xlg {
+  padding: 16px 185px;
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato";
+}
+
+body {
+  background: #ffffff;
+}
+
+.banner-section .banner-cnr {
+  width: 967px;
+  margin: 0 auto;
+  display: flex;
+  padding: 57px 0 0;
+}
+.banner-section .banner-cnr .capsule-title {
+  font-weight: 500;
+  font-size: 52px;
+  display: flex;
+  align-items: center;
+  color: #344054;
+}
+.banner-section .banner-cnr .banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.banner-section .banner-cnr .banner-content .capsule-info {
+  width: 59%;
+}
+.banner-section .banner-cnr .banner-content .buy-btn {
+  padding: 6px 12px;
+  gap: 4px;
+  width: 130px;
+  height: 60px;
+  background: #1c6ac6;
+  box-shadow: 0px 4px 4px rgba(66, 164, 181, 0.1);
+  border-radius: 8px;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offer-section {
+  padding: 52px 60px;
+  display: flex;
+  gap: 43px;
+  width: 1102px;
+  margin: 0 auto;
+}
+.offer-section .offer-cnr {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  gap: 20px;
+}
+.offer-section .offer-cnr .offer-autoship {
+  background: #ffffff;
+  border: 1px solid #f5e6c9;
+  box-shadow: 6.1px 20.1px 50px rgba(174, 174, 174, 0.15);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.offer-section .offer-cnr .offer-autoship .offer-benifits .subscription {
+  background: #ffffff;
+  border: 1px solid #b9eaad;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  padding: 12px 20px;
+}
+.offer-section .offer-cnr .offer-autoship .offer-benifits .subscription .heading {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(185, 234, 173, 0.7);
+}
+.offer-section .offer-cnr .offer-autoship .offer-benifits .subscription .heading h5 {
+  color: #0ec017;
+  font-size: 18px;
+}
+.offer-section .offer-cnr .offer-autoship .offer-benifits .subscription .heading .sub {
+  display: flex;
+  flex: 1 1 auto;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #344054;
+}
+.offer-section .offer-cnr .offer-autoship .offer-benifits .subscription .heading .more {
+  color: #016fbf;
+  font-weight: 400;
+  font-size: 10px;
+}
+.offer-section .offer-cnr .offer-autoship .offer-benifits .subscription .list {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #667085;
+}
+.offer-section .offer-cnr .offer-autoship .offer-benifits .subscription .list li {
+  display: flex;
+  flex: 0 0 50%;
+  gap: 12px;
+  align-items: center;
+  margin-top: 10px;
+}
+.offer-section .offer-cnr .offer-autoship .offer-benifits .subscription .list li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  opacity: 0.8;
+  transform: rotate(226deg);
+  display: flex;
+  align-items: center;
+  background: #35b73b;
+  opacity: 0.8;
+}
+.offer-section .offer-cnr .offer-autoship .offer-benifits .subscription .h4 {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #475467;
+  text-align: center;
+  opacity: 0.8;
+  border-top: 1px solid #d8f3d1;
+  padding: 10px 0 2px;
+  margin-top: 16px;
+}
+.offer-section .offer-cnr .offer-autoship .offer-frequency {
+  padding: 16px;
+}
+.offer-section .offer-cnr .offer-autoship .offer-frequency .btn-group {
+  display: inline-flex;
+  vertical-align: middle;
+  border-radius: 8px;
+  width: 267px;
+  height: 48px;
+  background: #ededed;
+  border-radius: 8px;
+  padding: 4px;
+}
+.offer-section .offer-cnr .offer-autoship .offer-frequency .btns {
+  font-weight: 400;
+  line-height: 1.25;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: 8px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  color: #525252;
+  gap: 0;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 85px;
+  height: 38px;
+  margin-right: 2px;
+}
+.offer-section .offer-cnr .offer-autoship .offer-frequency .btn-primary {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  display: flex;
+  align-items: center;
+}
+.offer-section .offer-cnr .offer-autoship .offer-frequency .btn-primary.active {
+  background: #ffffff;
+  border-radius: 8px;
+  color: #016fbf;
+  font-weight: 500;
+}
+.offer-section .offer-cnr .offer-autoship .offer-frequency .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  display: flex;
+  align-items: center;
+}
+.offer-section .offer-cnr .offer-onetime {
+  background: #ffffff;
+  border: 1px solid #f5e6c9;
+  box-shadow: 6.1px 20.1px 50px rgba(174, 174, 174, 0.15);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.offer-section .offer-cnr .offer-onetime .offer-title {
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #98a2b3;
+}
+.offer-section .offer-purchase-sect {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 40%;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 98px;
+  background: rgba(254, 182, 33, 0.2);
+  border: 1px solid #feb621;
+  box-shadow: 6.1px 20.1px 50px rgba(174, 174, 174, 0.15);
+  border-radius: 20px;
+}
+.offer-section .offer-purchase-sect .offer-capsule-info {
+  font-weight: 400;
+  font-size: 14px;
+  color: #98a2b3;
+}
+.offer-section .offer-purchase-sect .offer-buy-now {
+  background: #fbb82c;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 28px;
+  color: #ffffff;
+  padding: 18px 32px 20px;
+}
+.benefits-section {
+  display: flex;
+}
+.benefits-section .benefits-capsule-img {
+  /* background: url(file/general/offer-omega-bg.png) no-repeat; */
+  background-size: contain;
+  background-position: left;
+  width: 540px;
+  height: 738px;
+  display: flex;
+  flex: 0 0 50%;
+  position: relative;
+}
+.benefits-section .benefits-capsule-img .benefits-img {
+  width: 520px;
+  height: 520px;
+  position: absolute;
+  top: 30%;
+  right: -20%;
+}
+.benefits-section .benefits-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 112px;
+  gap: 40px;
+}
+.benefits-section .benefits-list .benefits-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.benefits-section .benefits-list .benefits-content .benefits-title {
+  font-weight: 700;
+  font-size: 18px;
+  color: #344054;
+}
+.benefits-section .benefits-list .benefits-content .benefits-description {
+  font-weight: 400;
+  font-size: 18px;
+  color: #98a2b3;
+}
+.how-to-use {
+  width: min(100%, 1140px);
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0px 111px 0px;
+}
+.how-to-use .title {
+  font-size: 32px;
+  color: #344054;
+  line-height: 24px;
+}
+.how-to-use .use-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  counter-reset: myCounter; /* initialize a counter called myCounter */
+}
+.how-to-use .use-list .use-list-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: min(100%, 360px);
+  -o-border-image: linear-gradient(160deg, rgb(255, 255, 255) 55%, rgb(197, 223, 254) 115%);
+     border-image: linear-gradient(160deg, rgb(255, 255, 255) 55%, rgb(197, 223, 254) 115%);
+  border-image-slice: 1;
+  border-style: solid;
+  position: relative;
+  overflow: hidden;
+  color: #667085;
+}
+.how-to-use .use-list .use-list-steps .title {
+  font-size: 32px;
+  color: #344054;
+  line-height: 24px;
+  padding: 32px 12px 20px;
+}
+.how-to-use .use-list .use-list-steps p {
+  padding: 0px 12px 40px;
+}
+.how-to-use .use-list .use-list-steps::after {
+  counter-increment: myCounter; /* first increment the counter myCounter */
+  content: counter(myCounter);
+  font-size: 90px;
+  color: #4598e5;
+  position: absolute;
+  right: -12px;
+  top: -33px;
+  z-index: -1;
+  opacity: 0.08;
+  font-weight: bold;
+}
+.how-to-use .use-list .use-list-steps::before {
+  font-weight: bold;
+  content: "0";
+  font-size: 90px;
+  color: #4598e5;
+  position: absolute;
+  right: 40px;
+  top: -32px;
+  opacity: 0.08;
+  z-index: -1;
+  overflow: hidden;
+  font-weight: bolder;
+}
+.how-to-use .use-list .use-list-steps:hover {
+  background: linear-gradient(127.81deg, rgba(255, 255, 255, 0) 30.58%, #c5dffe 136.28%);
+  border: 3px solid #ffffff;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.supplement-facts-cnr {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 1px solid #e2ecff;
+  box-shadow: 6.1px 20.1px 50px rgba(174, 174, 174, 0.15);
+  border-radius: 20px;
+  width: min(100%, 1140px);
+  margin: 0px auto;
+  padding: 32px 32px 32px 32px;
+  position: relative;
+  margin-bottom: 98px;
+}
+.supplement-facts-cnr::before {
+  content: "";
+  /* background: url(../images/suppliment-facts-bg.png); */
+  background-size: contain;
+  width: 96px;
+  height: 280px;
+  position: absolute;
+  z-index: -1;
+  left: -52px;
+  top: -50px;
+}
+.supplement-facts-cnr::after {
+  content: "";
+  /* background: url(../images/suppliment-facts-bg.png); */
+  background-size: contain;
+  width: 96px;
+  height: 280px;
+  position: absolute;
+  z-index: -1;
+  right: -48px;
+  bottom: -42px;
+}
+.supplement-facts-cnr .supplement-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #344054;
+  border-bottom: 2px solid #d9d9d9;
+  padding-bottom: 10px;
+}
+.supplement-facts-cnr .supplement-title span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #5d5d5d;
+}
+.supplement-facts-cnr .amount-per-serving-sec {
+  display: flex;
+  flex-direction: column;
+}
+.supplement-facts-cnr .amount-per-serving-sec .servingtable-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 10px;
+}
+.supplement-facts-cnr .amount-per-serving-sec .servingtable-row .servingtable-cell {
+  padding: 12px 0px;
+}
+.supplement-facts-cnr .amount-per-serving-sec .servingtable-row .serving-heading {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344054;
+}
+.supplement-facts-cnr .amount-per-serving-sec .servingtable-row .value-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #5d5d5d;
+}
+.supplement-facts-cnr .amount-per-serving-sec .servingtable-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 10px 0px 5px 0px;
+}
+.supplement-facts-cnr .amount-per-serving-sec .servingtable-list .servingtable-list-heading {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #344054;
+}
+.supplement-facts-cnr .amount-per-serving-sec .servingtable-list .servingtable-list-value {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #5d5d5d;
+}
+.supplement-facts-cnr .amount-per-serving-sec .servingtable-list .flex1 {
+  flex: 3 0 31%;
+}
+.supplement-facts-cnr .amount-per-serving-sec .servingtable-list .flex2 {
+  flex: 2;
+  text-align: end;
+}
+.supplement-facts-cnr .amount-per-serving-sec .servingtable-list .flex3 {
+  flex: 1;
+  text-align: center;
+}
+.supplement-facts-cnr .amount-per-serving-sec .hr-line {
+  border-bottom: 2px solid #d9d9d9;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+.supplement-facts-cnr .supplement-facts-bottom-cnr .copyright-text {
+  display: flex;
+  padding: 12px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #344054;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.supplement-facts-cnr .supplement-facts-bottom-cnr .copyright-text .separator {
+  padding: 4px 28px;
+  color: #d9d9d9;
+  font-size: 30px;
+}
+
+.offer-title {
+  font-weight: 400;
+  font-size: 24px;
+  color: #344054;
+  text-transform: capitalize;
+}
+.offer-title .hgl-orange {
+  color: #feb621;
+}
+
+.offer-cost {
+  font-weight: 700;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #667085;
+  text-align: center;
+}
+.offer-cost.hgl-blue {
+  color: #0a74c2;
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .banner-section .banner-cnr {
+    width: 100%;
+  }
+  .banner-section .banner-cnr .banner-content .capsule-info {
+    width: 90%;
+    color: #667085;
+  }
+  .banner-section .banner-cnr .banner-content .buy-btn {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .offer-section {
+    width: 100%;
+    padding: 14px;
+    gap: 20px;
+  }
+  .offer-section .offer-cnr {
+    gap: 16px;
+  }
+  .offer-section .offer-cnr .offer-autoship {
+    padding: 12px;
+  }
+  .offer-section .offer-cnr .offer-autoship .offer-benifits .subscription {
+    padding: 8px;
+  }
+  .offer-section .offer-cnr .offer-autoship .offer-benifits .subscription .heading {
+    flex-wrap: wrap;
+  }
+  .offer-section .offer-cnr .offer-autoship .offer-benifits .subscription .heading h5 {
+    font-size: 14px;
+  }
+  .offer-section .offer-cnr .offer-autoship .offer-benifits .subscription .list li {
+    font-size: 12px;
+  }
+  .offer-section .offer-cnr .offer-autoship .offer-benifits .subscription .h4 {
+    display: none;
+  }
+  .offer-section .offer-cnr .offer-autoship .offer-frequency .btn-group {
+    height: 35px;
+  }
+  .offer-section .offer-cnr .offer-autoship .offer-frequency .btn-group .btn-primary {
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .offer-section .offer-cnr .offer-autoship .offer-frequency .btns {
+    padding: 6px 8px;
+    height: 28px;
+  }
+  .offer-section .offer-cnr .offer-onetime {
+    align-items: center;
+    gap: 16px;
+  }
+  .offer-section .offer-cnr .offer-onetime .offer-title {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+  }
+  .offer-section .offer-cnr .offer-onetime .offer-cost {
+    font-weight: 700;
+    font-size: 24px;
+    color: #0a74c2;
+  }
+  .offer-section .offer-purchase-sect {
+    padding: 0 20px;
+    height: 450px;
+    flex: 0 0 47%;
+  }
+  .offer-section .offer-purchase-sect .offer-title {
+    color: #344054;
+    font-size: 52px;
+    font-weight: 500;
+  }
+  .benefits-section .benefits-list {
+    padding: 0 24px;
+    gap: 20px;
+  }
+  .benefits-section .benefits-list .benefits-content .benefits-description {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .benefits-section .benefits-capsule-img {
+    background-size: cover;
+    border-radius: 14.846px;
+  }
+  .benefits-section .benefits-capsule-img .benefits-img {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 53%;
+    right: -25%;
+  }
+  .supplement-facts-cnr {
+    width: min(90%, 1140px);
+  }
+  .supplement-facts-cnr::before {
+    left: -32px;
+    top: -31px;
+  }
+  .supplement-facts-cnr::after {
+    right: -34px;
+    bottom: -26px;
+  }
+  .offer-title {
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #98a2b3;
+  }
+  .offer-cost.hgl-blue {
+    font-weight: 700;
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .banner-section {
+    height: 247px;
+  }
+  .banner-section .banner-cnr {
+    width: 100%;
+    height: 247px;
+    padding-top: 39px;
+  }
+  .banner-section .banner-cnr .hero-img-cnr {
+    margin-top: 8%;
+  }
+  .banner-section .banner-cnr .banner-content {
+    margin-left: -23%;
+    gap: 10px;
+  }
+  .banner-section .banner-cnr .banner-content .capsule-title {
+    font-weight: 500;
+    font-size: 20px;
+    color: #344054;
+  }
+  .banner-section .banner-cnr .banner-content .capsule-info {
+    font-weight: 400;
+    font-size: 14px;
+    color: #667085;
+    width: 192px;
+  }
+  .banner-section .banner-cnr .banner-content .buy-btn {
+    width: auto;
+    height: 28px;
+    padding: 8px 16px;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    align-self: start;
+  }
+  .offer-section {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    gap: 16px;
+  }
+  .offer-section .offer-cnr {
+    margin: 16px 16px 0;
+    align-items: center;
+  }
+  .offer-section .offer-cnr .offer-autoship {
+    gap: 16px;
+    padding: 12px;
+    width: 92%;
+  }
+  .offer-section .offer-cnr .offer-autoship .offer-benifits .subscription {
+    padding: 8px;
+    height: 152px;
+  }
+  .offer-section .offer-cnr .offer-autoship .offer-benifits .subscription .heading {
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .offer-section .offer-cnr .offer-autoship .offer-benifits .subscription .heading h5 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .offer-section .offer-cnr .offer-autoship .offer-benifits .subscription .list {
+    font-size: 12px;
+  }
+  .offer-section .offer-cnr .offer-autoship .offer-benifits .subscription .list li::before {
+    width: 14px;
+    height: 10px;
+    transform: rotate(45deg);
+  }
+  .offer-section .offer-cnr .offer-autoship .offer-benifits .subscription .h4 {
+    display: none;
+  }
+  .offer-section .offer-cnr .offer-autoship .offer-frequency {
+    padding: 0;
+  }
+  .offer-section .offer-cnr .offer-autoship .offer-frequency .group-btn {
+    background: #ededed;
+    border-radius: 8px;
+  }
+  .offer-section .offer-cnr .offer-autoship .offer-frequency .btn-group {
+    height: 32px;
+    padding: 2px;
+  }
+  .offer-section .offer-cnr .offer-autoship .offer-frequency .btns {
+    width: 82px;
+    height: 28px;
+  }
+  .offer-section .offer-cnr .offer-onetime {
+    gap: 16px;
+    width: 92%;
+  }
+  .offer-section .offer-cnr .offer-onetime .offer-title {
+    font-size: 18px;
+  }
+  .offer-section .offer-cnr .offer-onetime .offer-cost {
+    font-weight: 700;
+    font-size: 24px;
+    color: #0a74c2;
+  }
+  .offer-section .offer-purchase-sect {
+    padding: 56px;
+    width: 84%;
+    margin: 0 auto;
+  }
+  .offer-section .offer-purchase-sect .offer-title {
+    font-weight: 500;
+    font-size: 52px;
+    color: #344054;
+  }
+  .offer-section .offer-purchase-sect .offer-capsule-info {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .benefits-section {
+    flex-direction: column;
+  }
+  .benefits-section .benefits-list {
+    padding: 0 30px;
+    margin-top: 32px;
+    gap: 20px;
+  }
+  .benefits-section .benefits-list .benefits-content .benefits-description {
+    font-size: 16px;
+  }
+  .benefits-section .benefits-capsule-img {
+    order: 2;
+    width: 75%;
+    flex: 0 0 auto;
+    margin-top: 10%;
+    background: linear-gradient(106.15deg, #016fbf 1.98%, #016fbf 98%);
+    border-radius: 14.846px;
+    height: 367px;
+  }
+  .benefits-section .benefits-capsule-img .benefits-img {
+    top: 21%;
+    right: -33%;
+    width: 360px;
+    height: 291px;
+  }
+  .how-to-use {
+    width: min(95%, 1140px);
+    padding: 32px 0px 64px 0px;
+  }
+  .how-to-use .use-list {
+    gap: 0px;
+  }
+  .how-to-use .use-list .use-list-steps {
+    width: 100%;
+  }
+  .how-to-use .use-list .use-list-steps .title {
+    padding: 10px 12px;
+  }
+  .supplement-facts-cnr {
+    padding: 8px;
+    width: min(95%, 1140px);
+  }
+  .supplement-facts-cnr .supplement-facts-bottom-cnr .copyright-text {
+    gap: 7px;
+  }
+  .supplement-facts-cnr .supplement-facts-bottom-cnr .copyright-text .separator {
+    padding: 4px 28px;
+    color: #ffffff;
+  }
+  .supplement-facts-cnr::before {
+    left: -10px;
+    top: -27px;
+  }
+  .supplement-facts-cnr::after {
+    display: none;
+  }
+  .offer-title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #98a2b3;
+  }
+  .offer-cost.hgl-blue {
+    font-weight: 700;
+    font-size: 24px;
+  }
+}

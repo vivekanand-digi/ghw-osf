@@ -1,0 +1,47 @@
+/*
+ * Desktop thumbs
+ */
+.ProductImageViewer__Thumbnails {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-start;
+  padding: 20px 0 10px 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.ProductImageViewer__Thumbnails::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.ProductImageViewer__Thumbnails::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.ProductImageViewer__Thumbnails::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.ProductImageViewer__Thumbnails > div,
+.ProductImageViewer__Thumbnails > .ProductImageViewer__Thumbnail {
+  border: 4px solid var(--default-border-color);
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 96px;
+  justify-content: center;
+}
+.ProductImageViewer__Thumbnails > div .Img__Wrapper,
+.ProductImageViewer__Thumbnails > .ProductImageViewer__Thumbnail .Img__Wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ProductImageViewer__Thumbnails > div .Img__Wrapper img,
+.ProductImageViewer__Thumbnails > .ProductImageViewer__Thumbnail .Img__Wrapper img {
+  border-radius: 4px;
+  max-height: 88px;
+  max-width: 88px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.ProductImageViewer__Thumbnails > div.ProductImageViewer__Thumbnail--selected,
+.ProductImageViewer__Thumbnails > .ProductImageViewer__Thumbnail.ProductImageViewer__Thumbnail--selected {
+  border-color: var(--secondary-color);
+}/*# sourceMappingURL=product-image-thumbnails.css.map */

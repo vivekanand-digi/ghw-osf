@@ -1,0 +1,45 @@
+.VerifyIdentity input,
+.VerifyIdentity button,
+.VerifyIdentity a {
+  width: 100%
+}
+
+.VerifyIdentity {
+  padding: 0 var(--cc-container-padding);
+  display: flex;
+  flex-direction: column;
+  font-size: var(--cc-font-size);
+}
+
+.VerifyIdentity > form > div {
+  margin-bottom: 1em;
+}
+
+.VerifyIdentity__KeyIcon {
+  position: absolute;
+  right: .5em;
+  top: 0.85em;
+}
+
+.VerifyIdentity__VerificationCodeField .Icon{
+  height: 1rem;
+}
+
+.VerifyIdentity__VerificationCodeField,
+.VerifyIdentity__RememberThisDeviceSelector {
+  position: relative;
+}
+
+.VerifyIdentity__ResendVerificationCode button{
+  color: var(--cc-a-color);
+  border: none;
+  text-align: right;
+  text-decoration: underline;
+  background: none!important;
+  padding: 0!important;
+  cursor: pointer;
+}
+
+.VerifyIdentity__ResendVerificationCode button:focus{
+  box-shadow: none;
+}

@@ -1,0 +1,70 @@
+.MiniCartSubTotal {
+  font-weight: bold;
+}
+
+.MiniCart__SubTotalLabel {
+  width: 80%;
+}
+
+.MiniCartSubTotal__Amount {
+  text-align: right;
+  width: 100%;
+  font-size: 17px;
+}
+
+.MiniCartItem__StockStatus,
+.MiniCart__PreOrderable {
+  color: var(--cc-color);
+  font-size: var(--cc-font-size-small);
+  font-weight: normal;
+}
+
+.MiniCartItem__StockStatus,
+.MiniCart__BackOrderable {
+  color: var(--cc-color);
+  font-size: var(--cc-font-size-small);
+  font-weight: normal;
+}
+
+.MiniCart__HeaderAddedIcon {
+  color: var(--cc-success-message-color);
+}
+
+.MiniCart__HeaderText {
+  flex: 1;
+  padding-left: var(--cc-container-padding);
+  font-size: var(--cc-font-size-large);
+  color: var(--cc-color);
+}
+
+.MiniCartButtons {
+  flex: 1;
+  font-family: Helvetica;
+  font-size: 14px;
+  margin: 4px 0;
+  width: 100%;
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: var(--cc-button-background-color);
+  text-align: center;
+  color: #ffffff;
+}
+
+.MiniCartButtons__CartButton {
+  border-radius: 4px;
+  border: 1px solid var(--cc-a-color-active);
+  color: var(--cc-button-background-color1);
+  background-color: var(--cc-button-background-color1);
+  color: var(--cc-a-color-active);
+}
+
+.MiniCartButtons__ContinueShoppingButton {
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 0.06;
+  color: var(--cc-a-color-active) !important;
+  text-decoration: underline !important;
+  background-color: transparent;
+}

@@ -1,0 +1,96 @@
+.GHWMyAccount {
+  width: min(1140px, 100%);
+  margin: 32px auto;
+  background: #ffffff;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.v-tab {
+  display: flex;
+  border-right: 2px solid rgba(208, 213, 221, 0.5);
+  width: 168px;
+}
+
+.v-tab_tab-head {
+  margin: 0;
+  padding: 0;
+  float: left;
+  list-style: none;
+  max-width: 168px;
+  padding-top: 32px;
+  padding-left: 20px;
+  padding-bottom: 190px;
+}
+.v-tab_tab-head li {
+  margin-bottom: 20px;
+}
+.v-tab_tab-head li a {
+  display: flex;
+  color: #667085;
+  font-size: 14px;
+  padding: 4px;
+}
+.v-tab_tab-head li a.active {
+  color: #005CB9;
+  font-family: "Helvetica-Bold";
+}
+.v-tab_tab-head li:hover {
+  background-color: #f5f5f5;
+  color: #000;
+}
+
+.profile-page-section {
+  background: #f3f5f6;
+}
+
+@media only screen and (max-width: 540px) {
+  .GHWMyAccount {
+    margin-top: 23px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .v-tab_tab-head {
+    padding-top: 16px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+  }
+  .v-tab_tab-head li {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .profile-page-section {
+    background: #ffffff;
+  }
+  .v-tab_content {
+    padding: 20px;
+  }
+  .h-tab_content .contact-detail {
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .h-tab_content .contact-detail .profile-info .profile-form {
+    display: block !important;
+  }
+  .h-tab_content .contact-detail .profile-info .profile-form .form-field {
+    flex: 0 0 100%;
+    margin-bottom: 24px !important;
+  }
+  .h-tab_content .contact-detail .profile-info .profile-form .form-field:nth-child(5) {
+    margin: 30px auto 20px !important;
+    justify-content: center;
+  }
+  .h-tab_content .contact-detail .profile-info .profile-form .form-field .loginBtn {
+    margin-left: unset !important;
+  }
+  .v-tab {
+    width: 100% !important;
+    border-right: unset !important;
+  }
+  .v-tab_tab-head {
+    display: flex;
+    max-width: 100% !important;
+  }
+}/*# sourceMappingURL=styles.css.map */

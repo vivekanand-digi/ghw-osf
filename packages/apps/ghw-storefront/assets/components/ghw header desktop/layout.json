@@ -1,0 +1,14 @@
+{
+	"regions": [
+		{
+			"components": ["ghw-nav-login","ghw-user-profile"],
+			"width": 12,
+			"type": "main"
+		},
+		{
+			"components": ["ghw-header", "ghw-header-right-nav"],
+			"width": 12,
+			"type": "main"
+		}
+	]
+}

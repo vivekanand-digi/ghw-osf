@@ -1,0 +1,19 @@
+{
+  "regions": [
+    {
+      "components": [
+        "dynamic-breadcrumbs",
+        "search-terms-summary",
+        "product-listing-summary-information",
+        "faceted-navigation-mobile",
+        "sort-results",
+        "dynamic-product-list",
+        "product-listing-summary-information",
+        "show-more-products-button",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "address": "/pending-payment",
+  "title": "Checkout Pending Payment",
+  "shortName": "pending-payment",
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "checkout-header-with-notification-device-slot",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "checkout-pending-payment-header",
+        "checkout-pending-payments-container"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "checkout-pending-payment-footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ]
+}

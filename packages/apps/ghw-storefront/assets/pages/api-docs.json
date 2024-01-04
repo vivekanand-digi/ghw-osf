@@ -1,0 +1,16 @@
+{
+  "layout": [
+    {
+      "components": [
+        "ProgressBar",
+        "Visualizer"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ],
+  "defaultPage": true,
+  "address": "/__api-docs",
+  "title": "OSF API Documentation",
+  "shortName": "api-docs"
+}

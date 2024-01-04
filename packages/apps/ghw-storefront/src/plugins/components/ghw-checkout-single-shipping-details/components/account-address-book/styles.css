@@ -1,0 +1,55 @@
+.CheckoutAccountAddressBook {
+  color: var(--cc-color);
+  font-size: 1em;
+  width: 100%;
+}
+
+.CheckoutAccountAddressBook__List {
+  display: grid;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.5fr;
+  margin: 1rem 0;
+}
+
+.CheckoutAccountAddressBook .Pagination__LoadMore {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+}
+
+.CheckoutAccountAddressBook .Pagination__LoadMore button {
+  cursor: pointer;
+  justify-content: center;
+  margin: 0 0 1rem 0;
+  width: auto;
+}
+
+.CheckoutAccountAddressBook .Collapsible__ExpandDescription.open {
+  max-height: fit-content;
+  max-height: -moz-fit-content;
+  max-height: -webkit-fit-content;
+  overflow: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .CheckoutAccountAddressBook__List {
+    grid-column-gap: 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .CheckoutAccountAddressBook .Pagination__LoadMore button {
+    width: 100%;
+  }
+}
+
+.CheckoutAccountAddressBook__AddressesList .Collapsible__Wrapper {
+  padding: var(--cc-container-padding) 0;
+}
+
+.CheckoutAccountAddressBook__ListItem__span {
+  font-size: var(--cc-font-size-small);
+  padding: var(--cc-container-padding) 0;
+}

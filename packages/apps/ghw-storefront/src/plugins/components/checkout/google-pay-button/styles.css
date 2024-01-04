@@ -1,0 +1,16 @@
+.GooglePay__payment-notes {
+  list-style: none;
+}
+
+.GooglePay__payment-notes li {
+  margin-bottom: 10px;
+}
+
+.GooglePay .SpinnerContent__Circle {
+  margin-top: 0;
+}
+
+.GooglePay .SpinnerContent__Circle > div {
+  width: 4rem;
+  height: 4rem;
+}

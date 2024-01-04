@@ -1,0 +1,90 @@
+.customer-reviews {
+  background: linear-gradient(90deg, #005CB9 39.26%, #00A7E1 115.75%);
+}
+
+.benefits-sect {
+  padding: 32px auto;
+}
+
+.benefits .main-cnr .benefits-sect .h1-title {
+  margin-bottom: 0;
+}
+
+.benefits .main-cnr .benefits-sect .h6 {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.benefits .main-cnr .benefits-sect .benefits-list {
+  width: 1140px;
+  margin: 50px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 46px;
+}
+
+.benefits .main-cnr .benefits-sect .benefits-list .benefits-item {
+  display: flex;
+  gap: 20px;
+  flex: 0 0 30%;
+}
+
+.benefits .main-cnr .benefits-sect .benefits-list .benefits-item .content {
+  color: #fff;
+}
+
+.benefits .main-cnr .benefits-sect .benefits-list .benefits-item .content .title {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.benefits .main-cnr .benefits-sect .benefits-list .benefits-item .content .desc {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.benefits .main-cnr .benefits-sect .h1-title {
+  margin-bottom: 0;
+}
+.benefits .main-cnr .benefits-sect .h6 {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+.benefits .main-cnr .benefits-sect .benefits-list {
+  width: min(1140px, 100%);
+  margin: 50px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 46px;
+}
+.benefits .main-cnr .benefits-sect .benefits-list .benefits-item {
+  display: flex;
+  gap: 20px;
+  flex: 0 0 30%;
+}
+.benefits .main-cnr .benefits-sect .benefits-list .benefits-item .icon {
+  display: flex;
+  flex: 0 0 48px;
+  align-items: flex-start;
+}
+.benefits .main-cnr .benefits-sect .benefits-list .benefits-item .content {
+  color: #fff;
+}
+.benefits .main-cnr .benefits-sect .benefits-list .benefits-item .content .title {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.benefits .main-cnr .benefits-sect .benefits-list .benefits-item .content .desc {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+}/*# sourceMappingURL=styles.css.map */

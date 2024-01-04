@@ -1,0 +1,36 @@
+.policy-sec {
+  border-top: 1px solid #E2ECFF;
+  padding: 32px 0px;
+  margin-top: 52px;
+}
+.policy-sec .main-cnr .policy-cnt {
+  max-width: 850px;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+.policy-sec .main-cnr .policy-cnt .policy-left-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.policy-sec .main-cnr .policy-cnt .policy-right-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-left: 1px solid #E2ECFF;
+  padding-left: 20px;
+}
+.policy-sec .main-cnr .policy-cnt .policy-right-sec .title {
+  color: #344054;
+  font-size: 16px;
+}
+.policy-sec .main-cnr .policy-cnt .policy-right-sec .desc {
+  color: #667085;
+  font-size: 14px;
+}
+.policy-sec .main-cnr .policy-cnt .policy-right-sec .readmore {
+  color: #016FBF;
+  font-size: 16px;
+}

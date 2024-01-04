@@ -1,0 +1,33 @@
+{
+  "regions": [
+    {
+      "components": [
+        "menu-mobile"
+      ],
+      "width": 3,
+      "type": "main"
+    },
+    {
+      "components": [
+        "logo"
+      ],
+      "width": 6,
+      "type": "main"
+    },
+    {
+      "components": [
+        "search-box-mobile",
+        "mini-cart-mobile"
+      ],
+      "width": 3,
+      "type": "main"
+    },
+    {
+      "components": [
+        "unsaved-changes-message"
+      ],
+      "width": 6,
+      "type": "main"
+    }
+  ]
+}

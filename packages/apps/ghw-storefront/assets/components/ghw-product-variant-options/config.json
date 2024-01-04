@@ -1,0 +1,8 @@
+{
+  "colorSwatchImageHeight": "40",
+  "swatchMappingProperty": "x_swatchMapping",
+  "colorSwatchUrlPlaceholder": "/ccstore/v1/images/?source=/file/products/__productId__.__swatchKey__.png&outputFormat=JPEG&quality=0.8&height=__height__&width=__width__",
+  "colorSwatchImageWidth": "40",
+  "swatchVariantOption": "color",
+  "variantOptionType": "buttons"
+}

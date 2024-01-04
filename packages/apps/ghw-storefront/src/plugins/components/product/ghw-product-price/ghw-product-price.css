@@ -1,0 +1,44 @@
+:root {
+  --primary-color: #005CB9;
+  --secondary-color: #00A7E1;
+}
+
+.ProductPrice__SaleWrapper {
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+}
+.ProductPrice__SaleWrapper .super-txt {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--primary-color);
+  vertical-align: super;
+}
+.ProductPrice__SaleWrapper .offer-price-cnr {
+  display: flex;
+}
+.ProductPrice__SaleWrapper .offer-price-cnr .offer-price {
+  font-family: "Helvetica-Bold";
+  font-weight: 700;
+  font-size: 40px !important;
+  color: var(--primary-color);
+}
+.ProductPrice__SaleWrapper .offer-price-cnr .offer-price::first-letter {
+  font-size: 0;
+}
+.ProductPrice__SaleWrapper .list-price-cnr {
+  display: flex;
+  padding-bottom: 10px;
+}
+.ProductPrice__SaleWrapper .list-price-cnr .super-txt {
+  color: var(--secondary-color);
+}
+.ProductPrice__SaleWrapper .list-price-cnr .list-price {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--secondary-color);
+  text-decoration: line-through;
+}
+.ProductPrice__SaleWrapper .list-price-cnr .list-price::first-letter {
+  font-size: 0;
+}/*# sourceMappingURL=ghw-product-price.css.map */

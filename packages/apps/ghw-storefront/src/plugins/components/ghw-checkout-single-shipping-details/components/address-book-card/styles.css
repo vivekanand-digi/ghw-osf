@@ -1,0 +1,35 @@
+.CheckoutAddressBookCard__ListItem {
+  align-items: center;
+  border: none;
+  padding: 0;
+  position: relative;
+}
+
+.CheckoutAddressBookCard__Card {
+  border: 1px solid transparent;
+  border-top: 1px solid var(--cc-border-color);
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+.CheckoutAddressBookCard__Card:hover {
+  border: 1px solid var(--cc-border-color);
+  border-radius: var(--cc-border-radius);
+}
+.CheckoutAddressBookCard__AddressView {
+  display: flex;
+}
+@media only screen and (max-width: 768px) {
+  .CheckoutAddressBookCard__Card {
+    border: 1px solid var(--cc-border-color);
+    border-radius: var(--cc-border-radius);
+    height: 100%;
+    margin: 0;
+    width: 100%;
+  }
+}

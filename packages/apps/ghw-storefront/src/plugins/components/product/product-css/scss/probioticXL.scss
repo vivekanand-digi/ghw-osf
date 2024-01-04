@@ -1,0 +1,318 @@
+//Light Theme SCSS
+$prod-name: 'PXL0001';
+$primary-color: #009C4E;
+$thumb-selected-color: #00A7E1;
+$radio-btn-color: $primary-color;
+$prod-gradient-color: linear-gradient(90deg, #208345 28.12%, $primary-color 100%);
+$tab-bg-gradient: linear-gradient(90deg, #009C4E 27.93%, rgba(0, 156, 78, 0.26) 100%);
+$tab-bg-img: linear-gradient(90deg, #009C4E 0%, #009C4E 28.23%, rgba(0, 156, 78, 0.26) 100%), url(/file/products/probioticXL-detail-bg.jpg);
+$tab-active-color: #006D25;
+$quantity-btn-color: #00A7E1;
+$celeb-bg-gradient: url(/file/products/probioticXL-celeb-shopnow-bg.png);
+$white-color: #FFFFFF;
+$black-color: #000000;
+$shop-btn-bg-color: $white-color;
+$list-price-color: $black-color;
+$cart-sep-color: $white-color;
+$return-title-color: $white-color;
+
+
+:root {
+	--bcrumb-highlight-color:#{$primary-color};
+	--thumb-selected-color:#{$primary-color};
+	--prod-title-color:#{$primary-color};
+	--offer-price-color:#{$primary-color};
+	--list-price-color:#{$list-price-color};
+	--radio-btn-selection-color:#{$radio-btn-color};
+	--quantity-btn-color:#{$quantity-btn-color};
+	--quantity-btn-txt-color:#{$white-color};
+	--benifit-border-color:#{$prod-gradient-color};
+	--benifit-title-color:#{$primary-color};
+	--cart-btn-color:#{$primary-color};
+	--cart-sep-color:#{$cart-sep-color};
+	--return-section-bg:#{$prod-gradient-color};
+	--return-title-color:#{$return-title-color};
+	--tab-bg-gradient:#{$tab-bg-gradient};
+	--tab-bg-img:#{$tab-bg-img};
+	--tab-border-color:#{$white-color};
+	--tab-active-color:#{$tab-active-color};
+	--text-content-color:#{$white-color};
+	--list-border-color:#{$white-color};
+	--shop-btn-bg-color:#{$shop-btn-bg-color};
+	--shop-btn-content-color:#{$primary-color};
+	--celeb-bg-gradient:#{$celeb-bg-gradient};
+
+
+
+	--primary-color-bg: linear-gradient(90deg, #005CB9 0%, #00A7E1 100%);
+	--primary-color: #{$primary-color};
+	--secondary-color: #00A7E1;
+	--text-content-color: #FFFFFF;
+	--primary-btn-bg: #FFFFFF;
+	--text-color: #667085;
+	--faq-ans-color: #344054;
+
+
+}
+
+
+
+@mixin pdp($prod-name) {
+	.#{$prod-name} {
+		.GHWProductName {
+			color: var(--prod-title-color);
+		}
+
+		.ProductPrice__SaleWrapper {
+			.super-txt {
+				color: var(--offer-price-color);
+			}
+
+			.offer-price-cnr {
+				.offer-price {
+					color: var(--offer-price-color);
+
+				}
+			}
+
+			.list-price-cnr {
+				.super-txt {
+					color: var(--list-price-color);
+				}
+
+				.list-price {
+					color: var(--list-price-color);
+				}
+			}
+		}
+
+		.button-group {
+			.buttons {
+				.quantity {
+					border-color: var(--quantity-btn-color);
+
+					.active {
+						border-color: var(--quantity-btn-color);
+						background-color: var(--quantity-btn-color);
+						;
+						color: var(--quantity-btn-txt-color);
+					}
+
+					&:active {
+						border-color: var(--quantity-btn-color);
+						background-color: var(--quantity-btn-color);
+						;
+						color: var(--quantity-btn-txt-color);
+					}
+				}
+
+			}
+		}
+
+		.GHWProductTypeSelection {
+			.payment-selection {
+				.selection {
+					.input-radio {
+						accent-color: var(--radio-btn-selection-color);
+					}
+
+					>label {
+						>span {
+							>span {
+								color: var(--radio-btn-selection-color);
+							}
+						}
+					}
+
+				}
+			}
+		}
+
+		.subscription-benefit-cnr {
+			border-color: var(--benifit-title-color);
+
+			.heading {
+				color: var(--benifit-title-color);
+				border-color: var(--benifit-title-color);
+			}
+
+			.list {
+				.list-item {
+					>img {
+						filter: hue-rotate(260deg);
+					}
+
+					.list-content {
+						color: var(--list-price-color);
+					}
+				}
+			}
+		}
+
+		.GHWProductAddToCartButton__Wrapper {
+			.Quantity__Textbox {
+				background-color: var(--cart-btn-color);
+			}
+
+			.Quantity__InputWrapper {
+				.stepper-btn-cnr {
+					.stepper-btn {
+						background-color: var(--cart-btn-color);
+					}
+				}
+			}
+		}
+
+		.GHWProductAddToCartButton__Wrapper {
+			.AddToCartButton__Wrapper {
+				form {
+					button {
+						background-color: var(--cart-btn-color);
+					}
+				}
+			}
+		}
+
+		.return-policy-cnr {
+			background: var(--return-section-bg);
+
+			.return {
+
+				.list {
+					.autoship-title {
+						color: var(--return-title-color);
+					}
+
+				}
+
+				.lists {
+					.safe-title {
+						color: var(--return-title-color);
+					}
+				}
+			}
+		}
+
+		// ----
+		.GHWProductTabContainer {
+			background-image: var(--tab-bg-img);
+			background-size: contain;
+
+			.TabContainer {
+				.TabContainer__TabHeaders {
+					border-bottom: 3px solid var(--tab-border-color);
+
+					.TabContainer__TabHeader {
+						color: var(--text-content-color);
+						border-bottom: 3px solid transparent;
+
+						&.selected {
+							border-bottom: 3px solid var(--tab-active-color);
+						}
+					}
+				}
+
+				.TabContainer__TabContents {
+					.TabContainer__TabContent {
+
+						.about {
+							.product-title {
+								color: var(--text-content-color);
+							}
+
+							.about-content {
+								.text-icon-cnr {
+									.content-info {
+										.detail-item {
+											.detail {
+												color: var(--text-content-color);
+
+												.title {
+													color: var(--text-content-color);
+												}
+
+												.desc {
+													color: var(--text-content-color);
+												}
+											}
+										}
+
+									}
+								}
+
+
+							}
+						}
+
+						.howto {
+							.text-icon-cnr {
+								.steps-list {
+									.step {
+										border-color: var(--list-border-color);
+
+										.step-icon-title {
+											.step-icon {
+												.icon {
+													color: var(--text-content-color);
+												}
+											}
+
+											.step-content {
+												.step-title {
+													color: var(--text-content-color);
+												}
+
+												.step-description {
+													color: var(--text-content-color);
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+
+						.primary-btn-md {
+							background: var(--shop-btn-bg-color);
+							color: var(--shop-btn-content-color);
+						}
+
+					}
+				}
+			}
+		}
+
+		.GHWYouMayLike {
+			.h1-title {
+				background: var(--return-section-bg);
+			}
+		}
+
+		.GHWPdpBanner {
+			.quotes {
+				background-image: var(--return-section-bg);
+
+				.container-fixed {
+					background-image: var(--celeb-bg-gradient);
+					background-repeat: no-repeat;
+					background-position: top right;
+					background-size: contain;
+
+					.content {
+						flex: 0 0 60%;
+						width: auto;
+						padding: 32px 0;
+
+						.primary-btn-md {
+							background: var(--shop-btn-bg-color);
+							color: var(--shop-btn-content-color);
+						}
+					}
+				}
+
+			}
+		}
+	}
+}
+
+@include pdp($prod-name);

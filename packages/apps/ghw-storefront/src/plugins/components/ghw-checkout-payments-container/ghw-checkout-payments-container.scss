@@ -1,0 +1,41 @@
+.GHWCheckoutPaymentsContainer {
+    // width: 100%;
+    margin-bottom: 2rem;
+}
+
+.GHWCheckoutPaymentsContainer__Heading {
+    padding: 0 var(--cc-container-padding);
+    text-transform: uppercase;
+}
+
+.GHWCheckoutPaymentsContainer__Section,
+.CheckoutPaymentsContainer__Section {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+
+    >.Region:first-child {
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        border-radius: 8px;
+        padding: 20px;
+        margin-right: 20px;
+        flex: 0 0 calc(100% * (7 / 12) - 20px);
+        gap: 32px;
+
+        .action-btn-cnr {
+            .btn {
+                flex: 1 1 auto;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .GHWCheckoutPaymentsContainer__Section>section {
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

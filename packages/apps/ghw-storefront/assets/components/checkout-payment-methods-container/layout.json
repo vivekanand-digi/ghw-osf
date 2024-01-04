@@ -1,0 +1,11 @@
+{
+  "regions": [
+    {
+      "components": [
+        "checkout-credit-card"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

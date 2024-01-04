@@ -1,0 +1,239 @@
+
+.our-combos {
+	margin: 20px 0 44px;
+  }
+  .our-combos .main-cnr .h1-title {
+	color: #016FBF;
+	font-family: Helvetica;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+  }
+  .our-combos .main-cnr .our-info {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+  }
+  .our-combos .main-cnr .our-info .our-product .blue-combo {
+	background: url("/file/general/blue-combo-img.png");
+	background-size: contain;
+	width: 360px;
+	height: 365px;
+	border-radius: 12px 12px 0 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+  }
+  .our-combos .main-cnr .our-info .our-product .blue-combo .title {
+	color: #FFF;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: 700;
+	padding-top: 22px;
+  }
+  .our-combos .main-cnr .our-info .our-product .blue-combo .para {
+	color: #FFF;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 12px 50px;
+  }
+  .our-combos .main-cnr .our-info .our-product .name {
+	background: #0063BD;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: capitalize;
+	padding: 20px;
+	border-radius: 0 0 12px 12px;
+  }
+  .our-combos .main-cnr .our-info .our-product .name a {
+	color: #FFF;
+	font-weight: 700;
+  }
+  .our-combos .main-cnr .our-info .our-product .name.yellow {
+	background: #E3A51D;
+  }
+  .our-combos .main-cnr .our-info .our-product .name.green {
+	background: #27A601;
+  }
+  .our-combos .main-cnr .our-info .our-product .yellow-combo {
+	background: url("/file/general/yellow-combo.png");
+	background-size: contain;
+	width: 360px;
+	height: 365px;
+	border-radius: 12px 12px 0 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+  }
+  .our-combos .main-cnr .our-info .our-product .yellow-combo .title {
+	color: #FFF;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: 700;
+	padding-top: 22px;
+  }
+  .our-combos .main-cnr .our-info .our-product .yellow-combo .para {
+	color: #FFF;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 12px 50px;
+  }
+  .our-combos .main-cnr .our-info .our-product .green-combo {
+	background: url("/file/general/green-combo.png");
+	background-size: contain;
+	width: 360px;
+	height: 365px;
+	border-radius: 12px 12px 0 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+  }
+  .our-combos .main-cnr .our-info .our-product .green-combo .title {
+	color: #FFF;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: 700;
+	padding-top: 22px;
+  }
+  .our-combos .main-cnr .our-info .our-product .green-combo .para {
+	color: #FFF;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 12px 50px;
+  }
+  .our-combos{
+	margin: 20px 0 44px;
+		.h1-title{
+			color:  #016FBF;
+			font-family: Helvetica;
+			font-size: 40px;
+			font-weight: 700;
+			text-transform: uppercase;
+			text-align: center;
+			margin-bottom: 40px;
+		}
+		.our-info{
+			display: flex;
+			justify-content: center;
+			gap: 30px;
+			.our-product{
+				.blue-combo{
+					background: url("/file/general/blue-combo-img.png");
+					background-size: contain;
+					width: 360px;
+					height: 365px;
+					border-radius: 12px 12px 0 0;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+  
+					.title{
+						color: #FFF;
+						text-align: center;
+						font-family: Helvetica;
+						font-size: 20px;
+						font-weight: 700;
+						padding-top: 22px;
+					}
+					.para{
+						color: #FFF;
+						text-align: center;
+						font-family: Helvetica;
+						font-size: 16px;
+						font-weight: 400;
+						padding: 12px 50px;
+					}
+				}
+				.name{
+					background: #0063BD;
+				   
+					text-align: center;
+					font-family: Helvetica;
+					font-size: 20px;
+					font-weight: 700;
+					text-transform: capitalize;
+					padding: 20px;
+					border-radius: 0 0 12px 12px;
+					a{
+						color:  #FFF;
+						font-weight: 700;
+  
+					}
+					&.yellow{
+						background: #E3A51D;
+					}
+					&.green{
+						background: #27A601;
+					}
+				}
+				.yellow-combo{
+					background: url("/file/general/yellow-combo.png");
+					background-size: contain;
+					width: 360px;
+					height: 365px;
+					border-radius: 12px 12px 0 0;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+  
+					.title{
+						color: #FFF;
+						text-align: center;
+						font-family: Helvetica;
+						font-size: 20px;
+						font-weight: 700;
+						padding-top: 22px;
+					}
+					.para{
+						color: #FFF;
+						text-align: center;
+						font-family: Helvetica;
+						font-size: 16px;
+						font-weight: 400;
+						padding: 12px 50px;
+					}
+				}
+				.green-combo{
+					background: url("/file/general/green-combo.png");
+					background-size: contain;
+					width: 360px;
+					height: 365px;
+					border-radius: 12px 12px 0 0;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+  
+					.title{
+						color: #FFF;
+						text-align: center;
+						font-family: Helvetica;
+						font-size: 20px;
+						font-weight: 700;
+						padding-top: 22px;
+					}
+					.para{
+						color: #FFF;
+						text-align: center;
+						font-family: Helvetica;
+						font-size: 16px;
+						font-weight: 400;
+						padding: 12px 50px;
+					}
+				}
+			}           
+  
+		}
+  }
